@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationNavigatorWidget using GraphQL site editor data RegistrationNavigatorWidget submits form on complete with webpayments form 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/SUBMIT_WEBPAYMENTS_FORM",
+  },
+]
+`;
+
+exports[`RegistrationNavigatorWidget using Redux site editor data RegistrationNavigatorWidget submits form on complete with webpayments form 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/SUBMIT_WEBPAYMENTS_FORM",
+  },
+]
+`;

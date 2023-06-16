@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Save credit card in empty travel cart 1`] = `
+Object {
+  "accessToken": "DUMMY_ACCESS_TOKEN",
+  "appData": Object {
+    "registrationSettings": Object {
+      "travelQuestions": Array [],
+    },
+  },
+  "clients": Object {
+    "creditCardClient": Object {
+      "createCreditCard": [MockFunction] {
+        "calls": Array [
+          Array [
+            "DUMMY_ACCESS_TOKEN",
+            Object {
+              "creditCard": Object {
+                "accountHolderName": "dummy",
+                "expMonth": "10",
+                "expYear": "2018",
+                "last4Digits": "3456",
+                "number": "123456",
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+    "regCartClient": Object {
+      "updateRegCart": [MockFunction],
+    },
+    "travelApiClient": Object {
+      "createTravelCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "bookings": Array [
+                Object {
+                  "airActuals": Array [],
+                  "airBookings": Array [],
+                  "concurAirActuals": Array [],
+                  "creditCard": Object {
+                    "contextId": "dummyContextId",
+                    "creditCardDetails": Object {
+                      "accountHolderName": "dummy",
+                      "cardType": undefined,
+                      "expiryMonth": "10",
+                      "expiryYear": "2018",
+                      "last4Digits": "3456",
+                      "number": "123456",
+                    },
+                  },
+                  "hotelRoomBookings": Array [],
+                  "id": undefined,
+                  "pnrAirActuals": Array [],
+                  "travelAnswers": Array [],
+                },
+              ],
+              "eventId": "EVENT_ID",
+              "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+              "id": "DUMMY_CART_ID",
+              "isForPlanner": false,
+              "isForPreview": false,
+              "isForTestMode": false,
+              "isPlannerApprovalRequired": false,
+              "requestedAction": "BOOK",
+              "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+      "updateTravelCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "bookings": Array [
+                Object {
+                  "airActuals": Array [],
+                  "airBookings": Array [],
+                  "concurAirActuals": Array [],
+                  "creditCard": Object {
+                    "contextId": "dummyContextId",
+                    "creditCardDetails": Object {
+                      "accountHolderName": "dummy",
+                      "cardType": undefined,
+                      "expiryMonth": "10",
+                      "expiryYear": "2018",
+                      "last4Digits": "3456",
+                      "number": "123456",
+                    },
+                  },
+                  "hotelRoomBookings": Array [],
+                  "id": undefined,
+                  "pnrAirActuals": Array [],
+                  "travelAnswers": Array [],
+                },
+              ],
+              "eventId": "EVENT_ID",
+              "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+              "id": "DUMMY_CART_ID",
+              "isForPlanner": false,
+              "isForPreview": false,
+              "isForTestMode": false,
+              "isPlannerApprovalRequired": false,
+              "requestedAction": "BOOK",
+              "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+  },
+  "defaultUserSession": Object {
+    "eventId": "EVENT_ID",
+    "isPlanner": false,
+    "isPreview": false,
+  },
+  "event": Object {
+    "isInTestMode": false,
+    "timezone": 35,
+  },
+  "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+  "eventTravel": Object {
+    "airData": Object {},
+    "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+  },
+  "regCartStatus": Object {
+    "lastSavedRegCart": Object {
+      "eventRegistrations": Object {
+        "DUMMY_BOOKING_ID": Object {
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+        },
+        "DUMMY_BOOKING_ID_TWO": Object {
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_2",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+        },
+      },
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+    },
+  },
+  "registrationForm": Object {
+    "currentEventRegistrationId": "",
+    "currentGuestEventRegistration": Object {},
+    "discountCodeStatus": "",
+    "errors": Object {},
+    "preventRegistration": false,
+    "regCart": Object {
+      "eventRegistrations": Object {
+        "DUMMY_BOOKING_ID": Object {
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+        },
+        "DUMMY_BOOKING_ID_TWO": Object {
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_2",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+        },
+      },
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+    },
+    "regCartPayment": Object {},
+    "validationMessages": Array [],
+  },
+  "timezones": Object {
+    "35": Object {
+      "abbreviation": "ET",
+      "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+      "dstInfo": Array [],
+      "hasDst": true,
+      "id": 35,
+      "name": "Eastern Time",
+      "nameResourceKey": "Event_Timezone_Name_35__resx",
+      "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+      "utcOffset": -300,
+    },
+  },
+  "travelCart": Object {
+    "cart": Object {
+      "bookings": Array [
+        Object {
+          "airActuals": Array [],
+          "airBookings": Array [],
+          "concurAirActuals": Array [],
+          "creditCard": Object {
+            "contextId": "dummyContextId",
+            "creditCardDetails": Object {
+              "accountHolderName": "dummy",
+              "cardType": undefined,
+              "expiryMonth": "10",
+              "expiryYear": "2018",
+              "last4Digits": "3456",
+              "number": "123456",
+            },
+          },
+          "hotelRoomBookings": Array [],
+          "id": undefined,
+          "pnrAirActuals": Array [],
+          "travelAnswers": Array [],
+        },
+      ],
+      "eventId": "EVENT_ID",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "id": "DUMMY_CART_ID",
+      "isForPlanner": false,
+      "isForPreview": false,
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "requestedAction": "BOOK",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    },
+    "isCartCreated": true,
+    "userSession": Object {
+      "airRequest": Object {
+        "ownBooking": false,
+        "selectedAirRequestIds": Array [],
+        "showSummary": false,
+      },
+      "creditCard": null,
+      "travelAnswers": Object {},
+    },
+  },
+  "userSession": Object {},
+  "website": Object {
+    "theme": Object {
+      "global": Object {},
+      "sections": Object {},
+    },
+  },
+}
+`;

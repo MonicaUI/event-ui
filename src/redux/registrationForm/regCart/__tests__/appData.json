@@ -1,0 +1,300 @@
+{
+   "registrationSettings": {
+      "registrationPaths": {
+         "411c6566-1e5a-4c38-b8e5-f63ab9239b40": {
+           "guestRegistrationSettings": {
+              "registrationTypeSettings": {
+                "limitVisibility": false
+              }
+           },
+            "registrationPageFields": {
+               "1": {
+                  "registrationFields": {
+                     "56aeaca6-a0ad-4548-8afc-94d8d4361ba1": {
+                        "fieldId": "56aeaca6-a0ad-4548-8afc-94d8d4361ba1",
+                        "fieldName": "StandardContactField_FirstName__resx",
+                        "displayName": "StandardContactField_FirstName__resx",
+                        "display": 2,
+                        "isCustomField": false
+                     },
+                     "cfc98829-80b7-41b6-82b5-b968d43ef1c1": {
+                        "fieldId": "cfc98829-80b7-41b6-82b5-b968d43ef1c1",
+                        "fieldName": "StandardContactField_LastName__resx",
+                        "displayName": "StandardContactField_LastName__resx",
+                        "display": 2,
+                        "isCustomField": false
+                     },
+                     "ff919d05-4281-4d9c-aa0d-82e3722d580d": {
+                        "fieldId": "ff919d05-4281-4d9c-aa0d-82e3722d580d",
+                        "fieldName": "StandardContactField_EmailAddress__resx",
+                        "displayName": "StandardContactField_EmailAddress__resx",
+                        "display": 2,
+                        "isCustomField": false
+                     },
+                     "b84eefea-cf4c-4006-b69f-d144e601d272": {
+                        "fieldId": "b84eefea-cf4c-4006-b69f-d144e601d272",
+                        "fieldName": "StandardContactField_Prefix__resx",
+                        "displayName": "StandardContactField_Prefix__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "ab2db8e3-59e8-4cf7-9bc7-a3f460081a3f": {
+                        "fieldId": "ab2db8e3-59e8-4cf7-9bc7-a3f460081a3f",
+                        "fieldName": "StandardContactField_MiddleName__resx",
+                        "displayName": "StandardContactField_MiddleName__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "347aebe3-9099-42b9-8b6d-15200ae72842": {
+                        "fieldId": "347aebe3-9099-42b9-8b6d-15200ae72842",
+                        "fieldName": "StandardContactField_Designation__resx",
+                        "displayName": "StandardContactField_Designation__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "1b5e4084-0ee4-42de-817d-049b349187ac": {
+                        "fieldId": "1b5e4084-0ee4-42de-817d-049b349187ac",
+                        "fieldName": "StandardContactField_Nickname__resx",
+                        "displayName": "StandardContactField_Nickname__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "227f50d0-f65b-4a72-9a4f-5060ea05f6ab": {
+                        "fieldId": "227f50d0-f65b-4a72-9a4f-5060ea05f6ab",
+                        "fieldName": "StandardContactField_Company__resx",
+                        "displayName": "StandardContactField_Company__resx",
+                        "display": 1,
+                        "isCustomField": false
+                     },
+                     "228cc308-a4d9-4212-8454-8407dd578c3d": {
+                        "fieldId": "228cc308-a4d9-4212-8454-8407dd578c3d",
+                        "fieldName": "StandardContactField_Title__resx",
+                        "displayName": "StandardContactField_Title__resx",
+                        "display": 1,
+                        "isCustomField": false
+                     },
+                     "5b1f5ccc-6c46-4ce8-bc87-a40fab4e15cd": {
+                        "fieldId": "5b1f5ccc-6c46-4ce8-bc87-a40fab4e15cd",
+                        "fieldName": "StandardContactField_CCEmailAddress__resx",
+                        "displayName": "StandardContactField_CCEmailAddress__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "696a0664-4a3e-44fe-9b15-98b7a6711d34": {
+                        "fieldId": "696a0664-4a3e-44fe-9b15-98b7a6711d34",
+                        "fieldName": "StandardContactField_FacebookURL__resx",
+                        "displayName": "StandardContactField_FacebookURL__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "33869894-732c-4d99-953b-036cf610abce": {
+                        "fieldId": "33869894-732c-4d99-953b-036cf610abce",
+                        "fieldName": "StandardContactField_LinkedInURL__resx",
+                        "displayName": "StandardContactField_LinkedInURL__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "beb6ac56-2672-4c33-976b-06ab07379cf3": {
+                        "fieldId": "beb6ac56-2672-4c33-976b-06ab07379cf3",
+                        "fieldName": "StandardContactField_TwitterURL__resx",
+                        "displayName": "StandardContactField_TwitterURL__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "52844a85-1896-42b6-9cef-78c0629ed1d7": {
+                        "fieldId": "52844a85-1896-42b6-9cef-78c0629ed1d7",
+                        "fieldName": "StandardContactField_ProfileImage__resx",
+                        "displayName": "StandardContactField_ProfileImage__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "b468074b-b6a7-4149-8f97-e6b21b2ca8b3": {
+                        "fieldId": "b468074b-b6a7-4149-8f97-e6b21b2ca8b3",
+                        "fieldName": "StandardContactField_DateofBirth__resx",
+                        "displayName": "StandardContactField_DateofBirth__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "93bf707b-924c-4dbf-908c-4311233d17ae": {
+                        "fieldId": "93bf707b-924c-4dbf-908c-4311233d17ae",
+                        "fieldName": "StandardContactField_Gender__resx",
+                        "displayName": "StandardContactField_Gender__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "0506ce9a-d038-409c-9d94-2ed9be273fba": {
+                        "fieldId": "0506ce9a-d038-409c-9d94-2ed9be273fba",
+                        "fieldName": "StandardContactField_PassportNumber__resx",
+                        "displayName": "StandardContactField_PassportNumber__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "bbe011f6-855c-41f2-ac1f-d1cbc6b15af8": {
+                        "fieldId": "bbe011f6-855c-41f2-ac1f-d1cbc6b15af8",
+                        "fieldName": "StandardContactField_PassportCountry__resx",
+                        "displayName": "StandardContactField_PassportCountry__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "37c9b0d9-4362-476c-a841-60ce961a8cca": {
+                        "fieldId": "37c9b0d9-4362-476c-a841-60ce961a8cca",
+                        "fieldName": "StandardContactField_SocialSecurityNumber__resx",
+                        "displayName": "StandardContactField_SocialSecurityNumber__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "064d9032-4844-49db-815c-1a83ce2ab7ed": {
+                        "fieldId": "064d9032-4844-49db-815c-1a83ce2ab7ed",
+                        "fieldName": "StandardContactField_NationalIdentificationNumber__resx",
+                        "displayName": "StandardContactField_NationalIdentificationNumber__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "2e305875-4f49-4ce3-85f1-abc7d9247c8a": {
+                        "fieldId": "2e305875-4f49-4ce3-85f1-abc7d9247c8a",
+                        "fieldName": "StandardContactField_WorkAddress__resx",
+                        "displayName": "StandardContactField_WorkAddress__resx",
+                        "display": 1,
+                        "isCustomField": false,
+                        "subFieldDisplayNames": {
+                           "zip": "Zip/Postal Code",
+                           "country": "Country",
+                           "address3": "",
+                           "address2": "Address 2",
+                           "city": "City",
+                           "address1": "Address 1",
+                           "state": "State/Province"
+                        },
+                        "defaultCountry": {
+                           "name": "",
+                           "value": ""
+                        }
+                     },
+                     "b5a8362f-91e7-46ff-a704-20bfb3ca6ce5": {
+                        "fieldId": "b5a8362f-91e7-46ff-a704-20bfb3ca6ce5",
+                        "fieldName": "StandardContactField_HomeAddress__resx",
+                        "displayName": "StandardContactField_HomeAddress__resx",
+                        "display": 0,
+                        "isCustomField": false,
+                        "subFieldDisplayNames": {
+                           "zip": "Zip/Postal Code",
+                           "country": "Country",
+                           "address3": "",
+                           "address2": "Address 2",
+                           "city": "City",
+                           "address1": "Address 1",
+                           "state": "State/Province"
+                        },
+                        "defaultCountry": {
+                           "name": "",
+                           "value": ""
+                        }
+                     },
+                     "675bdf94-4035-436a-b8ce-7cb07a9f9d9f": {
+                        "fieldId": "675bdf94-4035-436a-b8ce-7cb07a9f9d9f",
+                        "fieldName": "StandardContactField_WorkPhone__resx",
+                        "displayName": "StandardContactField_WorkPhone__resx",
+                        "display": 1,
+                        "isCustomField": false
+                     },
+                     "4a1dd554-ec87-46e1-936c-f41e71f70ece": {
+                        "fieldId": "4a1dd554-ec87-46e1-936c-f41e71f70ece",
+                        "fieldName": "StandardContactField_WorkFax__resx",
+                        "displayName": "StandardContactField_WorkFax__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "a57801cd-d76c-48a5-85a2-2cc63af84ee9": {
+                        "fieldId": "a57801cd-d76c-48a5-85a2-2cc63af84ee9",
+                        "fieldName": "StandardContactField_HomePhone__resx",
+                        "displayName": "StandardContactField_HomePhone__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "5e46c9fb-00b6-49b6-ab70-b4dcfe3851db": {
+                        "fieldId": "5e46c9fb-00b6-49b6-ab70-b4dcfe3851db",
+                        "fieldName": "StandardContactField_HomeFax__resx",
+                        "displayName": "StandardContactField_HomeFax__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "032e80c1-f29f-44e6-af13-a89e53906422": {
+                        "fieldId": "032e80c1-f29f-44e6-af13-a89e53906422",
+                        "fieldName": "StandardContactField_Mobile__resx",
+                        "displayName": "StandardContactField_Mobile__resx",
+                        "display": 1,
+                        "isCustomField": false
+                     },
+                     "7ecf0e6f-419d-4897-9431-383bd8324383": {
+                        "fieldId": "7ecf0e6f-419d-4897-9431-383bd8324383",
+                        "fieldName": "StandardContactField_Pager__resx",
+                        "displayName": "Pager - standard contact field",
+                        "display": 1,
+                        "isCustomField": false
+                     },
+                     "6b86c098-3ccc-47db-ae41-939f16ab963b": {
+                        "fieldId": "6b86c098-3ccc-47db-ae41-939f16ab963b",
+                        "fieldName": "StandardContactField_MembershipType__resx",
+                        "displayName": "StandardContactField_MembershipType__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "3e7a2ecc-e7d4-4508-8d0b-dc285d001579": {
+                        "fieldId": "3e7a2ecc-e7d4-4508-8d0b-dc285d001579",
+                        "fieldName": "StandardContactField_MemberSince__resx",
+                        "displayName": "StandardContactField_MemberSince__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "262bcba7-05e5-47c1-8555-c995d441d039": {
+                        "fieldId": "262bcba7-05e5-47c1-8555-c995d441d039",
+                        "fieldName": "StandardContactField_LastRenewalDate__resx",
+                        "displayName": "StandardContactField_LastRenewalDate__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "d27637d2-e4ad-4928-9f54-e95ecf462d01": {
+                        "fieldId": "d27637d2-e4ad-4928-9f54-e95ecf462d01",
+                        "fieldName": "StandardContactField_ExpirationDate__resx",
+                        "displayName": "StandardContactField_ExpirationDate__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "d110fb3f-83ad-46ae-a442-dfe51c83fa2b": {
+                        "fieldId": "d110fb3f-83ad-46ae-a442-dfe51c83fa2b",
+                        "fieldName": "StandardContactField_SourceID__resx",
+                        "displayName": "StandardContactField_SourceID__resx",
+                        "display": 0,
+                        "isCustomField": false
+                     },
+                     "60307fea-8117-4553-8a4c-db1fb40a5ee1": {
+                        "fieldId": "60307fea-8117-4553-8a4c-db1fb40a5ee1",
+                        "fieldName": "open ended text one line",
+                        "displayName": "open ended text one line",
+                        "display": 2,
+                        "isCustomField": true
+                     }
+                  }
+               }
+            },
+            "accessRules": {
+               "invitationListAccess": {
+                  "isEmailOnlyInvite": false
+               }
+            }
+         }
+      }
+   },
+  "registrationPathSettings": {
+    "411c6566-1e5a-4c38-b8e5-f63ab9239b40": {
+      "paymentSettings": {
+        "creditCard": { "enabled": true },
+        "payPal":{"enabled": false},
+        "cyberSourceSecureAcceptance":{"enabled": false},
+        "authorizeDotNet":{"enabled": false},
+        "touchNet":{"enabled": false},
+        "wpm":{"enabled": false}
+      }
+    }
+  }
+}

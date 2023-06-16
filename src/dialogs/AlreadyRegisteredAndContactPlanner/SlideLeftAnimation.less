@@ -1,0 +1,27 @@
+@transitionOptions: 500ms ease;
+@transitionOptionsAppear: 400ms ease;
+@transitionHeight: 350px;
+
+.enter {
+  transform: translateX(100%);
+  position: absolute;
+  width: 100%;
+  min-height: @transitionHeight;
+}
+
+.enterActive{
+  transition: @transitionOptions;
+  transform: translateX(0);
+}
+
+.leave {
+  transition: @transitionOptions;
+  transform: translateX(0);
+  position: absolute;
+  width: 100%;
+  min-height: @transitionHeight;
+}
+
+.leaveActive {
+  transform: translateX(-100%);
+}

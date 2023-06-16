@@ -1,0 +1,24 @@
+.skipNav {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+    float: left;
+    &:focus, &:active {
+    left: auto;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    margin-top: 2.5px;
+    position: absolute;
+    overflow: auto;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid;
+    text-align: center;
+    z-index: 999;
+    }
+}

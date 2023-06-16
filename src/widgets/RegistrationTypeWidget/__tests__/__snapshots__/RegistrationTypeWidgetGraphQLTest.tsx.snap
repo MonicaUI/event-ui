@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationTypeWidget (connected) no registration types - baseline graphQL 1`] = `
+<div
+  class=""
+/>
+`;
+
+exports[`getRegTypeTest should render with query result 1`] = `
+<div>
+  [{"id":"7a14802a-8aa0-4463-95f1-5e5793a63a8a","name":"r1","visible":"CAPACITY_FULL"},{"id":"158ab11c-bc65-450a-92f6-6f5dc3a052ba","name":"r2","visible":"CLOSED"},{"id":"00000000-0000-0000-0000-000000000000","name":"","visible":"AVAILABLE"}]
+</div>
+`;

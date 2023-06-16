@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventDateTimeWidget renders 1`] = `
+<div
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingBottom": 5,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      Widget_DateTimeWidget_DateRangeText__resx:{"startDate":"long:2020-06-17","endDate":"long:2020-06-18"}
+    </div>
+    <div
+      className=""
+      style={Object {}}
+    >
+      Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"09:00","endTime":"21:00"}
+      <span
+        className=""
+        style={Object {}}
+      >
+        EST translation
+      </span>
+    </div>
+  </div>
+  <div
+    data-cvent-id="timeZoneWidgetContainer"
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingLeft": 15,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`EventDateTimeWidget selected timezone tests disabling option from site editor hides timezone switch widget 1`] = `
+<div
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingBottom": 5,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      Widget_DateTimeWidget_DateRangeText__resx:{"startDate":"long:2020-06-17","endDate":"long:2020-06-18"}
+    </div>
+    <div
+      className=""
+      style={Object {}}
+    >
+      Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"09:00","endTime":"21:00"}
+      <span
+        className=""
+        style={Object {}}
+      >
+        EST translation
+      </span>
+    </div>
+  </div>
+  <div
+    data-cvent-id="timeZoneWidgetContainer"
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingLeft": 15,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`EventDateTimeWidget selected timezone tests selecting device timezone changes the time and does not append abbreviation 1`] = `
+<div
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingBottom": 5,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      Widget_DateTimeWidget_DateRangeText__resx:{"startDate":"long:2020-06-17","endDate":"long:2020-06-19"}
+    </div>
+    <div
+      className=""
+      style={Object {}}
+    >
+      Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"19:30","endTime":"07:30"}
+      <span
+        className=""
+        style={Object {}}
+      >
+        
+      </span>
+    </div>
+  </div>
+  <div
+    data-cvent-id="timeZoneWidgetContainer"
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingLeft": 15,
+      }
+    }
+  >
+    <div
+      className=""
+      data-cvent-id="timeZoneWidget"
+      style={Object {}}
+    >
+      <span
+        className="container"
+      >
+        <span
+          aria-hidden="true"
+          className="timeIconSize"
+          role="img"
+        />
+      </span>
+      Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"your device time zone"}
+      <span
+        className=""
+        data-cvent-id="switchButton"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <u>
+          Event_GuestSide_SwitchText__resx
+        </u>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EventDateTimeWidget selected timezone tests selecting event timezone does not change the time and appends abbreviation 1`] = `
+<div
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingBottom": 5,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      Widget_DateTimeWidget_DateRangeText__resx:{"startDate":"long:2020-06-17","endDate":"long:2020-06-18"}
+    </div>
+    <div
+      className=""
+      style={Object {}}
+    >
+      Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"09:00","endTime":"21:00"}
+      <span
+        className=""
+        style={Object {}}
+      >
+        EST translation
+      </span>
+    </div>
+  </div>
+  <div
+    data-cvent-id="timeZoneWidgetContainer"
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingLeft": 15,
+      }
+    }
+  >
+    <div
+      className=""
+      data-cvent-id="timeZoneWidget"
+      style={Object {}}
+    >
+      <span
+        className="container"
+      >
+        <span
+          aria-hidden="true"
+          className="timeIconSize"
+          role="img"
+        />
+      </span>
+      Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Eastern Standard Time"}
+      <span
+        className=""
+        data-cvent-id="switchButton"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <u>
+          Event_GuestSide_SwitchText__resx
+        </u>
+      </span>
+    </div>
+  </div>
+</div>
+`;

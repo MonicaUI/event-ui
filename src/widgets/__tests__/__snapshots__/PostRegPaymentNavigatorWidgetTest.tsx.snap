@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for RegistrationPostRegPaymentNavigatorWidget Checking if it is rendering properly: Widget Renders 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div />
+  </div>
+</div>
+`;

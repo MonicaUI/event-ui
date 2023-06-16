@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactPlannerDialog Renders 1`] = `
+<div
+  className="dialogContainer"
+>
+  <div
+    aria-describedby="dialogHeader"
+    className=""
+    style={
+      Object {
+        "backgroundColor": "#DDE2E6",
+        "borderRadius": 0,
+        "hover": "css-87ndg2",
+      }
+    }
+  >
+    <div
+      className=""
+      id="dialogHeader"
+      style={
+        Object {
+          "backgroundColor": "#F920F2",
+          "borderRadius": undefined,
+          "hover": "css-87ndg2",
+          "paddingBottom": 15,
+          "paddingLeft": "1.5625rem",
+          "paddingRight": "1.5625rem",
+          "paddingTop": 15,
+        }
+      }
+    >
+      <h2
+        className=""
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif",
+            "fontSize": "3.5625rem",
+            "fontStyle": "normal",
+            "fontWeight": 700,
+            "hover": "css-87ndg2",
+            "lineHeight": "1.3",
+          }
+        }
+      >
+        <div
+          className=""
+          data-cvent-id="close"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          style={Object {}}
+          tabIndex="0"
+        >
+          <span
+            className="container"
+          >
+            <span
+              aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+              className=""
+              role="img"
+            />
+          </span>
+        </div>
+      </h2>
+    </div>
+  </div>
+  <span
+    className="mockNucleusCoreTransition"
+  >
+    <div
+      className="panel"
+    >
+      <div>
+        <div
+          className=""
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 0,
+              "color": "#273F69",
+              "fontFamily": "PT Sans, sans-serif",
+              "fontSize": 16,
+              "fontStyle": "normal",
+              "fontWeight": 400,
+              "hover": "css-87ndg2",
+              "lineHeight": "1.3",
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <div
+            className=""
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 0,
+                "color": "#FDFDA6",
+                "fontFamily": "PT Sans, sans-serif",
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "hover": "css-87ndg2",
+                "lineHeight": "1.3",
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            Reggie Aggarwal
+          </div>
+          <div
+            className=""
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 0,
+                "color": "#FDFDA6",
+                "fontFamily": "PT Sans, sans-serif",
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "hover": "css-87ndg2",
+                "lineHeight": "1.3",
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            reggie.aggarwal@cvent.com
+          </div>
+          <div
+            className=""
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 0,
+                "color": "#FDFDA6",
+                "fontFamily": "PT Sans, sans-serif",
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "hover": "css-87ndg2",
+                "lineHeight": "1.3",
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            Cvent
+          </div>
+          <div
+            className=""
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 0,
+                "color": "#FDFDA6",
+                "fontFamily": "PT Sans, sans-serif",
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "hover": "css-87ndg2",
+                "lineHeight": "1.3",
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            123-456-789
+          </div>
+        </div>
+        <div
+          className="element"
+          style={Object {}}
+        >
+          <label
+            className="labelOnTop"
+            htmlFor="senderEmailAddress"
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 0,
+                "color": "#4287FE",
+                "fontFamily": "PT Sans, sans-serif",
+                "fontSize": 18,
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "hover": "css-87ndb2",
+                "lineHeight": "1.3",
+                "paddingBottom": 5,
+                "paddingLeft": 5,
+                "paddingRight": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                className=""
+                style={Object {}}
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                EventWidgets_ContactPlanner_EmailLabel__resx
+              </span>
+            </span>
+          </label>
+          <div
+            className="inputContainerOnRight"
+            style={Object {}}
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <input
+                autoFocus={false}
+                className=""
+                data-cvent-id="input"
+                disabled={false}
+                id="senderEmailAddress"
+                maxLength={null}
+                name="senderEmailAddress"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyPress={[Function]}
+                placeholder=""
+                readOnly={false}
+                required={true}
+                style={
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#DDE2E6",
+                    "borderRadius": 6,
+                    "borderStyle": "solid",
+                    "borderWidth": 2,
+                    "color": "#273F69",
+                    "fontFamily": "PT Sans, sans-serif",
+                    "fontSize": 18,
+                    "fontStyle": "normal",
+                    "fontWeight": 400,
+                    "hover": "css-87ndg2",
+                    "lineHeight": "1.3",
+                    "paddingBottom": 5,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                    "paddingTop": 5,
+                    "textAlign": "left",
+                  }
+                }
+                type="text"
+                value="jeff.bezos@amazon.com"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="element"
+          style={Object {}}
+        >
+          <label
+            className="labelOnTop"
+            htmlFor="message"
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 0,
+                "color": "#4287FE",
+                "fontFamily": "PT Sans, sans-serif",
+                "fontSize": 18,
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "hover": "css-87ndb2",
+                "lineHeight": "1.3",
+                "paddingBottom": 5,
+                "paddingLeft": 5,
+                "paddingRight": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                className=""
+                style={Object {}}
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                EventWidgets_ContactPlanner_MessageLabel__resx
+              </span>
+            </span>
+          </label>
+          <div
+            className="inputContainerOnRight"
+            style={Object {}}
+          >
+            <span>
+              <textarea
+                className=""
+                data-cvent-id="input"
+                id="message"
+                maxLength={1000}
+                name="message"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder=""
+                required={true}
+                style={
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#DDE2E6",
+                    "borderRadius": 6,
+                    "borderStyle": "solid",
+                    "borderWidth": 2,
+                    "color": "#273F69",
+                    "fontFamily": "PT Sans, sans-serif",
+                    "fontSize": 18,
+                    "fontStyle": "normal",
+                    "fontWeight": 400,
+                    "hover": "css-87ndg2",
+                    "lineHeight": "1.3",
+                    "paddingBottom": 5,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                    "paddingTop": 5,
+                    "textAlign": "left",
+                  }
+                }
+                value="Great event Reg, looking forward to the next."
+              />
+            </span>
+          </div>
+        </div>
+        <button
+          className=""
+          onClick={[Function]}
+          onSubmit={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#041532",
+              "borderRadius": 6,
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "color": "#FFFFFF",
+              "fontFamily": "PT Sans, sans-serif",
+              "fontSize": "1.8125rem",
+              "fontStyle": "normal",
+              "fontWeight": 400,
+              "hover": "css-87ndg2",
+              "lineHeight": "1.3",
+              "paddingBottom": 5,
+              "paddingLeft": "1.5625rem",
+              "paddingRight": "1.5625rem",
+              "paddingTop": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          EventWidgets_ContactPlanner_Send__resx
+        </button>
+      </div>
+    </div>
+  </span>
+</div>
+`;

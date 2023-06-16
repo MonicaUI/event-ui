@@ -1,0 +1,61 @@
+
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+@import (reference) '~nucleus-core/less/MediaQuery.less';
+@import (reference) '~nucleus-core/layout/flexbox/styles/Grid.less';
+@import '~nucleus-core/less/Reset.less';  // Reset expose itself to global
+@import '~nucleus-core/less/VariablesTypography.less';
+@import (reference) '~nucleus-core/less/Utility.less';
+
+@dialogWidth: 700px;
+
+:global {
+  @font-face {
+    font-family: 'cvticons';
+    src: url('~nucleus-core/resources/fonts/cvticons.woff2') format('woff2'),
+         url('~nucleus-core/resources/fonts/cvticons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.78;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    .column();
+    text-align: center;
+  }
+
+  main {
+    .col_12();
+  }
+
+  .icon {
+    font-family: 'cvticons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* For very smooth font rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  body {
+    background: @minimalGrey;
+  }
+}

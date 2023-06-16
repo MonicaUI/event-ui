@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DonationItemsTest should render 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    data-cvent-id="donationItems"
+  >
+    <h2
+      className=""
+      data-cvent-id="donationItems-header"
+      style={Object {}}
+    >
+      Header
+    </h2>
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="donationItems-instructional-text"
+      style={Object {}}
+    />
+    <ul
+      className=""
+      data-cvent-id="donationItems-items"
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="donationItems-item-donationItem1"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="donationItems-item-donationItem1-name"
+              style={Object {}}
+            >
+              donationItem1
+            </div>
+            <div
+              className=""
+              data-cvent-id="donationItems-item-donationItem1-code"
+              style={Object {}}
+            >
+              donationItem1
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="donationItems-item-donationItem1-input"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="donationItemAmount-donationItem1"
+                style={Object {}}
+              >
+                <span
+                  className=""
+                  style={Object {}}
+                >
+                  <span
+                    data-cvent-id="label"
+                  />
+                </span>
+              </label>
+              <div
+                className=""
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  <input
+                    className=""
+                    data-cvent-id="input"
+                    disabled={false}
+                    id="donationItemAmount-donationItem1"
+                    maxLength={null}
+                    name="donationItemAmount-donationItem1"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    style={Object {}}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="donationItems-item-donationItem2"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="donationItems-item-donationItem2-name"
+              style={Object {}}
+            >
+              donationItem2
+            </div>
+            <div
+              className=""
+              data-cvent-id="donationItems-item-donationItem2-code"
+              style={Object {}}
+            >
+              donationItem2
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="donationItems-item-donationItem2-input"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="donationItemAmount-donationItem2"
+                style={Object {}}
+              >
+                <span
+                  className=""
+                  style={Object {}}
+                >
+                  <span
+                    data-cvent-id="label"
+                  />
+                </span>
+              </label>
+              <div
+                className=""
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  <input
+                    className=""
+                    data-cvent-id="input"
+                    disabled={false}
+                    id="donationItemAmount-donationItem2"
+                    maxLength={null}
+                    name="donationItemAmount-donationItem2"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    style={Object {}}
+                    type="text"
+                    value="7"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AttendeeListOptInWidget should match snapshot 1`] = `
+Object {
+  "children": <BaseWidget
+    allowOthersToSendEmail={false}
+    classes={Object {}}
+    eventRegistrationId="eventReg1"
+    includeNameInAttendeeList={false}
+    isGuestRegistrationEnabled={false}
+    onSetAllowOthersToSendEmail={[Function]}
+    onSetIncludeNameInAttendeeList={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+  />,
+  "value": null,
+}
+`;

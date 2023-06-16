@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog indicates there is an invalid choice 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div
+                    data-cvent-id="contact-custom-field-choice-selection-conflict-dialog"
+                  >
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_ContactCustomFieldChoiceConflict_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_ContactCustomFieldChoiceConflict_Title__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_ContactCustomFieldChoiceConflict_InformationalText__resx
+                      </p>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_ContactCustomFieldChoiceConflict_InstructionalText__resx
+                      </p>
+                      <button
+                        class=""
+                        data-cvent-id="cancel-selection"
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.25rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #041532; padding: 5px 1.25rem 5px 1.25rem;"
+                        type="button"
+                      >
+                        EventWidgets_GenericText_No__resx
+                      </button>
+                      <button
+                        class=""
+                        data-cvent-id="continue-selection"
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.25rem; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: rgb(4, 21, 50); border-radius: 6px; border-width: 1px; border-style: solid; border-color: #041532; padding: 5px 1.25rem 5px 1.25rem;"
+                        type="button"
+                      >
+                        EventWidgets_GenericText_Yes__resx
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;

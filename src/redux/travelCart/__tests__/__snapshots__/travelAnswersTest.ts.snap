@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`travelAnswers tests getUpdatedTravelBookings() method for REG MOD Reg Mod - should update travel alternate answer action to ADD if not existing 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "airActuals": Array [],
+      "hotelRoomBookings": Array [],
+      "id": "eventRegistrationId",
+      "travelAnswers": Array [
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "abc alternate",
+            },
+          ],
+          "questionId": "air-alternate-question",
+          "requestBookingId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "ADD",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "def alternate",
+            },
+          ],
+          "questionId": "air-actual-alternate-question",
+          "requestBookingId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "ADD",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "uvw alternate",
+            },
+          ],
+          "questionId": "hotel-alternate-question",
+          "requestBookingId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "ADD",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "xyz alternate",
+            },
+          ],
+          "questionId": "group-flight-alternate-question",
+          "requestBookingId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "ADD",
+        },
+      ],
+      "travelReservationId": "eventRegistrationId",
+    },
+  ],
+}
+`;
+
+exports[`travelAnswers tests getUpdatedTravelBookings() method for REG MOD Reg Mod - should update travel alternate answer action to MODIFY if existing 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "airActuals": Array [],
+      "hotelRoomBookings": Array [],
+      "id": "eventRegistrationId",
+      "travelAnswers": Array [
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "abc alternate",
+            },
+          ],
+          "questionId": "air-alternate-question",
+          "requestBookingId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "MODIFY",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "def alternate",
+            },
+          ],
+          "questionId": "air-actual-alternate-question",
+          "requestBookingId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "MODIFY",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "uvw alternate",
+            },
+          ],
+          "questionId": "hotel-alternate-question",
+          "requestBookingId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "MODIFY",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "xyz alternate",
+            },
+          ],
+          "questionId": "group-flight-alternate-question",
+          "requestBookingId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "MODIFY",
+        },
+      ],
+      "travelReservationId": "eventRegistrationId",
+    },
+  ],
+}
+`;
+
+exports[`travelAnswers tests getUpdatedTravelBookings() method for REG MOD Reg Mod - should update travel answer action to ADD if new 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "airActuals": Array [
+        Object {
+          "id": "air-actual-booking-id",
+        },
+      ],
+      "airBookings": Array [
+        Object {
+          "id": "air-question-booking-id",
+        },
+      ],
+      "groupFlightBookings": Array [
+        Object {
+          "id": "group-flight-booking-id",
+        },
+      ],
+      "hotelRoomBookings": Array [
+        Object {
+          "id": "hotel-booking-id",
+        },
+      ],
+      "id": "eventRegistrationId",
+      "travelAnswers": Array [
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "uvw",
+            },
+          ],
+          "questionId": "air-question",
+          "requestBookingId": "air-question-booking-id",
+          "requestedAction": "ADD",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "abc",
+            },
+          ],
+          "questionId": "air-actual-question",
+          "requestBookingId": "air-actual-booking-id",
+          "requestedAction": "ADD",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "xyz",
+            },
+          ],
+          "questionId": "hotel-question",
+          "requestBookingId": "hotel-booking-id",
+          "requestedAction": "ADD",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "def",
+            },
+          ],
+          "questionId": "group-flight-question",
+          "requestBookingId": "group-flight-booking-id",
+          "requestedAction": "ADD",
+        },
+      ],
+      "travelReservationId": "eventRegistrationId",
+    },
+  ],
+}
+`;
+
+exports[`travelAnswers tests getUpdatedTravelBookings() method for REG MOD Reg Mod - should update travel answer action to MODIFY if existing 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "airActuals": Array [
+        Object {
+          "airReservationActualId": "something",
+          "id": "air-actual-booking-id",
+        },
+      ],
+      "airBookings": Array [
+        Object {
+          "airReservationDetailId": "something",
+          "id": "air-question-booking-id",
+        },
+      ],
+      "groupFlightBookings": Array [
+        Object {
+          "airReservationActualId": "something",
+          "id": "group-flight-booking-id",
+        },
+      ],
+      "hotelRoomBookings": Array [
+        Object {
+          "hotelReservationDetailId": "something",
+          "id": "hotel-booking-id",
+        },
+      ],
+      "id": "eventRegistrationId",
+      "travelAnswers": Array [
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "uvw",
+            },
+          ],
+          "questionId": "air-question",
+          "requestBookingId": "air-question-booking-id",
+          "requestedAction": "MODIFY",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "abc",
+            },
+          ],
+          "questionId": "air-actual-question",
+          "requestBookingId": "air-actual-booking-id",
+          "requestedAction": "MODIFY",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "xyz",
+            },
+          ],
+          "questionId": "hotel-question",
+          "requestBookingId": "hotel-booking-id",
+          "requestedAction": "MODIFY",
+        },
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "Text",
+              "text": "def",
+            },
+          ],
+          "questionId": "group-flight-question",
+          "requestBookingId": "group-flight-booking-id",
+          "requestedAction": "MODIFY",
+        },
+      ],
+      "travelReservationId": "eventRegistrationId",
+    },
+  ],
+}
+`;
+
+exports[`travelAnswers tests getUpdatedTravelBookings() method should add travel answer for existing booking 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "id": "eventRegistrationId",
+      "travelAnswers": Array [
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "text",
+              "text": "dummyAns",
+            },
+          ],
+          "questionId": "dummy-question-id",
+          "requestBookingId": "dummy-question-id",
+          "requestedAction": "ADD",
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`travelAnswers tests getUpdatedTravelBookings() method should add travel answer when no booking exist 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "id": "eventRegistrationId",
+      "travelAnswers": Array [
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "text",
+              "text": "dummyAns",
+            },
+          ],
+          "questionId": "dummy-question-id",
+          "requestBookingId": "dummy-question-id",
+          "requestedAction": "ADD",
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`travelAnswers tests getUpdatedTravelBookings() method should remove travel answer if answer text is empty 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "id": "eventRegistrationId",
+      "travelAnswers": Array [],
+    },
+  ],
+}
+`;
+
+exports[`travelAnswers tests getUpdatedTravelBookings() method should update travel answer if already exists 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "id": "eventRegistrationId",
+      "travelAnswers": Array [
+        Object {
+          "answers": Array [
+            Object {
+              "answerType": "text",
+              "text": "dummyAns",
+            },
+          ],
+          "questionId": "dummy-question-id",
+          "requestBookingId": "dummy-question-id",
+          "requestedAction": "ADD",
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`travelAnswers tests removeAllTravelAnswers() method for new reg should remove travel answers 1`] = `
+Array [
+  Object {
+    "id": "eventRegistrationId2",
+  },
+  Object {
+    "id": "eventRegistrationId",
+    "travelAnswers": Array [],
+  },
+]
+`;
+
+exports[`travelAnswers tests removeAllTravelAnswers() method for reg mod should update travel answers 1`] = `
+Array [
+  Object {
+    "id": "eventRegistrationId2",
+  },
+  Object {
+    "id": "eventRegistrationId",
+    "travelAnswers": Array [
+      Object {
+        "answers": Array [],
+        "questionId": "dummy-question-id-2",
+        "requestBookingId": "00000000-0000-0000-0000-000000000111",
+        "requestedAction": "DELETE",
+      },
+    ],
+  },
+]
+`;

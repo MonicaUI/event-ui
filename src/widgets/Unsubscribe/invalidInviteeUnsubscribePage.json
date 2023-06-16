@@ -1,0 +1,159 @@
+{
+  "pages": {
+    "unsubscribeSubscribe": {
+      "id": "unsubscribeSubscribe",
+      "title": "EventGuest_UnsubscribeSubscribe_PageTitle__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:unsubscribe"
+      ]
+    }
+  },
+  "layoutItems": {
+    "container:unsubscribe": {
+      "id": "container:unsubscribe",
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:unsubscribe"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "sectionRow:unsubscribe": {
+      "id": "sectionRow:unsubscribe",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:unsubscribe"
+        ],
+        "cellSize": 4,
+        "parentId": "container:unsubscribe"
+      },
+      "config": {
+        "style": {},
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "columnLayoutId": "ONE_COLUMN"
+      }
+    },
+    "sectionColumn:unsubscribe": {
+      "id": "sectionColumn:unsubscribe",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:unsubscribe-header",
+          "row:unsubscribe-description"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:unsubscribe"
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "row:unsubscribe-header": {
+      "id": "row:unsubscribe-header",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:unsubscribe",
+        "childIds": [
+          "widget:unsubscribe-header"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:unsubscribe-header": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:unsubscribe-header"
+      },
+      "id": "widget:unsubscribe-header",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "header2",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_Unsubscribe_HeaderText__resx"
+      },
+      "widgetType": "InvalidInviteeUnsubscribeText"
+    },
+    "row:unsubscribe-description": {
+      "id": "row:unsubscribe-description",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:unsubscribe",
+        "childIds": [
+          "widget:unsubscribe-description"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:unsubscribe-description": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:unsubscribe-description"
+      },
+      "id": "widget:unsubscribe-description",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 0,
+              "paddingBottom": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "body1",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_Unsubscribe_DescriptionText__resx"
+      },
+      "widgetType": "InvalidInviteeUnsubscribeText"
+    }
+  }
+}

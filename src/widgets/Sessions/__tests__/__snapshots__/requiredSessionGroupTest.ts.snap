@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`errorMessage() should list the registrants 1`] = `
+<div>
+  [[EventGuest_SessionGroup_SelectOneValidation__resx: undefined]: undefined]
+  <div>
+    <ul>
+      <li>
+        [lbl_FullName__resx: {"firstName":"primary","lastName":"a"}]
+      </li>
+      <li>
+        [lbl_FullName__resx: {"firstName":"guest","lastName":"1"}]
+      </li>
+      <li>
+        [lbl_FullName__resx: {"firstName":"guest","lastName":"2"}] [EventGuest_Products_MoreThanXValidation__resx: {"numberOfPeople":1}]
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`errorMessage() should show generic message 1`] = `"[RegistrationProcess_SessionWidget_SessionGroupRequired__resx: undefined]"`;

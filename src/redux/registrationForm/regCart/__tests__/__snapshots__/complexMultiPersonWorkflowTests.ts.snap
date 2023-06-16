@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`limit group member reg type tests correct regTypeId and admissionItem are set if only one regType is availble to group members 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/ADD_GROUP_MEMBER_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "currentEventRegistrationId": "groupMemberEventRegId",
+      "regCart": Object {},
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/ADD_GROUP_MEMBER_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "capacity": undefined,
+    },
+    "type": "event-widgets/capacity/LOAD_CAPACITY",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+  Object {
+    "payload": Object {
+      "eventRegistrationId": "primaryEventRegId",
+      "visibleProducts": Object {
+        "Sessions": Object {},
+      },
+    },
+    "type": "event-guestside-site/LOAD_VISIBLE_SESSION_PRODUCTS",
+  },
+]
+`;

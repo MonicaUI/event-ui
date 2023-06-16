@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<head>
+    <title>{{vars.title}}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ms_positioning="FlowLayout" onload="concurPostForm.submit()">
+  <h2 style="COLOR: gray; FONT-FAMILY: verdana">{{vars.message}}</h2>
+  <form id="concurPostForm" name="concurPostForm" action="{{vars.postURL}}" method="post">
+    <input
+      type="hidden"
+      value="{{{vars.postBody}}}"
+      name="meetingxml">
+  </form>
+</body>
+</html>

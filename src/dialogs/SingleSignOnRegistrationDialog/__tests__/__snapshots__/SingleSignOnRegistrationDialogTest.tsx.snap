@@ -1,0 +1,459 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog header popup test render cross button when hasDialogBeenOpened flag is true 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+  />
+  <span
+    class="mockNucleusCoreTransition"
+  >
+    <div
+      class=""
+    >
+      <div
+        aria-label="Dialog"
+        role="dialog"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class=""
+          style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+        >
+          <div
+            class=""
+          />
+          <div
+            class=""
+          >
+            <div
+              class="dialogContainer"
+            >
+              <div
+                class="dialogChildren"
+              >
+                <div>
+                  <div
+                    aria-describedby="dialogHeader"
+                    class=""
+                    style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                  >
+                    <div
+                      class=""
+                      id="dialogHeader"
+                      style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                    >
+                      <h2
+                        class=""
+                        style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="close"
+                          role="button"
+                          tabindex="0"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                              class=""
+                              role="img"
+                            />
+                          </span>
+                        </div>
+                        EventGuestSide_Sso_Admin_RegHeader__resx
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="panelStyles"
+                  >
+                    <div
+                      data-cvent-id="singleSignOn-form"
+                    >
+                      <div
+                        class="ssoRegistrationText"
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_Sso_Admin_RegInstruction__resx
+                      </div>
+                      <button
+                        aria-label="EventGuestSide_Sso_Invitee__resx"
+                        class=""
+                        data-cvent-id="yes-submit-button"
+                        title="EventGuestSide_Sso_Invitee__resx"
+                        type="button"
+                      >
+                        <span>
+                          EventGuestSide_Sso_Invitee__resx
+                        </span>
+                      </button>
+                      <button
+                        aria-label="EventGuestSide_Sso_Admin__resx"
+                        class=""
+                        data-cvent-id="no-submit-button"
+                        title="EventGuestSide_Sso_Admin__resx"
+                        type="button"
+                      >
+                        <span>
+                          EventGuestSide_Sso_Admin__resx
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Single Sign on Reg Dialog matches registered invitees snapshot when opened 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+  />
+  <span
+    class="mockNucleusCoreTransition"
+  >
+    <div
+      class=""
+    >
+      <div
+        aria-label="Dialog"
+        role="dialog"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class=""
+          style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+        >
+          <div
+            class=""
+          />
+          <div
+            class=""
+          >
+            <div
+              class="dialogContainer"
+            >
+              <div
+                class="dialogChildren"
+              >
+                <div>
+                  <div
+                    aria-describedby="dialogHeader"
+                    class=""
+                    style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                  >
+                    <div
+                      class=""
+                      id="dialogHeader"
+                      style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                    >
+                      <h2
+                        class=""
+                        style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                      >
+                        EventGuestSide_Sso_Admin_RegHeader__resx
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="panelStyles"
+                  >
+                    <div
+                      data-cvent-id="singleSignOn-form"
+                    >
+                      <div
+                        class="ssoRegistrationText"
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_Sso_Admin_RegInstruction__resx
+                      </div>
+                      <button
+                        aria-label="EventGuestSide_Sso_Invitee__resx"
+                        class=""
+                        data-cvent-id="yes-submit-button"
+                        title="EventGuestSide_Sso_Invitee__resx"
+                        type="button"
+                      >
+                        <span>
+                          EventGuestSide_Sso_Invitee__resx
+                        </span>
+                      </button>
+                      <button
+                        aria-label="EventGuestSide_Sso_Admin__resx"
+                        class=""
+                        data-cvent-id="no-submit-button"
+                        title="EventGuestSide_Sso_Admin__resx"
+                        type="button"
+                      >
+                        <span>
+                          EventGuestSide_Sso_Admin__resx
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Single Sign on Reg Dialog with Registered Invitees and himself as Admin matches snapshot when opened 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+  />
+  <span
+    class="mockNucleusCoreTransition"
+  >
+    <div
+      class=""
+    >
+      <div
+        aria-label="Dialog"
+        role="dialog"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class=""
+          style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+        >
+          <div
+            class=""
+          />
+          <div
+            class=""
+          >
+            <div
+              class="dialogContainer"
+            >
+              <div
+                class="dialogChildren"
+              >
+                <div>
+                  <div
+                    aria-describedby="dialogHeader"
+                    class=""
+                    style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                  >
+                    <div
+                      class=""
+                      id="dialogHeader"
+                      style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                    >
+                      <h2
+                        class=""
+                        style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                      >
+                        EventGuestSide_Sso_Admin_RegHeader__resx
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="panelStyles"
+                  >
+                    <div
+                      data-cvent-id="singleSignOn-form"
+                    >
+                      <div
+                        class="ssoRegistrationText"
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_Sso_Admin_RegInstruction__resx
+                      </div>
+                      <button
+                        aria-label="EventGuestSide_Sso_Invitee__resx"
+                        class=""
+                        data-cvent-id="yes-submit-button"
+                        title="EventGuestSide_Sso_Invitee__resx"
+                        type="button"
+                      >
+                        <span>
+                          EventGuestSide_Sso_Invitee__resx
+                        </span>
+                      </button>
+                      <button
+                        aria-label="EventGuestSide_Sso_Admin__resx"
+                        class=""
+                        data-cvent-id="no-submit-button"
+                        title="EventGuestSide_Sso_Admin__resx"
+                        type="button"
+                      >
+                        <span>
+                          EventGuestSide_Sso_Admin__resx
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="panelStyles"
+                  >
+                    <div
+                      class="manageInviteeHeaderContainer"
+                    >
+                      <span
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                         
+                        EventGuestSide_Sso_Admin_ModifyExistingRegInstruction___resx
+                         
+                      </span>
+                    </div>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Single Sign on Reg Dialog with Registered Invitees matches snapshot when opened 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+  />
+  <span
+    class="mockNucleusCoreTransition"
+  >
+    <div
+      class=""
+    >
+      <div
+        aria-label="Dialog"
+        role="dialog"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class=""
+          style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+        >
+          <div
+            class=""
+          />
+          <div
+            class=""
+          >
+            <div
+              class="dialogContainer"
+            >
+              <div
+                class="dialogChildren"
+              >
+                <div>
+                  <div
+                    aria-describedby="dialogHeader"
+                    class=""
+                    style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                  >
+                    <div
+                      class=""
+                      id="dialogHeader"
+                      style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                    >
+                      <h2
+                        class=""
+                        style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                      >
+                        EventGuestSide_Sso_Admin_RegHeader__resx
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="panelStyles"
+                  >
+                    <div
+                      data-cvent-id="singleSignOn-form"
+                    >
+                      <div
+                        class="ssoRegistrationText"
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_Sso_Admin_RegInstruction__resx
+                      </div>
+                      <button
+                        aria-label="EventGuestSide_Sso_Invitee__resx"
+                        class=""
+                        data-cvent-id="yes-submit-button"
+                        title="EventGuestSide_Sso_Invitee__resx"
+                        type="button"
+                      >
+                        <span>
+                          EventGuestSide_Sso_Invitee__resx
+                        </span>
+                      </button>
+                      <button
+                        aria-label="EventGuestSide_Sso_Admin__resx"
+                        class=""
+                        data-cvent-id="no-submit-button"
+                        title="EventGuestSide_Sso_Admin__resx"
+                        type="button"
+                      >
+                        <span>
+                          EventGuestSide_Sso_Admin__resx
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="panelStyles"
+                  >
+                    <div
+                      class="manageInviteeHeaderContainer"
+                    >
+                      <span
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                         
+                        EventGuestSide_Sso_Admin_ModifyExistingRegInstruction___resx
+                         
+                      </span>
+                    </div>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
+`;

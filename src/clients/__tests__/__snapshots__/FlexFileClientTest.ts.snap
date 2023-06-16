@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlexFileClient.deleteFile matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "superawesomeevent",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "DELETE",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/flex-file-service/del/flex-file/v1/file/delete?environment=dev&eventId=superawesomeevent&filePath=filePath&uploadType=uploadType&fieldId=fieldId&regCartId=regCartId&eventRegistrationId=eventRegistrationId",
+  },
+]
+`;
+
+exports[`FlexFileClient.deleteFileNoEnvironment matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "superawesomeevent",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "DELETE",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/flex-file-service/delNo/flex-file/v1/file/delete?eventId=superawesomeevent&filePath=filePath&uploadType=uploadType&fieldId=fieldId&regCartId=regCartId&eventRegistrationId=eventRegistrationId",
+  },
+]
+`;
+
+exports[`FlexFileClient.getPublicFileUrl matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "superawesomeevent",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/flex-file-service/get/flex-file/v1/file/publiclink?environment=dev&eventId=superawesomeevent&filePath=filePath&uploadType=uploadType",
+  },
+]
+`;
+
+exports[`FlexFileClient.getPublicFileUrlNoEnvironment matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "superawesomeevent",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/flex-file-service/getNo/flex-file/v1/file/publiclink?eventId=superawesomeevent&filePath=filePath&uploadType=uploadType",
+  },
+]
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`load related contacts matches snapshot 1`] = `
+Object {
+  "accessToken": "some access token",
+  "addGuestFromRelatedContacts": Object {
+    "some-contact-id-2": Object {
+      "relatedContacts": Array [
+        Object {
+          "emailAddress": "emailAddress21",
+          "firstName": "firstName21",
+          "lastName": "lastName21",
+          "relatedContactStub": "relatedContactStub21",
+        },
+        Object {
+          "emailAddress": "emailAddress22",
+          "firstName": "firstName22",
+          "lastName": "lastName22",
+          "relatedContactStub": "relatedContactStub22",
+        },
+        Object {
+          "emailAddress": "emailAddress23",
+          "firstName": "firstName23",
+          "lastName": "lastName23",
+          "relatedContactStub": "relatedContactStub23",
+        },
+      ],
+    },
+  },
+  "clients": Object {
+    "eventGuestClient": Object {
+      "getRelatedContacts": [MockFunction] {
+        "calls": Array [
+          Array [
+            "some access token",
+            "some-event-id",
+            "some-regCart-id",
+            "some-contact-id-2",
+            100,
+            "",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+    "regCartClient": Object {
+      "updateRegCart": [MockFunction],
+    },
+  },
+  "defaultUserSession": Object {
+    "eventId": "some-event-id",
+  },
+  "registrationForm": Object {
+    "currentGuestEventRegistration": Object {
+      "eventRegistrationId": "guestEventRegId",
+    },
+    "regCart": Object {
+      "eventRegistrations": Object {
+        "guestEventRegId": Object {
+          "addGuestFromRelatedContacts": false,
+          "attendeeType": "GUEST",
+          "eventRegistrationId": "guestEventRegId",
+          "primaryRegistrationId": "primaryEventRegId",
+          "registrationPathId": "testRegPath",
+          "registrationTypeId": "001",
+        },
+        "primaryEventRegId": Object {
+          "attendee": Object {
+            "personalInformation": Object {
+              "contactId": "some-contact-id-2",
+            },
+          },
+          "attendeeType": "ATTENDEE",
+          "eventRegistrationId": "primaryEventRegId",
+          "registrationPathId": "testRegPath",
+          "registrationTypeId": "001",
+        },
+      },
+      "regCartId": "some-regCart-id",
+    },
+  },
+}
+`;

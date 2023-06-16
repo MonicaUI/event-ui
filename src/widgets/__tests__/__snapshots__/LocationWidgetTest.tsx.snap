@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationWidget address should be also displayed 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    Some Location
+  </div>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div>
+      <div>
+        113500 Piedmont Rd
+      </div>
+      <div>
+        Ste 6100
+      </div>
+      <div />
+      <div>
+        <span>
+          Atlanta, 
+        </span>
+        <span>
+          GA 
+        </span>
+        <span>
+          30305
+        </span>
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LocationWidget countryName should be also displayed, using text translation 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    Some Location
+  </div>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div>
+      <div>
+        113500 Piedmont Rd
+      </div>
+      <div>
+        Ste 6100
+      </div>
+      <div />
+      <div>
+        <span>
+          Atlanta, 
+        </span>
+        <span>
+          GA 
+        </span>
+        <span>
+          30305
+        </span>
+      </div>
+      <div>
+        USA
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LocationWidget only location should be displayed 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    Some Location
+  </div>
+  <div
+    className=""
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`LocationWidget should render 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    Some Location
+  </div>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div>
+      <div>
+        113500 Piedmont Rd
+      </div>
+      <div>
+        Ste 6100
+      </div>
+      <div />
+      <div>
+        <span>
+          Atlanta, 
+        </span>
+        <span>
+          GA 
+        </span>
+        <span>
+          30305
+        </span>
+      </div>
+      <div>
+        USA
+      </div>
+    </div>
+  </div>
+</div>
+`;

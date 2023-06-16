@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CREATE_REG_CART_SUCCESS sets the state to registering. 1`] = `
+Object {
+  "checkoutProgress": 0,
+  "isPartialCart": false,
+  "lastSavedRegCart": Object {
+    "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+  },
+  "modificationStartRegCart": undefined,
+  "partialRegCartUpdated": false,
+  "regTypeChanged": false,
+  "registrationIntent": "REGISTERING",
+  "webPaymentsIsSubmitting": false,
+}
+`;
+
+exports[`FINALIZE_CHECKOUT_SUCCESS sets the state to CHECKED_OUT 1`] = `
+Object {
+  "checkoutProgress": 100,
+  "isPartialCart": false,
+  "lastSavedRegCart": Object {
+    "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+  },
+  "partialRegCartUpdated": false,
+  "regTypeChanged": false,
+  "registrationIntent": "CHECKED_OUT",
+  "webPaymentsIsSubmitting": false,
+}
+`;
+
+exports[`INITIATE_CANCEL_REGISTRATION_SUCCESS sets the state to CANCELLING 1`] = `
+Object {
+  "checkoutProgress": 0,
+  "isPartialCart": false,
+  "lastSavedRegCart": Object {
+    "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+  },
+  "partialRegCartUpdated": false,
+  "regTypeChanged": false,
+  "registrationIntent": "CANCELLING",
+  "webPaymentsIsSubmitting": false,
+}
+`;
+
+exports[`LOG_OUT_REGISTRANT_SUCCESS does not change default status 1`] = `
+Object {
+  "checkoutProgress": 0,
+  "isPartialCart": false,
+  "lastSavedRegCart": null,
+  "partialRegCartUpdated": false,
+  "regTypeChanged": false,
+  "registrationIntent": "NOT_REGISTERING",
+  "webPaymentsIsSubmitting": false,
+}
+`;
+
+exports[`LOG_OUT_REGISTRANT_SUCCESS sets status to default. 1`] = `
+Object {
+  "checkoutProgress": 0,
+  "isPartialCart": false,
+  "lastSavedRegCart": null,
+  "partialRegCartUpdated": false,
+  "regTypeChanged": false,
+  "registrationIntent": "NOT_REGISTERING",
+  "webPaymentsIsSubmitting": false,
+}
+`;
+
+exports[`UPDATE_REG_CART_SUCCESS sets the state to registering. 1`] = `
+Object {
+  "checkoutProgress": 0,
+  "isPartialCart": false,
+  "lastSavedRegCart": Object {
+    "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+  },
+  "modificationStartRegCart": undefined,
+  "partialRegCartUpdated": false,
+  "regTypeChanged": false,
+  "registrationIntent": "REGISTERING",
+  "webPaymentsIsSubmitting": false,
+}
+`;
+
+exports[`Verifying initial state. 1`] = `
+Object {
+  "checkoutProgress": 0,
+  "isPartialCart": false,
+  "lastSavedRegCart": null,
+  "partialRegCartUpdated": false,
+  "regTypeChanged": false,
+  "registrationIntent": "NOT_REGISTERING",
+  "webPaymentsIsSubmitting": false,
+}
+`;

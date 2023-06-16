@@ -1,0 +1,483 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WebsiteNavigatorWidget does not renders when it is planner mode 1`] = `<div />`;
+
+exports[`WebsiteNavigatorWidget renders when userText has data and currentLocaleId is set 1`] = `
+<div
+  role="navigation"
+  style="min-height: 1px;"
+>
+  <a
+    class="skipNav"
+    href="#main"
+    style="border-color: #041532; color: rgb(39, 63, 105); background-color: rgb(247, 247, 247);"
+    tabindex="0"
+  >
+    WebsiteNavigatorWidget_SkipNavigationText_default__resx
+  </a>
+  <div
+    class=""
+    style="padding: 15px 15px 15px 15px; background-color: rgb(4, 21, 50); border-radius: 0; flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <ul
+        class=""
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            role="button"
+            style="text-align: left;"
+            tabindex="0"
+          >
+            Summary name
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+        >
+          <button
+            class="disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class=""
+            >
+              _registerNowWidget_textConfig__resx
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WebsiteNavigatorWidget that it does not fall over with null ptr exceptions when a re-render is caused by login actions,
+    but the post reg content hasn't been loaded yet 1`] = `
+<div
+  role="navigation"
+  style="min-height: 1px;"
+>
+  <a
+    class="skipNav"
+    href="#main"
+    style="border-color: #041532; color: rgb(39, 63, 105); background-color: rgb(247, 247, 247);"
+    tabindex="0"
+  >
+    WebsiteNavigatorWidget_SkipNavigationText_default__resx
+  </a>
+  <div
+    class=""
+    style="padding: 15px 15px 15px 15px; background-color: rgb(4, 21, 50); border-radius: 0; flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <ul
+        class=""
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            role="button"
+            style="text-align: left;"
+            tabindex="0"
+          >
+            _defaultPageTitle_summary__resx
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+        >
+          <button
+            class=""
+            type="button"
+          >
+            <span
+              class=""
+            >
+              WebsiteNavigatorWidget_LogoutButtonText_default__resx
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WebsiteNavigatorWidget when user is logged in it renders 1`] = `
+<div
+  role="navigation"
+  style="min-height: 1px;"
+>
+  <a
+    class="skipNav"
+    href="#main"
+    style="border-color: #041532; color: rgb(39, 63, 105); background-color: rgb(247, 247, 247);"
+    tabindex="0"
+  >
+    WebsiteNavigatorWidget_SkipNavigationText_default__resx
+  </a>
+  <div
+    class=""
+    style="padding: 15px 15px 15px 15px; background-color: rgb(4, 21, 50); border-radius: 0; flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <ul
+        class=""
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            role="button"
+            style="text-align: left;"
+            tabindex="0"
+          >
+            _defaultPageTitle_summary__resx
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+          >
+            <div
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class=""
+                style="text-align: left;"
+              >
+                <span>
+                  _pageManagement_postRegSectionHeader__resx
+                </span>
+                <span
+                  class="container"
+                >
+                  <span
+                    aria-hidden="true"
+                    class=""
+                    role="img"
+                  />
+                </span>
+              </div>
+            </div>
+            <span
+              class="mockNucleusCoreTransition"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+        >
+          <button
+            class=""
+            type="button"
+          >
+            <span
+              class=""
+            >
+              WebsiteNavigatorWidget_LogoutButtonText_default__resx
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WebsiteNavigatorWidget when user is logged in with approval denied status 1`] = `
+<div
+  role="navigation"
+  style="min-height: 1px;"
+>
+  <a
+    class="skipNav"
+    href="#main"
+    style="border-color: #041532; color: rgb(39, 63, 105); background-color: rgb(247, 247, 247);"
+    tabindex="0"
+  >
+    WebsiteNavigatorWidget_SkipNavigationText_default__resx
+  </a>
+  <div
+    class=""
+    style="padding: 15px 15px 15px 15px; background-color: rgb(4, 21, 50); border-radius: 0; flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <ul
+        class=""
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            role="button"
+            style="text-align: left;"
+            tabindex="0"
+          >
+            _defaultPageTitle_summary__resx
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+          >
+            <div
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class=""
+                style="text-align: left;"
+              >
+                <span>
+                  _pageManagement_postRegSectionHeader__resx
+                </span>
+                <span
+                  class="container"
+                >
+                  <span
+                    aria-hidden="true"
+                    class=""
+                    role="img"
+                  />
+                </span>
+              </div>
+            </div>
+            <span
+              class="mockNucleusCoreTransition"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+        >
+          <button
+            class=""
+            type="button"
+          >
+            <span
+              class=""
+            >
+              WebsiteNavigatorWidget_LogoutButtonText_default__resx
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WebsiteNavigatorWidget when user is logged in with pending approval status 1`] = `
+<div
+  role="navigation"
+  style="min-height: 1px;"
+>
+  <a
+    class="skipNav"
+    href="#main"
+    style="border-color: #041532; color: rgb(39, 63, 105); background-color: rgb(247, 247, 247);"
+    tabindex="0"
+  >
+    WebsiteNavigatorWidget_SkipNavigationText_default__resx
+  </a>
+  <div
+    class=""
+    style="padding: 15px 15px 15px 15px; background-color: rgb(4, 21, 50); border-radius: 0; flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <ul
+        class=""
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            role="button"
+            style="text-align: left;"
+            tabindex="0"
+          >
+            _defaultPageTitle_summary__resx
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+          >
+            <div
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class=""
+                style="text-align: left;"
+              >
+                <span>
+                  _pageManagement_postRegSectionHeader__resx
+                </span>
+                <span
+                  class="container"
+                >
+                  <span
+                    aria-hidden="true"
+                    class=""
+                    role="img"
+                  />
+                </span>
+              </div>
+            </div>
+            <span
+              class="mockNucleusCoreTransition"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+        >
+          <button
+            class=""
+            type="button"
+          >
+            <span
+              class=""
+            >
+              WebsiteNavigatorWidget_LogoutButtonText_default__resx
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WebsiteNavigatorWidget when user is not logged in it renders 1`] = `
+<div
+  role="navigation"
+  style="min-height: 1px;"
+>
+  <a
+    class="skipNav"
+    href="#main"
+    style="border-color: #041532; color: rgb(39, 63, 105); background-color: rgb(247, 247, 247);"
+    tabindex="0"
+  >
+    WebsiteNavigatorWidget_SkipNavigationText_default__resx
+  </a>
+  <div
+    class=""
+    style="padding: 15px 15px 15px 15px; background-color: rgb(4, 21, 50); border-radius: 0; flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <ul
+        class=""
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            role="button"
+            style="text-align: left;"
+            tabindex="0"
+          >
+            _defaultPageTitle_summary__resx
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+        >
+          <button
+            class="disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class=""
+            >
+              _registerNowWidget_textConfig__resx
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

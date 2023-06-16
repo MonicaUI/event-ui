@@ -1,0 +1,59 @@
+@import "../styles/StandardDialog.less";
+@import (reference) '~nucleus-core/less/Utility.less';
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+
+.closeDialog {
+  float: right;
+  position: relative;
+}
+
+.exit {
+  float: right;
+  top: -10px;
+  position: relative;
+}
+
+.element {
+  .clearfix();
+  max-width: 24em;
+  margin: 0px auto 35px;
+}
+
+.cancelRegistrationModalText {
+  max-width: 36em;
+  margin: 35px 80px;
+
+  @media @small {
+    margin: 5px 10px 35px;
+  }
+}
+
+.detailsText {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.secondaryButton {
+  margin-right: 10px;
+}
+
+.primaryButton {
+  margin-left: 10px;
+}
+
+.panel {
+  padding: 15px 20px 30px;
+  text-align: center;
+}
+
+.dialogContainer {
+  width: 48em;
+  min-height: 32vh;
+  max-height: 55vh;
+  .dialogMediaQuery();
+}
+
+.messageContainer {
+  max-height: 100%;
+  overflow-y: scroll;
+}

@@ -1,0 +1,155 @@
+{
+  "name": "event-guestside-site",
+  "version": "2.0.108",
+  "description": "Event Guest Side Site",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "run-s --print-label --continue-on-error lint:*",
+    "lint:eslint": "eslint .",
+    "lint:tsc": "tsc --noEmit",
+    "test": "TZ=Pacific/Tongatapu BABEL_ENV=node jest",
+    "verify": "pnpm test && pnpm lint",
+    "dev": "NODE_OPTIONS=--max_old_space_size=2000 IS_DEV_MODE=true webpack serve --content-base dist/",
+    "dev414": "DEV_SILO=414 pnpm dev",
+    "dev437": "DEV_SILO=437 pnpm dev",
+    "dev446": "DEV_SILO=446 pnpm dev",
+    "dev-prod": "NODE_ENV=production pnpm dev",
+    "build": "NODE_ENV=production webpack && normalize-css-source-maps",
+    "clean": "eval $(nucleus-clean)",
+    "locales": "eval $(nucleus-update-locales) && eval $(nucleus-lint-locales)",
+    "stats": "NODE_ENV=production COLLECT_WEBPACK_STATS=true webpack --json > stat.json"
+  },
+  "jest": {
+    "testURL": "https://web-fake.cvent.com/",
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.js"
+    ],
+    "transform": {
+      "\\.js$": [
+        "babel-jest",
+        {
+          "rootMode": "upward"
+        }
+      ],
+      "\\.(j|t)sx?$": [
+        "ts-jest"
+      ]
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(.pnpm|nucleus|event-widgets|cvent-question-widgets|@cvent/social-media-feed|@cvent/share-bar|@cvent/follow-bar|@cvent/media-library|@cvent/(nucleus-(dynamic-css|logging|networking|datatag-regex|test-automation|remote-log-client|core-datetime-utils|icon|form-validations|image|iframe-messaging)|carina-(rich-text-renderer|rich-text-migrations))))"
+    ],
+    "snapshotSerializers": [
+      "nucleus-enzyme-test-serializer"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "^.+\\.(css|less)$": "<rootDir>/__mocks__/cssMock.js"
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover",
+      "json-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 72.76,
+        "functions": 78.8,
+        "lines": 81.01,
+        "statements": 80.83
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.cvent.net:7999/oslo/event-ui.git"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.core.cvent.org:8081/nexus/content/repositories/npm-local/"
+  },
+  "keywords": [
+    "cvent",
+    "site-editor",
+    "guestside-site"
+  ],
+  "author": "Adam Mariotti <amariotti@cvent.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@jest/globals": "^26.6.2",
+    "@testing-library/react": "^11.2.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "eslint-config-event-ui": "workspace:*",
+    "moment-timezone": "^0.5.0",
+    "nucleus-enzyme-test-serializer": "^1.3.0",
+    "react-test-renderer": "^16.11.0",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.13",
+    "@babel/core": "^7.1.5",
+    "@cvent/carina-rich-text-renderer": "^4.0.3",
+    "@cvent/event-fields": "workspace:*",
+    "@cvent/event-ui-apollo": "workspace:*",
+    "@cvent/event-ui-experiments": "workspace:*",
+    "@cvent/event-ui-networking": "workspace:*",
+    "@cvent/follow-bar": "1.0.6",
+    "@cvent/nucleus-core-datetime-utils": "^1.0.21",
+    "@cvent/nucleus-dynamic-css": "^1.2.1",
+    "@cvent/nucleus-form-validations": "^2.4.2",
+    "@cvent/nucleus-icon": "^2.1.2",
+    "@cvent/nucleus-iframe-messaging": "^0.0.8",
+    "@cvent/nucleus-image": "^0.2.17",
+    "@cvent/nucleus-logging": "^1.1.14",
+    "@cvent/nucleus-networking": "^3.0.1",
+    "@cvent/nucleus-remote-log-client": "^1.7.3",
+    "@cvent/nucleus-test-automation": "^2.2.1",
+    "@cvent/ref-preserving-function": "workspace:*",
+    "@cvent/share-bar": "^1.0.17",
+    "@cvent/social-media-feed": "^1.2.1",
+    "@emotion/css": "^11.1.3",
+    "@types/lodash": "^4.14.175",
+    "@types/react": "^16.14.5",
+    "apollo-env": "^0.10.0",
+    "apollo-link-rest": "^0.8.0-beta.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "cvent-cookieconsent": "^1.2.1",
+    "cvent-question-widgets": "^7.25.0",
+    "event-code-widget": "workspace:*",
+    "event-widgets": "workspace:*",
+    "focus-visible": "^5.2.0",
+    "graphql": "^15.4.0",
+    "graphql-anywhere": "^4.2.7",
+    "graphql-tag": "^2.11.0",
+    "history": "^4.7.2",
+    "icepick": "^2.4.0",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "moment": "^2.29.1",
+    "navigator.sendbeacon": "^0.0.20",
+    "nucleus-analytics-middleware": "^3.15.0",
+    "nucleus-core": "^8.10.1",
+    "nucleus-form": "^1.6.0",
+    "nucleus-guestside-site": "^9.7.0",
+    "nucleus-text": "^9.4.3",
+    "nucleus-themes": "^5.4.1",
+    "nucleus-widgets": "^9.9.0",
+    "prop-types": "^15.5.8",
+    "qs": "^6.10.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0",
+    "uuid": "^3.4.0",
+    "whatwg-fetch": "^2.0.4"
+  }
+}

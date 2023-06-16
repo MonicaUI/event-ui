@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPrimaryRegistrationId does not return guest attendee id 1`] = `"eventRegistrationAId"`;
+
+exports[`getRegisteredSessionsSourceTypeNotWithSessionBundle returns the list of sessions 1`] = `
+Object {
+  "sessionAId": Object {
+    "productId": "sessionAId",
+    "productType": "Session",
+    "quantity": 1,
+    "registrationSourceType": "Selected",
+    "requestedAction": "REGISTER",
+  },
+}
+`;
+
+exports[`getSelectedAdmissionItem returns the selected admission items 1`] = `
+Object {
+  "productId": "admissionItemAId",
+  "productType": "AdmissionItem",
+  "quantity": 1,
+  "requestedAction": "REGISTER",
+}
+`;
+
+exports[`getSelectedSessions returns the list of sessions 1`] = `
+Object {
+  "sessionAId": Object {
+    "productId": "sessionAId",
+    "productType": "Session",
+    "quantity": 1,
+    "registrationSourceType": "Selected",
+    "requestedAction": "REGISTER",
+  },
+  "sessionBId": Object {
+    "productId": "sessionBId",
+    "productType": "Session",
+    "quantity": 1,
+    "registrationSourceType": "Track",
+    "requestedAction": "REGISTER",
+  },
+}
+`;

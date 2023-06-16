@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventAirRequest should not render when air request is not enabled 1`] = `ShallowWrapper {}`;
+
+exports[`EventAirRequest should produce props from state 1`] = `
+Object {
+  "children": <AirRequestWidget
+    airData={
+      Object {
+        "airRequestSetup": Object {
+          "airRequestSettings": Object {
+            "allowBookOwnFlights": true,
+            "allowModification": true,
+            "allowedAttendeeTypes": "invitee",
+            "maxNumberOfAirRequestsPerAttendee": 2,
+            "ownReservationText": "reservation",
+            "requireAirRequest": true,
+          },
+          "allowedTicketTypes": Array [],
+          "defaultSchedule": Object {
+            "arrivalAirportId": 290,
+            "departureAirportId": 1855,
+            "departureDate": "2018-08-05T00:00:00.000Z",
+            "departureDateUtc": "2018-08-05T00:00:00.000Z",
+            "returnDate": "2018-08-08T22:00:00.000Z",
+            "returnDateUtc": "2018-08-08T22:00:00.000Z",
+          },
+          "isDepartureArrivalInformationRequired": false,
+          "restrictions": Object {
+            "earliestDepartureDate": "2018-08-05T00:00:00.000Z",
+            "earliestDepartureDateUtc": "2018-08-05T00:00:00.000Z",
+            "latestReturnDate": "2018-08-08T22:00:00.000Z",
+            "latestReturnDateUtc": "2018-08-08T22:00:00.000Z",
+            "limitArrivalAirportIds": Array [
+              94,
+              290,
+            ],
+            "limitDepartureAirportIds": Array [
+              1419,
+              1855,
+            ],
+          },
+          "rules": Array [],
+          "secureFlightFieldsDisplay": 0,
+          "showAgeCategory": true,
+          "showAirlinePreference": true,
+          "showMealPreference": true,
+          "showSeatingPreference": true,
+          "showSpecialRequirements": true,
+          "showTimePreference": true,
+          "showTravellerNumber": true,
+          "timePreferenceType": 1,
+          "tripFormat": 1,
+        },
+        "isAirActualFormEnabled": false,
+        "isAirRequestFormEnabled": true,
+        "isConcurEnabled": false,
+        "isDeemEnabled": false,
+        "isGetThereEnabled": false,
+        "isGroupFlightEnabled": false,
+        "isOwnReservation": false,
+        "isSummaryView": true,
+        "selectedAirRequestIds": Array [],
+      }
+    }
+    airRequests={Array []}
+    airports={
+      Object {
+        "269": Object {
+          "city": "Washington",
+          "code": "IAD",
+          "country": "United States of America",
+          "id": 269,
+          "name": "Dulles Intl",
+          "stateCode": "DC",
+        },
+      }
+    }
+    classes={Object {}}
+    defaultDates={
+      Object {
+        "defaultDepartureDate": "2018-08-05T00:00:00.000Z",
+        "defaultReturnDate": "2018-08-08T22:00:00.000Z",
+      }
+    }
+    displayPlannerFields={false}
+    event={
+      Object {
+        "createdDate": 2021-08-27T00:00:00.000Z,
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    isBehindOptOutExperiment={false}
+    isPlanner={false}
+    isRegMod={false}
+    isRegistrationActionDisabled={false}
+    onAirportSearch={[Function]}
+    onDeleteAirRequest={[Function]}
+    onSubmitAirRequest={[Function]}
+    registrations={
+      Object {
+        "guests": Array [
+          Object {
+            "attendeeType": "GUEST",
+            "eventRegistrationId": "confirmedGuest",
+            "primaryRegistrationId": "123456789",
+            "productRegistrations": Array [
+              Object {
+                "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                "productType": "AdmissionItem",
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "registrationPath1",
+            "requestedAction": "REGISTER",
+          },
+        ],
+        "primary": Object {
+          "eventRegistrationId": "123456789",
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "registrationPath1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+        },
+      }
+    }
+    removeSelectedAirRequestIds={[Function]}
+    restrictionDates={
+      Object {
+        "earliestDepartureDate": "2018-08-05T00:00:00.000Z",
+        "latestReturnDate": "2018-08-08T22:00:00.000Z",
+      }
+    }
+    setRequestOptOutChoice={[Function]}
+    setSelectedAirRequestId={[Function]}
+    showAirTravelSummaryView={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    toggleOwnAirTravelReservation={[Function]}
+    translate={[Function]}
+    translateDate={[Function]}
+  />,
+  "value": null,
+}
+`;
+
+exports[`EventAirRequest should render 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,86 @@
+{
+  "eventId": "38af9db8-035c-44dd-bd60-dff325b66e74",
+  "snapshotBuildStartTime": "2018-07-29T14:43:03.941Z",
+  "airSetup": {
+      "isAirRequestFormEnabled": true,
+      "isGroupFlightEnabled": false,
+      "isAirActualFormEnabled": false,
+      "isGetThereEnabled": false,
+      "isConcurEnabled": false,
+      "isDeemEnabled": false,
+      "airRequestSetup": {
+          "secureFlightFieldsDisplay": 2,
+          "showTravellerNumber": true,
+          "tripFormat": 3,
+          "showTimePreference": true,
+          "timePreferenceType": 2,
+          "showSeatingPreference": true,
+          "showAgeCategory": true,
+          "showMealPreference": true,
+          "showSpecialRequirements": true,
+          "showAirlinePreference": true,
+          "allowedTicketTypes": [
+              1,
+              2,
+              4
+          ],
+          "defaultSchedule": {
+              "departureDate": "2019-08-011T00:00:00.000Z",
+              "returnDate": "2019-08-014T22:00:00.000Z"
+          },
+          "restrictions": {
+              "earliestDepartureDate": "2019-08-10T00:00:00.000Z",
+              "latestReturnDate": "2019-08-31T00:00:00.000Z",
+              "limitDepartureAirportIds": [],
+              "limitArrivalAirportIds": []
+          },
+          "isDepartureArrivalInformationRequired": false,
+          "rules": [
+              {
+                  "id": "af172a72-d747-4146-beb2-09063c6353a6",
+                  "name": "VIP",
+                  "warningMessage": "HOHO HAHA",
+                  "earliestDepartureDate": "2019-08-06T00:00:00.000Z",
+                  "latestReturnDate": "2019-08-15T00:00:00.000Z",
+                  "defaultReturnDate": "2019-08-013T00:00:00.000Z",
+                  "admissionItem": [
+                      "admissionItemAId"
+                  ],
+                  "contactType": [
+                      "registrationTypeAId"
+                  ],
+                  "isActive": true
+              },
+              {
+                "id": "af172a72-d747-4146-beb2-09063c6353a7",
+                "name": "VIP",
+                "warningMessage": "HOHO HAHA",
+                "earliestDepartureDate": "2019-08-06T00:00:00.000Z",
+                "latestReturnDate": "2019-08-15T00:00:00.000Z",
+                "defaultReturnDate": "2019-08-013T00:00:00.000Z",
+                "admissionItem": [],
+                "contactType": ["49020c2e-20b4-4a83-b359-e514a4deb513"],
+                "isActive": true
+              },
+              {
+                "id": "af172a72-d747-4146-beb2-09063c6353a8",
+                "name": "VIP",
+                "warningMessage": "HOHO HAHA",
+                "earliestDepartureDate": "2019-08-06T00:00:00.000Z",
+                "latestReturnDate": "2019-08-15T00:00:00.000Z",
+                "defaultReturnDate": "2019-08-013T00:00:00.000Z",
+                "admissionItem": [
+                    "8edb1f13-56f9-45a1-bdb9-c510cea044b6"
+                ],
+                "contactType": [],
+                "isActive": true
+              },
+              {
+                "id": "af172a72-d747-4146-beb2-09063c6353a9",
+                "isActive": false
+              }
+          ]
+      }
+  },
+  "modelVersion": "3"
+}

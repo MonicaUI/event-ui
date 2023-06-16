@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Concur cancellation warning pop up Check if Concur cancellation warning pop up is rendered. 1`] = `
+<span>
+  <div>
+    <div
+      class=""
+      name="messageContainer"
+      tabindex="-1"
+    >
+      <span
+        class="container"
+      >
+        <span
+          aria-hidden="true"
+          class=""
+          role="img"
+        />
+      </span>
+      <div
+        class=""
+      >
+        EventGuestSide_HotelShoulderDateWarning_Title__resx
+      </div>
+      <p
+        class=""
+      >
+        EventWidgets_ConcurCancellationWarning_MessageFirstLine__resx
+      </p>
+      <p
+        class=""
+      >
+        EventWidgets_ConcurCancellationWarning_MessageSecondLine__resx
+      </p>
+      <ul
+        class=""
+      >
+        <li
+          class=""
+        >
+          <button
+            class=""
+            data-cvent-id="continue-selection"
+            type="button"
+          >
+            EventWidgets_ConcurCancellationWarning_ContinueButtonText__resx
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</span>
+`;

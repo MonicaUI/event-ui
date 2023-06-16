@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationDeadlineWidget renders 1`] = `
+<div
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingBottom": 5,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+      style={Object {}}
+    />
+    <div
+      className=""
+      style={Object {}}
+    >
+      long:2020-06-18
+      <span
+        className=""
+        style={Object {}}
+      >
+        21:00
+      </span>
+      <span
+        className=""
+        style={Object {}}
+      >
+        Event_Timezone_Abbr_40__resx
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationDeadlineWidget selected timezone tests disabling option from site editor hides timezone switch widget 1`] = `
+<div
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingBottom": 5,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+      style={Object {}}
+    />
+    <div
+      className=""
+      style={Object {}}
+    >
+      long:2020-06-18
+      <span
+        className=""
+        style={Object {}}
+      >
+        21:00
+      </span>
+      <span
+        className=""
+        style={Object {}}
+      >
+        EST translation
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationDeadlineWidget selected timezone tests selecting device timezone changes the time and does not append abbreviation 1`] = `
+<div
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingBottom": 5,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+      style={Object {}}
+    />
+    <div
+      className=""
+      style={Object {}}
+    >
+      long:2020-06-19
+      <span
+        className=""
+        style={Object {}}
+      >
+        07:30
+      </span>
+      <span
+        className=""
+        style={Object {}}
+      >
+        
+      </span>
+    </div>
+  </div>
+  <div
+    className=""
+    data-cvent-id="timeZoneWidget"
+    style={Object {}}
+  >
+    <span
+      className="container"
+    >
+      <span
+        aria-hidden="true"
+        className="timeIconSize"
+        role="img"
+      />
+    </span>
+    Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"your device time zone"}
+    <span
+      className=""
+      data-cvent-id="switchButton"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={Object {}}
+      tabIndex={0}
+    >
+      <u>
+        Event_GuestSide_SwitchText__resx
+      </u>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`RegistrationDeadlineWidget selected timezone tests selecting event timezone does not change the time and appends abbreviation 1`] = `
+<div
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 0,
+        "flex": "1 1 auto",
+        "paddingBottom": 5,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+      style={Object {}}
+    />
+    <div
+      className=""
+      style={Object {}}
+    >
+      long:2020-06-18
+      <span
+        className=""
+        style={Object {}}
+      >
+        21:00
+      </span>
+      <span
+        className=""
+        style={Object {}}
+      >
+        EST translation
+      </span>
+    </div>
+  </div>
+  <div
+    className=""
+    data-cvent-id="timeZoneWidget"
+    style={Object {}}
+  >
+    <span
+      className="container"
+    >
+      <span
+        aria-hidden="true"
+        className="timeIconSize"
+        role="img"
+      />
+    </span>
+    Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Eastern Standard Time"}
+    <span
+      className=""
+      data-cvent-id="switchButton"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={Object {}}
+      tabIndex={0}
+    >
+      <u>
+        Event_GuestSide_SwitchText__resx
+      </u>
+    </span>
+  </div>
+</div>
+`;

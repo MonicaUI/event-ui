@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test removeSubstitutionCart On successful removal of cart 1`] = `
+Object {
+  "autoFocus": false,
+  "cartAborted": false,
+  "disableSubmitButton": false,
+  "hasConfirmed": false,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": false,
+  "substituteRegistrationError": false,
+  "substituteRegistrationSuccess": false,
+  "substitutionCart": null,
+  "substitutionForm": Object {
+    "emailAddress": "",
+    "firstName": "",
+    "lastName": "",
+  },
+  "validationList": null,
+}
+`;
+
+exports[`Test removeSubstitutionCart When cart has been checked out with failures and registrant must not be logged out and delete the cart 1`] = `
+Object {
+  "autoFocus": false,
+  "cartAborted": false,
+  "disableSubmitButton": false,
+  "hasConfirmed": false,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": false,
+  "substituteRegistrationError": false,
+  "substituteRegistrationSuccess": false,
+  "substitutionCart": null,
+  "substitutionForm": Object {
+    "emailAddress": "",
+    "firstName": "",
+    "lastName": "",
+  },
+  "validationList": null,
+}
+`;
+
+exports[`Test removeSubstitutionCart when no cart is created 1`] = `
+Object {
+  "autoFocus": false,
+  "cartAborted": false,
+  "disableSubmitButton": false,
+  "hasConfirmed": false,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": false,
+  "substituteRegistrationError": false,
+  "substituteRegistrationSuccess": false,
+  "substitutionCart": null,
+  "substitutionForm": Object {
+    "emailAddress": "",
+    "firstName": "",
+    "lastName": "",
+  },
+  "validationList": null,
+}
+`;
+
+exports[`Test requestConfirmation When nothing to update on Updation 1`] = `
+Object {
+  "autoFocus": true,
+  "cartAborted": false,
+  "hasConfirmed": false,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": true,
+  "substituteRegistrationError": false,
+  "substituteRegistrationSuccess": false,
+  "substitutionCart": Object {
+    "accountSnapshotVersion": "accountSnapshotVersion",
+    "acctId": "acctId",
+    "contactId": "contactId",
+    "eventId": "eventId",
+    "eventSnapshotVersion": Object {
+      "eventId": "eventSnapshotVersion",
+    },
+    "inviteeId": "inviteeId",
+    "status": "INPROGRESS",
+    "substituentInformation": Object {
+      "emailAddress": "emailAddress@abc.xyz",
+      "firstName": "firstName",
+      "lastName": "lastName",
+    },
+    "substitutionCartId": "substitutionCartId",
+    "travelSnapshotVersion": Object {
+      "eventId": "travelSnapshotVersion",
+    },
+  },
+  "substitutionForm": Object {
+    "emailAddress": "emailAddress@abc.xyz",
+    "firstName": "firstName",
+    "lastName": "lastName",
+  },
+  "validationList": null,
+}
+`;
+
+exports[`Test requestSubstituteRegistration On checkout failure 1`] = `
+Object {
+  "autoFocus": true,
+  "cartAborted": false,
+  "hasConfirmed": false,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": false,
+  "substituteRegistrationError": true,
+  "substituteRegistrationSuccess": false,
+  "substitutionCart": Object {
+    "accountSnapshotVersion": "accountSnapshotVersion",
+    "acctId": "acctId",
+    "contactId": "contactId",
+    "eventId": "eventId",
+    "eventSnapshotVersion": Object {
+      "eventId": "eventSnapshotVersion",
+    },
+    "inviteeId": "inviteeId",
+    "status": "FAILED",
+    "substituentInformation": Object {
+      "emailAddress": "emailAddress@abc.xyz",
+      "firstName": "firstName",
+      "lastName": "lastName",
+    },
+    "substitutionCartId": "substitutionCartId",
+    "travelSnapshotVersion": Object {
+      "eventId": "travelSnapshotVersion",
+    },
+  },
+  "substitutionForm": Object {
+    "emailAddress": "emailAddress@abc.xyz",
+    "firstName": "firstName",
+    "lastName": "lastName",
+  },
+  "validationList": null,
+}
+`;
+
+exports[`Test requestSubstituteRegistration On checkout successful but dequeue failed 1`] = `
+Object {
+  "autoFocus": true,
+  "cartAborted": false,
+  "hasConfirmed": true,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": false,
+  "substituteRegistrationError": true,
+  "substituteRegistrationSuccess": false,
+  "substitutionCart": Object {
+    "accountSnapshotVersion": "accountSnapshotVersion",
+    "acctId": "acctId",
+    "contactId": "contactId",
+    "eventId": "eventId",
+    "eventSnapshotVersion": Object {
+      "eventId": "eventSnapshotVersion",
+    },
+    "inviteeId": "inviteeId",
+    "status": "FAILED",
+    "substituentInformation": Object {
+      "emailAddress": "emailAddress@abc.xyz",
+      "firstName": "firstName",
+      "lastName": "lastName",
+    },
+    "substitutionCartId": "substitutionCartId",
+    "travelSnapshotVersion": Object {
+      "eventId": "travelSnapshotVersion",
+    },
+  },
+  "substitutionForm": Object {
+    "emailAddress": "emailAddress@abc.xyz",
+    "firstName": "firstName",
+    "lastName": "lastName",
+  },
+  "validationList": null,
+}
+`;
+
+exports[`Test requestSubstituteRegistration On success registration substitution 1`] = `
+Object {
+  "autoFocus": true,
+  "cartAborted": false,
+  "hasConfirmed": true,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": false,
+  "substituteRegistrationError": false,
+  "substituteRegistrationSuccess": true,
+  "substitutionCart": Object {
+    "accountSnapshotVersion": "accountSnapshotVersion",
+    "acctId": "acctId",
+    "contactId": "contactId",
+    "eventId": "eventId",
+    "eventSnapshotVersion": Object {
+      "eventId": "eventSnapshotVersion",
+    },
+    "inviteeId": "inviteeId",
+    "status": "COMPLETED",
+    "substituentInformation": Object {
+      "emailAddress": "emailAddress@abc.xyz",
+      "firstName": "firstName",
+      "lastName": "lastName",
+    },
+    "substitutionCartId": "substitutionCartId",
+    "travelSnapshotVersion": Object {
+      "eventId": "travelSnapshotVersion",
+    },
+  },
+  "substitutionForm": Object {
+    "emailAddress": "emailAddress@abc.xyz",
+    "firstName": "firstName",
+    "lastName": "lastName",
+  },
+  "validationList": null,
+}
+`;
+
+exports[`requestConfirmationDeny Method 1`] = `
+Object {
+  "autoFocus": true,
+  "cartAborted": false,
+  "hasConfirmed": false,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": false,
+  "substituteRegistrationError": false,
+  "substituteRegistrationSuccess": false,
+  "substitutionCart": Object {
+    "accountSnapshotVersion": "accountSnapshotVersion",
+    "acctId": "acctId",
+    "contactId": "contactId",
+    "eventId": "eventId",
+    "eventSnapshotVersion": Object {
+      "eventId": "eventSnapshotVersion",
+    },
+    "inviteeId": "inviteeId",
+    "status": "INPROGRESS",
+    "substituentInformation": Object {
+      "emailAddress": "emailAddress@abc.xyz",
+      "firstName": "firstName",
+      "lastName": "lastName",
+    },
+    "substitutionCartId": "substitutionCartId",
+    "travelSnapshotVersion": Object {
+      "eventId": "travelSnapshotVersion",
+    },
+  },
+  "substitutionForm": Object {
+    "emailAddress": "emailAddress@abc.xyz",
+    "firstName": "firstName",
+    "lastName": "lastName",
+  },
+  "validationList": null,
+}
+`;

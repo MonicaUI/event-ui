@@ -1,0 +1,2889 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomContactFieldDateTime Use GraphQL widget data Visibility logic tests Should evaluate visibility logic when a valid date is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+]
+`;
+
+exports[`CustomContactFieldDateTime Use GraphQL widget data Visibility logic tests Should evaluate visibilty logic when a empty value is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+]
+`;
+
+exports[`CustomContactFieldDateTime Use GraphQL widget data Visibility logic tests Should not evaluate visibility logic when an invalid date is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+]
+`;
+
+exports[`CustomContactFieldDateTime Use GraphQL widget data date time custom field have all dates between max date and min date (inclusive) enabled in calendar pop-up 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        >
+          <legend
+            class="label"
+            for="dateTimeCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <div
+              data-cvent-id="input"
+            >
+              <div
+                class="elementSideBySide"
+                data-cvent-id="date-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.date"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    data-cvent-id="trigger"
+                  >
+                    <span>
+                      <div
+                        class=""
+                      >
+                        <input
+                          autocomplete="off"
+                          class="textboxDate"
+                          data-cvent-id="input"
+                          id="dateTimeCustomField1.date"
+                          name="dateTimeCustomField1.date"
+                          placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                          required=""
+                          type="text"
+                          value="01/02/2000"
+                        />
+                      </div>
+                    </span>
+                    <span
+                      class="mockNucleusCoreTransition"
+                    >
+                      <span>
+                        <div>
+                          <div
+                            autocomplete="off"
+                            class=""
+                            data-cvent-id="input"
+                            required=""
+                            role="application"
+                            tabindex="-1"
+                          >
+                            <div
+                              class=""
+                            >
+                              <div
+                                class=""
+                                disabled=""
+                                role="button"
+                                tabindex="-1"
+                              >
+                                <span
+                                  class="container"
+                                >
+                                  <span
+                                    aria-label="NucleusCoreComponent_PickADate_PreviousMonthNavButtonLabel__resx"
+                                    class=""
+                                    role="img"
+                                  />
+                                </span>
+                              </div>
+                              <div
+                                class=""
+                                disabled=""
+                                role="button"
+                                tabindex="-1"
+                              >
+                                <span
+                                  class="container"
+                                >
+                                  <span
+                                    aria-label="NucleusCoreComponent_PickADate_NextMonthNavButtonLabel__resx"
+                                    class=""
+                                    role="img"
+                                  />
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <div
+                                class=""
+                              >
+                                <div
+                                  class=""
+                                >
+                                  <label
+                                    class=""
+                                    for="monthOptions"
+                                  >
+                                    <span
+                                      class=""
+                                    >
+                                      <span
+                                        data-cvent-id="label"
+                                      >
+                                        NucleusCoreComponent_PickADate_MonthDropdownLabel__resx
+                                      </span>
+                                    </span>
+                                  </label>
+                                  <div
+                                    class=""
+                                  >
+                                    <select
+                                      class=""
+                                      data-cvent-id="input"
+                                      id="monthOptions"
+                                      name="monthOptions"
+                                      tabindex="-1"
+                                    >
+                                      <option
+                                        data-cvent-id="option-0"
+                                        value="0"
+                                      >
+                                        Jan
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-1"
+                                        value="1"
+                                      >
+                                        Feb
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-2"
+                                        value="2"
+                                      >
+                                        Mar
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-3"
+                                        value="3"
+                                      >
+                                        Apr
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-4"
+                                        value="4"
+                                      >
+                                        May
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-5"
+                                        value="5"
+                                      >
+                                        Jun
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-6"
+                                        value="6"
+                                      >
+                                        Jul
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-7"
+                                        value="7"
+                                      >
+                                        Aug
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-8"
+                                        value="8"
+                                      >
+                                        Sep
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-9"
+                                        value="9"
+                                      >
+                                        Oct
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-10"
+                                        value="10"
+                                      >
+                                        Nov
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-11"
+                                        value="11"
+                                      >
+                                        Dec
+                                      </option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                >
+                                  <label
+                                    class=""
+                                    for="yearOptions"
+                                  >
+                                    <span
+                                      class=""
+                                    >
+                                      <span
+                                        data-cvent-id="label"
+                                      >
+                                        NucleusCoreComponent_PickADate_YearDropdownLabel__resx
+                                      </span>
+                                    </span>
+                                  </label>
+                                  <div
+                                    class=""
+                                  >
+                                    <select
+                                      class=""
+                                      data-cvent-id="input"
+                                      id="yearOptions"
+                                      name="yearOptions"
+                                      tabindex="-1"
+                                    >
+                                      <option
+                                        data-cvent-id="option-0"
+                                        value="0"
+                                      >
+                                        2019
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-1"
+                                        value="1"
+                                      >
+                                        2000
+                                      </option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class=""
+                                role="rowgroup"
+                              >
+                                <div
+                                  class=""
+                                  role="columnheader"
+                                >
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Sunday"
+                                    >
+                                      Sun
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Monday"
+                                    >
+                                      Mon
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Tuesday"
+                                    >
+                                      Tue
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Wednesday"
+                                    >
+                                      Wed
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Thursday"
+                                    >
+                                      Thu
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Friday"
+                                    >
+                                      Fri
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Saturday"
+                                    >
+                                      Sat
+                                    </abbr>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class=""
+                                role="grid"
+                              >
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Dec 26 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    26
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Dec 27 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    27
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Dec 28 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    28
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Dec 29 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    29
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Dec 30 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    30
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Dec 31 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    31
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 01 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    1
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 02 2000"
+                                    aria-selected="true"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    2
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 03 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    3
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Jan 04 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    4
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Jan 05 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    5
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Jan 06 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    6
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Jan 07 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    7
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 08 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    8
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 09 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    9
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 10 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    10
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Jan 11 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    11
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Jan 12 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    12
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Jan 13 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    13
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Jan 14 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    14
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 15 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    15
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 16 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    16
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 17 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    17
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Jan 18 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    18
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Jan 19 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    19
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Jan 20 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    20
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Jan 21 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    21
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 22 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    22
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 23 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    23
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 24 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    24
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Jan 25 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    25
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Jan 26 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    26
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Jan 27 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    27
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Jan 28 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    28
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 29 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    29
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 30 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    30
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 31 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    31
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Feb 01 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    1
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Feb 02 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    2
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Feb 03 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    3
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Feb 04 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    4
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Feb 05 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    5
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementSideBySide"
+                data-cvent-id="time-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.time"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <input
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    id="dateTimeCustomField1.time"
+                    name="dateTimeCustomField1.time"
+                    required=""
+                    type="text"
+                    value="01:23 AM"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomContactFieldDateTime Use GraphQL widget data date time custom field renders and allows you to enter values 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        >
+          <legend
+            class="label"
+            for="dateTimeCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <div
+              data-cvent-id="input"
+            >
+              <div
+                class="elementSideBySide"
+                data-cvent-id="date-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.date"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    data-cvent-id="trigger"
+                  >
+                    <span>
+                      <div
+                        class=""
+                      >
+                        <input
+                          autocomplete="off"
+                          class="textboxDate"
+                          data-cvent-id="input"
+                          id="dateTimeCustomField1.date"
+                          name="dateTimeCustomField1.date"
+                          placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                          required=""
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </span>
+                    <span
+                      class="mockNucleusCoreTransition"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementSideBySide"
+                data-cvent-id="time-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.time"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <input
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    id="dateTimeCustomField1.time"
+                    name="dateTimeCustomField1.time"
+                    required=""
+                    type="text"
+                    value="--:-- AM"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomContactFieldDateTime Use GraphQL widget data date time custom field renders and allows you to enter values 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        >
+          <legend
+            class="label"
+            for="dateTimeCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <div
+              data-cvent-id="input"
+            >
+              <div
+                class="elementSideBySide"
+                data-cvent-id="date-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.date"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    data-cvent-id="trigger"
+                  >
+                    <span>
+                      <div
+                        class=""
+                      >
+                        <input
+                          autocomplete="off"
+                          class="textboxDate"
+                          data-cvent-id="input"
+                          id="dateTimeCustomField1.date"
+                          name="dateTimeCustomField1.date"
+                          placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                          required=""
+                          type="text"
+                          value="01/02/2000"
+                        />
+                      </div>
+                    </span>
+                    <span
+                      class="mockNucleusCoreTransition"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementSideBySide"
+                data-cvent-id="time-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.time"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <input
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    id="dateTimeCustomField1.time"
+                    name="dateTimeCustomField1.time"
+                    required=""
+                    type="text"
+                    value="--:-- AM"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomContactFieldDateTime Use GraphQL widget data date time custom field renders and allows you to enter values 3`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        >
+          <legend
+            class="label"
+            for="dateTimeCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <div
+              data-cvent-id="input"
+            >
+              <div
+                class="elementSideBySide"
+                data-cvent-id="date-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.date"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    data-cvent-id="trigger"
+                  >
+                    <span>
+                      <div
+                        class=""
+                      >
+                        <input
+                          autocomplete="off"
+                          class="textboxDate"
+                          data-cvent-id="input"
+                          id="dateTimeCustomField1.date"
+                          name="dateTimeCustomField1.date"
+                          placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                          required=""
+                          type="text"
+                          value="01/02/2000"
+                        />
+                      </div>
+                    </span>
+                    <span
+                      class="mockNucleusCoreTransition"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementSideBySide"
+                data-cvent-id="time-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.time"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <input
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    id="dateTimeCustomField1.time"
+                    name="dateTimeCustomField1.time"
+                    required=""
+                    type="text"
+                    value="01:23 AM"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomContactFieldDateTime Use GraphQL widget data date time custom field renders and allows you to enter values 4`] = `
+Object {
+  "personalInformation": Object {
+    "customFields": Object {
+      "dateTimeCustomField1": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Text",
+            "text": "2000-01-02 01:23:00",
+          },
+        ],
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+  },
+}
+`;
+
+exports[`CustomContactFieldDateTime Use Redux widget data Visibility logic tests Should evaluate visibility logic when a valid date is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+]
+`;
+
+exports[`CustomContactFieldDateTime Use Redux widget data Visibility logic tests Should evaluate visibilty logic when a empty value is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+]
+`;
+
+exports[`CustomContactFieldDateTime Use Redux widget data Visibility logic tests Should not evaluate visibility logic when an invalid date is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "customFields",
+        "dateTimeCustomField1",
+      ],
+      "value": Object {
+        "answers": null,
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+]
+`;
+
+exports[`CustomContactFieldDateTime Use Redux widget data date time custom field have all dates between max date and min date (inclusive) enabled in calendar pop-up 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        >
+          <legend
+            class="label"
+            for="dateTimeCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <div
+              data-cvent-id="input"
+            >
+              <div
+                class="elementSideBySide"
+                data-cvent-id="date-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.date"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    data-cvent-id="trigger"
+                  >
+                    <span>
+                      <div
+                        class=""
+                      >
+                        <input
+                          autocomplete="off"
+                          class="textboxDate"
+                          data-cvent-id="input"
+                          id="dateTimeCustomField1.date"
+                          name="dateTimeCustomField1.date"
+                          placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                          required=""
+                          type="text"
+                          value="01/02/2000"
+                        />
+                      </div>
+                    </span>
+                    <span
+                      class="mockNucleusCoreTransition"
+                    >
+                      <span>
+                        <div>
+                          <div
+                            autocomplete="off"
+                            class=""
+                            data-cvent-id="input"
+                            required=""
+                            role="application"
+                            tabindex="-1"
+                          >
+                            <div
+                              class=""
+                            >
+                              <div
+                                class=""
+                                disabled=""
+                                role="button"
+                                tabindex="-1"
+                              >
+                                <span
+                                  class="container"
+                                >
+                                  <span
+                                    aria-label="NucleusCoreComponent_PickADate_PreviousMonthNavButtonLabel__resx"
+                                    class=""
+                                    role="img"
+                                  />
+                                </span>
+                              </div>
+                              <div
+                                class=""
+                                disabled=""
+                                role="button"
+                                tabindex="-1"
+                              >
+                                <span
+                                  class="container"
+                                >
+                                  <span
+                                    aria-label="NucleusCoreComponent_PickADate_NextMonthNavButtonLabel__resx"
+                                    class=""
+                                    role="img"
+                                  />
+                                </span>
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <div
+                                class=""
+                              >
+                                <div
+                                  class=""
+                                >
+                                  <label
+                                    class=""
+                                    for="monthOptions"
+                                  >
+                                    <span
+                                      class=""
+                                    >
+                                      <span
+                                        data-cvent-id="label"
+                                      >
+                                        NucleusCoreComponent_PickADate_MonthDropdownLabel__resx
+                                      </span>
+                                    </span>
+                                  </label>
+                                  <div
+                                    class=""
+                                  >
+                                    <select
+                                      class=""
+                                      data-cvent-id="input"
+                                      id="monthOptions"
+                                      name="monthOptions"
+                                      tabindex="-1"
+                                    >
+                                      <option
+                                        data-cvent-id="option-0"
+                                        value="0"
+                                      >
+                                        Jan
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-1"
+                                        value="1"
+                                      >
+                                        Feb
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-2"
+                                        value="2"
+                                      >
+                                        Mar
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-3"
+                                        value="3"
+                                      >
+                                        Apr
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-4"
+                                        value="4"
+                                      >
+                                        May
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-5"
+                                        value="5"
+                                      >
+                                        Jun
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-6"
+                                        value="6"
+                                      >
+                                        Jul
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-7"
+                                        value="7"
+                                      >
+                                        Aug
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-8"
+                                        value="8"
+                                      >
+                                        Sep
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-9"
+                                        value="9"
+                                      >
+                                        Oct
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-10"
+                                        value="10"
+                                      >
+                                        Nov
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-11"
+                                        value="11"
+                                      >
+                                        Dec
+                                      </option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                >
+                                  <label
+                                    class=""
+                                    for="yearOptions"
+                                  >
+                                    <span
+                                      class=""
+                                    >
+                                      <span
+                                        data-cvent-id="label"
+                                      >
+                                        NucleusCoreComponent_PickADate_YearDropdownLabel__resx
+                                      </span>
+                                    </span>
+                                  </label>
+                                  <div
+                                    class=""
+                                  >
+                                    <select
+                                      class=""
+                                      data-cvent-id="input"
+                                      id="yearOptions"
+                                      name="yearOptions"
+                                      tabindex="-1"
+                                    >
+                                      <option
+                                        data-cvent-id="option-0"
+                                        value="0"
+                                      >
+                                        2019
+                                      </option>
+                                      <option
+                                        data-cvent-id="option-1"
+                                        value="1"
+                                      >
+                                        2000
+                                      </option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class=""
+                                role="rowgroup"
+                              >
+                                <div
+                                  class=""
+                                  role="columnheader"
+                                >
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Sunday"
+                                    >
+                                      Sun
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Monday"
+                                    >
+                                      Mon
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Tuesday"
+                                    >
+                                      Tue
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Wednesday"
+                                    >
+                                      Wed
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Thursday"
+                                    >
+                                      Thu
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Friday"
+                                    >
+                                      Fri
+                                    </abbr>
+                                  </div>
+                                  <div
+                                    class=""
+                                  >
+                                    <abbr
+                                      title="Saturday"
+                                    >
+                                      Sat
+                                    </abbr>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class=""
+                                role="grid"
+                              >
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Dec 26 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    26
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Dec 27 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    27
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Dec 28 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    28
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Dec 29 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    29
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Dec 30 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    30
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Dec 31 1999"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    31
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 01 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    1
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 02 2000"
+                                    aria-selected="true"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    2
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 03 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    3
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Jan 04 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    4
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Jan 05 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    5
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Jan 06 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    6
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Jan 07 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    7
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 08 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    8
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 09 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    9
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 10 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    10
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Jan 11 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    11
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Jan 12 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    12
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Jan 13 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    13
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Jan 14 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    14
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 15 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    15
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 16 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    16
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 17 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    17
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Jan 18 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    18
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Jan 19 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    19
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Jan 20 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    20
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Jan 21 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    21
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 22 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    22
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 23 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    23
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 24 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    24
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Jan 25 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    25
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Jan 26 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    26
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Jan 27 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    27
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Jan 28 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    28
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Jan 29 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    29
+                                  </div>
+                                </div>
+                                <div
+                                  class=""
+                                  role="gridcell"
+                                >
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sun Jan 30 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    30
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Mon Jan 31 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                    tabindex="-1"
+                                  >
+                                    31
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Tue Feb 01 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    1
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Wed Feb 02 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    2
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Thu Feb 03 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    3
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Fri Feb 04 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    4
+                                  </div>
+                                  <div
+                                    aria-disabled="true"
+                                    aria-label="Sat Feb 05 2000"
+                                    aria-selected="false"
+                                    class=""
+                                    role="gridcell"
+                                  >
+                                    5
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementSideBySide"
+                data-cvent-id="time-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.time"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <input
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    id="dateTimeCustomField1.time"
+                    name="dateTimeCustomField1.time"
+                    required=""
+                    type="text"
+                    value="01:23 AM"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomContactFieldDateTime Use Redux widget data date time custom field renders and allows you to enter values 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        >
+          <legend
+            class="label"
+            for="dateTimeCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <div
+              data-cvent-id="input"
+            >
+              <div
+                class="elementSideBySide"
+                data-cvent-id="date-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.date"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    data-cvent-id="trigger"
+                  >
+                    <span>
+                      <div
+                        class=""
+                      >
+                        <input
+                          autocomplete="off"
+                          class="textboxDate"
+                          data-cvent-id="input"
+                          id="dateTimeCustomField1.date"
+                          name="dateTimeCustomField1.date"
+                          placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                          required=""
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </span>
+                    <span
+                      class="mockNucleusCoreTransition"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementSideBySide"
+                data-cvent-id="time-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.time"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <input
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    id="dateTimeCustomField1.time"
+                    name="dateTimeCustomField1.time"
+                    required=""
+                    type="text"
+                    value="--:-- AM"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomContactFieldDateTime Use Redux widget data date time custom field renders and allows you to enter values 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        >
+          <legend
+            class="label"
+            for="dateTimeCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <div
+              data-cvent-id="input"
+            >
+              <div
+                class="elementSideBySide"
+                data-cvent-id="date-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.date"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    data-cvent-id="trigger"
+                  >
+                    <span>
+                      <div
+                        class=""
+                      >
+                        <input
+                          autocomplete="off"
+                          class="textboxDate"
+                          data-cvent-id="input"
+                          id="dateTimeCustomField1.date"
+                          name="dateTimeCustomField1.date"
+                          placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                          required=""
+                          type="text"
+                          value="01/02/2000"
+                        />
+                      </div>
+                    </span>
+                    <span
+                      class="mockNucleusCoreTransition"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementSideBySide"
+                data-cvent-id="time-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.time"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <input
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    id="dateTimeCustomField1.time"
+                    name="dateTimeCustomField1.time"
+                    required=""
+                    type="text"
+                    value="--:-- AM"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomContactFieldDateTime Use Redux widget data date time custom field renders and allows you to enter values 3`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-dateTimeCustomField1"
+        >
+          <legend
+            class="label"
+            for="dateTimeCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <div
+              data-cvent-id="input"
+            >
+              <div
+                class="elementSideBySide"
+                data-cvent-id="date-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.date"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    data-cvent-id="trigger"
+                  >
+                    <span>
+                      <div
+                        class=""
+                      >
+                        <input
+                          autocomplete="off"
+                          class="textboxDate"
+                          data-cvent-id="input"
+                          id="dateTimeCustomField1.date"
+                          name="dateTimeCustomField1.date"
+                          placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                          required=""
+                          type="text"
+                          value="01/02/2000"
+                        />
+                      </div>
+                    </span>
+                    <span
+                      class="mockNucleusCoreTransition"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementSideBySide"
+                data-cvent-id="time-picker"
+              >
+                <label
+                  class="hidden hidden"
+                  for="dateTimeCustomField1.time"
+                >
+                  <span
+                    class=""
+                  >
+                    <span
+                      class=""
+                    >
+                      * 
+                    </span>
+                    <span
+                      data-cvent-id="label"
+                    >
+                      NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                    </span>
+                  </span>
+                </label>
+                <div
+                  class=""
+                >
+                  <input
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    id="dateTimeCustomField1.time"
+                    name="dateTimeCustomField1.time"
+                    required=""
+                    type="text"
+                    value="01:23 AM"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomContactFieldDateTime Use Redux widget data date time custom field renders and allows you to enter values 4`] = `
+Object {
+  "personalInformation": Object {
+    "customFields": Object {
+      "dateTimeCustomField1": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Text",
+            "text": "2000-01-02 01:23:00",
+          },
+        ],
+        "questionId": "dateTimeCustomField1",
+      },
+    },
+  },
+}
+`;

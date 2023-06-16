@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTagsResolutionClient.resolve matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"text\\":[{\\"value\\":\\"dataTag1\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"dataTag2\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"{[E-RSVP YES URL]}\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"{[E-RSVP NO URL]}\\",\\"output-mime-type\\":\\"html\\"}],\\"context\\":{\\"eventStub\\":\\"eventId\\",\\"additionalProperties\\":{\\"evtRegTypeId\\":\\"4\\"}},\\"recipients\\":[\\"00000000-0000-0000-0000-000000000000\\"],\\"timePattern\\":\\"24\\",\\"datePattern\\":\\"WCMMSD1C4\\",\\"timeZone\\":\\"\\",\\"environment\\":\\"dev\\",\\"isPreview\\":false,\\"language\\":\\"en-US\\"}",
+    "_bodyText": "{\\"text\\":[{\\"value\\":\\"dataTag1\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"dataTag2\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"{[E-RSVP YES URL]}\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"{[E-RSVP NO URL]}\\",\\"output-mime-type\\":\\"html\\"}],\\"context\\":{\\"eventStub\\":\\"eventId\\",\\"additionalProperties\\":{\\"evtRegTypeId\\":\\"4\\"}},\\"recipients\\":[\\"00000000-0000-0000-0000-000000000000\\"],\\"timePattern\\":\\"24\\",\\"datePattern\\":\\"WCMMSD1C4\\",\\"timeZone\\":\\"\\",\\"environment\\":\\"dev\\",\\"isPreview\\":false,\\"language\\":\\"en-US\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/datatags-resolution/resolution/v1/resolve/batch?environment=dev",
+  },
+]
+`;
+
+exports[`DataTagsResolutionClient.resolve matches snapshot 2`] = `
+Object {
+  "eventId": Array [
+    "resolved dataTag1",
+    "resolved dataTag2",
+    "https://example.com/regBase/summary",
+    "https://example.com/regBase/decline",
+  ],
+}
+`;
+
+exports[`DataTagsResolutionClient.resolveWithDefaultLanguage matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"text\\":[{\\"value\\":\\"dataTag1\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"dataTag2\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"{[E-RSVP YES URL]}\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"{[E-RSVP NO URL]}\\",\\"output-mime-type\\":\\"html\\"}],\\"context\\":{\\"eventStub\\":\\"eventId\\",\\"additionalProperties\\":{\\"evtRegTypeId\\":\\"4\\"}},\\"recipients\\":[\\"00000000-0000-0000-0000-000000000000\\"],\\"timePattern\\":\\"24\\",\\"datePattern\\":\\"WCMMSD1C4\\",\\"timeZone\\":\\"\\",\\"environment\\":\\"dev\\",\\"isPreview\\":false,\\"language\\":\\"en-US\\"}",
+    "_bodyText": "{\\"text\\":[{\\"value\\":\\"dataTag1\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"dataTag2\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"{[E-RSVP YES URL]}\\",\\"output-mime-type\\":\\"html\\"},{\\"value\\":\\"{[E-RSVP NO URL]}\\",\\"output-mime-type\\":\\"html\\"}],\\"context\\":{\\"eventStub\\":\\"eventId\\",\\"additionalProperties\\":{\\"evtRegTypeId\\":\\"4\\"}},\\"recipients\\":[\\"00000000-0000-0000-0000-000000000000\\"],\\"timePattern\\":\\"24\\",\\"datePattern\\":\\"WCMMSD1C4\\",\\"timeZone\\":\\"\\",\\"environment\\":\\"dev\\",\\"isPreview\\":false,\\"language\\":\\"en-US\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/datatags-resolution/resolution/v1/resolve/batch?environment=dev",
+  },
+]
+`;
+
+exports[`DataTagsResolutionClient.resolveWithDefaultLanguage matches snapshot 2`] = `
+Object {
+  "resolved": Object {
+    "00000000-0000-0000-0000-000000000000": Array [
+      "resolved dataTag1",
+      "resolved dataTag2",
+      "https://example.com/regBase/summary",
+      "https://example.com/regBase/decline",
+    ],
+  },
+}
+`;
+
+exports[`datatags.removeDataTags matches snapshot for NO URL 1`] = `
+Array [
+  "resolved dataTag1",
+  "resolved dataTag2",
+  "https://web-fake.cvent.com/decline",
+]
+`;
+
+exports[`datatags.removeDataTags matches snapshot for YES URL 1`] = `
+Array [
+  "resolved dataTag1",
+  "resolved dataTag2",
+  "https://web-fake.cvent.com/00000000-00000000-00000000-00000000/register",
+]
+`;

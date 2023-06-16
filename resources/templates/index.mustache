@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="{{vars.lang}}">
+<head>
+    <title>{{vars.title}}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{vars.meta}}
+    {{{vars.newRelic}}}
+    {{{#vars.eventContext.showEventBuildWizardBanner}}}
+        {{{vars.pendoAnalytics}}}
+    {{{/vars.eventContext.showEventBuildWizardBanner}}}
+    <script nonce="{{{vars.nonce}}}" >
+        if (window.newrelic) {
+            window.newrelic.setCustomAttribute('cventAccountName',  '{{vars.accountName}}')
+            window.newrelic.setCustomAttribute('cventEventId',  '{{vars.eventId}}')
+            window.newrelic.setCustomAttribute('cventEventTitle',  '{{vars.eventTitle}}')
+            window.newrelic.setCustomAttribute('hasMultipleLanguages', '{{vars.hasMultipleLanguages}}')
+        }
+    </script>
+    {{{webpackPublicPath}}}
+    {{{webpackManifest}}}
+    <link rel="canonical" href={{vars.canonicalUrl}} />
+    <link nonce="{{{vars.nonce}}}" rel="icon" type="image/png" href="{{vars.faviconPath}}">
+    <link nonce="{{{vars.nonce}}}" rel="apple-touch-icon" type="image/png" href="{{vars.faviconPath}}">
+    <style id="richTextRendererStyles"></style>
+    {{#webpackCss}}
+    {{{.}}}
+    {{/webpackCss}}
+</head>
+<body>
+  <div id="react-mount"></div>
+  {{#webpackEntry}}
+  {{{.}}}
+  {{/webpackEntry}}
+  <script nonce="{{{vars.nonce}}}">
+    window.CVENT = {
+      codeSnippets: {},
+      codeSnippetsWithResolvedDatatags: {},
+      addTriggerHandlers: function (event, triggerHandler) {
+        if (!this.codeSnippets[event]) {
+          this.codeSnippets[event] = [];
+        }
+        this.codeSnippets[event].push(triggerHandler);
+      },
+      runTriggerHandlers: function (event) {
+        if (this.codeSnippetsWithResolvedDatatags[event] && this.codeSnippetsWithResolvedDatatags[event].length > 0) {
+          let handlers = this.codeSnippetsWithResolvedDatatags[event];
+          for (let i=0; i < handlers.length; i++) {
+            try {
+              new Function(handlers[i])();
+            } catch (ex) {
+              // ignore errors in third-party snippets
+              console.error(`error in code snippet for ${event}`, ex);
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <script nonce="{{{vars.nonce}}}">
+    {{vars.initializationCodeSnippets}}
+    {{{vars.triggerBasedCodeSnippets}}}
+  </script>
+
+  <script nonce="{{{vars.nonce}}}">
+      {{{vars.googleAnalyticsScript}}}
+  </script>
+
+  <script nonce="{{{vars.nonce}}}"
+      nomodule
+      id="internet-explorer-is-dead"
+      src="{{vars.assetRoot}}internet-explorer-is-dead.v2.js"
+      data-asset-root="{{vars.assetRoot}}"
+      data-culture-code="{{vars.cultureCode}}"
+  ></script>
+
+  <script nonce="{{{vars.nonce}}}" >
+    function applicationInit() {
+      window.version = '{{vars.version}}';
+
+      var applicationSettings = {
+        viewRoot: '{{vars.viewRoot}}',
+        accountName: '{{vars.accountName}}',
+        createdBy: '{{vars.createdBy}}',
+        analyticsUrl: '{{vars.analyticsUrl}}',
+        analyticsUrlPath: '{{vars.analyticsUrlPath}}',
+        attendeeExperienceUrl: '{{vars.attendeeExperienceUrl}}',
+        webPaymentsSettings: '{{{vars.webPaymentsSettings}}}',
+        assetRoot: '{{vars.assetRoot}}',
+        baseName: '{{vars.baseName}}',
+        environment: '{{vars.environment}}',
+        isDebug: {{vars.isDebug}},
+        eventContext: {{{vars.eventContext}}},
+        accessToken: '{{vars.accessToken}}',
+        serviceBaseUrl: '{{vars.serviceBaseUrl}}',
+        logToServer: {{vars.logToServer}},
+        googleApiKey: '{{vars.googleApiKey}}',
+        eventLaunchWizardSettings: '{{{vars.eventLaunchWizardSettings}}}',
+        plannerRegSettings: {
+          successUrl: '{{{vars.onPlannerRegSuccessUrl}}}',
+          exitUrl: '{{{vars.onPlannerRegExitUrl}}}',
+          sendEmail: {{vars.plannerSendEmail}},
+          modificationRequest: {{{vars.modificationRequest}}},
+          apolloServerBaseUrl: '{{{vars.plannerApolloServerBaseUrl}}}',
+        },
+        cultureCode: '{{vars.cultureCode}}',
+        eventTimezoneId: {{vars.eventTimezoneId}},
+        capacityIds: {{{vars.capacityIds}}},
+        isTravelEnabled: {{vars.isTravelEnabled}},
+        accountSnapshotVersion: '{{vars.accountSnapshotVersion}}',
+        eventSnapshotVersion: '{{vars.eventSnapshotVersion}}',
+        travelSnapshotVersion: '{{vars.travelSnapshotVersion}}',
+        experiments: {{{vars.experiments}}},
+        appleMapToken: '{{vars.appleMapToken}}',
+        appointmentsUrl: '{{vars.appointmentsUrl}}',
+        deemUrl: '{{vars.deemUrl}}'
+      };
+      loadAssets(applicationSettings);
+  }
+    if (!window.cvtUnsupportedBrowser) {
+      applicationInit();
+    } else {
+      window.loadInUnsupportedBrowser = applicationInit;
+    }
+  </script>
+</body>
+</html>

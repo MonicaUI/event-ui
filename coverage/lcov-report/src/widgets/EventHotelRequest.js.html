@@ -1,0 +1,323 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/widgets/EventHotelRequest.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/widgets</a> EventHotelRequest.js</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>0/18</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/14</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>0/18</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+    </div>
+    <div class='status-line low'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { connect } from 'react-redux';
+import { withLoading } from 'nucleus-guestside-site/src/redux/modules/dialogContainer';
+import HotelRequestWidget from 'event-widgets/lib/HotelRequest/HotelRequestWidget';
+import { toggleOwnAccommodation, showHotelRequestSummaryView, setAnotherHotelRequestFlag,
+  updateExpandedHotels, loadRoommateData, searchRoommates } from '../redux/travelCart/index';
+import { saveHotelRoomRequests, openHotelRequestDeleteConfirmation } from '../redux/travelCart/workflow';
+import * as currentRegistrant from '../redux/selectors/currentRegistrant';
+import { getHotelRoomBookingsToDisplay } from '../utils/travelUtils';
+import * as travel from 'event-widgets/redux/selectors/eventTravel';
+import { getActiveAccountHotelBillingInstructions } from '../redux/selectors/shared';
+import { openShoulderDateApprovalWarningDialog } from '../dialogs';
+import { transformEventDates } from 'event-widgets/utils/travelUtils';
+import { getRegistrationPathIdOrDefault } from '../redux/selectors/currentRegistrationPath';
+import { getIn } from 'icepick';
+&nbsp;
+export default connect(<span class="fstat-no" title="function not covered" >(s</span>tate) =&gt; {
+  const primaryEventRegistration = <span class="cstat-no" title="statement not covered" >currentRegistrant.getEventRegistration(state) || {};</span>
+  const guestsEventRegistrations = <span class="cstat-no" title="statement not covered" >currentRegistrant.getConfirmedGuests(state) || [];</span>
+  const isGroupRegistration = <span class="cstat-no" title="statement not covered" >currentRegistrant.isGroupRegistration(state);</span>
+&nbsp;
+  const hotelRequestsForCurrentInvitee = <span class="cstat-no" title="statement not covered" >getHotelRoomBookingsToDisplay(state,</span>
+    primaryEventRegistration.eventRegistrationId, guestsEventRegistrations.map(<span class="fstat-no" title="function not covered" >r </span>=&gt; <span class="cstat-no" title="statement not covered" >r.eventRegistrationId)</span>);
+&nbsp;
+  const hotelRegRules = <span class="cstat-no" title="statement not covered" >travel.getHotelRegRules(state);</span>
+  const admissionItem = <span class="cstat-no" title="statement not covered" >currentRegistrant.getSelectedAdmissionItemDefinition(state) || {};</span>
+  const isPlanner = <span class="cstat-no" title="statement not covered" >state.defaultUserSession.isPlanner;</span>
+  const isRegMod = <span class="cstat-no" title="statement not covered" >currentRegistrant.isRegistrationModification(state);</span>
+&nbsp;
+  const isPendingInvitee = <span class="cstat-no" title="statement not covered" >currentRegistrant.isRegApprovalRequired(state);</span>
+  const isPendingInviteeModification = <span class="cstat-no" title="statement not covered" >isPendingInvitee &amp;&amp; isRegMod;</span>
+&nbsp;
+  // show planner fields only if planner is registering OR (modifying an approved invitee).
+  const displayPlannerFields = <span class="cstat-no" title="statement not covered" >isPlanner &amp;&amp; !isPendingInviteeModification;</span>
+  const currentRegistrationPathId = <span class="cstat-no" title="statement not covered" >getRegistrationPathIdOrDefault(state);</span>
+  const roommateRequestSettings = <span class="cstat-no" title="statement not covered" >getIn(state, ['appData', 'registrationSettings', 'registrationPaths',</span>
+    currentRegistrationPathId, 'travelSettings', 'hotelRequestSettings', 'roommateRequestSettings']);
+  const hotelRequestSessionInfo = <span class="cstat-no" title="statement not covered" >getIn(state, ['travelCart', 'userSession', 'hotelRequest']);</span>
+  const selectedRooms = <span class="cstat-no" title="statement not covered" >[...hotelRequestsForCurrentInvitee.primary, ...hotelRequestsForCurrentInvitee.guests];</span>
+  const isSummaryView = <span class="cstat-no" title="statement not covered" >(selectedRooms.length &gt; 0 &amp;&amp; hotelRequestSessionInfo.expandedHotels.length === 0 &amp;&amp;</span>
+    !hotelRequestSessionInfo.isMakingAnotherRequest) || hotelRequestSessionInfo.isSummaryView;
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    hotelsData: {
+      ...state.eventTravel.hotelsData,
+      selectedRooms,
+      isOwnAccommodation: hotelRequestSessionInfo.ownBooking
+    },
+    translateCurrency: state.text.resolver.currency,
+    translateDate: state.text.translateDate,
+    event: transformEventDates(state),
+    registrationPathId: getRegistrationPathIdOrDefault(state),
+    registrationTypeId: currentRegistrant.getRegistrationTypeId(state),
+    isPlanner,
+    isGroupRegistration,
+    isSiteEditorPreview: false,
+    roommateRequestSettings,
+    registrations: {
+      primary: primaryEventRegistration,
+      guests: guestsEventRegistrations
+    },
+    roommates: state.travelCart.roommates,
+    hotelRegRules,
+    admissionItemId: admissionItem.id,
+    displayPlannerFields,
+    accountHotelBillingInstructions: getActiveAccountHotelBillingInstructions(state),
+    isRegMod,
+    isSummaryView,
+    expandedHotels: hotelRequestSessionInfo.expandedHotels,
+    isPendingInvitee
+  };
+}, {
+  toggleOwnAccommodation,
+  showHotelRequestSummaryView,
+  updateExpandedHotels,
+  setAnotherHotelRequestFlag,
+  onRoommateCriteriaChange: withLoading(loadRoommateData),
+  onRoommateSearch: searchRoommates,
+  onSubmitRoomRequest: saveHotelRoomRequests,
+  onClearRoomSelection: openHotelRequestDeleteConfirmation,
+  onRequestShoulderDatesRequiringApproval: openShoulderDateApprovalWarningDialog
+})(HotelRequestWidget);
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Sat Mar 20 2021 16:38:05 GMT-0400 (Eastern Daylight Time)
+            </div>
+        </div>
+        <script src="../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
+    </body>
+</html>
+    

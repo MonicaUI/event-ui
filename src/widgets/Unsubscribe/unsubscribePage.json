@@ -1,0 +1,353 @@
+{
+  "pages": {
+    "unsubscribeSubscribe": {
+      "id": "unsubscribeSubscribe",
+      "title": "EventGuest_UnsubscribeSubscribe_PageTitle__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:unsubscribe"
+      ]
+    }
+  },
+  "layoutItems": {
+    "container:unsubscribe": {
+      "id": "container:unsubscribe",
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:unsubscribe"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "sectionRow:unsubscribe": {
+      "id": "sectionRow:unsubscribe",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:unsubscribe"
+        ],
+        "cellSize": 4,
+        "parentId": "container:unsubscribe"
+      },
+      "config": {
+        "style": {},
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "columnLayoutId": "ONE_COLUMN"
+      }
+    },
+    "sectionColumn:unsubscribe": {
+      "id": "sectionColumn:unsubscribe",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:unsubscribe-header",
+          "row:unsubscribe-description",
+          "row:unsubscribe-contact-info",
+          "row:unsubscribe-action-instruction",
+          "row:unsubscribe-action-button",
+          "row:unsubscribe-opt-out-link"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:unsubscribe"
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "row:unsubscribe-header": {
+      "id": "row:unsubscribe-header",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:unsubscribe",
+        "childIds": [
+          "widget:unsubscribe-header"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:unsubscribe-header": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:unsubscribe-header"
+      },
+      "id": "widget:unsubscribe-header",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "header2",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_Unsubscribe_HeaderText__resx",
+        "alternateText": "EventGuestSide_ReSubscribe_HeaderText__resx"
+      },
+      "widgetType": "UnsubscribeText"
+    },
+    "row:unsubscribe-description": {
+      "id": "row:unsubscribe-description",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:unsubscribe",
+        "childIds": [
+          "widget:unsubscribe-description"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:unsubscribe-description": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:unsubscribe-description"
+      },
+      "id": "widget:unsubscribe-description",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "body1",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_Unsubscribe_DescriptionText__resx",
+        "alternateText": "EventGuestSide_ReSubscribe_DescriptionText__resx"
+      },
+      "widgetType": "UnsubscribeText"
+    },
+    "row:unsubscribe-contact-info": {
+      "id": "row:unsubscribe-contact-info",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:unsubscribe",
+        "childIds": [
+          "widget:unsubscribe-contact-name"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:unsubscribe-contact-name": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:unsubscribe-contact-info"
+      },
+      "id": "widget:unsubscribe-contact-name",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 30,
+              "paddingBottom": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "styleMapping": "label"
+          },
+          "field": {
+            "styleMapping": "body1"
+          }
+        }
+      },
+      "widgetType": "UnsubscribeContactInfo"
+    },
+    "row:unsubscribe-action-instruction": {
+      "id": "row:unsubscribe-action-instruction",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:unsubscribe",
+        "childIds": [
+          "widget:unsubscribe-action-instruction"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:unsubscribe-action-instruction": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:unsubscribe-action-instruction"
+      },
+      "id": "widget:unsubscribe-action-instruction",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "body1",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_Unsubscribe_RevertInstruction__resx",
+        "alternateText": "EventGuestSide_Unsubscribe_SubmitInstruction__resx"
+      },
+      "widgetType": "UnsubscribeText"
+    },
+    "row:unsubscribe-action-button": {
+      "id": "row:unsubscribe-action-button",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:unsubscribe",
+        "childIds": [
+          "widget:unsubscribe-action-button"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:unsubscribe-action-button": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:unsubscribe-action-button"
+      },
+      "id": "widget:unsubscribe-action-button",
+      "config": {
+        "style": {
+          "button": {
+            "styleMapping": "primaryButton",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 30,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_Unsubscribe_RevertButton__resx",
+        "alternateText": "EventGuestSide_Unsubscribe_SubmitButton__resx"
+      },
+      "widgetType": "UnsubscribeButton"
+    },
+    "row:unsubscribe-opt-out-link": {
+      "id": "row:unsubscribe-opt-out-link",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:unsubscribe",
+        "childIds": [
+          "widget:unsubscribe-opt-out-link"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:unsubscribe-opt-out-link": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:unsubscribe-opt-out-link"
+      },
+      "id": "widget:unsubscribe-opt-out-link",
+      "config": {
+        "instructionText": "EventGuestSide_Unsubscribe_OptOutInstruction__resx",
+        "linkText": "EventGuestSide_Unsubscribe_OptOutLink__resx",
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingBottom": 30,
+              "paddingTop": 20,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "body1",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        }
+      },
+      "widgetType": "OptOutLinkWidget"
+    }
+  }
+}

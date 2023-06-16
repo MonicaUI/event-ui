@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shoulder Date Approval Warning pop up Check if pop up is rendered. 1`] = `
+<span>
+  <div
+    data-cvent-id="shoulder-date-approval-warning-dialog"
+  >
+    <div>
+      <div
+        aria-describedby="dialogHeader"
+        class=""
+      >
+        <div
+          class=""
+          id="dialogHeader"
+        >
+          <h2
+            class=""
+          >
+            EventGuestSide_HotelShoulderDateWarning_Title__resx
+          </h2>
+        </div>
+      </div>
+      <div
+        class=""
+        name="messageContainer"
+        tabindex="-1"
+      >
+        <div
+          class=""
+        >
+          <div
+            data-cvent-id="confirmation-form"
+          >
+            <div
+              class="cancelRegistrationModalText"
+            />
+            <button
+              aria-label="EventWidgets_GenericText_No__resx"
+              class=""
+              data-cvent-id="no-submit-button"
+              title="EventWidgets_GenericText_No__resx"
+              type="button"
+            >
+              <span>
+                EventWidgets_GenericText_No__resx
+              </span>
+            </button>
+            <button
+              aria-label="EventWidgets_GenericText_Yes__resx"
+              class=""
+              data-cvent-id="yes-submit-button"
+              title="EventWidgets_GenericText_Yes__resx"
+              type="button"
+            >
+              <span>
+                EventWidgets_GenericText_Yes__resx
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;

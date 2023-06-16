@@ -1,0 +1,64 @@
+@import './shared.less';
+@import (reference) '~nucleus-widgets/lib/Footer/Footer.less';
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+
+:global {
+  .messageContainer {
+    color: @primaryGrey;
+    background-color: @white;
+    border: 1px solid @mediumGrey;
+    border-radius: 3px;
+    max-width: @dialogWidth;
+    min-height: 500px;
+    margin: 80px auto 0;
+    padding: 70px 100px;
+    @media @medium {
+      margin-top: 1.5em;
+    }
+    @media @small {
+      min-height: initial;
+      margin-top: 0;
+      padding: 70px 50px;
+      border: none;
+      border-bottom: 1px solid @mediumGrey;
+    }
+
+    .icon.icon-event:before {
+      font-size: 8em;
+      content: "\e9f0";
+      // TODO: compose from @import (reference) '~@cvent/nucleus-icon/styles/CvtIcons.less' when possible;
+    }
+
+    h1 {
+      font-size: 2em; // reset h1 overrided in shared.less
+    }
+
+    .message {
+      margin: 50px 0 30px;
+    }
+  }
+
+  .footer {
+    list-style-type: none;
+    margin: 1.5em;
+    flex: 0 1 auto;
+  }
+
+  // Below are composed (or copied if not possible) from event-widgets/lib/Footer/Footer.less
+  .bordered-list {
+    border-left: 1px solid @royalBlue;
+    @media @medium {
+      display: block;
+      border: none;
+    }
+  }
+  .footer-container {
+    word-wrap: break-word;
+  }
+  .footer-footer {
+    list-style-type: none;
+  }
+  .footer-list { .list(); }
+  .footer-list + .footer-list { .bordered-list(); }
+  .footer-link { .link(); }
+}

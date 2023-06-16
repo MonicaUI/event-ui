@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddGuestFromRelatedContacts for guestSite should produce props from state when addGuestFromRelatedContactSetting is disabled 1`] = `
+Object {
+  "children": <AddGuestFromRelatedContactsWidget
+    canAddGuestFromRelatedContactEnabled={false}
+    canWidgetBeShown={false}
+    classes={Object {}}
+    clickHandler={[Function]}
+    contactId="some-contact-id"
+    isSiteEditorPreview={false}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    style={Object {}}
+    translate={[MockFunction]}
+  />,
+  "value": null,
+}
+`;
+
+exports[`AddGuestFromRelatedContacts for guestSite should produce props from state when addGuestFromRelatedContactSetting is enabled 1`] = `
+Object {
+  "children": <AddGuestFromRelatedContactsWidget
+    canAddGuestFromRelatedContactEnabled={true}
+    canWidgetBeShown={false}
+    classes={Object {}}
+    clickHandler={[Function]}
+    contactId="some-contact-id"
+    isSiteEditorPreview={false}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    style={Object {}}
+    translate={[MockFunction]}
+  />,
+  "value": null,
+}
+`;

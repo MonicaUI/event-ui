@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TermsConditionsWidget should not render when hidden 1`] = `
+Array [
+  null,
+]
+`;
+
+exports[`TermsConditionsWidget should not render when previous reg cart is reg mod,and current reg cart is in TRANSIENT 1`] = `
+Array [
+  null,
+]
+`;
+
+exports[`TermsConditionsWidget should render when not hidden 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+      data-cvent-id="termsConditions"
+      style="flex: 1 1 auto;"
+    >
+      <h2
+        class=""
+        data-cvent-id="termsConditions-title"
+      />
+      <div
+        class=""
+        data-cvent-id="termsConditions-text"
+      />
+      <div
+        class=" container"
+      >
+        <div
+          class=""
+          data-cvent-id="termsConditions-terms"
+        />
+        <fieldset
+          class=""
+        >
+          <legend
+            class=""
+            for="agreementText"
+          >
+            <span
+              class=""
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="agreementText"
+            >
+              <li
+                data-cvent-id="option-agreementText_0"
+              >
+                <input
+                  class=""
+                  id="agreementText_0"
+                  name="agreementText"
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="agreementText_0"
+                >
+                  <span>
+                    <span
+                      class=""
+                    >
+                       * 
+                    </span>
+                  </span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>,
+]
+`;

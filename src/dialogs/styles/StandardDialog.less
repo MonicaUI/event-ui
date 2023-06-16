@@ -1,0 +1,47 @@
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+@import (reference) "~event-widgets/shared-styles/Variables.less";
+
+.closeDialog {
+  float: right;
+  position: relative;
+  cursor: pointer;
+}
+
+.dialogDefaultFocus:focus {
+  outline: none;
+}
+
+.messageContainer {
+  text-align: center;
+  overflow: hidden;
+}
+
+.messageBase {
+ font-family: 'Lato', helvetica, sans-serif;
+ color: @contentColor;
+}
+
+.message {
+ &:extend(.messageBase);
+ font-size: 2.5em;
+}
+
+.subMessage {
+ &:extend(.messageBase);
+ font-size: 1.25em;
+}
+
+.messageIcon {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-size: 7em;
+}
+
+&.error {
+  color: @pastelRed;
+}
+
+&.success {
+  color: @green;
+}

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventBuildWizardPreviewBanner component Verify launch button disabled, if no salesForceId present 1`] = `
+<div
+  class="banner"
+>
+  <div
+    class="bannerContent"
+  >
+    <span
+      data-cvent-id="preview-banner-header"
+    />
+    <div
+      class="bannerActionsContainer"
+      id="bannerActionsContainer"
+    >
+      <div
+        class="buttonContainer"
+        id="buttonContainer"
+      >
+        <button
+          class="button launchButton"
+          id="previewDesign"
+          type="button"
+        >
+          <span />
+        </button>
+        <button
+          class="button launchButton"
+          disabled=""
+          id="previewLaunch"
+          type="button"
+        >
+          <span />
+        </button>
+        <div
+          class="actionsContainer"
+        >
+          <div
+            class=""
+            data-cvent-id="action-list-trigger"
+          >
+            <span>
+              <button
+                class="button actionsButton"
+                id="previewActions"
+                type="button"
+              >
+                <span
+                  class="container"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="downIcon"
+                    role="img"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              class="mockNucleusCoreTransition"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="actionExit"
+        id="previewClose"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="container"
+        >
+          <span
+            aria-hidden="true"
+            class="exitIcon"
+            role="img"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EventBuildWizardPreviewBanner component matches snapshot for EventBuildWizardPreviewBanner component 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,2256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Logged in matches snapshot when opened for event and sessions 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>,
+]
+`;
+
+exports[`User Logged in matches snapshot when opened for sessions only 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>,
+]
+`;
+
+exports[`User Logged in matches snapshot when user has registered for event and virtual session and flexGoogleCalendar is enabled with variant 2 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          class=""
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_FileType__resx
+                          </div>
+                          <div
+                            class=""
+                            data-cvent-id="download-calendar-dialog-dropdown-container"
+                          >
+                            <label
+                              class=""
+                              for="fileType"
+                            >
+                              <span
+                                class=""
+                              >
+                                <span
+                                  data-cvent-id="label"
+                                />
+                              </span>
+                            </label>
+                            <div
+                              class=""
+                            >
+                              <select
+                                class=""
+                                data-cvent-id="input"
+                                id="fileType"
+                                name="fileType"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal;"
+                              >
+                                <option
+                                  data-cvent-id="option-0"
+                                  value="0"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_ics__resx
+                                </option>
+                                <option
+                                  data-cvent-id="option-1"
+                                  value="1"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_GoogleCalendar__resx
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-event-container"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_EventHeader__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_DownloadEventInstructions__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 16px 12px 0px 12px; margin: 10px 0px 10px 0px;"
+                          >
+                            <div>
+                              <div
+                                class=""
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                              />
+                              <div
+                                class=""
+                                data-cvent-id="download-calendar-date-time-range"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                date
+                                ,
+                                 
+                                 
+                                ,
+                                 
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <a
+                                class=""
+                                data-cvent-id="download-calendar-dialog-event-download"
+                                href="undefinedevent/ical/undefined?environment=Some&locale=en-US&inviteeId=7129fc9a-5106-4c32-8eed-9c3ab7e16291"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                                target=""
+                              >
+                                EventGuestSide_DownloadCalendarModal_Download__resx
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-session-container"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_SessionsHeader__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_DownloadSessionsInstructions__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 16px 12px 0px 12px; margin: 10px 0px 10px 0px;"
+                          >
+                            <div>
+                              <div
+                                class=""
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                              >
+                                Session 2
+                              </div>
+                              <div
+                                class=""
+                                data-cvent-id="download-calendar-date-time-range"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                date
+                                ,
+                                 
+                                time
+                                 
+                                 - 
+                                date
+                                ,
+                                 
+                                time
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <a
+                                class=""
+                                data-cvent-id="download-calendar-dialog-session-download"
+                                href="undefinedevent/ical/undefined/22b2fa58-a446-46cd-8888-2720925fb669?environment=Some&locale=en-US&inviteeId=7129fc9a-5106-4c32-8eed-9c3ab7e16291"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                                target=""
+                              >
+                                EventGuestSide_DownloadCalendarModal_Download__resx
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Logged in without session registered matches snapshot when opened for all and no session is selected and flexGoogleCalendar is enabled 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          class=""
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_FileType__resx
+                          </div>
+                          <div
+                            class=""
+                            data-cvent-id="download-calendar-dialog-dropdown-container"
+                          >
+                            <label
+                              class=""
+                              for="fileType"
+                            >
+                              <span
+                                class=""
+                              >
+                                <span
+                                  data-cvent-id="label"
+                                />
+                              </span>
+                            </label>
+                            <div
+                              class=""
+                            >
+                              <select
+                                class=""
+                                data-cvent-id="input"
+                                id="fileType"
+                                name="fileType"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal;"
+                              >
+                                <option
+                                  data-cvent-id="option-0"
+                                  value="0"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_ics__resx
+                                </option>
+                                <option
+                                  data-cvent-id="option-1"
+                                  value="1"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_GoogleCalendar__resx
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-event-container"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_EventHeader__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_DownloadEventInstructions__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 16px 12px 0px 12px; margin: 10px 0px 10px 0px;"
+                          >
+                            <div>
+                              <div
+                                class=""
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                              />
+                              <div
+                                class=""
+                                data-cvent-id="download-calendar-date-time-range"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                date
+                                ,
+                                 
+                                 
+                                ,
+                                 
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <a
+                                class=""
+                                data-cvent-id="download-calendar-dialog-event-download"
+                                href="undefinedevent/ical/undefined?environment=Some&locale=en-US"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                                target=""
+                              >
+                                EventGuestSide_DownloadCalendarModal_Download__resx
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-sessioncalender-nosession"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Logged in without session registered matches snapshot when opened for sessions only and no sessions selected 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-sessioncalender-nosession"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.375rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_NoSessionNotification__resx
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Logged in without session registered matches snapshot when opened for sessions only and no sessions selected and flexGoogleCalendar is enabled 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-sessioncalender-nosession"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.375rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_NoSessionNotification__resx
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Not logged in Cancel works after clicking login 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-sessioncalender-nosession"
+                        />
+                        <div
+                          class=""
+                        >
+                          <button
+                            class=""
+                            data-cvent-id="download-calendar-dialog-login"
+                            title="EventGuestSide_DownloadCalendarModal_LoginText__resx"
+                            type="button"
+                          >
+                            <span>
+                              EventGuestSide_DownloadCalendarModal_LoginText__resx
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Not logged in Login button works 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div
+                    data-cvent-id="already-registered"
+                  >
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_ExistingInvitee_AlreadyRegistered_Header__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="mockNucleusCoreTransition"
+                      >
+                        <div
+                          class=""
+                          style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                        >
+                          <div
+                            data-cvent-id="login-form"
+                          >
+                            <div>
+                              <div
+                                class="instructionalText"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                EventWidgets_AlreadyRegistered_InstructionalText__resx:{"registerNow":"_registerNowWidget_textConfig__resx"}
+                              </div>
+                              <div
+                                class="element"
+                                data-cvent-id="email-address"
+                              >
+                                <label
+                                  class="labelOnTop"
+                                  for="emailAddress"
+                                  style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; text-align: left; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                                >
+                                  <span
+                                    class=""
+                                  >
+                                    <span
+                                      class=""
+                                    >
+                                      * 
+                                    </span>
+                                    <span
+                                      data-cvent-id="label"
+                                    >
+                                      EventWidgets_Fields_EmailAddress__resx
+                                    </span>
+                                  </span>
+                                </label>
+                                <div
+                                  class="inputContainerOnRight"
+                                >
+                                  <div
+                                    class=""
+                                  >
+                                    <input
+                                      class=""
+                                      data-cvent-id="input"
+                                      id="emailAddress"
+                                      name="emailAddress"
+                                      placeholder=""
+                                      required=""
+                                      style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(39, 63, 105); text-align: left; line-height: 1.3; font-style: normal; background-color: rgb(255, 255, 255); border-radius: 6px; border-width: 2px; border-style: solid; border-color: #dde2e6; padding: 5px 5px 5px 5px;"
+                                      type="text"
+                                      value="emailAddress@email.com"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="element"
+                                data-cvent-id="confirmation-number"
+                              >
+                                <label
+                                  class="labelOnTop"
+                                  for="confirmationNumber"
+                                  style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; text-align: left; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                                >
+                                  <span
+                                    class=""
+                                  >
+                                    <span
+                                      class=""
+                                    >
+                                      * 
+                                    </span>
+                                    <span
+                                      data-cvent-id="label"
+                                    >
+                                      EventWidgets_Fields_ConfirmationNumber__resx
+                                    </span>
+                                  </span>
+                                </label>
+                                <div
+                                  class="inputContainerOnRight"
+                                >
+                                  <div
+                                    class=""
+                                  >
+                                    <input
+                                      class=""
+                                      data-cvent-id="input"
+                                      id="confirmationNumber"
+                                      name="confirmationNumber"
+                                      placeholder=""
+                                      required=""
+                                      style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(39, 63, 105); text-align: left; line-height: 1.3; font-style: normal; background-color: rgb(255, 255, 255); border-radius: 6px; border-width: 2px; border-style: solid; border-color: #dde2e6; padding: 5px 5px 5px 5px;"
+                                      type="text"
+                                      value="confirmationNumber"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="element"
+                              >
+                                <button
+                                  class=""
+                                  data-cvent-id="resend-confirmation-button"
+                                  title="EventWidgets_AlreadyRegistered_ForgotConfirmationButton__resx"
+                                  type="button"
+                                >
+                                  <span>
+                                    EventWidgets_AlreadyRegistered_ForgotConfirmationButton__resx
+                                  </span>
+                                </button>
+                              </div>
+                              
+                              <button
+                                class=""
+                                data-cvent-id="submit-button"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.25rem; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: rgb(4, 21, 50); border-radius: 6px; border-width: 1px; border-style: solid; border-color: #041532; padding: 5px 1.25rem 5px 1.25rem;"
+                              >
+                                EventWidgets_AlreadyRegistered_Login__resx
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Not logged in matches snapshot when opened for events and sessions 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-event-container"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_EventHeader__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_DownloadEventInstructions__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 16px 12px 0px 12px; margin: 10px 0px 10px 0px;"
+                          >
+                            <div>
+                              <div
+                                class=""
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                              >
+                                Annual Space Technology And Engineering Meeting
+                              </div>
+                              <div
+                                class=""
+                                data-cvent-id="download-calendar-date-time-range"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                date
+                                ,
+                                 
+                                time
+                                 
+                                 - 
+                                date
+                                ,
+                                 
+                                time
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <a
+                                class=""
+                                data-cvent-id="download-calendar-dialog-event-download"
+                                href="undefinedevent/ical/undefined?environment=Some&locale=en-US"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                                target=""
+                              >
+                                EventGuestSide_DownloadCalendarModal_Download__resx
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-sessioncalender-nosession"
+                        />
+                        <div
+                          class=""
+                        >
+                          <button
+                            class=""
+                            data-cvent-id="download-calendar-dialog-login"
+                            title="EventGuestSide_DownloadCalendarModal_LoginText__resx"
+                            type="button"
+                          >
+                            <span>
+                              EventGuestSide_DownloadCalendarModal_LoginText__resx
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Not logged in matches snapshot when opened for events and sessions and FlexAddToGoogleCalendar is enabled 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          class=""
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_FileType__resx
+                          </div>
+                          <div
+                            class=""
+                            data-cvent-id="download-calendar-dialog-dropdown-container"
+                          >
+                            <label
+                              class=""
+                              for="fileType"
+                            >
+                              <span
+                                class=""
+                              >
+                                <span
+                                  data-cvent-id="label"
+                                />
+                              </span>
+                            </label>
+                            <div
+                              class=""
+                            >
+                              <select
+                                class=""
+                                data-cvent-id="input"
+                                id="fileType"
+                                name="fileType"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal;"
+                              >
+                                <option
+                                  data-cvent-id="option-0"
+                                  value="0"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_ics__resx
+                                </option>
+                                <option
+                                  data-cvent-id="option-1"
+                                  value="1"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_GoogleCalendar__resx
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-event-container"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_EventHeader__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_DownloadEventInstructions__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 16px 12px 0px 12px; margin: 10px 0px 10px 0px;"
+                          >
+                            <div>
+                              <div
+                                class=""
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                              >
+                                Annual Space Technology And Engineering Meeting
+                              </div>
+                              <div
+                                class=""
+                                data-cvent-id="download-calendar-date-time-range"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                date
+                                ,
+                                 
+                                time
+                                 
+                                 - 
+                                date
+                                ,
+                                 
+                                time
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <a
+                                class=""
+                                data-cvent-id="download-calendar-dialog-event-download"
+                                href="undefinedevent/ical/undefined?environment=Some&locale=en-US"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                                target=""
+                              >
+                                EventGuestSide_DownloadCalendarModal_Download__resx
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-sessioncalender-nosession"
+                        />
+                        <div
+                          class=""
+                        >
+                          <button
+                            class=""
+                            data-cvent-id="download-calendar-dialog-login"
+                            title="EventGuestSide_DownloadCalendarModal_LoginText__resx"
+                            type="button"
+                          >
+                            <span>
+                              EventGuestSide_DownloadCalendarModal_LoginText__resx
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Not logged in matches snapshot when opened for sessions only 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-sessioncalender-nosession"
+                        />
+                        <div
+                          class=""
+                        >
+                          <button
+                            class=""
+                            data-cvent-id="download-calendar-dialog-login"
+                            title="EventGuestSide_DownloadCalendarModal_LoginText__resx"
+                            type="button"
+                          >
+                            <span>
+                              EventGuestSide_DownloadCalendarModal_LoginText__resx
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User Not logged in matches snapshot when opened for sessions only and FlexAddToGoogleCalendar is enabled 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-sessioncalender-nosession"
+                        />
+                        <div
+                          class=""
+                        >
+                          <button
+                            class=""
+                            data-cvent-id="download-calendar-dialog-login"
+                            title="EventGuestSide_DownloadCalendarModal_LoginText__resx"
+                            type="button"
+                          >
+                            <span>
+                              EventGuestSide_DownloadCalendarModal_LoginText__resx
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User logged in and registered for session and flexGoogleCalendar is enabled matches snapshot when user has registered for session 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          class=""
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_FileType__resx
+                          </div>
+                          <div
+                            class=""
+                            data-cvent-id="download-calendar-dialog-dropdown-container"
+                          >
+                            <label
+                              class=""
+                              for="fileType"
+                            >
+                              <span
+                                class=""
+                              >
+                                <span
+                                  data-cvent-id="label"
+                                />
+                              </span>
+                            </label>
+                            <div
+                              class=""
+                            >
+                              <select
+                                class=""
+                                data-cvent-id="input"
+                                id="fileType"
+                                name="fileType"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal;"
+                              >
+                                <option
+                                  data-cvent-id="option-0"
+                                  value="0"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_ics__resx
+                                </option>
+                                <option
+                                  data-cvent-id="option-1"
+                                  value="1"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_GoogleCalendar__resx
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-event-container"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_EventHeader__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_DownloadEventInstructions__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 16px 12px 0px 12px; margin: 10px 0px 10px 0px;"
+                          >
+                            <div>
+                              <div
+                                class=""
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                              />
+                              <div
+                                class=""
+                                data-cvent-id="download-calendar-date-time-range"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                date
+                                ,
+                                 
+                                 
+                                ,
+                                 
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <a
+                                class=""
+                                data-cvent-id="download-calendar-dialog-event-download"
+                                href="undefinedevent/ical/undefined?environment=Some&locale=en-US&inviteeId=7129fc9a-5106-4c32-8eed-9c3ab7e16291"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                                target=""
+                              >
+                                EventGuestSide_DownloadCalendarModal_Download__resx
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-session-container"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_SessionsHeader__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_DownloadSessionsInstructions__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 16px 12px 0px 12px; margin: 10px 0px 10px 0px;"
+                          >
+                            <div>
+                              <div
+                                class=""
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                              >
+                                Session 2
+                              </div>
+                              <div
+                                class=""
+                                data-cvent-id="download-calendar-date-time-range"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                date
+                                ,
+                                 
+                                time
+                                 
+                                 - 
+                                date
+                                ,
+                                 
+                                time
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <a
+                                class=""
+                                data-cvent-id="download-calendar-dialog-session-download"
+                                href="undefinedevent/ical/undefined/22b2fa58-a446-46cd-8888-2720925fb669?environment=Some&locale=en-US&inviteeId=7129fc9a-5106-4c32-8eed-9c3ab7e16291"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                                target=""
+                              >
+                                EventGuestSide_DownloadCalendarModal_Download__resx
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`User logged in and registered for session and flexGoogleCalendar is enabled matches snapshot when user has registered for session and opened for sessions only 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_DownloadCalendarModal_AddToCalendar__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        data-cvent-id="download-calendar-dialog-container"
+                      >
+                        <div
+                          class=""
+                          data-cvent-id="timeZoneWidget"
+                        >
+                          <span
+                            class="container"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="timeIconSize"
+                              role="img"
+                            />
+                          </span>
+                          Event_GuestSide_TimeZone_ViewText__resx:{"timeZone":"Event_Timezone_Name_35__resx"}
+                        </div>
+                        <div
+                          class=""
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_FileType__resx
+                          </div>
+                          <div
+                            class=""
+                            data-cvent-id="download-calendar-dialog-dropdown-container"
+                          >
+                            <label
+                              class=""
+                              for="fileType"
+                            >
+                              <span
+                                class=""
+                              >
+                                <span
+                                  data-cvent-id="label"
+                                />
+                              </span>
+                            </label>
+                            <div
+                              class=""
+                            >
+                              <select
+                                class=""
+                                data-cvent-id="input"
+                                id="fileType"
+                                name="fileType"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal;"
+                              >
+                                <option
+                                  data-cvent-id="option-0"
+                                  value="0"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_ics__resx
+                                </option>
+                                <option
+                                  data-cvent-id="option-1"
+                                  value="1"
+                                >
+                                  AddtoCalendar_EventCalendarDownloadOptions_GoogleCalendar__resx
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          data-cvent-id="download-calendar-dialog-session-container"
+                        >
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_SessionsHeader__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                          >
+                            EventGuestSide_DownloadCalendarModal_DownloadSessionsInstructions__resx
+                          </div>
+                          <div
+                            class=""
+                            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 16px 12px 0px 12px; margin: 10px 0px 10px 0px;"
+                          >
+                            <div>
+                              <div
+                                class=""
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 18px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 5px 5px 5px 5px;"
+                              >
+                                Session 2
+                              </div>
+                              <div
+                                class=""
+                                data-cvent-id="download-calendar-date-time-range"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                              >
+                                date
+                                ,
+                                 
+                                time
+                                 
+                                 - 
+                                date
+                                ,
+                                 
+                                time
+                              </div>
+                            </div>
+                            <div
+                              class=""
+                            >
+                              <a
+                                class=""
+                                data-cvent-id="download-calendar-dialog-session-download"
+                                href="undefinedevent/ical/undefined/22b2fa58-a446-46cd-8888-2720925fb669?environment=Some&locale=en-US&inviteeId=7129fc9a-5106-4c32-8eed-9c3ab7e16291"
+                                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 14px; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                                target=""
+                              >
+                                EventGuestSide_DownloadCalendarModal_Download__resx
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;

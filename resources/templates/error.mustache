@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="{{vars.errorInformation.lang}}">
+<head>
+    <title>{{vars.errorInformation.pageTitle}}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link nonce="{{vars.nonce}}" rel="icon" type="image/png" href="{{vars.assetRoot}}images/favicon.v1.ico">
+    {{#webpackCss}}
+    {{{.}}}
+    {{/webpackCss}}
+</head>
+<body>
+  <main>
+    <section class="headline">
+      <i class="icon error"></i>
+      <h1 id="mainTitleMessage">{{vars.errorInformation.mainTitleMessage}}</h1>
+      <div>
+        <p class="main-message"><strong id="mainMessage">{{vars.errorInformation.mainMessage}}</strong></p>
+        <p class="message" id="message">{{vars.errorInformation.message}}</p>
+        <button class="primary" id="goBackLabel">{{vars.errorInformation.goBackLabel}}</button>
+        <script nonce="{{vars.nonce}}" type="text/javascript">
+           var backButton = document.getElementById('goBackLabel')
+           backButton.addEventListener('click', function() {window.history.back()})
+        </script>
+      </div>
+    </section>
+    <section class="technical-details">
+      <header id="details">{{vars.errorInformation.tryAgainMessage}}</header>
+      <dl>
+        <dt id="timeLabel">{{vars.errorInformation.timeLabel}}</dt>
+        <dd id="errorDateTime">{{vars.errorInformation.errorDateTime}}</dd>
+        <dt id="instanceIdLabel" class="{{vars.errorInformation.httpLogRequestIdClass}}">{{vars.errorInformation.instanceIdLabel}}</dt>
+        <dd id="httpLogRequestId" class="{{vars.errorInformation.httpLogRequestIdClass}}">{{vars.errorInformation.httpLogRequestId}}</dd>
+        <dt id="pageLoadIdLabel">{{vars.errorInformation.pageLoadIdLabel}}</dt>
+        <dd id="httpLogPageLoadId">{{vars.errorInformation.httpLogPageLoadId}}</dd>
+        <dt id="errorCodeLabel" class="{{vars.errorInformation.errorCodeClass}}">{{vars.errorInformation.errorCodeLabel}}</dt>
+        <dd id="errorCode" class="{{vars.errorInformation.errorCodeClass}}">{{vars.errorInformation.errorCode}}</dd>
+      </dl>
+      <footer>
+        <img src="{{vars.assetRoot}}images/cvent-logo.v1.png" role="presentation" />
+        <a href="https://support.cvent.com/apex/CommunityArticle?id=000070298" class="button secondary" id="customerCareCenter" alt="{{vars.errorInformation.helpMe}}" target="_blank">{{vars.errorInformation.helpMe}}</a>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>

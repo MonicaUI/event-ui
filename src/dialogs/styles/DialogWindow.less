@@ -1,0 +1,42 @@
+@import (reference) "~event-widgets/shared-styles/Variables.less";
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+
+.dragContainer {
+  background: #FFF;
+  border: 0;
+  border-radius: @dialogContainerRadius;
+  box-sizing: border-box;
+  overflow-y: auto;
+  outline: none;
+  min-width: @dialogWidth;
+  top: 50%;
+  left: 50%;
+  * {
+    box-sizing: border-box;
+  }
+  .dialogMediaQuery();
+}
+
+.dialogContainer {
+  min-height: @dialogHeight;
+  .dialogMediaQuery();
+}
+
+.content {
+  font-size: 1em;
+  h3 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+}
+
+&.hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  border: 0;
+  height: 1px;
+  width: 1px;
+  margin: -0.063em;
+  overflow: hidden;
+  padding: 0;
+}

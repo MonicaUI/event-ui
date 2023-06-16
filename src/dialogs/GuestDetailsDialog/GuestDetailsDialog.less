@@ -1,0 +1,39 @@
+@import (reference) '~nucleus-core/less/Utility.less';
+@import (reference) '~event-widgets/shared-styles/Utility.less';
+@import "../styles/DialogHeader.less";
+
+.exit {
+  float: right;
+  top: -0.625rem;
+  position: relative;
+}
+
+.element {
+  .clearfix();
+  max-width: 24em;
+  margin: 0px auto 2.1875rem;
+}
+
+.secondaryButton {
+  margin-right: 0.625rem;
+}
+
+.primaryButton {
+  margin-left: 0.625rem;
+}
+
+.panel {
+  padding: 0.9375rem 1.25rem 1.875rem;
+  text-align: center;
+}
+
+.dialogContainer {
+  width: 48rem;
+  min-height: 37vh;
+  max-height: 80vh;
+  .dialogMediaQuery();
+}
+
+&:focus {
+  outline: none;
+}

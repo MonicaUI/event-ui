@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CancelRegistrationWidget Check if CancelRegistrationDialog is opened 1`] = `
+<span>
+  <div
+    class=""
+    style="padding: 15px 15px 15px 15px; background-color: rgb(4, 21, 50); border-radius: 0; flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <button
+        class="disabled"
+        disabled=""
+        type="button"
+      >
+        <span
+          class=""
+        >
+          Cancel Registration
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div
+                    data-cvent-id="cancel-registration"
+                  >
+                    <div>
+                      <div
+                        aria-describedby="dialogHeader"
+                        class=""
+                        style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                      >
+                        <div
+                          class=""
+                          id="dialogHeader"
+                          style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.875rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                        >
+                          <h2
+                            class=""
+                          >
+                            <div
+                              class=""
+                              data-cvent-id="close"
+                              role="button"
+                              tabindex="0"
+                            >
+                              <span
+                                class="container"
+                              >
+                                <span
+                                  aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                  class=""
+                                  role="img"
+                                />
+                              </span>
+                            </div>
+                            Cancel Registration
+                          </h2>
+                        </div>
+                      </div>
+                      <div
+                        class=""
+                        name="messageContainer"
+                        tabindex="-1"
+                      >
+                        <div
+                          class=""
+                        >
+                          <div
+                            data-cvent-id="confirmation-form"
+                          >
+                            <div
+                              class="cancelRegistrationModalText"
+                              style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                            >
+                              EventWidgets_CancelRegistrationModal_InstructionalText__resx
+                            </div>
+                            <button
+                              aria-label="EventWidgets_GenericText_No__resx"
+                              class=""
+                              data-cvent-id="no-submit-button"
+                              title="EventWidgets_GenericText_No__resx"
+                              type="button"
+                            >
+                              <span>
+                                EventWidgets_GenericText_No__resx
+                              </span>
+                            </button>
+                            <button
+                              aria-label="EventWidgets_GenericText_Yes__resx"
+                              class=""
+                              data-cvent-id="yes-submit-button"
+                              title="EventWidgets_GenericText_Yes__resx"
+                              type="button"
+                            >
+                              <span>
+                                EventWidgets_GenericText_Yes__resx
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+</span>
+`;
+
+exports[`CancelRegistrationWidget Close CancelRegistrationDialog 1`] = `
+<span>
+  <div
+    class=""
+    style="padding: 15px 15px 15px 15px; background-color: rgb(4, 21, 50); border-radius: 0; flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <button
+        class="disabled"
+        disabled=""
+        type="button"
+      >
+        <span
+          class=""
+        >
+          Cancel Registration
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+</span>
+`;
+
+exports[`CancelRegistrationWidget Goes to Cancellation default page on clicking yes 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class="loadingDialogOverlay"
+    />
+    <div
+      class=""
+    >
+      <div
+        aria-label="Dialog"
+        role="dialog"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class="loadingDialogDragContainer"
+          style="position: absolute; left: 512px; top: 384px;"
+        >
+          <div
+            class=""
+          >
+            <div />
+          </div>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <div
+                class="loadingChildren"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                    style="background: rgb(247, 248, 249);"
+                  >
+                    <div
+                      class=""
+                    >
+                      <div
+                        class=""
+                      >
+                        spinnerMessage
+                      </div>
+                      <div
+                        class=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="hidden"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

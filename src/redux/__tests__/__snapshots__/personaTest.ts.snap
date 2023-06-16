@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test identifyInvitee persona updated and match snapshot 1`] = `
+Object {
+  "accessToken": "some token",
+  "clients": Object {
+    "eventPersonaClient": Object {
+      "identifyInvitee": [MockFunction] {
+        "calls": Array [
+          Array [
+            "some token",
+            "some-invitee-id",
+            false,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+  },
+  "event": Object {
+    "id": "some-event-id",
+  },
+  "persona": Object {
+    "contactId": undefined,
+    "inviteeStatus": "NoResponse",
+  },
+  "userSession": Object {
+    "inviteeId": "some-invitee-id",
+  },
+}
+`;
+
+exports[`Test identifyInvitee when contact id is required persona updated and match snapshot 1`] = `
+Object {
+  "accessToken": "some token",
+  "clients": Object {
+    "eventPersonaClient": Object {
+      "identifyInvitee": [MockFunction] {
+        "calls": Array [
+          Array [
+            "some token",
+            "some-invitee-id",
+            true,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+  },
+  "event": Object {
+    "id": "some-event-id",
+  },
+  "persona": Object {
+    "contactId": undefined,
+    "inviteeStatus": "NoResponse",
+  },
+  "userSession": Object {
+    "inviteeId": "some-invitee-id",
+  },
+}
+`;
+
+exports[`Test reducer createInviteeIdentifiedAction with Accepted invitee 1`] = `
+Object {
+  "contactId": undefined,
+  "inviteeStatus": "Accepted",
+}
+`;
+
+exports[`Test reducer createInviteeIdentifiedAction with Cancelled invitee 1`] = `
+Object {
+  "contactId": undefined,
+  "inviteeStatus": "Cancelled",
+}
+`;
+
+exports[`Test reducer createInviteeIdentifiedAction with Declined invitee 1`] = `
+Object {
+  "contactId": undefined,
+  "inviteeStatus": "Declined",
+}
+`;
+
+exports[`Test reducer createInviteeIdentifiedAction with DeniedApproval invitee 1`] = `
+Object {
+  "contactId": undefined,
+  "inviteeStatus": "DeniedApproval",
+}
+`;
+
+exports[`Test reducer createInviteeIdentifiedAction with NoResponse invitee 1`] = `
+Object {
+  "contactId": undefined,
+  "inviteeStatus": "NoResponse",
+}
+`;
+
+exports[`Test reducer createInviteeIdentifiedAction with PendingApproval invitee 1`] = `
+Object {
+  "contactId": undefined,
+  "inviteeStatus": "PendingApproval",
+}
+`;
+
+exports[`Test reducer createInviteeIdentifiedAction with Visited invitee 1`] = `
+Object {
+  "contactId": undefined,
+  "inviteeStatus": "Visited",
+}
+`;
+
+exports[`Test reducer createInviteeIdentifiedAction with Waitlisted invitee 1`] = `
+Object {
+  "contactId": undefined,
+  "inviteeStatus": "Waitlisted",
+}
+`;
+
+exports[`Test reducer test contact id will be added to persona info 1`] = `
+Object {
+  "contactId": "some-contact-id",
+  "inviteeStatus": "NoResponse",
+}
+`;
+
+exports[`Test setPendingApprovalStatus persona updated and match snapshot 1`] = `
+Object {
+  "accessToken": "some token",
+  "clients": Object {
+    "eventPersonaClient": Object {
+      "identifyInvitee": [MockFunction],
+    },
+  },
+  "event": Object {
+    "id": "some-event-id",
+  },
+  "persona": Object {
+    "contactId": undefined,
+    "inviteeStatus": "PendingApproval",
+  },
+  "userSession": Object {
+    "inviteeId": "some-invitee-id",
+  },
+}
+`;

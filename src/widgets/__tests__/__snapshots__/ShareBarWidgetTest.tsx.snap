@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareBarWidget produces props from state should match 1`] = `
+Object {
+  "children": <BaseWidget
+    additionalURLParams={
+      Object {
+        "facebook": Array [
+          "refid=EventSite",
+          "sms=1",
+          "cn=UW0yb6e4SeWHLA8_WRFJyg",
+        ],
+        "linkedIn": Array [
+          "refid=EventSite",
+          "sms=3",
+          "cn=UW0yb6e4SeWHLA8_WRFJyg",
+        ],
+        "twitter": Array [
+          "refid=EventSite",
+          "sms=2",
+          "cn=UW0yb6e4SeWHLA8_WRFJyg",
+        ],
+      }
+    }
+    dispatch={[Function]}
+    hideLinkedInOnIEAndEdge={true}
+    hideWidget={false}
+    id="widget:d9022582-f9aa-4900-9b8e-81674fc3c7fa"
+    isDroppableWidget={false}
+    shareBarSettings={
+      Object {
+        "customizeWidgetData": Object {
+          "displayFacebook": true,
+          "displayLinkedIn": true,
+          "displayTwitter": true,
+          "eventImage": Object {
+            "assetUri": "http://www.cvent.com/images/image.jpg/",
+          },
+          "postText": "Flex Event Text",
+          "postTitle": "Flex Event",
+          "twitterEventHashtag": "CventEvent, Cvent",
+          "twitterPostText": "Join me for this event: Flex Event",
+        },
+        "referenceID": "EventSite",
+      }
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    styles={Object {}}
+    url="https://staging.cvent.me/Egboxv"
+  />,
+  "value": null,
+}
+`;

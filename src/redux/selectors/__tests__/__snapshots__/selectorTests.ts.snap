@@ -1,0 +1,701 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`currentRegistrant.getAdmissionItemInfoForPrimaryAndGuests returns correct registered and unregisted counts: currentRegistrant.getAdmissionItemInfoForPrimaryAndGuestsreturns correct registered and unregistered counts 1`] = `
+Object {
+  "admissionItemAId": Object {
+    "registered": Array [
+      Object {
+        "attendee": Object {
+          "attendeeId": "attendeeCId",
+          "personalInformation": Object {},
+        },
+        "eventRegistrationId": "eventRegistrationDId",
+      },
+      Object {
+        "attendee": Object {
+          "attendeeId": "attendeeAId",
+          "eventAnswers": Object {
+            "eventAnswerAId": Object {
+              "answers": Array [
+                Object {
+                  "answerType": "Im Hungry!",
+                  "text": "text answer",
+                },
+              ],
+              "questionId": "eventAnswerAId",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "customFieldAId": Object {
+                "answers": Array [
+                  Object {
+                    "answerType": "I am a dragon!",
+                    "text": "text answer",
+                  },
+                ],
+                "questionId": "customFieldAId",
+              },
+            },
+            "emailAddress": "floofykins.snuffles@j.mail",
+            "firstName": "floofykins",
+            "lastName": "snuffles",
+            "socialMediaUrls": Object {
+              "FACEBOOK": "http://www.facebook.com/YourChosenName",
+            },
+          },
+        },
+        "eventRegistrationId": "eventRegistrationAId",
+      },
+    ],
+    "unRegistered": Array [],
+  },
+  "admissionItemBId": Object {
+    "registered": Array [
+      Object {
+        "attendee": Object {
+          "attendeeId": "attendeeBId",
+          "personalInformation": Object {},
+        },
+        "eventRegistrationId": "eventRegistrationBId",
+      },
+    ],
+    "unRegistered": Array [],
+  },
+  "admissionItemCId": Object {
+    "registered": Array [],
+    "unRegistered": Array [
+      Object {
+        "attendee": Object {
+          "attendeeId": "attendeeCId",
+          "personalInformation": Object {},
+        },
+        "eventRegistrationId": "eventRegistrationCId",
+      },
+    ],
+  },
+}
+`;
+
+exports[`currentRegistrant.getAttendee returns the attendee 1`] = `
+Object {
+  "attendeeId": "attendeeAId",
+  "eventAnswers": Object {
+    "eventAnswerAId": Object {
+      "answers": Array [
+        Object {
+          "answerType": "Im Hungry!",
+          "text": "text answer",
+        },
+      ],
+      "questionId": "eventAnswerAId",
+    },
+  },
+  "personalInformation": Object {
+    "customFields": Object {
+      "customFieldAId": Object {
+        "answers": Array [
+          Object {
+            "answerType": "I am a dragon!",
+            "text": "text answer",
+          },
+        ],
+        "questionId": "customFieldAId",
+      },
+    },
+    "emailAddress": "floofykins.snuffles@j.mail",
+    "firstName": "floofykins",
+    "lastName": "snuffles",
+    "socialMediaUrls": Object {
+      "FACEBOOK": "http://www.facebook.com/YourChosenName",
+    },
+  },
+}
+`;
+
+exports[`currentRegistrant.getAttendeeCustomFieldAnswer returns the answer 1`] = `
+Object {
+  "answers": Array [
+    Object {
+      "answerType": "I am a dragon!",
+      "text": "text answer",
+    },
+  ],
+  "questionId": "customFieldAId",
+}
+`;
+
+exports[`currentRegistrant.getAttendeeId returns the attendee id 1`] = `"attendeeAId"`;
+
+exports[`currentRegistrant.getAttendeeQuestionAnswer returns the answer 1`] = `undefined`;
+
+exports[`currentRegistrant.getAttendeeStandardFieldAnswer returns the answer 1`] = `"floofykins"`;
+
+exports[`currentRegistrant.getEventRegistration returns the event registration 1`] = `
+Object {
+  "attendee": Object {
+    "attendeeId": "attendeeAId",
+    "eventAnswers": Object {
+      "eventAnswerAId": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Im Hungry!",
+            "text": "text answer",
+          },
+        ],
+        "questionId": "eventAnswerAId",
+      },
+    },
+    "personalInformation": Object {
+      "customFields": Object {
+        "customFieldAId": Object {
+          "answers": Array [
+            Object {
+              "answerType": "I am a dragon!",
+              "text": "text answer",
+            },
+          ],
+          "questionId": "customFieldAId",
+        },
+      },
+      "emailAddress": "floofykins.snuffles@j.mail",
+      "firstName": "floofykins",
+      "lastName": "snuffles",
+      "socialMediaUrls": Object {
+        "FACEBOOK": "http://www.facebook.com/YourChosenName",
+      },
+    },
+  },
+  "attendeeType": "ATTENDEE",
+  "eventId": "EventAId",
+  "eventRegistrationId": "eventRegistrationAId",
+  "productRegistrations": Array [
+    Object {
+      "productId": "admissionItemAId",
+      "productType": "AdmissionItem",
+      "quantity": 1,
+      "requestedAction": "REGISTER",
+    },
+  ],
+  "registrationTypeId": "registrationTypeAId",
+  "sessionRegistrations": Object {
+    "sessionAId": Object {
+      "productId": "sessionAId",
+      "productType": "Session",
+      "quantity": 1,
+      "requestedAction": "REGISTER",
+    },
+  },
+}
+`;
+
+exports[`currentRegistrant.getSelectedAdmissionItem returns the selected admission item 1`] = `
+Object {
+  "productId": "admissionItemAId",
+  "productType": "AdmissionItem",
+  "quantity": 1,
+  "requestedAction": "REGISTER",
+}
+`;
+
+exports[`currentRegistrant.getSelectedSessions returns the list of sessions 1`] = `
+Object {
+  "sessionAId": Object {
+    "productId": "sessionAId",
+    "productType": "Session",
+    "quantity": 1,
+    "requestedAction": "REGISTER",
+  },
+}
+`;
+
+exports[`currentRegistrant.getTemporaryGuestEventRegistrationId returns correct guest eventRegId currentRegistrant.getTemporaryGuestEventRegistrationId does not exist in state: currentRegistrant.getTemporaryGuestEventRegistrationId returns undefined if property missing 1`] = `undefined`;
+
+exports[`currentRegistrant.getTemporaryGuestEventRegistrationId returns correct guest eventRegId currentRegistrant.getTemporaryGuestEventRegistrationId exists in state: currentRegistrant.getTemporaryGuestEventRegistrationId returns correct guest eventRegId 1`] = `"eventRegistrationBId"`;
+
+exports[`currentRegistrant.guestRegistrantsCount returns guest registration count: currentRegistrant.guestRegistrantsCount returns guest registration count 1`] = `2`;
+
+exports[`currentRegistrant.isQuestionVisible returns if question is visible: currentRegistrant.isQuestionVisible returns false when associated to non-selected admission item 1`] = `false`;
+
+exports[`currentRegistrant.isQuestionVisible returns if question is visible: currentRegistrant.isQuestionVisible returns false when associated to non-selected included session 1`] = `false`;
+
+exports[`currentRegistrant.isQuestionVisible returns if question is visible: currentRegistrant.isQuestionVisible returns true when associated to selected admission item 1`] = `true`;
+
+exports[`currentRegistrant.isQuestionVisible returns if question is visible: currentRegistrant.isQuestionVisible returns true when associated to selected optional session 1`] = `true`;
+
+exports[`currentRegistrant.isQuestionVisible returns if question is visible: currentRegistrant.isQuestionVisible returns true when associated to selected session in session group 1`] = `true`;
+
+exports[`currentRegistrant.modificationStart .getAttendee returns the attendee 1`] = `
+Object {
+  "attendeeId": "attendeeAId",
+  "eventAnswers": Object {
+    "eventAnswerAId": Object {
+      "answers": Array [
+        Object {
+          "answerType": "Im Hungry!",
+          "text": "text answer",
+        },
+      ],
+      "questionId": "eventAnswerAId",
+    },
+  },
+  "personalInformation": Object {
+    "customFields": Object {
+      "customFieldAId": Object {
+        "answers": Array [
+          Object {
+            "answerType": "I am a dragon!",
+            "text": "text answer",
+          },
+        ],
+        "questionId": "customFieldAId",
+      },
+    },
+    "emailAddress": "floofykins.snuffles@j.mail",
+    "firstName": "floofykins",
+    "lastName": "snuffles",
+    "socialMediaUrls": Object {
+      "FACEBOOK": "http://www.facebook.com/YourChosenName",
+    },
+  },
+}
+`;
+
+exports[`currentRegistrant.modificationStart .getAttendeeCustomFieldAnswer returns the answer 1`] = `
+Object {
+  "answers": Array [
+    Object {
+      "answerType": "I am a dragon!",
+      "text": "text answer",
+    },
+  ],
+  "questionId": "customFieldAId",
+}
+`;
+
+exports[`currentRegistrant.modificationStart .getAttendeeId returns the attendee id 1`] = `"attendeeAId"`;
+
+exports[`currentRegistrant.modificationStart .getAttendeeQuestionAnswer returns the answer 1`] = `undefined`;
+
+exports[`currentRegistrant.modificationStart .getAttendeeStandardFieldAnswer returns the answer 1`] = `"floofykins"`;
+
+exports[`currentRegistrant.modificationStart .getEventRegistration returns the event registration 1`] = `
+Object {
+  "attendee": Object {
+    "attendeeId": "attendeeAId",
+    "eventAnswers": Object {
+      "eventAnswerAId": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Im Hungry!",
+            "text": "text answer",
+          },
+        ],
+        "questionId": "eventAnswerAId",
+      },
+    },
+    "personalInformation": Object {
+      "customFields": Object {
+        "customFieldAId": Object {
+          "answers": Array [
+            Object {
+              "answerType": "I am a dragon!",
+              "text": "text answer",
+            },
+          ],
+          "questionId": "customFieldAId",
+        },
+      },
+      "emailAddress": "floofykins.snuffles@j.mail",
+      "firstName": "floofykins",
+      "lastName": "snuffles",
+      "socialMediaUrls": Object {
+        "FACEBOOK": "http://www.facebook.com/YourChosenName",
+      },
+    },
+  },
+  "attendeeType": "ATTENDEE",
+  "eventId": "EventAId",
+  "eventRegistrationId": "eventRegistrationAId",
+  "productRegistrations": Array [
+    Object {
+      "productId": "admissionItemAId",
+      "productType": "AdmissionItem",
+      "quantity": 1,
+      "requestedAction": "REGISTER",
+    },
+  ],
+  "registrationTypeId": "registrationTypeAId",
+  "sessionRegistrations": Object {
+    "sessionAId": Object {
+      "productId": "sessionAId",
+      "productType": "Session",
+      "quantity": 1,
+      "requestedAction": "REGISTER",
+    },
+  },
+}
+`;
+
+exports[`currentRegistrant.modificationStart .getRegisteredAdmissionItem returns the set of admission items 1`] = `
+Object {
+  "productId": "admissionItemAId",
+  "productType": "AdmissionItem",
+  "quantity": 1,
+  "requestedAction": "REGISTER",
+}
+`;
+
+exports[`currentRegistrant.modificationStart .getRegisteredQuantityItems returns the list of quantity items 1`] = `Object {}`;
+
+exports[`currentRegistrant.modificationStart .getRegisteredSessions returns the list of sessions 1`] = `
+Object {
+  "sessionAId": Object {
+    "productId": "sessionAId",
+    "productType": "Session",
+    "quantity": 1,
+    "requestedAction": "REGISTER",
+  },
+}
+`;
+
+exports[`productSelectors.getAllSortedAdmissionItems returns admission items for agenda widget 1`] = `
+Object {
+  "admissionItemAId": Object {
+    "id": "admissionItemAId",
+    "isOpenForRegistration": true,
+    "type": "AdmissionItem",
+  },
+}
+`;
+
+exports[`productSelectors.getAllSortedAdmissionItemsForWidget returns admission items for registration summary widget 1`] = `
+Object {
+  "admissionItemAId": Object {
+    "id": "admissionItemAId",
+    "isOpenForRegistration": true,
+    "type": "AdmissionItem",
+  },
+}
+`;
+
+exports[`productSelectors.getAllSortedSessions returns sessions for agenda widget 1`] = `
+Array [
+  Object {
+    "id": "sessionDId",
+    "isOpenForRegistration": true,
+  },
+]
+`;
+
+exports[`productSelectors.getGuestSelectedSessionDefinitions returns selected session definitions for guests 1`] = `
+Array [
+  Object {
+    "id": "sessionAId",
+    "isOpenForRegistration": true,
+    "name": "Session A",
+    "showOnAgenda": true,
+    "type": "Session",
+  },
+]
+`;
+
+exports[`productSelectors.getGuestSelectedSessionDefinitionsByGuest returns expected session definitions PROD-71652: productSelectors.getGuestSelectedSessionDefinitionsByGuest
+    does not add undefined to empty lists because of included sessions 1`] = `
+Map {
+  "eventRegistrationBId" => Array [],
+  "eventRegistrationDId" => Array [],
+}
+`;
+
+exports[`productSelectors.getGuestSelectedSessionDefinitionsByGuest returns expected session definitions productSelectors.getGuestSelectedSessionDefinitionsByGuest returns selected session definitions for guest 1`] = `
+Map {
+  "eventRegistrationBId" => Array [
+    Object {
+      "id": "sessionAId",
+      "isOpenForRegistration": true,
+      "name": "Session A",
+      "showOnAgenda": true,
+      "type": "Session",
+    },
+  ],
+  "eventRegistrationDId" => Array [
+    Object {
+      "id": "sessionAId",
+      "isOpenForRegistration": true,
+      "name": "Session A",
+      "showOnAgenda": true,
+      "type": "Session",
+    },
+  ],
+}
+`;
+
+exports[`productSelectors.getPrimaryAndGuestSortedVisibleAdmissionItems returns available admission items for primary and guest in sorted order 1`] = `
+Object {
+  "admissionItemAId": Object {
+    "applicableContactTypes": Array [
+      "registrationTypeAId",
+    ],
+    "associatedRegistrationTypes": Array [],
+    "availableOptionalSessions": Array [
+      "sessionIId",
+      "sessionJId",
+    ],
+    "displayOrder": 2,
+    "id": "admissionItemAId",
+    "isOpenForRegistration": true,
+    "isVisibleToPrimary": true,
+    "limitOptionalSessionsToSelect": false,
+  },
+  "admissionItemBId": Object {
+    "associatedRegistrationTypes": Array [],
+    "availableOptionalSessions": Array [
+      "sessionAId",
+      "sessionHId",
+      "sessionKId",
+    ],
+    "displayOrder": 1,
+    "id": "admissionItemBId",
+    "limitOptionalSessionsToSelect": true,
+  },
+}
+`;
+
+exports[`productSelectors.getPrimaryAndGuestSortedVisibleSessions returns available sessionProducts for primary and guest in sorted order 1`] = `
+Array [
+  Object {
+    "id": "sessionAId",
+    "isOpenForRegistration": true,
+    "name": "Session A",
+    "showOnAgenda": true,
+    "type": "Session",
+  },
+  Object {
+    "id": "sessionGroupAId",
+    "isOpenForRegistration": true,
+    "sessions": Object {
+      "sessionDId": Object {
+        "id": "sessionDId",
+        "isOpenForRegistration": true,
+        "name": "Group A Session D",
+      },
+      "sessionPId": Object {
+        "id": "sessionPId",
+        "isOpenForRegistration": true,
+      },
+      "sessionQId": Object {
+        "id": "sessionQId",
+        "isOpenForRegistration": true,
+      },
+    },
+  },
+  Object {
+    "associatedRegistrationTypes": Array [
+      "registrationTypeBId",
+    ],
+    "id": "sessionIId",
+    "isOpenForRegistration": true,
+    "type": "Session",
+  },
+]
+`;
+
+exports[`productSelectors.getPrimaryAndGuestVisibleEventRegistration productSelectors.getPrimaryAndGuestVisibleEventRegistration returns available event Registration for primary and guest 1`] = `
+Object {
+  "sessionAId": undefined,
+  "sessionGroupAId": Object {
+    "visibleEventReg": Array [
+      "eventRegistrationAId",
+    ],
+  },
+  "sessionGroupBId": Object {
+    "visibleEventReg": Array [
+      "eventRegistrationBId",
+    ],
+  },
+}
+`;
+
+exports[`productSelectors.getPrimaryAndGuestVisibleEventRegistration productSelectors.getPrimaryAndGuestVisibleEventRegistration returns available event Registration for primary and guest, when the session group is not visible for the guest 1`] = `
+Object {
+  "sessionAId": undefined,
+  "sessionGroupAId": Object {
+    "visibleEventReg": Array [
+      "eventRegistrationAId",
+    ],
+  },
+}
+`;
+
+exports[`productSelectors.getPrimaryAndGuestVisibleEventRegistration productSelectors.getPrimaryAndGuestVisibleEventRegistration returns available event registrations for primary 1`] = `
+Object {
+  "sessionAId": undefined,
+  "sessionGroupAId": Object {
+    "visibleEventReg": Array [
+      "eventRegistrationAId",
+    ],
+  },
+}
+`;
+
+exports[`productSelectors.getPrimaryAndGuestVisibleEventRegistration productSelectors.getPrimaryAndGuestVisibleEventRegistration returns no event registrations for primary, if the session group is not visible for selected admission item in Reg Mod 1`] = `
+Object {
+  "sessionAId": undefined,
+  "sessionGroupAId": undefined,
+}
+`;
+
+exports[`productSelectors.getPrimarySortedVisibleAdmissionItems returns available admission items for primary in sorted order 1`] = `
+Object {
+  "admissionItemAId": Object {
+    "applicableContactTypes": Array [
+      "registrationTypeAId",
+    ],
+    "associatedRegistrationTypes": Array [],
+    "availableOptionalSessions": Array [
+      "sessionIId",
+      "sessionJId",
+    ],
+    "displayOrder": 2,
+    "id": "admissionItemAId",
+    "isOpenForRegistration": true,
+    "isVisibleToPrimary": true,
+    "limitOptionalSessionsToSelect": false,
+  },
+}
+`;
+
+exports[`productSelectors.getPrimarySortedVisibleSessions returns available session products for primary in sorted order 1`] = `
+Array [
+  Object {
+    "id": "sessionAId",
+    "isOpenForRegistration": true,
+    "name": "Session A",
+    "showOnAgenda": true,
+    "type": "Session",
+  },
+  Object {
+    "id": "sessionGroupAId",
+    "isOpenForRegistration": true,
+    "sessions": Object {
+      "sessionDId": Object {
+        "id": "sessionDId",
+        "isOpenForRegistration": true,
+        "name": "Group A Session D",
+      },
+    },
+  },
+]
+`;
+
+exports[`productSelectors.getQuantityItemInfoForPrimary returns correct selected quantity items: productSelectors.getQuantityItemInfoForPrimaryreturns correct selected quantities 1`] = `
+Object {
+  "quantityItem1": Object {
+    "attendee": Object {
+      "personalInformation": Object {
+        "firstName": "floofykins",
+        "lastName": "snuffles",
+      },
+    },
+    "eventRegistrationId": "eventRegistrationAId",
+    "quantity": 2,
+  },
+  "quantityItemNoFee": Object {
+    "attendee": Object {
+      "personalInformation": Object {
+        "firstName": "floofykins",
+        "lastName": "snuffles",
+      },
+    },
+    "eventRegistrationId": "eventRegistrationAId",
+    "quantity": 4,
+  },
+}
+`;
+
+exports[`productSelectors.getSelectedSessionDefinitions returns selected session definitions for invitee agenda widget 1`] = `
+Array [
+  Object {
+    "id": "sessionAId",
+    "isOpenForRegistration": true,
+  },
+]
+`;
+
+exports[`productSelectors.getSelectedSessionDefinitions returns selected session definitions for sessions widget 1`] = `
+Array [
+  Object {
+    "id": "sessionAId",
+    "isOpenForRegistration": true,
+    "name": "Session A",
+    "showOnAgenda": true,
+    "type": "Session",
+  },
+]
+`;
+
+exports[`productSelectors.getSessionsVisibleToPrimary returns available sessions that are visible to primary, which includes sessions in sesson group. 1`] = `
+Array [
+  "sessionAId",
+  "sessionGroupAId",
+  "sessionDId",
+]
+`;
+
+exports[`productSelectors.getSkipSessionValidationAttendees returns all attendee as skipped for all session validations when new unassociated session is registered 1`] = `
+Object {
+  "attendeesToSkipAdvancedRulesValidation": Array [
+    "eventRegistrationAId",
+    "eventRegistrationDId",
+    "eventRegistrationBId",
+  ],
+  "attendeesToSkipMinMaxValidation": Array [
+    "eventRegistrationAId",
+    "eventRegistrationDId",
+    "eventRegistrationBId",
+  ],
+  "attendeesToSkipOverlapValidation": Array [
+    "eventRegistrationAId",
+    "eventRegistrationDId",
+    "eventRegistrationBId",
+  ],
+}
+`;
+
+exports[`productSelectors.getSkipSessionValidationAttendees returns all attendees as skipped for all session validations when there is no change in session selection during reg mod 1`] = `
+Object {
+  "attendeesToSkipAdvancedRulesValidation": Array [
+    "eventRegistrationAId",
+    "eventRegistrationBId",
+    "eventRegistrationDId",
+  ],
+  "attendeesToSkipMinMaxValidation": Array [
+    "eventRegistrationAId",
+    "eventRegistrationBId",
+    "eventRegistrationDId",
+  ],
+  "attendeesToSkipOverlapValidation": Array [
+    "eventRegistrationAId",
+    "eventRegistrationBId",
+    "eventRegistrationDId",
+  ],
+}
+`;
+
+exports[`productSelectors.getSkipSessionValidationAttendees returns only guest as skipped attendee for all session validations when existing registered session that is associated to advance rule is unregistered for primary attendee 1`] = `
+Object {
+  "attendeesToSkipAdvancedRulesValidation": Array [
+    "eventRegistrationDId",
+    "eventRegistrationBId",
+  ],
+  "attendeesToSkipMinMaxValidation": Array [
+    "eventRegistrationDId",
+    "eventRegistrationBId",
+  ],
+  "attendeesToSkipOverlapValidation": Array [
+    "eventRegistrationDId",
+    "eventRegistrationBId",
+  ],
+}
+`;

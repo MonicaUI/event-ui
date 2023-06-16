@@ -1,0 +1,3103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date product question renders when associated product is selected 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <div
+            class=""
+          >
+            <label
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </label>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="trigger"
+              >
+                <span>
+                  <div
+                    class=""
+                  >
+                    <input
+                      autocomplete="off"
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      dateinputlabel="NucleusWidgets_DateTimeQuestion_DateInputLabel__resx"
+                      id="dateTimeQuestion1"
+                      name="dateTimeQuestion1"
+                      periodconfig="[object Object]"
+                      placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                      separatorsymbol=":"
+                      timeinputlabel="NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </span>
+                <span
+                  class="mockNucleusCoreTransition"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time product question does not renders when associated product is not selected 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time product question renders for invitee and guest when they both select associated product 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <div
+            class=""
+          >
+            EventWidgets_QuestionWidget_ProductQuestionHeader_TwoPartName
+          </div>
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <div
+            class=""
+          >
+            EventWidgets_QuestionWidget_ProductQuestionHeader_TwoPartName
+          </div>
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1-dummyGuestEventRegId"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1-dummyGuestEventRegId.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1-dummyGuestEventRegId.date"
+                            name="dateTimeQuestion1-dummyGuestEventRegId.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1-dummyGuestEventRegId.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1-dummyGuestEventRegId.time"
+                      name="dateTimeQuestion1-dummyGuestEventRegId.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time product question renders when associated product is selected 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time properly returns empty when an empty string is passed 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time question renders and allows invitee to enter values for guest 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time question renders and allows invitee to enter values for guest 2`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value="01/02/2000"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time question renders and allows invitee to enter values for guest 3`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value="01/02/2000"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="01:23 AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time question renders and allows invitee to enter values for guest 4`] = `
+Object {
+  "eventAnswers": Object {
+    "dateTimeQuestion1": Object {
+      "answers": Array [
+        Object {
+          "answerType": "Text",
+          "text": "2000-01-02 01:23:00",
+        },
+      ],
+      "questionId": "dateTimeQuestion1",
+    },
+  },
+}
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time question renders and allows you to enter values 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time question renders and allows you to enter values 2`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value="01/02/2000"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time question renders and allows you to enter values 3`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value="01/02/2000"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="01:23 AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time question renders and allows you to enter values 4`] = `
+Object {
+  "eventAnswers": Object {
+    "dateTimeQuestion1": Object {
+      "answers": Array [
+        Object {
+          "answerType": "Text",
+          "text": "2000-01-02 01:23:00",
+        },
+      ],
+      "questionId": "dateTimeQuestion1",
+    },
+  },
+  "personalInformation": Object {
+    "firstName": "attendee",
+    "lastName": "1",
+  },
+}
+`;
+
+exports[`DateTimeQuestionWidget Use GraphQL widget data date time session question renders when associated product is selected 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="sessionDateTimeQuestion3"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="sessionDateTimeQuestion3.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="sessionDateTimeQuestion3.date"
+                            name="sessionDateTimeQuestion3.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="sessionDateTimeQuestion3.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="sessionDateTimeQuestion3.time"
+                      name="sessionDateTimeQuestion3.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date product question renders when associated product is selected 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <div
+            class=""
+          >
+            <label
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </label>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="trigger"
+              >
+                <span>
+                  <div
+                    class=""
+                  >
+                    <input
+                      autocomplete="off"
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      dateinputlabel="NucleusWidgets_DateTimeQuestion_DateInputLabel__resx"
+                      id="dateTimeQuestion1"
+                      name="dateTimeQuestion1"
+                      periodconfig="[object Object]"
+                      placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                      separatorsymbol=":"
+                      timeinputlabel="NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </span>
+                <span
+                  class="mockNucleusCoreTransition"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time product question does not renders when associated product is not selected 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time product question renders for invitee and guest when they both select associated product 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <div
+            class=""
+          >
+            EventWidgets_QuestionWidget_ProductQuestionHeader_TwoPartName
+          </div>
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <div
+            class=""
+          >
+            EventWidgets_QuestionWidget_ProductQuestionHeader_TwoPartName
+          </div>
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1-dummyGuestEventRegId"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1-dummyGuestEventRegId.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1-dummyGuestEventRegId.date"
+                            name="dateTimeQuestion1-dummyGuestEventRegId.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1-dummyGuestEventRegId.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1-dummyGuestEventRegId.time"
+                      name="dateTimeQuestion1-dummyGuestEventRegId.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time product question renders when associated product is selected 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time properly returns empty when an empty string is passed 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time question renders and allows invitee to enter values for guest 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time question renders and allows invitee to enter values for guest 2`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value="01/02/2000"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time question renders and allows invitee to enter values for guest 3`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value="01/02/2000"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="01:23 AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time question renders and allows invitee to enter values for guest 4`] = `
+Object {
+  "eventAnswers": Object {
+    "dateTimeQuestion1": Object {
+      "answers": Array [
+        Object {
+          "answerType": "Text",
+          "text": "2000-01-02 01:23:00",
+        },
+      ],
+      "questionId": "dateTimeQuestion1",
+    },
+  },
+}
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time question renders and allows you to enter values 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time question renders and allows you to enter values 2`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value="01/02/2000"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time question renders and allows you to enter values 3`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="dateTimeQuestion1"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="dateTimeQuestion1.date"
+                            name="dateTimeQuestion1.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value="01/02/2000"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="dateTimeQuestion1.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="dateTimeQuestion1.time"
+                      name="dateTimeQuestion1.time"
+                      type="text"
+                      value="01:23 AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time question renders and allows you to enter values 4`] = `
+Object {
+  "eventAnswers": Object {
+    "dateTimeQuestion1": Object {
+      "answers": Array [
+        Object {
+          "answerType": "Text",
+          "text": "2000-01-02 01:23:00",
+        },
+      ],
+      "questionId": "dateTimeQuestion1",
+    },
+  },
+  "personalInformation": Object {
+    "firstName": "attendee",
+    "lastName": "1",
+  },
+}
+`;
+
+exports[`DateTimeQuestionWidget Use Redux widget data date time session question renders when associated product is selected 1`] = `
+<div
+  class=""
+>
+  <div>
+    <div
+      class=""
+      style="width: 100%;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class=""
+          style="flex: 1 1 auto;"
+        >
+          <fieldset
+            class=""
+          >
+            <legend
+              class="labelOnTop"
+              for="sessionDateTimeQuestion3"
+            >
+              <span
+                class=""
+              >
+                <span
+                  data-cvent-id="label"
+                >
+                  <span />
+                </span>
+              </span>
+              
+            </legend>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="input"
+              >
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="date-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="sessionDateTimeQuestion3.date"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_DateInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                      data-cvent-id="trigger"
+                    >
+                      <span>
+                        <div
+                          class=""
+                        >
+                          <input
+                            autocomplete="off"
+                            class="textboxDate"
+                            data-cvent-id="input"
+                            id="sessionDateTimeQuestion3.date"
+                            name="sessionDateTimeQuestion3.date"
+                            placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="mockNucleusCoreTransition"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementSideBySide"
+                  data-cvent-id="time-picker"
+                >
+                  <label
+                    class="hidden hidden"
+                    for="sessionDateTimeQuestion3.time"
+                  >
+                    <span
+                      class=""
+                    >
+                      <span
+                        data-cvent-id="label"
+                      >
+                        NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx
+                      </span>
+                    </span>
+                    
+                  </label>
+                  <div
+                    class=""
+                  >
+                    <input
+                      class="textboxDate"
+                      data-cvent-id="input"
+                      id="sessionDateTimeQuestion3.time"
+                      name="sessionDateTimeQuestion3.time"
+                      type="text"
+                      value="--:-- AM"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

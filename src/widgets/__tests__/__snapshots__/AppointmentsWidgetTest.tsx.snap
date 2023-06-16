@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppointmentsWidget should match snapshot 1`] = `
+Array [
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <a
+        class=""
+        href="http://mockUrl/event/code/confirmationNumber"
+        target="_self"
+      />
+    </div>
+  </div>,
+]
+`;

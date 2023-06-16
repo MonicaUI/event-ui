@@ -1,0 +1,1742 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sessions using GraphQL site editor data handling session is unavailable error when trying to update session 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "error": [Error],
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_FAILURE",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING",
+  },
+]
+`;
+
+exports[`sessions using GraphQL site editor data update session with capacity control from UI only re-register already registered session should not decrease session capacity count 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedSelectedSession",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+]
+`;
+
+exports[`sessions using GraphQL site editor data update session with capacity control from UI only register session should not make capacity service call if session counter is greater than threshold 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedUnSelectedSession",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedUnSelectedSession": Object {
+                "productId": "limitedUnSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedUnSelectedSession": Object {
+                "productId": "limitedUnSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+]
+`;
+
+exports[`sessions using GraphQL site editor data update session with capacity control from UI only register session should only make capacity service call if session counter is less than threshold 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedUnSelectedSession",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedUnSelectedSession": Object {
+                "productId": "limitedUnSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedUnSelectedSession": Object {
+                "productId": "limitedUnSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "limitedSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedSelectedSession",
+          "totalCapacityAvailable": 10,
+        },
+        "limitedUnSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedUnSelectedSession",
+          "totalCapacityAvailable": 20,
+        },
+        "sessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "sessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "unSelectedSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "unSelectedSessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "waitlistSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "waitlistSessionId",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_SESSION_CAPACITY",
+  },
+]
+`;
+
+exports[`sessions using GraphQL site editor data update session with capacity control from UI only unregister session should always make capacity service call with all event sessions capacity ids 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedSelectedSession",
+          "change": 1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "limitedSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedSelectedSession",
+          "totalCapacityAvailable": 10,
+        },
+        "limitedUnSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedUnSelectedSession",
+          "totalCapacityAvailable": 20,
+        },
+        "sessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "sessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "unSelectedSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "unSelectedSessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "waitlistSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "waitlistSessionId",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_SESSION_CAPACITY",
+  },
+]
+`;
+
+exports[`sessions using GraphQL site editor data update session with capacity control from UI only unregister then register session during regMod which registered already should not decrease session capacity count 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedSelectedSession",
+          "change": 1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "UNREGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "regMod": true,
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "UNREGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "limitedSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedSelectedSession",
+          "totalCapacityAvailable": 10,
+        },
+        "limitedUnSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedUnSelectedSession",
+          "totalCapacityAvailable": 20,
+        },
+        "sessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "sessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "unSelectedSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "unSelectedSessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "waitlistSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "waitlistSessionId",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_SESSION_CAPACITY",
+  },
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedSelectedSession",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "UNREGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "regMod": true,
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "UNREGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+]
+`;
+
+exports[`sessions using GraphQL site editor data updates a regCart with session 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "sessionId",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "sessionId": Object {
+                "productId": "sessionId",
+                "requestedAction": "REGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "test",
+                "lastName": "test",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "sessionId": Object {
+                "productId": "sessionId",
+                "requestedAction": "REGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "limitedSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedSelectedSession",
+          "totalCapacityAvailable": 10,
+        },
+        "limitedUnSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedUnSelectedSession",
+          "totalCapacityAvailable": 20,
+        },
+        "sessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "sessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "unSelectedSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "unSelectedSessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "waitlistSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "waitlistSessionId",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_SESSION_CAPACITY",
+  },
+]
+`;
+
+exports[`sessions using Redux site editor data handling session is unavailable error when trying to update session 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "error": [Error],
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_FAILURE",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING",
+  },
+]
+`;
+
+exports[`sessions using Redux site editor data update session with capacity control from UI only re-register already registered session should not decrease session capacity count 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedSelectedSession",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+]
+`;
+
+exports[`sessions using Redux site editor data update session with capacity control from UI only register session should not make capacity service call if session counter is greater than threshold 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedUnSelectedSession",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedUnSelectedSession": Object {
+                "productId": "limitedUnSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedUnSelectedSession": Object {
+                "productId": "limitedUnSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+]
+`;
+
+exports[`sessions using Redux site editor data update session with capacity control from UI only register session should only make capacity service call if session counter is less than threshold 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedUnSelectedSession",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedUnSelectedSession": Object {
+                "productId": "limitedUnSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedUnSelectedSession": Object {
+                "productId": "limitedUnSelectedSession",
+                "requestedAction": "REGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "limitedSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedSelectedSession",
+          "totalCapacityAvailable": 10,
+        },
+        "limitedUnSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedUnSelectedSession",
+          "totalCapacityAvailable": 20,
+        },
+        "sessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "sessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "unSelectedSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "unSelectedSessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "waitlistSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "waitlistSessionId",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_SESSION_CAPACITY",
+  },
+]
+`;
+
+exports[`sessions using Redux site editor data update session with capacity control from UI only unregister session should always make capacity service call with all event sessions capacity ids 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedSelectedSession",
+          "change": 1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "limitedSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedSelectedSession",
+          "totalCapacityAvailable": 10,
+        },
+        "limitedUnSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedUnSelectedSession",
+          "totalCapacityAvailable": 20,
+        },
+        "sessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "sessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "unSelectedSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "unSelectedSessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "waitlistSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "waitlistSessionId",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_SESSION_CAPACITY",
+  },
+]
+`;
+
+exports[`sessions using Redux site editor data update session with capacity control from UI only unregister then register session during regMod which registered already should not decrease session capacity count 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedSelectedSession",
+          "change": 1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "UNREGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "regMod": true,
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "UNREGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "limitedSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedSelectedSession",
+          "totalCapacityAvailable": 10,
+        },
+        "limitedUnSelectedSession": Object {
+          "active": true,
+          "availableCapacity": 10,
+          "capacityId": "limitedUnSelectedSession",
+          "totalCapacityAvailable": 20,
+        },
+        "sessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "sessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "unSelectedSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "unSelectedSessionId",
+          "totalCapacityAvailable": -1,
+        },
+        "waitlistSessionId": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "waitlistSessionId",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_SESSION_CAPACITY",
+  },
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "limitedSelectedSession",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "UNREGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "regMod": true,
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "limitedSelectedSession": Object {
+                "productId": "limitedSelectedSession",
+                "requestedAction": "UNREGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+]
+`;
+
+exports[`sessions using Redux site editor data updates a regCart with session 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "optimisticCapacityUpdates": Array [
+        Object {
+          "capacityId": "sessionId",
+          "change": -1,
+        },
+      ],
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Object {},
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "sessionId": Object {
+                "productId": "sessionId",
+                "requestedAction": "REGISTER",
+              },
+            },
+            "sessionWaitlists": Object {
+              "waitlistSessionId": Object {
+                "productId": "waitlistSessionId",
+                "registrationSourceType": "Selected",
+                "requestedAction": "WAITLIST",
+              },
+            },
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "test",
+                "lastName": "test",
+              },
+            },
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {
+              "sessionId": Object {
+                "productId": "sessionId",
+                "requestedAction": "REGISTER",
+              },
+            },
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_SESSION_SUCCESS",
+  },
+]
+`;

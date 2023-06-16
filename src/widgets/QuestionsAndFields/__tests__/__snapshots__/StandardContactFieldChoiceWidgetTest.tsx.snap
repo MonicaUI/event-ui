@@ -1,0 +1,688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gender standard contact field renders and allows you to select choice 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="label"
+            for="93bf707b-924c-4dbf-908c-4311233d17ae"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Gender
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="input"
+              id="93bf707b-924c-4dbf-908c-4311233d17ae"
+              style="display: block;"
+            >
+              <li
+                class=""
+                data-cvent-id="option-93bf707b-924c-4dbf-908c-4311233d17ae_0"
+              >
+                <input
+                  class=""
+                  id="93bf707b-924c-4dbf-908c-4311233d17ae_0"
+                  name="93bf707b-924c-4dbf-908c-4311233d17ae"
+                  required=""
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  for="93bf707b-924c-4dbf-908c-4311233d17ae_0"
+                >
+                  _fieldOption_male__resx
+                </label>
+              </li>
+              <li
+                class=""
+                data-cvent-id="option-93bf707b-924c-4dbf-908c-4311233d17ae_1"
+              >
+                <input
+                  class=""
+                  id="93bf707b-924c-4dbf-908c-4311233d17ae_1"
+                  name="93bf707b-924c-4dbf-908c-4311233d17ae"
+                  required=""
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  for="93bf707b-924c-4dbf-908c-4311233d17ae_1"
+                >
+                  _fieldOption_female__resx
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`gender standard contact field renders and allows you to select choice 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="label"
+            for="93bf707b-924c-4dbf-908c-4311233d17ae"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Gender
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="input"
+              id="93bf707b-924c-4dbf-908c-4311233d17ae"
+              style="display: block;"
+            >
+              <li
+                class=""
+                data-cvent-id="option-93bf707b-924c-4dbf-908c-4311233d17ae_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="93bf707b-924c-4dbf-908c-4311233d17ae_0"
+                  name="93bf707b-924c-4dbf-908c-4311233d17ae"
+                  required=""
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  for="93bf707b-924c-4dbf-908c-4311233d17ae_0"
+                >
+                  _fieldOption_male__resx
+                </label>
+              </li>
+              <li
+                class=""
+                data-cvent-id="option-93bf707b-924c-4dbf-908c-4311233d17ae_1"
+              >
+                <input
+                  class=""
+                  id="93bf707b-924c-4dbf-908c-4311233d17ae_1"
+                  name="93bf707b-924c-4dbf-908c-4311233d17ae"
+                  required=""
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  for="93bf707b-924c-4dbf-908c-4311233d17ae_1"
+                >
+                  _fieldOption_female__resx
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`gender standard contact field renders and allows you to select choice 3`] = `
+Object {
+  "personalInformation": Object {
+    "gender": "MALE",
+  },
+}
+`;
+
+exports[`gender standard contact field renders and allows you to select choice 4`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="label"
+            for="93bf707b-924c-4dbf-908c-4311233d17ae"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Gender
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="input"
+              id="93bf707b-924c-4dbf-908c-4311233d17ae"
+              style="display: block;"
+            >
+              <li
+                class=""
+                data-cvent-id="option-93bf707b-924c-4dbf-908c-4311233d17ae_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="93bf707b-924c-4dbf-908c-4311233d17ae_0"
+                  name="93bf707b-924c-4dbf-908c-4311233d17ae"
+                  required=""
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  for="93bf707b-924c-4dbf-908c-4311233d17ae_0"
+                >
+                  _fieldOption_male__resx
+                </label>
+              </li>
+              <li
+                class=""
+                data-cvent-id="option-93bf707b-924c-4dbf-908c-4311233d17ae_1"
+              >
+                <input
+                  class=""
+                  id="93bf707b-924c-4dbf-908c-4311233d17ae_1"
+                  name="93bf707b-924c-4dbf-908c-4311233d17ae"
+                  required=""
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  for="93bf707b-924c-4dbf-908c-4311233d17ae_1"
+                >
+                  _fieldOption_female__resx
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`gender standard contact field renders and allows you to select choice 5`] = `
+Object {
+  "personalInformation": Object {
+    "gender": "MALE",
+  },
+}
+`;
+
+exports[`passport country standard contact field renders and allows you to select country 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="label"
+            for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Passport Country
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="input"
+              id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+              style="display: block;"
+            >
+              <li
+                class=""
+                data-cvent-id="option-bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+              >
+                <input
+                  class=""
+                  id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+                  name="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+                  required=""
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+                >
+                  translated-IN
+                </label>
+              </li>
+              <li
+                class=""
+                data-cvent-id="option-bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+              >
+                <input
+                  class=""
+                  id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+                  name="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+                  required=""
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+                >
+                  translated-US
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`passport country standard contact field renders and allows you to select country 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="label"
+            for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Passport Country
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="input"
+              id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+              style="display: block;"
+            >
+              <li
+                class=""
+                data-cvent-id="option-bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+                  name="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+                  required=""
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+                >
+                  translated-IN
+                </label>
+              </li>
+              <li
+                class=""
+                data-cvent-id="option-bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+              >
+                <input
+                  class=""
+                  id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+                  name="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+                  required=""
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+                >
+                  translated-US
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`passport country standard contact field renders and allows you to select country 3`] = `
+Object {
+  "personalInformation": Object {
+    "passportCountryCode": "IN",
+  },
+}
+`;
+
+exports[`passport country standard contact field renders and allows you to select country 4`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="label"
+            for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Passport Country
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="input"
+              id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+              style="display: block;"
+            >
+              <li
+                class=""
+                data-cvent-id="option-bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+                  name="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+                  required=""
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+                >
+                  translated-IN
+                </label>
+              </li>
+              <li
+                class=""
+                data-cvent-id="option-bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+              >
+                <input
+                  class=""
+                  id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+                  name="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+                  required=""
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+                >
+                  translated-US
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`passport country standard contact field renders and allows you to select country 5`] = `
+Object {
+  "personalInformation": Object {
+    "passportCountryCode": "IN",
+  },
+}
+`;
+
+exports[`skipping required fields during planner reg 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="label"
+            for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Passport Country
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="input"
+              id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+              style="display: block;"
+            >
+              <li
+                class=""
+                data-cvent-id="option-bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+              >
+                <input
+                  class=""
+                  id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+                  name="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+                  required=""
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_0"
+                >
+                  translated-IN
+                </label>
+              </li>
+              <li
+                class=""
+                data-cvent-id="option-bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+              >
+                <input
+                  class=""
+                  id="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+                  name="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8"
+                  required=""
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  for="bbe011f6-855c-41f2-ac1f-d1cbc6b15af8_1"
+                >
+                  translated-US
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;

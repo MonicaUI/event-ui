@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutProcessingDialog matches snapshot when dialog is shown and then closed: dialog closed 1`] = `
+<div
+  class="dialogContainer"
+>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+      />
+      <div
+        class=""
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      class="checkoutProcessingMessage"
+    >
+      <h2
+        class="checkoutProcessingTitle"
+      >
+        _checkoutProcessingCompleteHeader_resx
+      </h2>
+      <p
+        class="checkoutProcessingText"
+      >
+        _checkoutProcessingCompleteMessage_resx
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckoutProcessingDialog matches snapshot when dialog is shown and then closed: dialog shown before closing 1`] = `
+<div
+  class="dialogContainer"
+>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+      />
+      <div
+        class=""
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      class="checkoutProcessingMessage"
+    >
+      <h2
+        class="checkoutProcessingTitle"
+      >
+        _checkoutProcessingCompleteHeader_resx
+      </h2>
+      <p
+        class="checkoutProcessingText"
+      >
+        _checkoutProcessingCompleteMessage_resx
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CheckoutProcessingDialog matches snapshot when dialog is shown: dialog shown 1`] = `
+<div
+  class="dialogContainer"
+>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+      />
+      <div
+        class=""
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      class="checkoutProcessingMessage"
+    >
+      <h2
+        class="checkoutProcessingTitle"
+      >
+        _checkoutProcessingCompleteHeader_resx
+      </h2>
+      <p
+        class="checkoutProcessingText"
+      >
+        _checkoutProcessingCompleteMessage_resx
+      </p>
+    </div>
+  </div>
+</div>
+`;

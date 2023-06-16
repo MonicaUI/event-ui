@@ -1,0 +1,11 @@
+export const ALLOW = 'allow';
+export const DENY = 'deny';
+export const INITIALIZATION_BANNER = 'Initialization_Banner';
+export const ALLPAGES_BANNER = 'AllPages_Banner';
+export const REGISTRATION_CONVERSION_BANNER = 'RegistrationConversion_Banner';
+export const OPT_IN_TYPE = 'opt-in';
+export const BASIC_TYPE = 'basic';
+export const INITIALIZATION = 'Initialization';
+export const ALLPAGES = 'AllPages';
+export const REGISTRATION_CONVERSION = 'RegistrationConversion';
+export const TRIGGER_BASED = 'TriggerBased';

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`logErrorAndRedirect should normally log and redirect 1`] = `
+Array [
+  Object {
+    "errorType": "ClientError",
+    "exception": Object {},
+    "level": "error",
+    "marker": "event-guestside-site/GLOBAL",
+    "message": "test",
+  },
+]
+`;
+
+exports[`logErrorAndRedirect should show an alert box and not redirect if app is in debug mode 1`] = `
+Array [
+  Object {
+    "errorType": "ClientError",
+    "exception": Object {},
+    "level": "error",
+    "marker": "event-guestside-site/GLOBAL",
+    "message": "test",
+  },
+]
+`;
+
+exports[`logErrorAndRedirect should specify ServiceError in log message if instance type matches 1`] = `
+Array [
+  Object {
+    "errorType": "ServiceError",
+    "exception": [ServiceError: test],
+    "level": "error",
+    "marker": "event-guestside-site/GLOBAL",
+    "message": "test",
+  },
+]
+`;

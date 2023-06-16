@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Passkey Banner should NOT render when page is not cancellation page 1`] = `null`;
+
+exports[`Passkey Banner should NOT render when passkey is not enabled 1`] = `null`;
+
+exports[`Passkey Banner should NOT render when there are no active passkey bookings 1`] = `null`;
+
+exports[`Passkey Banner should render 1`] = `
+<div>
+  <div />
+  <div
+    class="banner sticky-page-banner"
+  >
+    <div
+      class="wrapper"
+      style="background-color: rgb(221, 226, 230);"
+    >
+      <div
+        class="iconWrapper"
+        style="color: rgb(4, 21, 50);"
+      >
+        <span
+          class="container"
+        >
+          <span
+            aria-label="_attention__resx"
+            class="icon"
+            role="img"
+          />
+        </span>
+      </div>
+      <div
+        class="contentWrapper"
+      >
+        <h4
+          class=""
+          style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.375rem; color: rgb(4, 21, 50); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+        >
+          EventWidgets_Passkey_RegCancelStickyHeader__resx
+        </h4>
+        <div
+          class=""
+          style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 16px; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+        >
+          <span>
+            EventWidgets_Passkey_RegCancelStickyFirstLine__resx
+          </span>
+        </div>
+        <div
+          class="actionBar"
+        >
+          <button
+            class=""
+            data-cvent-id="passkey-banner-button-cancel"
+            style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 1.25rem; color: rgb(255, 255, 255); line-height: 1.3; font-style: normal; background-color: rgb(4, 21, 50); border-radius: 6px; border-width: 1px; border-style: solid; border-color: #041532; padding: 5px 1.25rem 5px 1.25rem;"
+            title="EventWidgets_Passkey_RegCancelStickyCancelButton__resx"
+            type="button"
+          >
+            <span>
+              EventWidgets_Passkey_RegCancelStickyCancelButton__resx
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

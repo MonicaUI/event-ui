@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`No backend call when RegType And Admission Item Ids and addresses have not changed in reg cart 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+      "attendee": Object {
+        "primaryInviteeId": null,
+        "type": "INVITEE",
+      },
+      "id": "DUMMY_BOOKING_ID",
+      "registrationPathId": "REG_PATH_ID",
+      "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+    },
+    Object {
+      "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+      "attendee": Object {
+        "contactId": null,
+        "homeCityAddress": Object {
+          "countryCode": "US",
+        },
+        "id": null,
+        "inviteeEmailAddress": "dummy@j.mail",
+        "primaryInviteeId": null,
+        "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+        "status": null,
+        "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+        "type": "INVITEE",
+        "workCityAddress": Object {
+          "countryCode": "US",
+        },
+      },
+      "id": "DUMMY_BOOKING_ID_TWO",
+      "registrationPathId": "REG_PATH_ID2",
+      "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+    },
+  ],
+  "id": "DUMMY_CART_ID",
+}
+`;
+
+exports[`Restore transient travel cart into state 1`] = `
+Object {
+  "accessToken": "DUMMY_ACCESS_TOKEN",
+  "clients": Object {
+    "travelApiClient": Object {
+      "getTransientTravelCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            "ATTENDEE_ID",
+            true,
+            Object {
+              "isForPlanner": true,
+              "isForTestMode": true,
+              "travelBookingIdOverrides": Object {
+                "ATTENDEE_ID": "REG_ID",
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+  },
+  "defaultUserSession": Object {
+    "isPlanner": true,
+    "isTestMode": true,
+  },
+  "event": Object {
+    "eventFeatureSetup": Object {
+      "travelAndHousing": Object {
+        "airTravel": Object {
+          "enabled": false,
+        },
+        "hotelAccomodations": true,
+      },
+    },
+    "timezone": 35,
+  },
+  "registrationForm": Object {
+    "regCart": Object {
+      "eventRegistrations": Object {
+        "REG_ID": Object {
+          "attendee": Object {
+            "attendeeId": "ATTENDEE_ID",
+          },
+        },
+      },
+    },
+  },
+  "timezones": Object {
+    "35": Object {
+      "abbreviation": "ET",
+      "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+      "dstInfo": Array [],
+      "hasDst": true,
+      "id": 35,
+      "name": "Eastern Time",
+      "nameResourceKey": "Event_Timezone_Name_35__resx",
+      "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+      "utcOffset": -300,
+    },
+  },
+  "travelCart": Object {
+    "cart": Object {
+      "bookings": Array [
+        Object {
+          "attendee": Object {
+            "contactId": "76cd8d03-14ad-4d95-90a7-9da9ddc1a6c7",
+            "id": "679f6780-3e3f-4337-b553-0f2cf7e9ea10",
+            "status": 2,
+            "type": "INVITEE",
+          },
+          "hotelRoomBookings": Array [
+            Object {
+              "attendeeRegistrationId": "fe3af4ad-a947-42b8-ab03-97223c1482c2",
+              "checkinDate": "2020-07-04",
+              "checkoutDate": "2020-07-06",
+              "hotelId": "868e342e-37da-4522-a2c9-e6d7c256f131",
+              "hotelReservationDetailId": "31c30941-be75-44f5-a8d0-5a03c8aeb70f",
+              "id": "7ac4e85f-6b77-468b-9433-3f5e79acefbc",
+              "isRoomLeader": true,
+              "preferences": Object {
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "isSmokingOpted": true,
+                "rewardsCode": "",
+                "roommateDescription": "",
+                "specialRequestNotes": "",
+              },
+              "quantity": 1,
+              "requestedAction": "BOOK",
+              "roomTypeId": "73010095-7243-4ae7-943c-62b069ef2fdc",
+              "travellerInfo": Object {
+                "firstName": "Matt",
+                "gender": 1,
+                "lastName": "Cameron",
+              },
+            },
+          ],
+          "id": "fe3af4ad-a947-42b8-ab03-97223c1482c2",
+          "registrationPathId": "ad5c0c62-1de5-4c0c-b43b-a88f0da71c05",
+          "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+          "requestedAction": "BOOK",
+          "travelReservationId": "0fdbfef3-81bd-4491-80bb-d38b795811ab",
+        },
+      ],
+      "eventId": "fa61b684-8480-41a1-8732-d3baa1ab68f7",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "id": "b6604949-5ae7-4ed3-9cec-84bf28895a1d",
+      "isForPlanner": false,
+      "isForPreview": false,
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "requestedAction": "VIEW",
+      "status": "TRANSIENT",
+      "travelSnapshotVersion": "jPOtVsudyBfOQ2dcOFHvzyLV0AqgntY3",
+    },
+    "isCartCreated": true,
+    "roommates": Object {
+      "availableRoommates": Object {
+        "all": Array [],
+        "keywordSearch": Object {},
+      },
+      "requestedFrom": Array [],
+    },
+    "userSession": Object {
+      "airActual": Object {
+        "selectedAirActualIds": Array [],
+        "showSummary": true,
+      },
+      "airRequest": Object {
+        "ownBooking": false,
+        "selectedAirRequestIds": Array [],
+        "showSummary": true,
+      },
+      "creditCard": null,
+      "groupFlights": Object {
+        "selectedGroupFlightIds": Array [],
+        "showSummary": true,
+      },
+      "hotelRequest": Object {
+        "expandedHotels": Array [],
+        "isMakingAnotherRequest": false,
+        "isSummaryView": false,
+        "ownBooking": Object {},
+      },
+      "travelAnswers": Object {},
+    },
+  },
+  "userSession": Object {},
+}
+`;
+
+exports[`Restore travel cart into state 1`] = `
+Object {
+  "accessToken": "DUMMY_ACCESS_TOKEN",
+  "clients": Object {
+    "travelApiClient": Object {
+      "getTravelCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            "DUMMY_CART_ID",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+  },
+  "event": Object {
+    "eventFeatureSetup": Object {
+      "travelAndHousing": Object {
+        "airTravel": Object {
+          "enabled": false,
+        },
+        "hotelAccomodations": true,
+      },
+    },
+    "timezone": 35,
+  },
+  "timezones": Object {
+    "35": Object {
+      "abbreviation": "ET",
+      "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+      "dstInfo": Array [],
+      "hasDst": true,
+      "id": 35,
+      "name": "Eastern Time",
+      "nameResourceKey": "Event_Timezone_Name_35__resx",
+      "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+      "utcOffset": -300,
+    },
+  },
+  "travelCart": Object {
+    "cart": Object {
+      "bookings": Array [
+        Object {
+          "hotelRoomBookings": Array [
+            Object {
+              "attendeeRegistrationId": undefined,
+              "checkinDate": "2015-06-22",
+              "checkoutDate": "2015-06-23",
+              "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+              "id": "00000000-0000-0000-0000-000000000000",
+              "isRoomLeader": true,
+              "preferences": Object {
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "isSmokingOpted": true,
+                "rewardsCode": true,
+                "roommateDescription": "",
+                "specialRequestNotes": "something",
+              },
+              "quantity": 1,
+              "requestedAction": "BOOK",
+              "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+              "travellerInfo": Object {
+                "firstName": "",
+                "gender": "0",
+                "lastName": "",
+              },
+            },
+          ],
+        },
+      ],
+      "eventId": "EVENT_ID",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "id": "DUMMY_CART_ID",
+      "isForPlanner": false,
+      "isForPreview": false,
+      "isForTestMode": false,
+      "requestedAction": "BOOK",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    },
+    "isCartCreated": true,
+    "roommates": Object {
+      "availableRoommates": Object {
+        "all": Array [],
+        "keywordSearch": Object {},
+      },
+      "requestedFrom": Array [],
+    },
+    "userSession": Object {
+      "airActual": Object {
+        "selectedAirActualIds": Array [],
+        "showSummary": true,
+      },
+      "airRequest": Object {
+        "ownBooking": false,
+        "selectedAirRequestIds": Array [],
+        "showSummary": true,
+      },
+      "creditCard": null,
+      "groupFlights": Object {
+        "selectedGroupFlightIds": Array [],
+        "showSummary": true,
+      },
+      "hotelRequest": Object {
+        "expandedHotels": Array [],
+        "isMakingAnotherRequest": false,
+        "isSummaryView": false,
+        "ownBooking": Object {},
+      },
+      "travelAnswers": Object {},
+    },
+  },
+}
+`;
+
+exports[`Update RegType And Admission Item Ids and addresses In Travel Bookings 1`] = `
+Object {
+  "bookings": Array [
+    Object {
+      "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+      "airActuals": Array [],
+      "airBookings": Array [
+        Object {
+          "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+          "departureDate": "",
+          "id": "airBooking1_1",
+          "requestedAction": "BOOK",
+          "returnDate": "",
+          "travellerInfo": Object {
+            "dateOfBirth": "",
+          },
+        },
+      ],
+      "attendee": Object {
+        "contactId": undefined,
+        "homeCityAddress": Object {
+          "city": undefined,
+          "countryCode": undefined,
+          "countryName": undefined,
+          "postalCode": undefined,
+          "stateCode": undefined,
+          "stateName": undefined,
+        },
+        "id": undefined,
+        "inviteeEmailAddress": undefined,
+        "primaryInviteeId": null,
+        "primaryRegistrantTravelBookingId": undefined,
+        "status": undefined,
+        "targetListId": undefined,
+        "type": "INVITEE",
+        "workCityAddress": Object {
+          "city": undefined,
+          "countryCode": undefined,
+          "countryName": undefined,
+          "postalCode": undefined,
+          "stateCode": undefined,
+          "stateName": undefined,
+        },
+      },
+      "concurAirActuals": Array [],
+      "creditCard": undefined,
+      "hotelRoomBookings": Array [],
+      "id": "DUMMY_BOOKING_ID",
+      "pnrAirActuals": Array [],
+      "registrationPathId": "REG_PATH_ID",
+      "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+      "travelAnswers": Array [],
+    },
+    Object {
+      "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+      "airActuals": Array [],
+      "airBookings": Array [
+        Object {
+          "attendeeRegistrationId": "DUMMY_BOOKING_ID_TWO",
+          "departureDate": "",
+          "id": "airBooking1_1",
+          "requestedAction": "BOOK",
+          "returnDate": "",
+          "travellerInfo": Object {
+            "dateOfBirth": "",
+          },
+        },
+      ],
+      "attendee": Object {
+        "contactId": null,
+        "homeCityAddress": Object {
+          "city": "McLean",
+          "countryCode": "US",
+          "countryName": undefined,
+          "postalCode": undefined,
+          "stateCode": undefined,
+          "stateName": "Virginia",
+        },
+        "id": null,
+        "inviteeEmailAddress": "dummy@j.mail",
+        "primaryInviteeId": null,
+        "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+        "status": null,
+        "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+        "type": "INVITEE",
+        "workCityAddress": Object {
+          "city": "McLean",
+          "countryCode": "US",
+          "countryName": undefined,
+          "postalCode": undefined,
+          "stateCode": undefined,
+          "stateName": "Virginia",
+        },
+      },
+      "concurAirActuals": Array [],
+      "creditCard": undefined,
+      "hotelRoomBookings": Array [],
+      "id": "DUMMY_BOOKING_ID_TWO",
+      "pnrAirActuals": Array [],
+      "registrationPathId": "REG_PATH_ID2",
+      "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+      "travelAnswers": Array [],
+    },
+  ],
+  "id": "DUMMY_CART_ID",
+  "isPlannerApprovalRequired": false,
+}
+`;

@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`consent question renders and allows invitee to check checkbox for guest 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="labelOnTop"
+            for="consentQuestion"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Consent Question
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="consentQuestion"
+            >
+              <li
+                data-cvent-id="option-consentQuestion_0"
+              >
+                <input
+                  class=""
+                  id="consentQuestion_0"
+                  name="consentQuestion"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="consentQuestion_0"
+                >
+                  I agree
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`consent question renders and allows invitee to check checkbox for guest 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="labelOnTop"
+            for="consentQuestion"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Consent Question
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="consentQuestion"
+            >
+              <li
+                data-cvent-id="option-consentQuestion_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="consentQuestion_0"
+                  name="consentQuestion"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="consentQuestion_0"
+                >
+                  I agree
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`consent question renders and allows invitee to check checkbox for guest 3`] = `
+Object {
+  "eventAnswers": Object {
+    "consentQuestion": Object {
+      "answers": Array [
+        Object {
+          "answerType": "Choice",
+          "choice": "I agree",
+        },
+      ],
+      "questionId": "consentQuestion",
+    },
+  },
+}
+`;
+
+exports[`consent question renders and allows invitee to check checkbox for guest 4`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="labelOnTop"
+            for="consentQuestion"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Consent Question
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="consentQuestion"
+            >
+              <li
+                data-cvent-id="option-consentQuestion_0"
+              >
+                <input
+                  class=""
+                  id="consentQuestion_0"
+                  name="consentQuestion"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="consentQuestion_0"
+                >
+                  I agree
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`consent question renders and allows invitee to check checkbox for guest 5`] = `undefined`;
+
+exports[`consent question renders and allows you to check checkbox 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="labelOnTop"
+            for="consentQuestion"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Consent Question
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="consentQuestion"
+            >
+              <li
+                data-cvent-id="option-consentQuestion_0"
+              >
+                <input
+                  class=""
+                  id="consentQuestion_0"
+                  name="consentQuestion"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="consentQuestion_0"
+                >
+                  I agree
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`consent question renders and allows you to check checkbox 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="labelOnTop"
+            for="consentQuestion"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Consent Question
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="consentQuestion"
+            >
+              <li
+                data-cvent-id="option-consentQuestion_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="consentQuestion_0"
+                  name="consentQuestion"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="consentQuestion_0"
+                >
+                  I agree
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`consent question renders and allows you to check checkbox 3`] = `
+Object {
+  "eventAnswers": Object {
+    "consentQuestion": Object {
+      "answers": Array [
+        Object {
+          "answerType": "Choice",
+          "choice": "I agree",
+        },
+      ],
+      "questionId": "consentQuestion",
+    },
+  },
+}
+`;
+
+exports[`consent question renders and allows you to check checkbox 4`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+        >
+          <legend
+            class="labelOnTop"
+            for="consentQuestion"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Consent Question
+                </span>
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="consentQuestion"
+            >
+              <li
+                data-cvent-id="option-consentQuestion_0"
+              >
+                <input
+                  class=""
+                  id="consentQuestion_0"
+                  name="consentQuestion"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="consentQuestion_0"
+                >
+                  I agree
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`consent question renders and allows you to check checkbox 5`] = `
+Object {
+  "eventAnswers": Object {
+    "consentQuestion": Object {
+      "answers": Array [],
+      "questionId": "consentQuestion",
+    },
+  },
+}
+`;

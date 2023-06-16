@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CcpaComplianceClient.makeCcpaComplianceRequest matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "[{\\"firstName\\":\\"John\\",\\"lastName\\":\\"Doe\\",\\"email\\":\\"JohnDoe@j.mail\\",\\"attendeeEntityType\\":\\"ATTENDEE\\",\\"attendeeEntityId\\":\\"attendee-entity-id\\"}]",
+    "_bodyText": "[{\\"firstName\\":\\"John\\",\\"lastName\\":\\"Doe\\",\\"email\\":\\"JohnDoe@j.mail\\",\\"attendeeEntityType\\":\\"ATTENDEE\\",\\"attendeeEntityId\\":\\"attendee-entity-id\\"}]",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/compliance/ccpa?environment=dev&eventId=eventId",
+  },
+]
+`;
+
+exports[`CcpaComplianceClient.makeCcpaComplianceRequest matches snapshot 1 1`] = `
+Array [
+  Request {
+    "_bodyInit": "[{\\"firstName\\":\\"John\\",\\"lastName\\":\\"Doe\\",\\"email\\":\\"JohnDoe@j.mail\\",\\"attendeeEntityType\\":\\"ATTENDEE\\",\\"attendeeEntityId\\":\\"attendee-entity-id\\"}]",
+    "_bodyText": "[{\\"firstName\\":\\"John\\",\\"lastName\\":\\"Doe\\",\\"email\\":\\"JohnDoe@j.mail\\",\\"attendeeEntityType\\":\\"ATTENDEE\\",\\"attendeeEntityId\\":\\"attendee-entity-id\\"}]",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/compliance/ccpa?environment=dev&eventId=eventId",
+  },
+]
+`;

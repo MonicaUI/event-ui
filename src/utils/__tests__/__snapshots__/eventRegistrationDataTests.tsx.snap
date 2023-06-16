@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`eventRegistrationData Tying it all together Should render 1`] = `
+Array [
+  <div>
+    <h1>
+      Hello
+    </h1>
+    <button
+      type="button"
+      value="Activate"
+    />
+    <dl>
+      <dd>
+        value
+      </dd>
+      <dt>
+        71
+      </dt>
+      <dd>
+        previous value
+      </dd>
+      <dt />
+    </dl>
+    <pre>
+      {"fieldPath":["numberField"],"widgetConfig":{"registrationFieldPageType":1},"value":71,"setterAction":{"type":"event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE","payload":{"path":["eventRegistrations","attendee1","attendee","personalInformation","numberField"]}},"actions":[]}
+    </pre>
+  </div>,
+]
+`;
+
+exports[`eventRegistrationData Tying it all together Should render 2`] = `
+Object {
+  "actions": Array [],
+  "registrationForm": Object {
+    "currentEventRegistrationId": "attendee1",
+    "regCart": Object {
+      "eventRegistrations": Object {
+        "attendee1": Object {
+          "attendee": Object {
+            "personalInformation": Object {
+              "arrayField": Array [
+                "some",
+                "array",
+                "values",
+                5,
+              ],
+              "numberField": 71,
+              "objectField": Object {
+                "subField": "oh hello there",
+              },
+              "stringField": "string value",
+            },
+          },
+          "eventRegistrationId": "attendee1",
+        },
+      },
+      "regMod": false,
+    },
+  },
+}
+`;
+
+exports[`eventRegistrationData Tying it all together Should render 3`] = `
+Array [
+  <div>
+    <h1>
+      Hello
+    </h1>
+    <button
+      type="button"
+      value="Activate"
+    />
+    <dl>
+      <dd>
+        value
+      </dd>
+      <dt>
+        71
+      </dt>
+      <dd>
+        previous value
+      </dd>
+      <dt />
+    </dl>
+    <pre>
+      {"fieldPath":["numberField"],"widgetConfig":{"registrationFieldPageType":1},"value":71,"setterAction":{"type":"event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE","payload":{"path":["eventRegistrations","attendee1","attendee","personalInformation","numberField"]}},"actions":[]}
+    </pre>
+  </div>,
+]
+`;
+
+exports[`eventRegistrationData Tying it all together Should render 4`] = `
+Object {
+  "actions": Array [
+    Object {
+      "payload": Object {
+        "path": Array [
+          "eventRegistrations",
+          "attendee1",
+          "attendee",
+          "personalInformation",
+          "numberField",
+        ],
+        "value": 999,
+      },
+      "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+    },
+  ],
+  "registrationForm": Object {
+    "currentEventRegistrationId": "attendee1",
+    "regCart": Object {
+      "eventRegistrations": Object {
+        "attendee1": Object {
+          "attendee": Object {
+            "personalInformation": Object {
+              "arrayField": Array [
+                "some",
+                "array",
+                "values",
+                5,
+              ],
+              "numberField": 71,
+              "objectField": Object {
+                "subField": "oh hello there",
+              },
+              "stringField": "string value",
+            },
+          },
+          "eventRegistrationId": "attendee1",
+        },
+      },
+      "regMod": false,
+    },
+  },
+}
+`;
+
+exports[`eventRegistrationData answer For widgets on guest information popup Should pull values from pre-mod cart during mod 1`] = `
+Object {
+  "isWidgetPlacedOnGuestModal": true,
+  "setterAction": Object {
+    "payload": Object {
+      "path": Array [
+        "attendee",
+        "personalInformation",
+        "stringField",
+      ],
+    },
+    "type": "event-guestside-site/regCart/SET_TEMPORARY_GUEST_FIELD_VALUE",
+  },
+  "value": "guest value",
+  "valueBeforeMod": "[preMod] guest value",
+}
+`;
+
+exports[`eventRegistrationData answer For widgets on guest information popup Should pull values from regCart 1`] = `
+Object {
+  "isWidgetPlacedOnGuestModal": true,
+  "setterAction": Object {
+    "payload": Object {
+      "path": Array [
+        "attendee",
+        "personalInformation",
+        "stringField",
+      ],
+    },
+    "type": "event-guestside-site/regCart/SET_TEMPORARY_GUEST_FIELD_VALUE",
+  },
+  "value": "guest value",
+  "valueBeforeMod": undefined,
+}
+`;
+
+exports[`eventRegistrationData answer For widgets on normal registration pages Should execute a formatter function if provided 1`] = `
+Object {
+  "isWidgetPlacedOnGuestModal": false,
+  "setterAction": Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "attendee1",
+        "attendee",
+        "personalInformation",
+        "stringField",
+      ],
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  "value": "mocked: string value",
+  "valueBeforeMod": "mocked: [preMod] string value",
+}
+`;
+
+exports[`eventRegistrationData answer For widgets on normal registration pages Should pull values from pre-mod cart during mod 1`] = `
+Object {
+  "isWidgetPlacedOnGuestModal": false,
+  "setterAction": Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "attendee1",
+        "attendee",
+        "personalInformation",
+        "stringField",
+      ],
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  "value": "string value",
+  "valueBeforeMod": "[preMod] string value",
+}
+`;
+
+exports[`eventRegistrationData answer For widgets on normal registration pages Should pull values from regCart 1`] = `
+Object {
+  "isWidgetPlacedOnGuestModal": false,
+  "setterAction": Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "attendee1",
+        "attendee",
+        "personalInformation",
+        "stringField",
+      ],
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  "value": "string value",
+  "valueBeforeMod": undefined,
+}
+`;
+
+exports[`eventRegistrationData buildEventRegistrationPath Should prepend the standard contact field path 1`] = `
+Array [
+  "attendee",
+  "personalInformation",
+  "firstName",
+]
+`;
+
+exports[`eventRegistrationData setAnswerAction Should append all elements in morePath to the path 1`] = `
+Object {
+  "anotherProperty": "yay",
+  "payload": Object {
+    "id": "id1",
+    "path": Array [
+      "path",
+      "to",
+      "glory",
+      "more",
+      "path",
+      "more",
+      "glory",
+    ],
+    "value": "field value",
+  },
+  "type": "test action",
+}
+`;
+
+exports[`eventRegistrationData setAnswerAction Should append the single value to the path 1`] = `
+Object {
+  "anotherProperty": "yay",
+  "payload": Object {
+    "id": "id1",
+    "path": Array [
+      "path",
+      "to",
+      "glory",
+      "more path",
+    ],
+    "value": "field value",
+  },
+  "type": "test action",
+}
+`;
+
+exports[`eventRegistrationData setAnswerAction Should not append more path 1`] = `
+Object {
+  "anotherProperty": "yay",
+  "payload": Object {
+    "id": "id1",
+    "path": Array [
+      "path",
+      "to",
+      "glory",
+    ],
+    "value": "field value",
+  },
+  "type": "test action",
+}
+`;

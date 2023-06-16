@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialMediaWidget produces props from state should match 1`] = `
+Object {
+  "children": <BaseWidget
+    config={
+      Object {
+        "description": "Twitter link",
+        "socialMediaType": "TWITTER",
+        "socialMediaUrl": "https://twitter.com/cvent",
+        "title": "Social Media Feed",
+      }
+    }
+    dispatch={[Function]}
+    hideWidget={false}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    style={Object {}}
+    translate={[MockFunction]}
+  />,
+  "value": null,
+}
+`;

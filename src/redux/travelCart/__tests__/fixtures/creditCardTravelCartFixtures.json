@@ -1,0 +1,56 @@
+{
+  "travelCartWithCreditCard": {
+    "id": "DUMMY_CART_ID",
+    "eventId": "38af9db8-035c-44dd-bd60-dff325b66e74",
+    "bookings": [],
+    "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+    "requestedAction": "BOOK",
+    "isForPreview": false,
+    "isForPlanner": false,
+    "isForTestMode": false,
+    "isPlannerApprovalRequired": false
+  },
+  "updateRegCartResult" : {
+    "regCart" : {
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+      "hasTravel": true,
+      "eventRegistrations": {
+        "DUMMY_BOOKING_ID": {
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          "registrationPathId": "REG_PATH_1",
+          "productRegistrations": [{
+            "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            "productType": "AdmissionItem",
+            "requestedAction": "REGISTER"
+          }]
+        },
+        "DUMMY_BOOKING_ID_TWO": {
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+          "registrationPathId": "REG_PATH_2",
+          "productRegistrations": [{
+            "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+            "productType": "AdmissionItem",
+            "requestedAction": "REGISTER"
+          }]
+        }
+      }
+    }
+  },
+  "creditCard": {
+    "cardType": "AmericanExpress",
+    "number": "123456",
+    "accountHolderName": "dummy",
+    "expiryMonth": "10",
+    "expiryYear": "2018",
+    "last4Digits": "3456"
+  },
+  "creditCardForCreateRequest": {
+    "number": "123456",
+    "accountHolderName": "dummy",
+    "expMonth": "10",
+    "expYear": "2018",
+    "last4Digits": "3456"
+  }
+}

@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`regCartPricing calculates reg cart payment params 1`] = `
+Object {
+  "currentEventRegistrationId": "00000000-0000-0000-0000-000000000001",
+  "feesEnabled": true,
+  "ignoreServiceFee": false,
+  "ignoreTaxes": false,
+  "isPlanner": false,
+  "modificationStartRegCart": undefined,
+  "partialPaymentSettings": Object {
+    "enabled": true,
+    "enabledOnPostRegPaymentPage": false,
+    "minimumPaymentAmount": "20",
+    "minimumPaymentAmountType": 1,
+    "paymentDistributionMethodType": "1",
+    "productPriorityList": Array [],
+  },
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "00000000-0000-0000-0000-000000000001": Object {
+        "attendee": Object {
+          "personalInformation": Object {
+            "firstName": "m",
+            "lastName": "d",
+          },
+        },
+        "attendeeType": "ATTENDEE",
+        "displaySequence": 1,
+        "eventId": "1efacd58-d0aa-4984-929e-7a65648270bb",
+        "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+        "primaryRegistrationId": "00000000-0000-0000-0000-000000000000",
+        "registrationPathId": "02ecb4d5-ea33-4044-9d10-51eb65b1e78a",
+        "requestedAction": "REGISTER",
+        "sessionRegistrations": Object {
+          "3253430c-d19a-421b-9592-70b8b2b7c4c5": Object {
+            "includedInAgenda": false,
+            "productId": "3253430c-d19a-421b-9592-70b8b2b7c4c5",
+            "registrationSourceType": "Included",
+            "requestedAction": "REGISTER",
+          },
+          "bd0d311c-68a8-4706-bee1-2ca42023a339": Object {
+            "includedInAgenda": false,
+            "productId": "bd0d311c-68a8-4706-bee1-2ca42023a339",
+            "registrationSourceType": "Selected",
+            "requestedAction": "REGISTER",
+          },
+        },
+      },
+      "55e6409a-1f00-4c67-b586-9666229d9dc9": Object {
+        "attendee": Object {
+          "personalInformation": Object {
+            "firstName": "abc",
+            "lastName": "Guest 02",
+          },
+        },
+        "attendeeType": "GUEST",
+        "displaySequence": 2,
+        "eventId": "1efacd58-d0aa-4984-929e-7a65648270bb",
+        "eventRegistrationId": "55e6409a-1f00-4c67-b586-9666229d9dc9",
+        "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+        "registrationPathId": "02ecb4d5-ea33-4044-9d10-51eb65b1e78a",
+        "requestedAction": "REGISTER",
+        "sessionRegistrations": Object {
+          "3253430c-d19a-421b-9592-70b8b2b7c4c5": Object {
+            "includedInAgenda": false,
+            "productId": "3253430c-d19a-421b-9592-70b8b2b7c4c5",
+            "registrationSourceType": "Included",
+            "requestedAction": "REGISTER",
+          },
+          "bd0d311c-68a8-4706-bee1-2ca42023a339": Object {
+            "includedInAgenda": false,
+            "productId": "bd0d311c-68a8-4706-bee1-2ca42023a339",
+            "registrationSourceType": "Selected",
+            "requestedAction": "REGISTER",
+          },
+        },
+      },
+      "8587d261-af1d-423d-a406-eb305ca124f3": Object {
+        "attendee": Object {
+          "personalInformation": Object {
+            "firstName": "def",
+            "lastName": "Guest 01",
+          },
+        },
+        "attendeeType": "GUEST",
+        "displaySequence": 1,
+        "eventId": "1efacd58-d0aa-4984-929e-7a65648270bb",
+        "eventRegistrationId": "8587d261-af1d-423d-a406-eb305ca124f3",
+        "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+        "registrationPathId": "02ecb4d5-ea33-4044-9d10-51eb65b1e78a",
+        "requestedAction": "REGISTER",
+        "sessionRegistrations": Object {
+          "3253430c-d19a-421b-9592-70b8b2b7c4c5": Object {
+            "includedInAgenda": false,
+            "productId": "3253430c-d19a-421b-9592-70b8b2b7c4c5",
+            "registrationSourceType": "Included",
+            "requestedAction": "REGISTER",
+          },
+          "bd0d311c-68a8-4706-bee1-2ca42023a339": Object {
+            "includedInAgenda": false,
+            "productId": "bd0d311c-68a8-4706-bee1-2ca42023a339",
+            "registrationSourceType": "Selected",
+            "requestedAction": "REGISTER",
+          },
+        },
+      },
+    },
+  },
+  "regCartPayment": Object {
+    "pricingInfo": Object {
+      "check": Object {
+        "paymentMethodKey": "check",
+        "paymentMethodType": "Check",
+        "paymentType": "Offline",
+        "referenceNumber": "",
+      },
+      "creditCard": Object {
+        "address1": "",
+        "address2": "",
+        "address3": "",
+        "cVV": "",
+        "city": "",
+        "country": "",
+        "name": "",
+        "number": "",
+        "paymentMethodKey": "creditCard",
+        "paymentMethodType": "Visa",
+        "paymentType": "Online",
+        "state": "",
+        "zip": "",
+      },
+      "noPayment": Object {
+        "paymentMethodKey": "noPayment",
+        "paymentMethodType": null,
+        "paymentType": "NoPayment",
+      },
+      "offline": Object {
+        "optionOne": Object {
+          "note": "",
+          "paymentMethodKey": "offline.optionOne",
+          "paymentMethodType": "Other",
+          "paymentType": "Offline",
+        },
+        "optionThree": Object {
+          "note": "",
+          "paymentMethodKey": "offline.optionThree",
+          "paymentMethodType": "Other3",
+          "paymentType": "Offline",
+        },
+        "optionTwo": Object {
+          "note": "",
+          "paymentMethodKey": "offline.optionTwo",
+          "paymentMethodType": "Other2",
+          "paymentType": "Offline",
+        },
+      },
+      "purchaseOrder": Object {
+        "paymentMethodKey": "purchaseOrder",
+        "paymentMethodType": "PurchaseOrder",
+        "paymentType": "Offline",
+        "referenceNumber": "",
+      },
+    },
+  },
+  "serviceFeeEnabled": true,
+  "taxesEnabled": true,
+}
+`;

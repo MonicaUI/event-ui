@@ -1,0 +1,159 @@
+{
+  "pages": {
+    "optInOut": {
+      "id": "optInOut",
+      "title": "EventGuest_OptInOut_PageTitle__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:opt-in-out"
+      ]
+    }
+  },
+  "layoutItems": {
+    "container:opt-in-out": {
+      "id": "container:opt-in-out",
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:opt-in-out"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "sectionRow:opt-in-out": {
+      "id": "sectionRow:opt-in-out",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:opt-in-out"
+        ],
+        "cellSize": 4,
+        "parentId": "container:opt-in-out"
+      },
+      "config": {
+        "style": {},
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "columnLayoutId": "ONE_COLUMN"
+      }
+    },
+    "sectionColumn:opt-in-out": {
+      "id": "sectionColumn:opt-in-out",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:opt-in-out-header",
+          "row:opt-in-out-description"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:opt-in-out"
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "row:opt-in-out-header": {
+      "id": "row:opt-in-out-header",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:opt-in-out",
+        "childIds": [
+          "widget:opt-in-out-header"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:opt-in-out-header": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:opt-in-out-header"
+      },
+      "id": "widget:opt-in-out-header",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "header2",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_OptOut_HeaderText__resx"
+      },
+      "widgetType": "InvalidOptOutText"
+    },
+    "row:opt-in-out-description": {
+      "id": "row:opt-in-out-description",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:opt-in-out",
+        "childIds": [
+          "widget:opt-in-out-description"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:opt-in-out-description": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:opt-in-out-description"
+      },
+      "id": "widget:opt-in-out-description",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 0,
+              "paddingBottom": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "body1",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_OptOut_DescriptionText__resx"
+      },
+      "widgetType": "InvalidOptOutText"
+    }
+  }
+}

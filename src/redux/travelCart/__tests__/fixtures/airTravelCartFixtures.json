@@ -1,0 +1,177 @@
+{
+  "travelCartWithAirBooking": {
+    "id": "DUMMY_CART_ID",
+    "eventId": "38af9db8-035c-44dd-bd60-dff325b66e74",
+    "bookings": [
+        {
+            "id": "DUMMY_BOOKING_ID",
+            "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+            "registrationPathId": "REG_PATH_1",
+            "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            "requestedAction": "BOOK",
+            "attendee": {
+              "contactId": null,
+              "homeCityAddress": {
+                "city": "McLean",
+                "countryCode": "US",
+                "countryName": "USA",
+                 "postalCode": 1234,
+                 "stateCode": "VA",
+                 "stateName": "Virginia"
+              },
+              "id": null,
+              "inviteeEmailAddress": "dummy@j.mail",
+              "primaryInviteeId": null,
+              "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+              "status": null,
+              "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+              "type": "INVITEE",
+              "workCityAddress": {
+                "city": "McLean",
+                "countryCode": "US",
+                "countryName": "USA",
+                "postalCode": 1234,
+                "stateCode": "VA",
+                "stateName": "Virginia"
+               }
+      },
+      "airBookings": [
+                {
+                    "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                    "requestedAction": "BOOK",
+                    "travellerInfo": {
+                        "firstName": "Fname",
+                        "middleName": "mname",
+                        "lastName": "lname",
+                        "suffix": "IV",
+                        "gender": 1,
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "redressNumber": "",
+                        "knownTravellerNumber": ""
+                    },
+                    "departureDate": "2019-08-06T05:00:00.000Z",
+                    "departureTime": "NOON",
+                    "departureFrom": 1855,
+                    "departureTo": 269,
+                    "returnDate": "2019-08-07T05:00:00.000Z",
+                    "returnTime": "NOON",
+                    "preferences": {
+                        "airlineClass": "FIRST",
+                        "seatingType": "WINDOW",
+                        "ageCategory": "SENIOR",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                        "airlinePreferences": [
+                            {
+                                "airlineName": "jkhdadhjk",
+                                "rewardsNumber": "kljdasjkda"
+                            },
+                            {
+                                "airlineName": "d",
+                                "rewardsNumber": "f"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+    "requestedAction": "BOOK",
+    "isForPreview": false,
+    "isForPlanner": false,
+    "isForTestMode": false,
+    "isPlannerApprovalRequired": false
+  },
+  "updateRegCartResult" : {
+    "regCart" : {
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+      "hasTravel": true,
+      "eventRegistrations": {
+        "DUMMY_BOOKING_ID": {
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          "registrationPathId": "REG_PATH_1",
+          "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+          "productRegistrations": [{
+            "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            "productType": "AdmissionItem",
+            "requestedAction": "REGISTER"
+          }],
+          "attendee": {
+            "attendeeId": null,
+            "inviteeStatus": null,
+            "personalInformation": {
+              "contactId": null,
+              "emailAddress": "dummy@j.mail",
+              "homeAddress": {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA"
+              },
+              "workAddress": {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA"
+              }
+            },
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8"
+          }
+        },
+        "DUMMY_BOOKING_ID_TWO": {
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+          "registrationPathId": "REG_PATH_2",
+          "productRegistrations": [{
+            "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+            "productType": "AdmissionItem",
+            "requestedAction": "REGISTER"
+          }]
+        }
+      }
+    }
+  },
+  "newAirRequest": {
+    "id": "dd0e7b41-ec09-4efe-94c4-1490b026b60c",
+    "requestedAction": "BOOK",
+    "travellerInfo": {
+        "firstName": "Fname",
+        "middleName": "mname",
+        "lastName": "lname",
+        "suffix": "IV",
+        "gender": 1,
+        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+        "redressNumber": "",
+        "knownTravellerNumber": ""
+    },
+    "departureDate": "2019-08-06T05:00:00.000Z",
+    "departureTime": "NOON",
+    "departureFrom": 1855,
+    "departureTo": 269,
+    "returnDate": "2019-08-07T05:00:00.000Z",
+    "returnTime": "NOON",
+    "preferences": {
+        "airlineClass": "FIRST",
+        "seatingType": "WINDOW",
+        "ageCategory": "SENIOR",
+        "specialMeals": "",
+        "specialRequirements": "LULwa",
+        "airlinePreferences": [
+            {
+                "airlineName": "jkhdadhjk",
+                "rewardsNumber": "kljdasjkda"
+            },
+            {
+                "airlineName": "d",
+                "rewardsNumber": "f"
+            }
+        ]
+    }
+}
+}

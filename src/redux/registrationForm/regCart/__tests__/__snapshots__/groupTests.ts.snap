@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`removeEventRegistrationFromRegCart should return a REMOVE_EVENT_REGISTRATION_ID action 1`] = `
+Object {
+  "payload": Object {
+    "currentEventRegistrationId": "test-id",
+    "path": Array [
+      "eventRegistrations",
+    ],
+  },
+  "type": "event-guestside-site/regCart/REMOVE_EVENT_REGISTRATION_ID",
+}
+`;
+
+exports[`thunk action creators removeGroupMembersFromRegCart should dispatch actions 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "payload": Object {
+        "regCartWithUpdates": Object {
+          "eventRegistrations": Object {
+            "groupLeader1": Object {
+              "attendeeType": "GROUP_LEADER",
+              "displaySequence": 1,
+              "eventRegistrationId": "groupLeader1",
+              "requestedAction": "REGISTER",
+            },
+            "groupMember1": Object {
+              "attendeeType": "ATTENDEE",
+              "displaySequence": 2,
+              "eventRegistrationId": "groupMember1",
+              "primaryRegistrationId": "groupLeader1",
+              "requestedAction": "UNREGISTER",
+            },
+            "guest1": Object {
+              "attendeeType": "GUEST",
+              "displaySequence": 3,
+              "eventRegistrationId": "guest1",
+              "primaryRegistrationId": "groupMember1",
+              "requestedAction": "UNREGISTER",
+            },
+          },
+          "groupRegistration": true,
+        },
+        "shouldAddTempGuestInfo": false,
+      },
+      "type": "[MOCK]/updateGuestsInRegCart",
+    },
+  ],
+  "appData": Object {
+    "registrationSettings": Object {
+      "registrationPaths": Object {
+        "regPathId": Object {
+          "id": "regPathId",
+        },
+      },
+    },
+  },
+  "eventSnapshotVersion": "eventSnapshotVersion",
+  "registrationForm": Object {
+    "regCart": Object {
+      "eventRegistrations": Object {
+        "groupLeader1": Object {
+          "attendeeType": "GROUP_LEADER",
+          "displaySequence": 1,
+          "eventRegistrationId": "groupLeader1",
+          "requestedAction": "REGISTER",
+        },
+        "groupMember1": Object {
+          "attendeeType": "ATTENDEE",
+          "displaySequence": 2,
+          "eventRegistrationId": "groupMember1",
+          "primaryRegistrationId": "groupLeader1",
+          "requestedAction": "REGISTER",
+        },
+        "guest1": Object {
+          "attendeeType": "GUEST",
+          "displaySequence": 3,
+          "eventRegistrationId": "guest1",
+          "primaryRegistrationId": "groupMember1",
+          "requestedAction": "REGISTER",
+        },
+      },
+      "groupRegistration": true,
+    },
+  },
+}
+`;

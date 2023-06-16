@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useCachedRegCartPricing should render with query result 1`] = `
+<pre>
+  {
+  "isEditPrice": false,
+  "isEditRefund": false,
+  "netFeeAmountCharge": 1200,
+  "netFeeAmountRefund": 0,
+  "productFeeAmountCharge": 1200,
+  "productSubTotalAmountCharge": 1200,
+  "productFeeAmountRefund": 0,
+  "productSubTotalAmountRefund": 0,
+  "regCartId": "a81a9d4d-cfa8-4464-bf8f-7e51d94a3f13",
+  "plannerOverriddenProductFees": {},
+  "plannerOverriddenProductRefunds": {},
+  "eventRegistrationPricings": [
+    {
+      "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+      "productFeeAmountCharge": 400,
+      "productFeeAmountRefund": 0,
+      "productSubTotalAmountCharge": 400,
+      "productSubTotalAmountRefund": 0,
+      "netFeeAmountCharge": 400,
+      "netFeeAmountRefund": 0,
+      "regCartStatus": {},
+      "registrantLogin": {},
+      "routing": {},
+      "productPricings": [
+        {
+          "productId": "bd0d311c-68a8-4706-bee1-2ca42023a339",
+          "productType": "Session",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 400,
+              "productFeeAmountPerItem": 400,
+              "productFeeAmount": 400,
+              "productSubTotalAmount": 400,
+              "netFeeAmount": 400
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 400,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 400,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 400,
+          "netFeeAmountRefund": 0
+        },
+        {
+          "productId": "3253430c-d19a-421b-9592-70b8b2b7c4c5",
+          "productType": "Session",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 0,
+              "productFeeAmountPerItem": 0,
+              "productFeeAmount": 0,
+              "productSubTotalAmount": 0,
+              "netFeeAmount": 0
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 0,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 0,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 0,
+          "netFeeAmountRefund": 0
+        },
+        {
+          "productId": "57d0761e-43b8-46f1-a719-366d8c8f63a1",
+          "productType": "AdmissionItem",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 0,
+              "productFeeAmountPerItem": 0,
+              "productFeeAmount": 0,
+              "productSubTotalAmount": 0,
+              "netFeeAmount": 0
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 0,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 0,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 0,
+          "netFeeAmountRefund": 0
+        }
+      ]
+    },
+    {
+      "eventRegistrationId": "8587d261-af1d-423d-a406-eb305ca124f3",
+      "productFeeAmountCharge": 400,
+      "productFeeAmountRefund": 0,
+      "productSubTotalAmountCharge": 400,
+      "productSubTotalAmountRefund": 0,
+      "netFeeAmountCharge": 400,
+      "netFeeAmountRefund": 0,
+      "regCartStatus": {},
+      "registrantLogin": {},
+      "routing": {},
+      "productPricings": [
+        {
+          "productId": "bd0d311c-68a8-4706-bee1-2ca42023a339",
+          "productType": "Session",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 400,
+              "productFeeAmountPerItem": 400,
+              "productFeeAmount": 400,
+              "productSubTotalAmount": 400,
+              "netFeeAmount": 400
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 400,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 400,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 400,
+          "netFeeAmountRefund": 0
+        },
+        {
+          "productId": "3253430c-d19a-421b-9592-70b8b2b7c4c5",
+          "productType": "Session",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 0,
+              "productFeeAmountPerItem": 0,
+              "productFeeAmount": 0,
+              "productSubTotalAmount": 0,
+              "netFeeAmount": 0
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 0,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 0,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 0,
+          "netFeeAmountRefund": 0
+        },
+        {
+          "productId": "57d0761e-43b8-46f1-a719-366d8c8f63a1",
+          "productType": "AdmissionItem",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 0,
+              "productFeeAmountPerItem": 0,
+              "productFeeAmount": 0,
+              "productSubTotalAmount": 0,
+              "netFeeAmount": 0
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 0,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 0,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 0,
+          "netFeeAmountRefund": 0
+        }
+      ]
+    },
+    {
+      "eventRegistrationId": "55e6409a-1f00-4c67-b586-9666229d9dc9",
+      "productFeeAmountCharge": 400,
+      "productFeeAmountRefund": 0,
+      "productSubTotalAmountCharge": 400,
+      "productSubTotalAmountRefund": 0,
+      "netFeeAmountCharge": 400,
+      "netFeeAmountRefund": 0,
+      "regCartStatus": {},
+      "registrantLogin": {},
+      "routing": {},
+      "productPricings": [
+        {
+          "productId": "bd0d311c-68a8-4706-bee1-2ca42023a339",
+          "productType": "Session",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 400,
+              "productFeeAmountPerItem": 400,
+              "productFeeAmount": 400,
+              "productSubTotalAmount": 400,
+              "netFeeAmount": 400
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 400,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 400,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 400,
+          "netFeeAmountRefund": 0
+        },
+        {
+          "productId": "3253430c-d19a-421b-9592-70b8b2b7c4c5",
+          "productType": "Session",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 0,
+              "productFeeAmountPerItem": 0,
+              "productFeeAmount": 0,
+              "productSubTotalAmount": 0,
+              "netFeeAmount": 0
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 0,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 0,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 0,
+          "netFeeAmountRefund": 0
+        },
+        {
+          "productId": "57d0761e-43b8-46f1-a719-366d8c8f63a1",
+          "productType": "AdmissionItem",
+          "pricingCharges": [
+            {
+              "quantity": 1,
+              "quantityPrevious": 0,
+              "feeId": "cc456b54-8897-4924-b287-30a0fb8592f1",
+              "priceTierId": "5420a3c6-0aea-4ab0-a210-a110039fadcb",
+              "productPriceTierBaseFeeAmountPerItem": 0,
+              "productFeeAmountPerItem": 0,
+              "productFeeAmount": 0,
+              "productSubTotalAmount": 0,
+              "netFeeAmount": 0
+            }
+          ],
+          "pricingRefunds": [],
+          "productFeeAmountCharge": 0,
+          "productFeeAmountRefund": 0,
+          "productSubTotalAmountCharge": 0,
+          "productSubTotalAmountRefund": 0,
+          "netFeeAmountCharge": 0,
+          "netFeeAmountRefund": 0
+        }
+      ]
+    }
+  ]
+}
+</pre>
+`;

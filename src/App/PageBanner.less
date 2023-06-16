@@ -1,0 +1,65 @@
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+@import (reference) '~nucleus-core/less/Utility.less';
+
+.banner {
+  width: 100%;
+  background-color: @pastelRed;
+  text-align: center;
+  font-size: 1.125em;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  padding: 11.5px 0 11.5px 0;
+  color: @white;
+  position: relative;
+}
+
+.aside {
+  text-align: left;
+  margin-right: 1em;
+  font-size: small;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.bannerHelp {
+  font-size: 0.75em;
+}
+
+.actionSection{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: calc(50% - 4em);
+}
+
+.actionList {
+  .cleanList();
+  box-sizing: border-box;
+}
+
+.item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.actionExit {
+  composes: item;
+  margin: 0 0 0 -.625em;
+}
+
+.exitEditor {
+  .cleanButton();
+  color: @white;
+  padding: .562em;
+}
+
+.exitIcon {
+  font-size: 1.875em;
+  left: 2px;
+  position: relative;
+  top: 2px;
+}

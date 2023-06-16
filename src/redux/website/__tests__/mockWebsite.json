@@ -1,0 +1,6466 @@
+{
+  "pluginData": {
+    "registrationProcessNavigation": {
+      "registrationPaths": {
+        "8d43c432-eec8-4a3a-bcaa-674bac985fb3": {
+          "pageIds": [
+            "regProcessStep1",
+            "regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43"
+          ],
+          "registrationDeclinePageIds": [
+            "registrationDeclinePage:7d3757d6-685e-4a26-9909-b14f822ff8f5"
+          ],
+          "registrationPendingApprovalPageIds": [
+            "registrationPendingApprovalPage:159b0007-6216-4c8a-8848-5067f6eecb25"
+          ],
+          "confirmationPageId": "confirmation",
+          "guestRegistrationPageIds": [
+            "guestRegistrationPage:c7ff2dd5-c2da-405e-ad5d-eac7f2145b61"
+          ],
+          "registrationCancellationPageIds": [
+            "registrationCancellationPage:11ab35bd-a4f5-4126-a16d-9a05e94f86d2"
+          ],
+          "id": "8d43c432-eec8-4a3a-bcaa-674bac985fb3",
+          "registrationApprovalDeniedPageIds": [
+            "registrationApprovalDeniedPage:3ba78812-3204-45e5-8567-348c235d18a2"
+          ],
+          "postRegPageIds": [
+            "confirmation"
+          ],
+          "eventWaitlistPageIds": [
+            "eventWaitlistPage:e735da19-5fc0-4a6f-8c7a-1c7d64116a48"
+          ]
+        }
+      }
+    }
+  },
+  "pages": {
+    "summary": {
+      "name": "_defaultPageTitle_summary__resx",
+      "id": "summary",
+      "title": "_defaultPageTitle_summary__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "id-0"
+      ]
+    },
+    "registrationDeclinePage:7d3757d6-685e-4a26-9909-b14f822ff8f5": {
+      "name": "EventSiteEditor_DefaultPageTitle_DeclineSurvey__resx",
+      "id": "registrationDeclinePage:7d3757d6-685e-4a26-9909-b14f822ff8f5",
+      "title": "EventSiteEditor_DefaultPageTitle_DeclineSurvey__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:9b81ecc9-918e-4ca3-83b8-1ac377467095"
+      ]
+    },
+    "regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43": {
+      "name": "_defaultPageTitle_regSummary__resx",
+      "id": "regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43",
+      "title": "_defaultPageTitle_regSummary__resx",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "type": "PAGE",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:f5eb2b19-9805-47d2-9347-08dffe1c6116"
+      ]
+    },
+    "registrationCancellationPage:11ab35bd-a4f5-4126-a16d-9a05e94f86d2": {
+      "name": "EventSiteEditor_DefaultPageTitle_CancellationSurvey__resx",
+      "id": "registrationCancellationPage:11ab35bd-a4f5-4126-a16d-9a05e94f86d2",
+      "title": "EventSiteEditor_DefaultPageTitle_CancellationSurvey__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:efba3426-d0cd-406d-8d03-86fb1655f14a"
+      ]
+    },
+    "eventWaitlistPage:e735da19-5fc0-4a6f-8c7a-1c7d64116a48": {
+      "name": "EventSiteEditor_DefaultPageTitle_Waitlist__resx",
+      "id": "eventWaitlistPage:e735da19-5fc0-4a6f-8c7a-1c7d64116a48",
+      "title": "EventSiteEditor_DefaultPageTitle_Waitlist__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:7cefaebd-2070-4a1c-93a5-7f6a6d1d5e75"
+      ]
+    },
+    "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558": {
+      "name": "EventSiteEditor_TemplateTitle_defaultTemplate__resx",
+      "id": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "type": "TEMPLATE_TOP_BOTTOM",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:a13e1806-f76b-45d7-96d7-1c62a3fd49c9",
+        "container:24b45ae7-ebc4-4c7b-b2e7-cd3ce648a6ee"
+      ]
+    },
+    "eventArchivePage": {
+      "name": "EventSiteEditor_DefaultPageTitle_ArchivePage__resx",
+      "id": "eventArchivePage",
+      "title": "EventSiteEditor_DefaultPageTitle_ArchivePage__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:11f55aee-9c9e-4831-aa94-72e26ccfd754"
+      ]
+    },
+    "registrationApprovalDeniedPage:3ba78812-3204-45e5-8567-348c235d18a2": {
+      "name": "EventSiteEditor_DefaultPageTitle_ApprovalDenied__resx",
+      "id": "registrationApprovalDeniedPage:3ba78812-3204-45e5-8567-348c235d18a2",
+      "title": "EventSiteEditor_DefaultPageTitle_ApprovalDenied__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:87cf2437-acda-410e-a508-922d016fe9fb"
+      ]
+    },
+    "regProcessStep1": {
+      "name": "_defaultPageTitle_regProcessStep1__resx",
+      "id": "regProcessStep1",
+      "title": "_defaultPageTitle_regProcessStep1__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "id-3"
+      ]
+    },
+    "confirmation": {
+      "name": "_defaultPageTitle_confirmation__resx",
+      "id": "confirmation",
+      "title": "_defaultPageTitle_confirmation__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "temp-1469646842471"
+      ]
+    },
+    "guestRegistrationPage:c7ff2dd5-c2da-405e-ad5d-eac7f2145b61": {
+      "name": "EventSiteEditor_DefaultPageTitle_GuestRegistration__resx",
+      "id": "guestRegistrationPage:c7ff2dd5-c2da-405e-ad5d-eac7f2145b61",
+      "title": "EventSiteEditor_DefaultPageTitle_GuestRegistration__resx",
+      "type": "BLANK_PAGE",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:c658d8b5-27a4-4054-81fd-6b47eb11cafa"
+      ]
+    },
+    "registrationPendingApprovalPage:159b0007-6216-4c8a-8848-5067f6eecb25": {
+      "name": "EventSiteEditor_DefaultPageTitle_PendingApproval__resx",
+      "id": "registrationPendingApprovalPage:159b0007-6216-4c8a-8848-5067f6eecb25",
+      "title": "EventSiteEditor_DefaultPageTitle_PendingApproval__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:b76d3fbd-6256-4482-9569-39f985c146eb"
+      ]
+    }
+  },
+  "layoutItems": {
+    "widget:b3df74b9-8908-4ed6-9a2b-9a84b754bf7f": {
+      "layout": {
+        "colspan": 6,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 2,
+        "parentId": "row:89d69304-0824-4e6f-8ebf-dd235fcd3d18"
+      },
+      "id": "widget:b3df74b9-8908-4ed6-9a2b-9a84b754bf7f",
+      "config": {
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventWidgets_ModifyRegistration_DefaultButtonText__resx"
+      },
+      "widgetType": "EventRegistrationModification"
+    },
+    "widget:8206b8e0-6973-4d4e-bc00-146445fcf7ff": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:8865e19d-1434-43c6-9a62-0dc908fc852c"
+      },
+      "id": "widget:8206b8e0-6973-4d4e-bc00-146445fcf7ff",
+      "config": {
+        "style": {
+          "header": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "widgetType": "EventHeader"
+    },
+    "row:374d925b-9b38-4709-9ac4-f63da933da14": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:22200786-7528-4c7e-a4b7-9f838e231d10"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:de6f897e-9b5e-4408-96bb-5dd8fdc51263"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:374d925b-9b38-4709-9ac4-f63da933da14"
+    },
+    "temp-1469646842471": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "temp-1469646842479",
+          "sectionRow:6e1cb95a-43a1-4f87-b9b2-185c89cd3f81",
+          "sectionRow:33746007-02e4-4ae8-9731-2a5a1e39b685"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1469646842471"
+    },
+    "widget:e398b68d-cf2e-4d7a-a60a-9316c6e2a02f": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:868823db-e540-47b7-82f9-ec5de3cc9cd7"
+      },
+      "id": "widget:e398b68d-cf2e-4d7a-a60a-9316c6e2a02f",
+      "config": {
+        "registrationFieldPageType": 3,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "227f50d0-f65b-4a72-9a4f-5060ea05f6ab"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "sectionColumn:283c92c7-7204-493d-91e4-6bb1cfc218a9": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:c5dad0ed-2eb5-4223-94f4-759c070e6187",
+          "row:240cab61-bef0-42d1-91b4-a5a17904bdbe"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:10770b3d-0045-4d6f-9e3c-7c3d332090c9"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:283c92c7-7204-493d-91e4-6bb1cfc218a9"
+    },
+    "sectionColumn:de6f897e-9b5e-4408-96bb-5dd8fdc51263": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:f620e075-4e76-4591-998c-6d585a011020",
+          "row:63732bb8-3e42-4b74-b321-9467cf6f48ee",
+          "row:374d925b-9b38-4709-9ac4-f63da933da14"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:afa2be23-bf61-4c47-854b-eb9802317268"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:de6f897e-9b5e-4408-96bb-5dd8fdc51263"
+    },
+    "sectionColumn:3f3bd97f-4913-463b-b6ab-20c37488ffb8": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:5438f992-ec7e-4d66-a2b2-cc5852e7dabc"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:f97f22dd-8cf4-4dcf-9853-2482da4d2582"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:3f3bd97f-4913-463b-b6ab-20c37488ffb8"
+    },
+    "temp-1469646842479": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "temp-1469646842480"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842471"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "temp-1469646842479"
+    },
+    "widget:3dc76d51-2285-420c-9d84-96f72d188fcb": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:dce19c44-30d1-4927-9062-3b57241694b5"
+      },
+      "id": "widget:3dc76d51-2285-420c-9d84-96f72d188fcb",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text":  "EventGuestSide_staticTextWidget_countdownSeeYouIn__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "sectionRow:9a7b1f85-0f23-491a-a1ad-af266d722f99": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:1a2ecb17-d090-4e42-a0cd-3ff31a47af7f"
+        ],
+        "cellSize": 4,
+        "parentId": "container:24b45ae7-ebc4-4c7b-b2e7-cd3ce648a6ee"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {
+          "background": {
+            "color": "primary"
+          }
+        },
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:9a7b1f85-0f23-491a-a1ad-af266d722f99"
+    },
+    "CventFooterWidget": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "CventFooterRow"
+      },
+      "id": "CventFooterWidget",
+      "config": {
+        "style": {
+          "copyright": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "links": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "link"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "widgetType": "EventFooter"
+    },
+    "sectionRow:6a391b9f-bbb7-424a-95a6-4eac161d7bd6": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:53abfcfe-c3bb-4b20-a72b-2460fbfe4221"
+        ],
+        "cellSize": 4,
+        "parentId": "container:a13e1806-f76b-45d7-96d7-1c62a3fd49c9"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {
+          "background": {
+            "color": "accent"
+          }
+        },
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:6a391b9f-bbb7-424a-95a6-4eac161d7bd6"
+    },
+    "row:438e59ef-d582-44e1-8164-9a7c10924e9d": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:29f71d4c-241e-47b8-b701-fd516783af59"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:438e59ef-d582-44e1-8164-9a7c10924e9d"
+    },
+    "widget:a291fc81-97f2-4fe3-af87-262cbcfe8e8a": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:fb4a7ed0-eac4-4e71-856c-25990a82cf6a"
+      },
+      "id": "widget:a291fc81-97f2-4fe3-af87-262cbcfe8e8a",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 60,
+              "paddingTop": 0,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_staticTextWidget_registrationDenied_thankYouForYourInterest__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "sectionColumn:8adbe5a8-c8bf-4c6d-b4e2-63bcf21a747e": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:8e2b006c-390d-417a-b235-acc3110cf520",
+          "row:dce19c44-30d1-4927-9062-3b57241694b5",
+          "row:409f097d-8b96-44e9-a1ba-8994ea1e96c4"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:6e1cb95a-43a1-4f87-b9b2-185c89cd3f81"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:8adbe5a8-c8bf-4c6d-b4e2-63bcf21a747e"
+    },
+    "id-3": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "temp-1469646842439"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "id-3"
+    },
+    "container:b76d3fbd-6256-4482-9569-39f985c146eb": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:d0836883-ccea-4fc0-98fe-955d0e5d7fdf",
+          "sectionRow:26c45869-8e7a-4f90-b098-e511376e53c3",
+          "sectionRow:f97f22dd-8cf4-4dcf-9853-2482da4d2582"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:b76d3fbd-6256-4482-9569-39f985c146eb"
+    },
+    "row:5438f992-ec7e-4d66-a2b2-cc5852e7dabc": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:71dd6a1e-7e44-41a9-a0d6-516186a53e91",
+          "widget:fb9d0c5f-8049-4904-82cc-d8d19a35dd19"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:3f3bd97f-4913-463b-b6ab-20c37488ffb8"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:5438f992-ec7e-4d66-a2b2-cc5852e7dabc"
+    },
+    "CventFooterSection": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "CventFooterSectionColumn"
+        ],
+        "cellSize": 4,
+        "parentId": "CventFooterContainer"
+      },
+      "name": "NucleusSiteEditor_CventFooterSection_Name__resx",
+      "id": "CventFooterSection",
+      "sectionType": "CventFooterSection",
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "footer",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      }
+    },
+    "temp-1467228448799": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "temp-1467228448800"
+        ],
+        "cellSize": 4,
+        "parentId": "id-0"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "temp-1467228448799"
+    },
+    "row:086126c2-8fb3-4a4a-a205-91a265774365": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:33cd7929-1c88-4e03-b032-d8cd5d89fa35"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:086126c2-8fb3-4a4a-a205-91a265774365"
+    },
+    "widget:0b23e6e0-146c-4edc-9a7e-f79427541e82": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:6d361007-c25b-4947-861d-29f3050cb238"
+      },
+      "id": "widget:0b23e6e0-146c-4edc-9a7e-f79427541e82",
+      "config": {
+        "displayText": {
+          "exit": "_registrationNavigatorWidget_exitDefaultDisplayText__resx",
+          "backward": "_registrationNavigatorWidget_backwardDefaultDisplayText__resx",
+          "complete": "_registrationNavigatorWidget_completeDefaultDisplayText__resx",
+          "forward": "_registrationNavigatorWidget_forwardDefaultDisplayText__resx"
+        },
+        "style": {
+          "exit": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "backward": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "complete": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "forward": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          }
+        }
+      },
+      "widgetType": "RegistrationNavigator"
+    },
+    "row:4a4d37db-98cc-4922-b5b6-12427d0622c5": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:7cf00c98-f30a-4256-bb70-bddccbdcedc4"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:4a4d37db-98cc-4922-b5b6-12427d0622c5"
+    },
+    "row:7e91832a-0275-4efb-948c-2004dd3f489c": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:c9a888e3-efe4-42a9-9ad8-8ac9d066bbeb"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:7e91832a-0275-4efb-948c-2004dd3f489c"
+    },
+    "sectionColumn:1e6a3605-1fd2-48ce-9d0d-e7bd98fd8fa4": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:d1040bd6-6e48-440c-8dcf-15f201732459",
+          "row:fb4a7ed0-eac4-4e71-856c-25990a82cf6a"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:8a8fcd6c-64b6-40fa-b022-f7bb2476b2bc"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:1e6a3605-1fd2-48ce-9d0d-e7bd98fd8fa4"
+    },
+    "row:cf8697be-0c45-4a10-93c5-ee570fa03bd9": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:3a4f00ae-6df3-4eec-9fc4-f94168387a82"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:cf8697be-0c45-4a10-93c5-ee570fa03bd9"
+    },
+    "row:c5dad0ed-2eb5-4223-94f4-759c070e6187": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:cd33d43d-1df6-449e-8e53-4d7143f061a2"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:283c92c7-7204-493d-91e4-6bb1cfc218a9"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:c5dad0ed-2eb5-4223-94f4-759c070e6187"
+    },
+    "sectionRow:a8e0a4c6-3e61-45dc-910d-80b5b7e49437": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+        ],
+        "cellSize": 4,
+        "parentId": "container:efba3426-d0cd-406d-8d03-86fb1655f14a"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:a8e0a4c6-3e61-45dc-910d-80b5b7e49437"
+    },
+    "widget:67b171db-6bea-4a76-9a91-a62927aabac0": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:8c799f86-60bb-4b6a-8632-263fc29634c1"
+      },
+      "id": "widget:67b171db-6bea-4a76-9a91-a62927aabac0",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_staticTextWidget_youWillReceivePendingRegistrationEmail__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "sectionRow:8a8fcd6c-64b6-40fa-b022-f7bb2476b2bc": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:1e6a3605-1fd2-48ce-9d0d-e7bd98fd8fa4"
+        ],
+        "cellSize": 4,
+        "parentId": "container:87cf2437-acda-410e-a508-922d016fe9fb"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:8a8fcd6c-64b6-40fa-b022-f7bb2476b2bc"
+    },
+    "widget:0ce12432-09e5-4ca2-96b9-5637c7e98617": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:95eda418-c7d7-40b6-a72a-8373c4b219ce"
+      },
+      "id": "widget:0ce12432-09e5-4ca2-96b9-5637c7e98617",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 0,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_CancellationSurveyTextWidget_Header1__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "widget:d618e4ce-b9f3-4c5b-aadb-c4f70de879a6": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:16b69ea6-742a-49f0-8237-168659ee76b2"
+      },
+      "id": "widget:d618e4ce-b9f3-4c5b-aadb-c4f70de879a6",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_staticTextWidget_youWillReceiveEmail__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "container:9b81ecc9-918e-4ca3-83b8-1ac377467095": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:02ca888c-c0aa-43de-80a6-7dc5fbd0c7ef"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:9b81ecc9-918e-4ca3-83b8-1ac377467095"
+    },
+    "row:9b16ebf0-9f3e-4b30-81cd-1a44f0173c62": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:1feaa58f-1291-4ab7-9622-cc928bf85e88"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:9b16ebf0-9f3e-4b30-81cd-1a44f0173c62"
+    },
+    "widget:33cd7929-1c88-4e03-b032-d8cd5d89fa35": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:086126c2-8fb3-4a4a-a205-91a265774365"
+      },
+      "id": "widget:33cd7929-1c88-4e03-b032-d8cd5d89fa35",
+      "config": {
+        "registrationFieldPageType": 2,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "228cc308-a4d9-4212-8454-8407dd578c3d"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:c6230371-3904-4133-925d-6e3d67691454": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:336e4a8e-2877-4832-81e9-9c45288cdb1a"
+      },
+      "id": "widget:c6230371-3904-4133-925d-6e3d67691454",
+      "config": {
+        "registrationFieldPageType": 3,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          },
+          "additionalText": {
+            "styleMapping": "body1"
+          }
+        },
+        "id": "cdeed36f-2de7-458c-a61c-2613f80fae10"
+      },
+      "widgetType": "OpenEndedTextQuestion"
+    },
+    "row:5c0ee7f9-5d6a-4973-b430-1807b7d2d722": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:cf21f244-315c-4688-97d7-92f0a45a5f70"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:5c0ee7f9-5d6a-4973-b430-1807b7d2d722"
+    },
+    "widget:355243a8-fd34-49e8-84d3-683f93ec774a": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:c1dc1dfd-1afe-42ac-8a4b-db37b1466645"
+      },
+      "id": "widget:355243a8-fd34-49e8-84d3-683f93ec774a",
+      "config": {
+        "registrationFieldPageType": 3,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "ff919d05-4281-4d9c-aa0d-82e3722d580d"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:22200786-7528-4c7e-a4b7-9f838e231d10": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:374d925b-9b38-4709-9ac4-f63da933da14"
+      },
+      "id": "widget:22200786-7528-4c7e-a4b7-9f838e231d10",
+      "config": {
+        "buttonText": "_contactPlanner_buttonText__resx",
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "container": {
+            "textAlign": "center"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 60,
+              "paddingTop": 26,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_ArchivePageTextWidget_ContactUs__resx"
+      },
+      "widgetType": "ContactPlanner"
+    },
+    "CventFooterContainer": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "CventFooterSection"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "CventFooterContainer"
+    },
+    "widget:ed0d781b-d1af-467d-ae0b-4af98a70699a": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:a75a0377-dd50-401c-a29e-2fb6b3016c91"
+      },
+      "id": "widget:ed0d781b-d1af-467d-ae0b-4af98a70699a",
+      "config": {
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "AddToCalendarWidget_textConfig__resx"
+      },
+      "widgetType": "AddToCalendar"
+    },
+    "sectionColumn:5ce88556-0ab1-4dcc-9fbc-a2c680eed8fd": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:7793676f-c078-4863-bab5-bf57b213dd92"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:a9e5c4bb-9a43-40c8-8658-c5fe62a15df4"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:5ce88556-0ab1-4dcc-9fbc-a2c680eed8fd"
+    },
+    "sectionRow:1e234134-1c4c-418b-acf2-a9b2ff7af6b7": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:23a6c61d-95d0-4175-b153-7d0ec1be59f8"
+        ],
+        "cellSize": 4,
+        "parentId": "id-0"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {
+          "background": {
+            "color": "secondary"
+          }
+        },
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:1e234134-1c4c-418b-acf2-a9b2ff7af6b7"
+    },
+    "temp-1469646842480": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:4ddbcef2-d4f3-4c45-9c3f-f0d1266586b1",
+          "row:19fe5044-7dc1-4d49-b6e6-6adc1b5f7aca",
+          "row:16b69ea6-742a-49f0-8237-168659ee76b2",
+          "row:becec0c5-2fb9-4d11-af36-c3d985a64040"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842479"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1469646842480"
+    },
+    "widget:2e93df16-7800-45d8-8e86-2ec9e851726b": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:ea49607d-8ac3-4945-be26-de6a6b2584f7"
+      },
+      "id": "widget:2e93df16-7800-45d8-8e86-2ec9e851726b",
+      "config": {
+        "displayText": {
+          "exit": "EventWidgets_CancellationSurveyNavigator_ExitDefaultDisplayText__resx",
+          "backward": "",
+          "complete": "EventWidgets_CancellationSurveyNavigator_SubmitDefaultDisplayText__resx",
+          "forward": ""
+        },
+        "style": {
+          "complete": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "exit": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "widgetType": "RegistrationCancellationNavigator"
+    },
+    "row:ea49607d-8ac3-4945-be26-de6a6b2584f7": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:2e93df16-7800-45d8-8e86-2ec9e851726b"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:a9e510fc-8b87-450c-8c94-e6777f0afc15"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:ea49607d-8ac3-4945-be26-de6a6b2584f7"
+    },
+    "widget:7236c06c-80fc-439c-bdd5-4d68a4e809e0": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:63732bb8-3e42-4b74-b321-9467cf6f48ee"
+      },
+      "id": "widget:7236c06c-80fc-439c-bdd5-4d68a4e809e0",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 10,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_ArchivePageTextWidget_Header2__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "row:418fe536-41e7-4385-bf33-488cd87156b0": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:e036cc26-2cd7-4b51-a269-96a72867e033"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842442"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:418fe536-41e7-4385-bf33-488cd87156b0"
+    },
+    "container:f5eb2b19-9805-47d2-9347-08dffe1c6116": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:1d00f679-1b9c-41c3-806e-87395e9ccbd5"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:f5eb2b19-9805-47d2-9347-08dffe1c6116"
+    },
+    "widget:be376fe6-d70d-4488-9788-8c706071a92d": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:d10816d6-2af1-4eb1-ba15-e82987111846"
+      },
+      "id": "widget:be376fe6-d70d-4488-9788-8c706071a92d",
+      "config": {
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "link": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "link"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "pageLinks": {
+            "customSettings": {
+              "text": {
+                "textAlign": "right"
+              }
+            },
+            "styleMapping": "link"
+          }
+        }
+      },
+      "widgetType": "WebsiteNavigator"
+    },
+    "sectionRow:10770b3d-0045-4d6f-9e3c-7c3d332090c9": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:283c92c7-7204-493d-91e4-6bb1cfc218a9"
+        ],
+        "cellSize": 4,
+        "parentId": "id-0"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {
+          "background": {
+            "color": "primary"
+          }
+        },
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:10770b3d-0045-4d6f-9e3c-7c3d332090c9"
+    },
+    "widget:9ab8d1d0-f20f-48a0-9a24-f11ef5a48dff": {
+      "layout": {
+        "colspan": 6,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 2,
+        "parentId": "row:89d69304-0824-4e6f-8ebf-dd235fcd3d18"
+      },
+      "id": "widget:9ab8d1d0-f20f-48a0-9a24-f11ef5a48dff",
+      "config": {
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventWidgets_CancelRegistration_DefaultButtonText__resx"
+      },
+      "widgetType": "CancelRegistration"
+    },
+    "row:336e4a8e-2877-4832-81e9-9c45288cdb1a": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:c6230371-3904-4133-925d-6e3d67691454"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:336e4a8e-2877-4832-81e9-9c45288cdb1a"
+    },
+    "widget:ac9e61c9-41fa-4b12-bd28-20be267f290b": {
+      "layout": {
+        "colspan": 4,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 1,
+        "parentId": "row:b5d40f03-e6ac-4f72-a0b3-c7c38319444e"
+      },
+      "id": "widget:ac9e61c9-41fa-4b12-bd28-20be267f290b",
+      "config": {
+        "editableText": "_registerDeadlineWidget_textConfig__resx",
+        "displayDateOption": "dateTime",
+        "style": {
+          "dateTimeTimeZone": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          }
+        }
+      },
+      "widgetType": "RegistrationDeadline"
+    },
+    "row:18a9e2fb-d653-4b08-a3b1-62325241f2a5": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:1446d751-05fc-4288-a983-faecbbdeaebb"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:fd5058dd-8b0d-4c6a-93d4-e67d52af6735"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:18a9e2fb-d653-4b08-a3b1-62325241f2a5"
+    },
+    "widget:e515d6ee-92c5-46b8-9cf7-6050733f606a": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:ce54d32f-7c8c-42b6-99ec-1ebb4a485ae6"
+      },
+      "id": "widget:e515d6ee-92c5-46b8-9cf7-6050733f606a",
+      "config": {
+        "guestRegistrationHeaderText": "EventWidgets_GuestRegistration_DefaultTitle__resx",
+        "style": {
+          "attendeeNameStyles": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "select": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "headerText": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "fieldStyles": {
+            "customSettings": {
+              "border": {
+                "thickness": 0
+              },
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "productTableStyles": {
+            "productHeaderStyles": {
+              "customSettings": {
+                "background": {
+                  "color": "primary"
+                },
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 9,
+                    "paddingTop": 9,
+                    "paddingLeft": 10,
+                    "paddingRight": 0
+                  }
+                }
+              },
+              "styleMapping": "body1"
+            }
+          },
+          "instructionalText": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 10,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "guestRegButtonStyles": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "summaryHeaderActionLinks": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 0,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 10
+                }
+              }
+            },
+            "styleMapping": "link"
+          }
+        },
+        "addGuestDisplayType": "standardButton",
+        "configGuestProductSelectionDisabled": true,
+        "guestRegistrationInstructionalText": "EventWidgets_GuestRegistration_DefaultInstructionalText__resx",
+        "guestRegButtonText": "EventWidgets_GuestRegistration_DefaultButtonText_resx"
+      },
+      "widgetType": "GuestRegistration"
+    },
+    "sectionRow:6e1cb95a-43a1-4f87-b9b2-185c89cd3f81": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:8adbe5a8-c8bf-4c6d-b4e2-63bcf21a747e"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842471"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {
+          "background": {
+            "color": "primary"
+          }
+        },
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:6e1cb95a-43a1-4f87-b9b2-185c89cd3f81"
+    },
+    "sectionRow:a9e5c4bb-9a43-40c8-8658-c5fe62a15df4": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:5ce88556-0ab1-4dcc-9fbc-a2c680eed8fd"
+        ],
+        "cellSize": 4,
+        "parentId": "container:efba3426-d0cd-406d-8d03-86fb1655f14a"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:a9e5c4bb-9a43-40c8-8658-c5fe62a15df4"
+    },
+    "widget:f1f39342-9362-4f9c-8169-13eada23119c": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:efa30a61-c244-4c73-b6f3-1ba98dd47bea"
+      },
+      "id": "widget:f1f39342-9362-4f9c-8169-13eada23119c",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 10,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_CancellationSurveyTextWidget_Header2__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "row:98d88ccb-7bcf-4645-9a78-6310e16f603d": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:9a5d0c67-b7f1-4da5-8572-10e091b56e5d"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:98d88ccb-7bcf-4645-9a78-6310e16f603d"
+    },
+    "widget:1bf4db9a-dd10-4550-9f39-7cf223146767": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:bf62a302-dd5c-4c2e-9e54-ede6dd3b3b1d"
+      },
+      "id": "widget:1bf4db9a-dd10-4550-9f39-7cf223146767",
+      "config": {
+        "displayText": {
+          "exit": "EventWidgets_GuestModalNavigator_ExitDefaultDisplayText__resx",
+          "backward": "",
+          "complete": "EventWidgets_GuestModalNavigator_SubmitDefaultDisplayText__resx",
+          "forward": ""
+        },
+        "style": {
+          "complete": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "exit": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "widgetType": "GuestModalNavigatorWidget"
+    },
+    "row:ce54d32f-7c8c-42b6-99ec-1ebb4a485ae6": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:e515d6ee-92c5-46b8-9cf7-6050733f606a"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842442"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:ce54d32f-7c8c-42b6-99ec-1ebb4a485ae6"
+    },
+    "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:98d88ccb-7bcf-4645-9a78-6310e16f603d",
+          "row:9aefa249-4114-4619-a4ed-7a772fd7215a",
+          "row:80707c82-baa3-41a3-9e31-d66ac25dbccb",
+          "row:e089a131-900f-40b1-964a-8a2dfee8ad17",
+          "row:6ca5d6af-8ae3-4f98-a27f-c51414208107",
+          "row:4a4d37db-98cc-4922-b5b6-12427d0622c5"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:23f0ac1d-78a1-4182-920d-b69758110448"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388"
+    },
+    "CventFooterSectionColumn": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "CventFooterRow"
+        ],
+        "cellSize": 4,
+        "parentId": "CventFooterSection"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "CventFooterSectionColumn"
+    },
+    "row:8c799f86-60bb-4b6a-8632-263fc29634c1": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:67b171db-6bea-4a76-9a91-a62927aabac0"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:2c843f7d-58d6-4a21-93a5-8ac8a9fd360e"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:8c799f86-60bb-4b6a-8632-263fc29634c1"
+    },
+    "widget:f79c435b-f7ce-4ece-87f3-3d3338b7178a": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:80707c82-baa3-41a3-9e31-d66ac25dbccb"
+      },
+      "id": "widget:f79c435b-f7ce-4ece-87f3-3d3338b7178a",
+      "config": {
+        "registrationFieldPageType": 5,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:888a56f4-10e4-4314-886f-66464ff04929": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:45f586ce-092e-4a1d-82d1-97c7a6ce1011"
+      },
+      "id": "widget:888a56f4-10e4-4314-886f-66464ff04929",
+      "config": {
+        "registrationFieldPageType": 4,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "cfc98829-80b7-41b6-82b5-b968d43ef1c1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "row:e58c0c76-1a96-4ac0-895e-fcc5d00e4dea": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:b6bf4e38-43a6-4332-b920-c9718bd660e5"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:e58c0c76-1a96-4ac0-895e-fcc5d00e4dea"
+    },
+    "sectionColumn:23a6c61d-95d0-4175-b153-7d0ec1be59f8": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:b5d40f03-e6ac-4f72-a0b3-c7c38319444e"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:1e234134-1c4c-418b-acf2-a9b2ff7af6b7"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:23a6c61d-95d0-4175-b153-7d0ec1be59f8"
+    },
+    "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:95eda418-c7d7-40b6-a72a-8373c4b219ce",
+          "row:cf8697be-0c45-4a10-93c5-ee570fa03bd9",
+          "row:deee903c-bfea-4584-a142-078c97ff00c6",
+          "row:217cd4fa-780b-41db-8330-70e90e60f7f0",
+          "row:c1dc1dfd-1afe-42ac-8a4b-db37b1466645",
+          "row:ec710ed8-4f0a-4f55-80ba-d19b6dc427f3",
+          "row:868823db-e540-47b7-82f9-ec5de3cc9cd7",
+          "row:5c0ee7f9-5d6a-4973-b430-1807b7d2d722",
+          "row:336e4a8e-2877-4832-81e9-9c45288cdb1a"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:a8e0a4c6-3e61-45dc-910d-80b5b7e49437"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+    },
+    "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:e58c0c76-1a96-4ac0-895e-fcc5d00e4dea",
+          "row:efa30a61-c244-4c73-b6f3-1ba98dd47bea",
+          "row:438e59ef-d582-44e1-8164-9a7c10924e9d",
+          "row:7e91832a-0275-4efb-948c-2004dd3f489c",
+          "row:9b16ebf0-9f3e-4b30-81cd-1a44f0173c62",
+          "row:49217cec-5671-4459-87b6-fd1198191c4f",
+          "row:598f8d40-584a-4524-a8f0-23f541fe59ea",
+          "row:086126c2-8fb3-4a4a-a205-91a265774365",
+          "row:4bb8fb42-dc32-406d-a2b2-3ca34f7ccc1c",
+          "row:3817c0fe-3e12-46a5-9df7-46aeeba4a73a"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:02ca888c-c0aa-43de-80a6-7dc5fbd0c7ef"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+    },
+    "sectionRow:afa2be23-bf61-4c47-854b-eb9802317268": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:de6f897e-9b5e-4408-96bb-5dd8fdc51263"
+        ],
+        "cellSize": 4,
+        "parentId": "container:11f55aee-9c9e-4831-aa94-72e26ccfd754"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:afa2be23-bf61-4c47-854b-eb9802317268"
+    },
+    "row:217cd4fa-780b-41db-8330-70e90e60f7f0": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:a57371a5-7d27-4a85-a382-2224a5685d87"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:217cd4fa-780b-41db-8330-70e90e60f7f0"
+    },
+    "widget:c637f3e6-fff0-4b1a-9750-9338d2838e78": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:4ddbcef2-d4f3-4c45-9c3f-f0d1266586b1"
+      },
+      "id": "widget:c637f3e6-fff0-4b1a-9750-9338d2838e78",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_staticTextWidget_congratulations__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "row:16b69ea6-742a-49f0-8237-168659ee76b2": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:d618e4ce-b9f3-4c5b-aadb-c4f70de879a6"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842480"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:16b69ea6-742a-49f0-8237-168659ee76b2"
+    },
+    "row:08e82704-f192-4964-b30a-b3bb8e12d167": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:c9d4d17b-9ca7-4d87-8591-d42bfc7d35ef"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:08e82704-f192-4964-b30a-b3bb8e12d167"
+    },
+    "row:7793676f-c078-4863-bab5-bf57b213dd92": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:ef71c7e1-34d2-4d79-a3c4-6719f6b6a5e6"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:5ce88556-0ab1-4dcc-9fbc-a2c680eed8fd"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:7793676f-c078-4863-bab5-bf57b213dd92"
+    },
+    "widget:eb7dcffe-8c9c-4bb1-8771-691ebab74001": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:19fe5044-7dc1-4d49-b6e6-6adc1b5f7aca"
+      },
+      "id": "widget:eb7dcffe-8c9c-4bb1-8771-691ebab74001",
+      "config": {
+        "headerText": "EventWidgets_ConfirmationNumber_HeaderText__resx",
+        "style": {
+          "header": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "confirmationNumber": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 10,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          }
+        }
+      },
+      "widgetType": "ConfirmationNumber"
+    },
+    "widget:fbc0de49-d384-49c0-80bf-efdd65bfd24f": {
+      "layout": {
+        "colspan": 6,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 2,
+        "parentId": "row:418db4c1-55ae-4a37-9380-cc9892579f1e"
+      },
+      "id": "widget:fbc0de49-d384-49c0-80bf-efdd65bfd24f",
+      "config": {
+        "displayAddressOption": "locationAddress",
+        "style": {
+          "location": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "address": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          }
+        }
+      },
+      "widgetType": "EventLocation"
+    },
+    "sectionRow:d0836883-ccea-4fc0-98fe-955d0e5d7fdf": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:2c843f7d-58d6-4a21-93a5-8ac8a9fd360e"
+        ],
+        "cellSize": 4,
+        "parentId": "container:b76d3fbd-6256-4482-9569-39f985c146eb"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:d0836883-ccea-4fc0-98fe-955d0e5d7fdf"
+    },
+    "widget:4d0f8043-9c23-4aad-b46d-352b156204b0": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:240cab61-bef0-42d1-91b4-a5a17904bdbe"
+      },
+      "id": "widget:4d0f8043-9c23-4aad-b46d-352b156204b0",
+      "config": {
+        "dateSource": "startDate",
+        "showSeconds": true,
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "counter": {
+            "customSettings": {
+              "border": {
+                "color": "text",
+                "borderStyle": "solid",
+                "thickness": 3
+              },
+              "background": {
+                "color": "secondary",
+                "borderRadius": 100,
+                "image": {
+                  "scale": true
+                }
+              },
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "text": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "text2"
+          }
+        },
+        "type": "circle"
+      },
+      "widgetType": "EventCountdownTimer"
+    },
+    "row:deee903c-bfea-4584-a142-078c97ff00c6": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:7948bc0c-91d0-438a-a94b-1407817e439c"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:deee903c-bfea-4584-a142-078c97ff00c6"
+    },
+    "sectionRow:33746007-02e4-4ae8-9731-2a5a1e39b685": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:32431272-6454-4460-901f-2f69cd2a4465"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842471"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:33746007-02e4-4ae8-9731-2a5a1e39b685"
+    },
+    "widget:93016691-8274-4944-aebe-328cf4204c1c": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:598f8d40-584a-4524-a8f0-23f541fe59ea"
+      },
+      "id": "widget:93016691-8274-4944-aebe-328cf4204c1c",
+      "config": {
+        "registrationFieldPageType": 2,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "227f50d0-f65b-4a72-9a4f-5060ea05f6ab"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "sectionRow:f97f22dd-8cf4-4dcf-9853-2482da4d2582": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:3f3bd97f-4913-463b-b6ab-20c37488ffb8"
+        ],
+        "cellSize": 4,
+        "parentId": "container:b76d3fbd-6256-4482-9569-39f985c146eb"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:f97f22dd-8cf4-4dcf-9853-2482da4d2582"
+    },
+    "widget:90fb9186-a933-4958-a012-ac6ccdca8c9d": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:3817c0fe-3e12-46a5-9df7-46aeeba4a73a"
+      },
+      "id": "widget:90fb9186-a933-4958-a012-ac6ccdca8c9d",
+      "config": {
+        "displayText": {
+          "exit": "EventWidgets_DeclineNavigator_ExitDefaultDisplayText__resx",
+          "backward": "",
+          "complete": "EventWidgets_DeclineNavigator_SubmitDefaultDisplayText__resx",
+          "forward": ""
+        },
+        "style": {
+          "complete": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "exit": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "widgetType": "RegistrationDeclineNavigator"
+    },
+    "container:a13e1806-f76b-45d7-96d7-1c62a3fd49c9": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:6a391b9f-bbb7-424a-95a6-4eac161d7bd6",
+          "sectionRow:a3f36782-69ea-4e00-984b-3e97a6966092"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:a13e1806-f76b-45d7-96d7-1c62a3fd49c9"
+    },
+    "widget:f48bee0c-7b2b-40be-8b65-972906d9a919": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:d1040bd6-6e48-440c-8dcf-15f201732459"
+      },
+      "id": "widget:f48bee0c-7b2b-40be-8b65-972906d9a919",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 60,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_RegistrationApprovalDeniedTextWidget_Header__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "container:c658d8b5-27a4-4054-81fd-6b47eb11cafa": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:76c2c753-8a0b-45ac-b4be-53f18730fcac"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:c658d8b5-27a4-4054-81fd-6b47eb11cafa"
+    },
+    "row:3817c0fe-3e12-46a5-9df7-46aeeba4a73a": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:90fb9186-a933-4958-a012-ac6ccdca8c9d"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:3817c0fe-3e12-46a5-9df7-46aeeba4a73a"
+    },
+    "row:95eda418-c7d7-40b6-a72a-8373c4b219ce": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:0ce12432-09e5-4ca2-96b9-5637c7e98617"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:95eda418-c7d7-40b6-a72a-8373c4b219ce"
+    },
+    "sectionColumn:fd5058dd-8b0d-4c6a-93d4-e67d52af6735": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:18a9e2fb-d653-4b08-a3b1-62325241f2a5"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:26c45869-8e7a-4f90-b098-e511376e53c3"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:fd5058dd-8b0d-4c6a-93d4-e67d52af6735"
+    },
+    "sectionColumn:53abfcfe-c3bb-4b20-a72b-2460fbfe4221": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:d10816d6-2af1-4eb1-ba15-e82987111846"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:6a391b9f-bbb7-424a-95a6-4eac161d7bd6"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:53abfcfe-c3bb-4b20-a72b-2460fbfe4221"
+    },
+    "row:a75a0377-dd50-401c-a29e-2fb6b3016c91": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:ed0d781b-d1af-467d-ae0b-4af98a70699a"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:2c843f7d-58d6-4a21-93a5-8ac8a9fd360e"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:a75a0377-dd50-401c-a29e-2fb6b3016c91"
+    },
+    "widget:bd0ac1b9-dc9a-46ab-8086-a4e9904b18d9": {
+      "layout": {
+        "colspan": 6,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 2,
+        "parentId": "row:418db4c1-55ae-4a37-9380-cc9892579f1e"
+      },
+      "id": "widget:bd0ac1b9-dc9a-46ab-8086-a4e9904b18d9",
+      "config": {
+        "displayDateOption": "dateTime",
+        "style": {
+          "date": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "timeTimeZone": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "widgetType": "EventDateTime"
+    },
+    "row:f620e075-4e76-4591-998c-6d585a011020": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:bd9a6ec9-e209-46e8-a9e3-64518d0a5e7e"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:de6f897e-9b5e-4408-96bb-5dd8fdc51263"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:f620e075-4e76-4591-998c-6d585a011020"
+    },
+    "row:34d7e9ad-31a4-4146-b59f-1718712de4ee": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:e60fa94b-3ddf-4444-9512-49db932f7340"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:34d7e9ad-31a4-4146-b59f-1718712de4ee"
+    },
+    "temp-1475177213707": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "temp-1475177213706"
+      },
+      "id": "temp-1475177213707",
+      "config": {
+        "displayText": {
+          "exit": "_registrationNavigatorWidget_exitDefaultDisplayText__resx",
+          "backward": "_registrationNavigatorWidget_backwardDefaultDisplayText__resx",
+          "complete": "_registrationNavigatorWidget_completeDefaultDisplayText__resx",
+          "forward": "_registrationNavigatorWidget_forwardDefaultDisplayText__resx"
+        },
+        "style": {
+          "exit": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "backward": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "complete": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "forward": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          }
+        }
+      },
+      "widgetType": "RegistrationNavigator"
+    },
+    "temp-1475177213706": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "temp-1475177213707"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842440"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1475177213706"
+    },
+    "widget:7cf00c98-f30a-4256-bb70-bddccbdcedc4": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:4a4d37db-98cc-4922-b5b6-12427d0622c5"
+      },
+      "id": "widget:7cf00c98-f30a-4256-bb70-bddccbdcedc4",
+      "config": {
+        "displayText": {
+          "exit": "EventWidgets_WaitlistNavigator_ExitDefaultDisplayText__resx",
+          "backward": "",
+          "complete": "EventWidgets_WaitlistNavigator_SubmitDefaultDisplayText__resx",
+          "forward": ""
+        },
+        "style": {
+          "complete": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "exit": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "widgetType": "EventWaitlistNavigator"
+    },
+    "widget:b6bf4e38-43a6-4332-b920-c9718bd660e5": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:e58c0c76-1a96-4ac0-895e-fcc5d00e4dea"
+      },
+      "id": "widget:b6bf4e38-43a6-4332-b920-c9718bd660e5",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 0,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_CancellationSurveyTextWidget_Header1__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "sectionRow:a3f36782-69ea-4e00-984b-3e97a6966092": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:de09f087-9fcd-49a3-83f2-daee865137a0"
+        ],
+        "cellSize": 4,
+        "parentId": "container:a13e1806-f76b-45d7-96d7-1c62a3fd49c9"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "title",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:a3f36782-69ea-4e00-984b-3e97a6966092"
+    },
+    "container:24b45ae7-ebc4-4c7b-b2e7-cd3ce648a6ee": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:9a7b1f85-0f23-491a-a1ad-af266d722f99"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:24b45ae7-ebc4-4c7b-b2e7-cd3ce648a6ee"
+    },
+    "row:418db4c1-55ae-4a37-9380-cc9892579f1e": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:bd0ac1b9-dc9a-46ab-8086-a4e9904b18d9",
+          "widget:fbc0de49-d384-49c0-80bf-efdd65bfd24f"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:de09f087-9fcd-49a3-83f2-daee865137a0"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:418db4c1-55ae-4a37-9380-cc9892579f1e"
+    },
+    "sectionColumn:1a2ecb17-d090-4e42-a0cd-3ff31a47af7f": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "sectionRow:9a7b1f85-0f23-491a-a1ad-af266d722f99"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:1a2ecb17-d090-4e42-a0cd-3ff31a47af7f"
+    },
+    "container:efba3426-d0cd-406d-8d03-86fb1655f14a": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:a8e0a4c6-3e61-45dc-910d-80b5b7e49437",
+          "sectionRow:a9e5c4bb-9a43-40c8-8658-c5fe62a15df4",
+          "sectionRow:34893453-3f75-44b0-80d9-f12be3bf7d16"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:efba3426-d0cd-406d-8d03-86fb1655f14a"
+    },
+    "widget:801e2ea7-575d-4db9-a6e0-552ed47be156": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:becec0c5-2fb9-4d11-af36-c3d985a64040"
+      },
+      "id": "widget:801e2ea7-575d-4db9-a6e0-552ed47be156",
+      "config": {
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "secondaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "AddToCalendarWidget_textConfig__resx"
+      },
+      "widgetType": "AddToCalendar"
+    },
+    "row:b8ac766c-3b33-48d2-829a-9c79578a2d9f": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:a1f2524f-dd05-4727-8980-f2eb8e0a7487"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:b8ac766c-3b33-48d2-829a-9c79578a2d9f"
+    },
+    "widget:71dd6a1e-7e44-41a9-a0d6-516186a53e91": {
+      "layout": {
+        "colspan": 6,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 2,
+        "parentId": "row:5438f992-ec7e-4d66-a2b2-cc5852e7dabc"
+      },
+      "id": "widget:71dd6a1e-7e44-41a9-a0d6-516186a53e91",
+      "config": {
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventWidgets_ModifyRegistration_DefaultButtonText__resx"
+      },
+      "widgetType": "EventRegistrationModification"
+    },
+    "widget:fb9d0c5f-8049-4904-82cc-d8d19a35dd19": {
+      "layout": {
+        "colspan": 6,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 2,
+        "parentId": "row:5438f992-ec7e-4d66-a2b2-cc5852e7dabc"
+      },
+      "id": "widget:fb9d0c5f-8049-4904-82cc-d8d19a35dd19",
+      "config": {
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventWidgets_CancelRegistration_DefaultButtonText__resx"
+      },
+      "widgetType": "CancelRegistration"
+    },
+    "row:b1b87ac1-7526-413d-9e82-5e04119ed5f8": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:849d153c-699a-4abe-8e68-82d0f6511d9c"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:2c843f7d-58d6-4a21-93a5-8ac8a9fd360e"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:b1b87ac1-7526-413d-9e82-5e04119ed5f8"
+    },
+    "widget:e036cc26-2cd7-4b51-a269-96a72867e033": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:418fe536-41e7-4385-bf33-488cd87156b0"
+      },
+      "id": "widget:e036cc26-2cd7-4b51-a269-96a72867e033",
+      "config": {
+        "registrationFieldPageType": 1,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          },
+          "sectionHeader": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header3"
+          }
+        },
+        "fieldId": "b5a8362f-91e7-46ff-a704-20bfb3ca6ce5"
+      },
+      "widgetType": "EventStandardContactFieldAddress"
+    },
+    "sectionRow:34893453-3f75-44b0-80d9-f12be3bf7d16": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:a9e510fc-8b87-450c-8c94-e6777f0afc15"
+        ],
+        "cellSize": 4,
+        "parentId": "container:efba3426-d0cd-406d-8d03-86fb1655f14a"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:34893453-3f75-44b0-80d9-f12be3bf7d16"
+    },
+    "row:49217cec-5671-4459-87b6-fd1198191c4f": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:a07b1a88-17be-4db6-8c87-d3fda38dd768"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:49217cec-5671-4459-87b6-fd1198191c4f"
+    },
+    "row:9aefa249-4114-4619-a4ed-7a772fd7215a": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:444afead-3b9a-403c-99da-052eb11a8806"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:9aefa249-4114-4619-a4ed-7a772fd7215a"
+    },
+    "widget:4bb55e0a-059f-40e3-885f-56862216ba4c": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:0b754f4d-8465-43ab-a37e-d790b253b96f"
+      },
+      "id": "widget:4bb55e0a-059f-40e3-885f-56862216ba4c",
+      "config": {
+        "style": {
+          "description": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "text1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "widgetType": "EventDescription"
+    },
+    "row:6ca5d6af-8ae3-4f98-a27f-c51414208107": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:cfda9f01-4410-4e87-bd50-5aec6ac942f1"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:6ca5d6af-8ae3-4f98-a27f-c51414208107"
+    },
+    "widget:c69c0ff5-76ef-4362-8336-aff9bdc590c4": {
+      "layout": {
+        "colspan": 4,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 1,
+        "parentId": "row:b5d40f03-e6ac-4f72-a0b3-c7c38319444e"
+      },
+      "id": "widget:c69c0ff5-76ef-4362-8336-aff9bdc590c4",
+      "config": {
+        "buttonText": "_contactPlanner_buttonText__resx",
+        "style": {
+          "container": {
+            "textAlign": "center"
+          },
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        }
+      },
+      "eventVersion": 1,
+      "widgetType": "ContactPlanner"
+    },
+    "row:8e2b006c-390d-417a-b235-acc3110cf520": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:4bc845e5-c20b-4f31-bc54-a7fd0830c270"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:8adbe5a8-c8bf-4c6d-b4e2-63bcf21a747e"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:8e2b006c-390d-417a-b235-acc3110cf520"
+    },
+    "row:8865e19d-1434-43c6-9a62-0dc908fc852c": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:8206b8e0-6973-4d4e-bc00-146445fcf7ff"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:de09f087-9fcd-49a3-83f2-daee865137a0"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:8865e19d-1434-43c6-9a62-0dc908fc852c"
+    },
+    "row:79560f9a-03d6-4953-af3c-6d3775553c13": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:5e3de3c7-26dc-4f3f-9188-9070223ed2e8"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:79560f9a-03d6-4953-af3c-6d3775553c13"
+    },
+    "row:d1040bd6-6e48-440c-8dcf-15f201732459": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:f48bee0c-7b2b-40be-8b65-972906d9a919"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:1e6a3605-1fd2-48ce-9d0d-e7bd98fd8fa4"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:d1040bd6-6e48-440c-8dcf-15f201732459"
+    },
+    "row:becec0c5-2fb9-4d11-af36-c3d985a64040": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:801e2ea7-575d-4db9-a6e0-552ed47be156"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842480"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:becec0c5-2fb9-4d11-af36-c3d985a64040"
+    },
+    "row:ec710ed8-4f0a-4f55-80ba-d19b6dc427f3": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:369559cb-774f-40ca-959d-b85fbef85cc6"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:ec710ed8-4f0a-4f55-80ba-d19b6dc427f3"
+    },
+    "row:0b754f4d-8465-43ab-a37e-d790b253b96f": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:4bb55e0a-059f-40e3-885f-56862216ba4c"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1467228448800"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:0b754f4d-8465-43ab-a37e-d790b253b96f"
+    },
+    "temp-1467228448802": {
+      "layout": {
+        "colspan": 4,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 1,
+        "parentId": "row:b5d40f03-e6ac-4f72-a0b3-c7c38319444e"
+      },
+      "id": "temp-1467228448802",
+      "config": {
+        "link": {
+          "enabled": true,
+          "text": "EventWidgets_AlreadyRegistered_DefaultLinkText__resx"
+        },
+        "style": {
+          "button": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "primaryButton"
+          },
+          "link": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "link"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "_registerNowWidget_textConfig__resx"
+      },
+      "widgetType": "EventRegisterNow"
+    },
+    "CventFooterRow": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "CventFooterWidget"
+        ],
+        "cellSize": 4,
+        "parentId": "CventFooterSectionColumn"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "CventFooterRow"
+    },
+    "widget:e002c174-adf9-4fc2-b7c7-b18252586b63": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:e089a131-900f-40b1-964a-8a2dfee8ad17"
+      },
+      "id": "widget:e002c174-adf9-4fc2-b7c7-b18252586b63",
+      "config": {
+        "registrationFieldPageType": 5,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "cfc98829-80b7-41b6-82b5-b968d43ef1c1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:94e829c5-7f1a-4c6a-b032-b907738eec41": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:4bb8fb42-dc32-406d-a2b2-3ca34f7ccc1c"
+      },
+      "id": "widget:94e829c5-7f1a-4c6a-b032-b907738eec41",
+      "config": {
+        "registrationFieldPageType": 3,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          },
+          "additionalText": {
+            "styleMapping": "body1"
+          }
+        },
+        "id": "3242497a-cf9b-44a2-91d5-0a9a8b7ad653"
+      },
+      "widgetType": "OpenEndedTextQuestion"
+    },
+    "widget:bd9a6ec9-e209-46e8-a9e3-64518d0a5e7e": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:f620e075-4e76-4591-998c-6d585a011020"
+      },
+      "id": "widget:bd9a6ec9-e209-46e8-a9e3-64518d0a5e7e",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 60,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_ArchivePageTextWidget_Header1__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "temp-1467228448800": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:0b754f4d-8465-43ab-a37e-d790b253b96f"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1467228448799"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1467228448800"
+    },
+    "widget:a57371a5-7d27-4a85-a382-2224a5685d87": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:217cd4fa-780b-41db-8330-70e90e60f7f0"
+      },
+      "id": "widget:a57371a5-7d27-4a85-a382-2224a5685d87",
+      "config": {
+        "registrationFieldPageType": 3,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "cfc98829-80b7-41b6-82b5-b968d43ef1c1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "row:6d361007-c25b-4947-861d-29f3050cb238": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:0b23e6e0-146c-4edc-9a7e-f79427541e82"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:3dc1d48e-c194-46d4-b8a7-4c1468ae73cd"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:6d361007-c25b-4947-861d-29f3050cb238"
+    },
+    "widget:cd33d43d-1df6-449e-8e53-4d7143f061a2": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:c5dad0ed-2eb5-4223-94f4-759c070e6187"
+      },
+      "id": "widget:cd33d43d-1df6-449e-8e53-4d7143f061a2",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_staticTextWidget_countdownToTheEvent__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "row:b5d40f03-e6ac-4f72-a0b3-c7c38319444e": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:ac9e61c9-41fa-4b12-bd28-20be267f290b",
+          "temp-1467228448802",
+          "widget:c69c0ff5-76ef-4362-8336-aff9bdc590c4"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:23a6c61d-95d0-4175-b153-7d0ec1be59f8"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:b5d40f03-e6ac-4f72-a0b3-c7c38319444e"
+    },
+    "row:598f8d40-584a-4524-a8f0-23f541fe59ea": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:93016691-8274-4944-aebe-328cf4204c1c"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:598f8d40-584a-4524-a8f0-23f541fe59ea"
+    },
+    "row:409f097d-8b96-44e9-a1ba-8994ea1e96c4": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:6e27f636-9170-46e5-ba59-21a6675b1690"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:8adbe5a8-c8bf-4c6d-b4e2-63bcf21a747e"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:409f097d-8b96-44e9-a1ba-8994ea1e96c4"
+    },
+    "widget:c9d4d17b-9ca7-4d87-8591-d42bfc7d35ef": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:08e82704-f192-4964-b30a-b3bb8e12d167"
+      },
+      "id": "widget:c9d4d17b-9ca7-4d87-8591-d42bfc7d35ef",
+      "config": {
+        "registrationFieldPageType": 4,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "sectionColumn:3dc1d48e-c194-46d4-b8a7-4c1468ae73cd": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:6867deda-2e7d-4d10-95c3-e1189c47bec0",
+          "row:6d361007-c25b-4947-861d-29f3050cb238"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:1d00f679-1b9c-41c3-806e-87395e9ccbd5"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:3dc1d48e-c194-46d4-b8a7-4c1468ae73cd"
+    },
+    "widget:b1349c54-bf20-4f1a-90fe-3ee9d1ecf322": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:ed87df2a-ecd1-4f6d-98b3-e6c718ca8bdb"
+      },
+      "id": "widget:b1349c54-bf20-4f1a-90fe-3ee9d1ecf322",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 0,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventSiteEditor_DefaultHeader_GuestRegistration__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "widget:4bc845e5-c20b-4f31-bc54-a7fd0830c270": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:8e2b006c-390d-417a-b235-acc3110cf520"
+      },
+      "id": "widget:4bc845e5-c20b-4f31-bc54-a7fd0830c270",
+      "config": {
+        "hotelRequestInformation": {
+          "header": "EventWidgets_RegistrationSummary_DefaultHotelHeader__resx",
+          "display": true
+        },
+        "displayAdmissionItems": true,
+        "productsHeader": "EventWidgets_RegistrationSummary_DefaultProductHeader__resx",
+        "registrationSummaryHeader": "_defaultPageTitle_regSummary__resx",
+        "groupRegistration": {
+          "groupRegButtonText": "EventWidgets_RegistrationSummary_AddGroupMemberButton__resx",
+          "enableGroupReg": false
+        },
+        "questions": {
+          "header": "EventWidgets_RegistrationSummary_DefaultQuestionHeader__resx",
+          "displayType": 1,
+          "display": true
+        },
+        "style": {
+          "headerStyles": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "labelStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 5,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "attendeeNameStyles": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "attendeeBorderStyles": {
+            "border": {
+              "color": "primary",
+              "borderStyle": "solid",
+              "thickness": 1
+            },
+            "styleMapping": "custom",
+            "spacing": {
+              "padding": {
+                "paddingBottom": 40,
+                "paddingTop": 30,
+                "paddingLeft": 40,
+                "paddingRight": 40
+              }
+            }
+          },
+          "groupRegButtonStyles": {
+            "styleMapping": "primaryButton"
+          },
+          "fieldStyles": {
+            "customSettings": {
+              "border": {
+                "thickness": 0
+              },
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "productTableStyles": {
+            "productRowStyles": {
+              "customSettings": {
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 0,
+                    "paddingTop": 10,
+                    "paddingLeft": 20,
+                    "paddingRight": 0
+                  }
+                }
+              },
+              "styleMapping": "body1"
+            },
+            "productTypeStyles": {
+              "customSettings": {
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 0,
+                    "paddingTop": 10,
+                    "paddingLeft": 20,
+                    "paddingRight": 0
+                  }
+                },
+                "text": {
+                  "fontWeight": 700
+                }
+              },
+              "styleMapping": "body1"
+            },
+            "productHeaderStyles": {
+              "customSettings": {
+                "background": {
+                  "color": "primary"
+                },
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 9,
+                    "paddingTop": 9,
+                    "paddingLeft": 10,
+                    "paddingRight": 0
+                  }
+                }
+              },
+              "styleMapping": "body1"
+            }
+          },
+          "airRequestStyles": {
+            "travelDates": {
+              "styleMapping": "text2"
+            },
+            "sectionSubheaders": {
+              "styleMapping": "text1"
+            },
+            "itemBackground": {
+              "border": {
+                "borderStyle": "solid",
+                "thickness": 0
+              },
+              "background": {
+                "color": "secondary",
+                "borderRadius": 0,
+                "image": null
+              },
+              "styleMapping": "custom"
+            },
+            "airportNames": {
+              "styleMapping": "text1"
+            },
+            "flightClass": {
+              "styleMapping": "text2"
+            },
+            "accent": {
+              "border": {
+                "borderStyle": "solid",
+                "thickness": 0
+              },
+              "background": {
+                "color": "accent",
+                "borderRadius": 0,
+                "image": null
+              },
+              "styleMapping": "custom"
+            },
+            "tableHeader": {
+              "styleMapping": "text2"
+            }
+          },
+          "subheaderStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "summaryHeaderActionLinks": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 0,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 10
+                }
+              }
+            },
+            "styleMapping": "link"
+          },
+          "instructionalTextStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 20,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          }
+        },
+        "instructionalText": "EventWidgets_RegistrationSummary_DefaultInstructionalTextOnPostRegPage__resx",
+        "displaySessions": true,
+        "groupRegButtonText": "EventWidgets_RegistrationSummary_AddGroupMemberButton__resx",
+        "airRequestInformation": {
+          "header": "EventWidgets_AirRequest_WidgetTitle__resx",
+          "display": true
+        }
+      },
+      "widgetType": "RegistrationSummary"
+    },
+    "widget:cfda9f01-4410-4e87-bd50-5aec6ac942f1": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:6ca5d6af-8ae3-4f98-a27f-c51414208107"
+      },
+      "id": "widget:cfda9f01-4410-4e87-bd50-5aec6ac942f1",
+      "config": {
+        "registrationFieldPageType": 5,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "ff919d05-4281-4d9c-aa0d-82e3722d580d"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "row:89d69304-0824-4e6f-8ebf-dd235fcd3d18": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:b3df74b9-8908-4ed6-9a2b-9a84b754bf7f",
+          "widget:9ab8d1d0-f20f-48a0-9a24-f11ef5a48dff"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:32431272-6454-4460-901f-2f69cd2a4465"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:89d69304-0824-4e6f-8ebf-dd235fcd3d18"
+    },
+    "widget:369559cb-774f-40ca-959d-b85fbef85cc6": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:ec710ed8-4f0a-4f55-80ba-d19b6dc427f3"
+      },
+      "id": "widget:369559cb-774f-40ca-959d-b85fbef85cc6",
+      "config": {
+        "registrationFieldPageType": 3,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "032e80c1-f29f-44e6-af13-a89e53906422"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:c9a888e3-efe4-42a9-9ad8-8ac9d066bbeb": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:7e91832a-0275-4efb-948c-2004dd3f489c"
+      },
+      "id": "widget:c9a888e3-efe4-42a9-9ad8-8ac9d066bbeb",
+      "config": {
+        "registrationFieldPageType": 2,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "cfc98829-80b7-41b6-82b5-b968d43ef1c1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "row:19fe5044-7dc1-4d49-b6e6-6adc1b5f7aca": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:eb7dcffe-8c9c-4bb1-8771-691ebab74001"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842480"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:19fe5044-7dc1-4d49-b6e6-6adc1b5f7aca"
+    },
+    "temp-1469646842439": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "temp-1469646842440"
+        ],
+        "cellSize": 4,
+        "parentId": "id-3"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "temp-1469646842439"
+    },
+    "row:dce19c44-30d1-4927-9062-3b57241694b5": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:3dc76d51-2285-420c-9d84-96f72d188fcb"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:8adbe5a8-c8bf-4c6d-b4e2-63bcf21a747e"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:dce19c44-30d1-4927-9062-3b57241694b5"
+    },
+    "widget:849d153c-699a-4abe-8e68-82d0f6511d9c": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:b1b87ac1-7526-413d-9e82-5e04119ed5f8"
+      },
+      "id": "widget:849d153c-699a-4abe-8e68-82d0f6511d9c",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_RegistrationPendingApprovalTextWidget_Header__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "widget:7948bc0c-91d0-438a-a94b-1407817e439c": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:deee903c-bfea-4584-a142-078c97ff00c6"
+      },
+      "id": "widget:7948bc0c-91d0-438a-a94b-1407817e439c",
+      "config": {
+        "registrationFieldPageType": 3,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "row:ed87df2a-ecd1-4f6d-98b3-e6c718ca8bdb": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:b1349c54-bf20-4f1a-90fe-3ee9d1ecf322"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:ed87df2a-ecd1-4f6d-98b3-e6c718ca8bdb"
+    },
+    "widget:da92b744-adda-473d-a456-ba7fc82829fa": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:aa712760-565f-4053-bd2e-0df1f82fe204"
+      },
+      "id": "widget:da92b744-adda-473d-a456-ba7fc82829fa",
+      "config": {
+        "headerText": "EventWidgets_ConfirmationNumber_HeaderText__resx",
+        "style": {
+          "header": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "confirmationNumber": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 10,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          }
+        }
+      },
+      "widgetType": "ConfirmationNumber"
+    },
+    "row:4ddbcef2-d4f3-4c45-9c3f-f0d1266586b1": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:c637f3e6-fff0-4b1a-9750-9338d2838e78"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842480"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:4ddbcef2-d4f3-4c45-9c3f-f0d1266586b1"
+    },
+    "widget:29f71d4c-241e-47b8-b701-fd516783af59": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:438e59ef-d582-44e1-8164-9a7c10924e9d"
+      },
+      "id": "widget:29f71d4c-241e-47b8-b701-fd516783af59",
+      "config": {
+        "registrationFieldPageType": 2,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:ed87df2a-ecd1-4f6d-98b3-e6c718ca8bdb",
+          "row:b8ac766c-3b33-48d2-829a-9c79578a2d9f",
+          "row:08e82704-f192-4964-b30a-b3bb8e12d167",
+          "row:45f586ce-092e-4a1d-82d1-97c7a6ce1011",
+          "row:79560f9a-03d6-4953-af3c-6d3775553c13",
+          "row:34d7e9ad-31a4-4146-b59f-1718712de4ee",
+          "row:bf62a302-dd5c-4c2e-9e54-ede6dd3b3b1d"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:76c2c753-8a0b-45ac-b4be-53f18730fcac"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+    },
+    "row:63732bb8-3e42-4b74-b321-9467cf6f48ee": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:7236c06c-80fc-439c-bdd5-4d68a4e809e0"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:de6f897e-9b5e-4408-96bb-5dd8fdc51263"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:63732bb8-3e42-4b74-b321-9467cf6f48ee"
+    },
+    "row:bf62a302-dd5c-4c2e-9e54-ede6dd3b3b1d": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:1bf4db9a-dd10-4550-9f39-7cf223146767"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:bf62a302-dd5c-4c2e-9e54-ede6dd3b3b1d"
+    },
+    "row:868823db-e540-47b7-82f9-ec5de3cc9cd7": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:e398b68d-cf2e-4d7a-a60a-9316c6e2a02f"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:868823db-e540-47b7-82f9-ec5de3cc9cd7"
+    },
+    "row:d10816d6-2af1-4eb1-ba15-e82987111846": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:be376fe6-d70d-4488-9788-8c706071a92d"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:53abfcfe-c3bb-4b20-a72b-2460fbfe4221"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:d10816d6-2af1-4eb1-ba15-e82987111846"
+    },
+    "widget:ce7054a9-2657-4563-b5f7-0a8a83eec38f": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:6867deda-2e7d-4d10-95c3-e1189c47bec0"
+      },
+      "id": "widget:ce7054a9-2657-4563-b5f7-0a8a83eec38f",
+      "config": {
+        "hotelRequestInformation": {
+          "header": "EventWidgets_RegistrationSummary_DefaultHotelHeader__resx",
+          "display": true
+        },
+        "displayAdmissionItems": true,
+        "productsHeader": "EventWidgets_RegistrationSummary_DefaultProductHeader__resx",
+        "registrationSummaryHeader": "_defaultPageTitle_regSummary__resx",
+        "groupRegistration": {
+          "groupRegButtonText": "EventWidgets_RegistrationSummary_AddGroupMemberButton__resx",
+          "enableGroupReg": false
+        },
+        "questions": {
+          "header": "EventWidgets_RegistrationSummary_DefaultQuestionHeader__resx",
+          "displayType": 1,
+          "display": true
+        },
+        "style": {
+          "headerStyles": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "labelStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 5,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "attendeeNameStyles": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "attendeeBorderStyles": {
+            "border": {
+              "color": "primary",
+              "borderStyle": "solid",
+              "thickness": 1
+            },
+            "styleMapping": "custom",
+            "spacing": {
+              "padding": {
+                "paddingBottom": 40,
+                "paddingTop": 30,
+                "paddingLeft": 40,
+                "paddingRight": 40
+              }
+            }
+          },
+          "groupRegButtonStyles": {
+            "styleMapping": "primaryButton"
+          },
+          "fieldStyles": {
+            "customSettings": {
+              "border": {
+                "thickness": 0
+              },
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "productTableStyles": {
+            "productRowStyles": {
+              "customSettings": {
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 0,
+                    "paddingTop": 10,
+                    "paddingLeft": 20,
+                    "paddingRight": 0
+                  }
+                }
+              },
+              "styleMapping": "body1"
+            },
+            "productTypeStyles": {
+              "customSettings": {
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 0,
+                    "paddingTop": 10,
+                    "paddingLeft": 20,
+                    "paddingRight": 0
+                  }
+                },
+                "text": {
+                  "fontWeight": 700
+                }
+              },
+              "styleMapping": "body1"
+            },
+            "productHeaderStyles": {
+              "customSettings": {
+                "background": {
+                  "color": "primary"
+                },
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 9,
+                    "paddingTop": 9,
+                    "paddingLeft": 10,
+                    "paddingRight": 0
+                  }
+                }
+              },
+              "styleMapping": "body1"
+            }
+          },
+          "airRequestStyles": {
+            "travelDates": {
+              "styleMapping": "text2"
+            },
+            "sectionSubheaders": {
+              "styleMapping": "text1"
+            },
+            "itemBackground": {
+              "border": {
+                "borderStyle": "solid",
+                "thickness": 0
+              },
+              "background": {
+                "color": "secondary",
+                "borderRadius": 0,
+                "image": null
+              },
+              "styleMapping": "custom"
+            },
+            "airportNames": {
+              "styleMapping": "text1"
+            },
+            "flightClass": {
+              "styleMapping": "text2"
+            },
+            "accent": {
+              "border": {
+                "borderStyle": "solid",
+                "thickness": 0
+              },
+              "background": {
+                "color": "accent",
+                "borderRadius": 0,
+                "image": null
+              },
+              "styleMapping": "custom"
+            },
+            "tableHeader": {
+              "styleMapping": "text2"
+            }
+          },
+          "subheaderStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "summaryHeaderActionLinks": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 0,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 10
+                }
+              }
+            },
+            "styleMapping": "link"
+          },
+          "instructionalTextStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 20,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          }
+        },
+        "instructionalText": "EventWidgets_RegistrationSummary_DefaultInstructionalText__resx",
+        "displaySessions": true,
+        "groupRegButtonText": "EventWidgets_RegistrationSummary_AddGroupMemberButton__resx",
+        "airRequestInformation": {
+          "header": "EventWidgets_AirRequest_WidgetTitle__resx",
+          "display": true
+        }
+      },
+      "widgetType": "RegistrationSummary"
+    },
+    "row:4bb8fb42-dc32-406d-a2b2-3ca34f7ccc1c": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:94e829c5-7f1a-4c6a-b032-b907738eec41"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:4bb8fb42-dc32-406d-a2b2-3ca34f7ccc1c"
+    },
+    "widget:5e3de3c7-26dc-4f3f-9188-9070223ed2e8": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:79560f9a-03d6-4953-af3c-6d3775553c13"
+      },
+      "id": "widget:5e3de3c7-26dc-4f3f-9188-9070223ed2e8",
+      "config": {
+        "registrationFieldPageType": 4,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "ff919d05-4281-4d9c-aa0d-82e3722d580d"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:3a4f00ae-6df3-4eec-9fc4-f94168387a82": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:cf8697be-0c45-4a10-93c5-ee570fa03bd9"
+      },
+      "id": "widget:3a4f00ae-6df3-4eec-9fc4-f94168387a82",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 10,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_CancellationSurveyTextWidget_Header2__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "widget:444afead-3b9a-403c-99da-052eb11a8806": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:9aefa249-4114-4619-a4ed-7a772fd7215a"
+      },
+      "id": "widget:444afead-3b9a-403c-99da-052eb11a8806",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 10,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_WaitlistTextWidget_Header2__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "row:c1dc1dfd-1afe-42ac-8a4b-db37b1466645": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:355243a8-fd34-49e8-84d3-683f93ec774a"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:43452308-8b74-49c1-be3a-d7423842e64c"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:c1dc1dfd-1afe-42ac-8a4b-db37b1466645"
+    },
+    "row:e089a131-900f-40b1-964a-8a2dfee8ad17": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:e002c174-adf9-4fc2-b7c7-b18252586b63"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:e089a131-900f-40b1-964a-8a2dfee8ad17"
+    },
+    "row:45f586ce-092e-4a1d-82d1-97c7a6ce1011": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:888a56f4-10e4-4314-886f-66464ff04929"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:45f586ce-092e-4a1d-82d1-97c7a6ce1011"
+    },
+    "widget:ef71c7e1-34d2-4d79-a3c4-6719f6b6a5e6": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:7793676f-c078-4863-bab5-bf57b213dd92"
+      },
+      "id": "widget:ef71c7e1-34d2-4d79-a3c4-6719f6b6a5e6",
+      "config": {
+        "refundInstructions": "The refund will be issued using the original payment method.",
+        "style": {
+          "attendeeName": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 15,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "formLabels": {
+            "styleMapping": "label"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "link": {
+            "styleMapping": "link"
+          },
+          "header": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "instructionalText": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "subTotal": {
+            "styleMapping": "header4"
+          },
+          "orderDetailsTable": {
+            "itemNameAndCost": {
+              "styleMapping": "body1"
+            },
+            "tableHeader": {
+              "customSettings": {
+                "background": {
+                  "color": "primary",
+                  "borderRadius": 0
+                },
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 5,
+                    "paddingTop": 5,
+                    "paddingLeft": 0,
+                    "paddingRight": 0
+                  }
+                }
+              },
+              "styleMapping": "text2"
+            },
+            "productType": {
+              "styleMapping": "header4"
+            }
+          },
+          "summaryTotal": {
+            "styleMapping": "header3"
+          },
+          "formInputs": {
+            "styleMapping": "input"
+          }
+        },
+        "refundHeader": "EventWidgets_PaymentWidget_RefundHeader__resx"
+      },
+      "widgetType": "RegistrationCancellationRefund"
+    },
+    "sectionRow:02ca888c-c0aa-43de-80a6-7dc5fbd0c7ef": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+        ],
+        "cellSize": 4,
+        "parentId": "container:9b81ecc9-918e-4ca3-83b8-1ac377467095"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:02ca888c-c0aa-43de-80a6-7dc5fbd0c7ef"
+    },
+    "widget:1feaa58f-1291-4ab7-9622-cc928bf85e88": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:9b16ebf0-9f3e-4b30-81cd-1a44f0173c62"
+      },
+      "id": "widget:1feaa58f-1291-4ab7-9622-cc928bf85e88",
+      "config": {
+        "registrationFieldPageType": 2,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "ff919d05-4281-4d9c-aa0d-82e3722d580d"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "container:11f55aee-9c9e-4831-aa94-72e26ccfd754": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:afa2be23-bf61-4c47-854b-eb9802317268"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:11f55aee-9c9e-4831-aa94-72e26ccfd754"
+    },
+    "row:80707c82-baa3-41a3-9e31-d66ac25dbccb": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:f79c435b-f7ce-4ece-87f3-3d3338b7178a"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:80707c82-baa3-41a3-9e31-d66ac25dbccb"
+    },
+    "temp-1469646842452": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "temp-1469646842451"
+      },
+      "id": "temp-1469646842452",
+      "config": {
+        "registrationFieldPageType": 1,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "ff919d05-4281-4d9c-aa0d-82e3722d580d"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:e60fa94b-3ddf-4444-9512-49db932f7340": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:34d7e9ad-31a4-4146-b59f-1718712de4ee"
+      },
+      "id": "widget:e60fa94b-3ddf-4444-9512-49db932f7340",
+      "config": {
+        "registrationFieldPageType": 4,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          },
+          "sectionHeader": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header3"
+          }
+        },
+        "fieldId": "b5a8362f-91e7-46ff-a704-20bfb3ca6ce5"
+      },
+      "widgetType": "EventStandardContactFieldAddress"
+    },
+    "temp-1469646842451": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "temp-1469646842452"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842442"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1469646842451"
+    },
+    "temp-1469646842450": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "temp-1469646842449"
+      },
+      "id": "temp-1469646842450",
+      "config": {
+        "registrationFieldPageType": 1,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "cfc98829-80b7-41b6-82b5-b968d43ef1c1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "sectionColumn:a9e510fc-8b87-450c-8c94-e6777f0afc15": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:ea49607d-8ac3-4945-be26-de6a6b2584f7"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:34893453-3f75-44b0-80d9-f12be3bf7d16"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:a9e510fc-8b87-450c-8c94-e6777f0afc15"
+    },
+    "container:7cefaebd-2070-4a1c-93a5-7f6a6d1d5e75": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:23f0ac1d-78a1-4182-920d-b69758110448"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:7cefaebd-2070-4a1c-93a5-7f6a6d1d5e75"
+    },
+    "row:6867deda-2e7d-4d10-95c3-e1189c47bec0": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:ce7054a9-2657-4563-b5f7-0a8a83eec38f"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:3dc1d48e-c194-46d4-b8a7-4c1468ae73cd"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:6867deda-2e7d-4d10-95c3-e1189c47bec0"
+    },
+    "container:87cf2437-acda-410e-a508-922d016fe9fb": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:8a8fcd6c-64b6-40fa-b022-f7bb2476b2bc"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "container:87cf2437-acda-410e-a508-922d016fe9fb"
+    },
+    "id-0": {
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "temp-1467228448799",
+          "sectionRow:10770b3d-0045-4d6f-9e3c-7c3d332090c9",
+          "sectionRow:1e234134-1c4c-418b-acf2-a9b2ff7af6b7"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "id-0"
+    },
+    "widget:9a5d0c67-b7f1-4da5-8572-10e091b56e5d": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:98d88ccb-7bcf-4645-9a78-6310e16f603d"
+      },
+      "id": "widget:9a5d0c67-b7f1-4da5-8572-10e091b56e5d",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 0,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventGuestSide_WaitlistTextWidget_Header1__resx"
+      },
+      "widgetType": "NucleusText"
+    },
+    "row:aa712760-565f-4053-bd2e-0df1f82fe204": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:da92b744-adda-473d-a456-ba7fc82829fa"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:2c843f7d-58d6-4a21-93a5-8ac8a9fd360e"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:aa712760-565f-4053-bd2e-0df1f82fe204"
+    },
+    "row:efa30a61-c244-4c73-b6f3-1ba98dd47bea": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:f1f39342-9362-4f9c-8169-13eada23119c"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:cba6cfcc-45dc-4452-bf1d-f82b679b1121"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:efa30a61-c244-4c73-b6f3-1ba98dd47bea"
+    },
+    "temp-1469646842442": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [
+          "temp-1469646842447",
+          "temp-1469646842449",
+          "temp-1469646842451",
+          "row:418fe536-41e7-4385-bf33-488cd87156b0",
+          "row:ce54d32f-7c8c-42b6-99ec-1ebb4a485ae6"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842441"
+      },
+      "id": "temp-1469646842442",
+      "config": {
+        "adminText": "EventGuestside_IdentityConfirmation_adminText__resx",
+        "adminLastNameText": "EventGuestside_IdentityConfirmation_adminLastNameText__resx",
+        "adminInstructionalText": "EventGuestside_IdentityConfirmation_adminInstructionalText__resx",
+        "headerText": "EventGuestside_IdentityConfirmation_headerText__resx",
+        "adminFirstNameText": "EventGuestside_IdentityConfirmation_adminFirstNameText__resx",
+        "adminEmailText": "EventGuestside_IdentityConfirmation_adminEmailText__resx",
+        "adminHeaderText": "EventGuestside_IdentityConfirmation_adminHeaderText__resx",
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "instructionalTextStyle": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 0,
+              "paddingTop": 15,
+              "paddingLeft": 0,
+              "paddingRight": 0
+            }
+          },
+          "adminInstructionalTextStyle": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "headerTextStyle": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          },
+          "adminTextStyle": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "adminHeaderTextStyle": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header4"
+          }
+        },
+        "instructionalText": "EventGuestside_IdentityConfirmation_instructionalText__resx"
+      },
+      "widgetType": "EventIdentityConfirmation"
+    },
+    "sectionColumn:2c843f7d-58d6-4a21-93a5-8ac8a9fd360e": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:b1b87ac1-7526-413d-9e82-5e04119ed5f8",
+          "row:aa712760-565f-4053-bd2e-0df1f82fe204",
+          "row:8c799f86-60bb-4b6a-8632-263fc29634c1",
+          "row:a75a0377-dd50-401c-a29e-2fb6b3016c91"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:d0836883-ccea-4fc0-98fe-955d0e5d7fdf"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:2c843f7d-58d6-4a21-93a5-8ac8a9fd360e"
+    },
+    "temp-1469646842441": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "temp-1469646842442"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842440"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1469646842441"
+    },
+    "temp-1469646842440": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "temp-1469646842441",
+          "temp-1475177213706"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842439"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1469646842440"
+    },
+    "sectionRow:1d00f679-1b9c-41c3-806e-87395e9ccbd5": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:3dc1d48e-c194-46d4-b8a7-4c1468ae73cd"
+        ],
+        "cellSize": 4,
+        "parentId": "container:f5eb2b19-9805-47d2-9347-08dffe1c6116"
+      },
+      "id": "sectionRow:1d00f679-1b9c-41c3-806e-87395e9ccbd5",
+      "sectionType": "Section",
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      }
+    },
+    "widget:cf21f244-315c-4688-97d7-92f0a45a5f70": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:5c0ee7f9-5d6a-4973-b430-1807b7d2d722"
+      },
+      "id": "widget:cf21f244-315c-4688-97d7-92f0a45a5f70",
+      "config": {
+        "registrationFieldPageType": 3,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "228cc308-a4d9-4212-8454-8407dd578c3d"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "row:240cab61-bef0-42d1-91b4-a5a17904bdbe": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:4d0f8043-9c23-4aad-b46d-352b156204b0"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:283c92c7-7204-493d-91e4-6bb1cfc218a9"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:240cab61-bef0-42d1-91b4-a5a17904bdbe"
+    },
+    "sectionRow:76c2c753-8a0b-45ac-b4be-53f18730fcac": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:b34740aa-91aa-45b4-a334-c852a219cd1a"
+        ],
+        "cellSize": 4,
+        "parentId": "container:c658d8b5-27a4-4054-81fd-6b47eb11cafa"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:76c2c753-8a0b-45ac-b4be-53f18730fcac"
+    },
+    "sectionRow:26c45869-8e7a-4f90-b098-e511376e53c3": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:fd5058dd-8b0d-4c6a-93d4-e67d52af6735"
+        ],
+        "cellSize": 4,
+        "parentId": "container:b76d3fbd-6256-4482-9569-39f985c146eb"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:26c45869-8e7a-4f90-b098-e511376e53c3"
+    },
+    "temp-1469646842449": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "temp-1469646842450"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842442"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1469646842449"
+    },
+    "sectionColumn:32431272-6454-4460-901f-2f69cd2a4465": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:89d69304-0824-4e6f-8ebf-dd235fcd3d18"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:33746007-02e4-4ae8-9731-2a5a1e39b685"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:32431272-6454-4460-901f-2f69cd2a4465"
+    },
+    "temp-1469646842448": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "temp-1469646842447"
+      },
+      "id": "temp-1469646842448",
+      "config": {
+        "registrationFieldPageType": 1,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:1446d751-05fc-4288-a983-faecbbdeaebb": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:18a9e2fb-d653-4b08-a3b1-62325241f2a5"
+      },
+      "id": "widget:1446d751-05fc-4288-a983-faecbbdeaebb",
+      "config": {
+        "hotelRequestInformation": {
+          "header": "EventWidgets_RegistrationSummary_DefaultHotelHeader__resx",
+          "display": true
+        },
+        "displayAdmissionItems": true,
+        "productsHeader": "EventWidgets_RegistrationSummary_DefaultProductHeader__resx",
+        "registrationSummaryHeader": "_defaultPageTitle_regSummary_pending__resx",
+        "groupRegistration": {
+          "groupRegButtonText": "EventWidgets_RegistrationSummary_AddGroupMemberButton__resx",
+          "enableGroupReg": false
+        },
+        "questions": {
+          "header": "EventWidgets_RegistrationSummary_DefaultQuestionHeader__resx",
+          "displayType": 1,
+          "display": true
+        },
+        "style": {
+          "headerStyles": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "labelStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 5,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "attendeeNameStyles": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header3"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "attendeeBorderStyles": {
+            "border": {
+              "color": "primary",
+              "borderStyle": "solid",
+              "thickness": 1
+            },
+            "styleMapping": "custom",
+            "spacing": {
+              "padding": {
+                "paddingBottom": 40,
+                "paddingTop": 30,
+                "paddingLeft": 40,
+                "paddingRight": 40
+              }
+            }
+          },
+          "groupRegButtonStyles": {
+            "styleMapping": "primaryButton"
+          },
+          "fieldStyles": {
+            "customSettings": {
+              "border": {
+                "thickness": 0
+              },
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "productTableStyles": {
+            "productRowStyles": {
+              "customSettings": {
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 0,
+                    "paddingTop": 10,
+                    "paddingLeft": 20,
+                    "paddingRight": 0
+                  }
+                }
+              },
+              "styleMapping": "body1"
+            },
+            "productTypeStyles": {
+              "customSettings": {
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 0,
+                    "paddingTop": 10,
+                    "paddingLeft": 20,
+                    "paddingRight": 0
+                  }
+                },
+                "text": {
+                  "fontWeight": 700
+                }
+              },
+              "styleMapping": "body1"
+            },
+            "productHeaderStyles": {
+              "customSettings": {
+                "background": {
+                  "color": "primary"
+                },
+                "spacing": {
+                  "padding": {
+                    "paddingBottom": 9,
+                    "paddingTop": 9,
+                    "paddingLeft": 10,
+                    "paddingRight": 0
+                  }
+                }
+              },
+              "styleMapping": "body1"
+            }
+          },
+          "airRequestStyles": {
+            "travelDates": {
+              "styleMapping": "text2"
+            },
+            "sectionSubheaders": {
+              "styleMapping": "text1"
+            },
+            "itemBackground": {
+              "border": {
+                "borderStyle": "solid",
+                "thickness": 0
+              },
+              "background": {
+                "color": "secondary",
+                "borderRadius": 0,
+                "image": null
+              },
+              "styleMapping": "custom"
+            },
+            "airportNames": {
+              "styleMapping": "text1"
+            },
+            "flightClass": {
+              "styleMapping": "text2"
+            },
+            "accent": {
+              "border": {
+                "borderStyle": "solid",
+                "thickness": 0
+              },
+              "background": {
+                "color": "accent",
+                "borderRadius": 0,
+                "image": null
+              },
+              "styleMapping": "custom"
+            },
+            "tableHeader": {
+              "styleMapping": "text2"
+            }
+          },
+          "subheaderStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 15,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "header4"
+          },
+          "summaryHeaderActionLinks": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 0,
+                  "paddingTop": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 10
+                }
+              }
+            },
+            "styleMapping": "link"
+          },
+          "instructionalTextStyles": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingBottom": 20,
+                  "paddingTop": 10,
+                  "paddingLeft": 0,
+                  "paddingRight": 0
+                }
+              },
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          }
+        },
+        "instructionalText": "EventWidgets_RegistrationSummary_Pending_DefaultInstructionalText__resx",
+        "displaySessions": true,
+        "airRequestInformation": {
+          "header": "EventWidgets_AirRequest_WidgetTitle__resx",
+          "display": true
+        }
+      },
+      "widgetType": "RegistrationSummary"
+    },
+    "sectionRow:23f0ac1d-78a1-4182-920d-b69758110448": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:5353db2d-f1dd-4326-b686-98d786233388"
+        ],
+        "cellSize": 4,
+        "parentId": "container:7cefaebd-2070-4a1c-93a5-7f6a6d1d5e75"
+      },
+      "config": {
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "style": {},
+        "columnLayoutId": "ONE_COLUMN"
+      },
+      "id": "sectionRow:23f0ac1d-78a1-4182-920d-b69758110448"
+    },
+    "temp-1469646842447": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "temp-1469646842448"
+        ],
+        "cellSize": 4,
+        "parentId": "temp-1469646842442"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "temp-1469646842447"
+    },
+    "widget:6e27f636-9170-46e5-ba59-21a6675b1690": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:409f097d-8b96-44e9-a1ba-8994ea1e96c4"
+      },
+      "id": "widget:6e27f636-9170-46e5-ba59-21a6675b1690",
+      "config": {
+        "dateSource": "startDate",
+        "showSeconds": true,
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "counter": {
+            "customSettings": {
+              "border": {
+                "color": "text",
+                "borderStyle": "solid",
+                "thickness": 3
+              },
+              "background": {
+                "color": "secondary",
+                "borderRadius": 100,
+                "image": {
+                  "scale": true
+                }
+              },
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "header2"
+          },
+          "text": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "text2"
+          }
+        },
+        "type": "circle"
+      },
+      "widgetType": "EventCountdownTimer"
+    },
+    "sectionColumn:de09f087-9fcd-49a3-83f2-daee865137a0": {
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:8865e19d-1434-43c6-9a62-0dc908fc852c",
+          "row:418db4c1-55ae-4a37-9380-cc9892579f1e"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:a3f36782-69ea-4e00-984b-3e97a6966092"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "sectionColumn:de09f087-9fcd-49a3-83f2-daee865137a0"
+    },
+    "row:fb4a7ed0-eac4-4e71-856c-25990a82cf6a": {
+      "layout": {
+        "colspan": 12,
+        "type": "row",
+        "childIds": [
+          "widget:a291fc81-97f2-4fe3-af87-262cbcfe8e8a"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionColumn:1e6a3605-1fd2-48ce-9d0d-e7bd98fd8fa4"
+      },
+      "config": {
+        "style": {}
+      },
+      "id": "row:fb4a7ed0-eac4-4e71-856c-25990a82cf6a"
+    },
+    "widget:a07b1a88-17be-4db6-8c87-d3fda38dd768": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:49217cec-5671-4459-87b6-fd1198191c4f"
+      },
+      "id": "widget:a07b1a88-17be-4db6-8c87-d3fda38dd768",
+      "config": {
+        "registrationFieldPageType": 2,
+        "style": {
+          "input": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "input"
+          },
+          "errorText": {
+            "customSettings": {
+              "text": {
+                "color": "#e75430"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "view": {
+            "customSettings": {
+              "spacing": {
+                "padding": {
+                  "paddingLeft": 5
+                }
+              },
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "customSettings": {
+              "text": {
+                "textAlign": "left"
+              }
+            },
+            "styleMapping": "label"
+          }
+        },
+        "fieldId": "032e80c1-f29f-44e6-af13-a89e53906422"
+      },
+      "widgetType": "EventStandardContactFieldText"
+    },
+    "widget:a1f2524f-dd05-4727-8980-f2eb8e0a7487": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:b8ac766c-3b33-48d2-829a-9c79578a2d9f"
+      },
+      "id": "widget:a1f2524f-dd05-4727-8980-f2eb8e0a7487",
+      "config": {
+        "style": {
+          "textInput": {
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            },
+            "styleMapping": "body1"
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 10,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "EventSiteEditor_DefaultInstText_GuestRegistration__resx"
+      },
+      "widgetType": "NucleusText"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for RegisterAnotherWidget Checking if it is rendering properly when event is active and button is enabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Another
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterAnotherWidget Checking if it is rendering properly when event is completed and button is disabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className=""
+      disabled={true}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Another
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterAnotherWidget Checking if it is rendering properly when event is completed and button is disabled, when user is LoggedIn 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className=""
+      disabled={true}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Another
+      </span>
+    </button>
+  </div>
+</div>
+`;

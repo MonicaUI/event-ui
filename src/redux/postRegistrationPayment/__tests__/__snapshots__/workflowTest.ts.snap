@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates an paymentCart 1`] = `
+Array [
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "payload": Object {
+      "ordersResponse": Object {},
+    },
+    "type": "event-guestside-site/GET_ORDERS",
+  },
+  Object {
+    "payload": Object {
+      "currentEventRegistrationId": "00000000-0000-0000-0000-000000000001",
+    },
+    "type": "event-guestside-site/regCart/SET_CURRENT_EVENT_REGISTRATION_ID",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;
+
+exports[`finalizes payment cart 1`] = `
+Array [
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "payload": Object {
+      "pricing": Object {
+        "netFeeAmountChargeWithPaymentAmountServiceFee": 260,
+        "netFeeAmountRefund": 0,
+        "paymentTypeServiceFeePricingCharges": Object {
+          "99437532-36c2-4b2e-802c-7f65585465b6": Object {
+            "appliedOrder": 2,
+            "feeApplyType": 1,
+            "id": "99437532-36c2-4b2e-802c-7f65585465b6",
+            "inviteeBreakdowns": Array [
+              Object {
+                "amount": 20,
+                "attendeeId": "4195ba99-ef03-4458-959e-4bca2b951298",
+                "attendeeType": "ATTENDEE",
+                "eventRegistrationId": "beb8b011-861b-4c49-bca7-528a8d52ddea",
+                "orderDetailTaxFeeId": null,
+              },
+            ],
+            "primaryRegToOrderDetailIds": Object {
+              "beb8b011-861b-4c49-bca7-528a8d52ddea": "bdd54850-dcae-4ae7-ad1e-41d0ef46185b",
+            },
+            "totalPaymentTypeServiceFeeAmount": 20,
+          },
+        },
+        "regCartId": "02c0142f-2985-4830-8009-4aa1ceed666d",
+      },
+      "regCart": Object {
+        "regCartId": "123",
+      },
+    },
+    "type": "event-guestside-site/regCart/RESTORE_REG_CART_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "checkoutProgress": 100,
+    },
+    "type": "event-guestside-site/regCart/FINALIZE_CHECKOUT_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "eventId": "123",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+    },
+    "type": "event-guestside-site/regCart/FINALIZE_CHECKOUT_SUCCESS",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;

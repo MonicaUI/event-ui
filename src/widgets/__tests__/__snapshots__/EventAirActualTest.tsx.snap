@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventAirActual produces props from state should match 1`] = `
+Object {
+  "children": <AirActualWidget
+    airActualSetup={Object {}}
+    airActualsToDisplay={
+      Object {
+        "guests": Array [],
+        "primary": Array [
+          Object {
+            "airReservationActualId": "6b7730a3-f4b5-4a64-9a61-de0dc55af6e1",
+            "attendeeRegistrationId": "108155d8",
+            "currencyId": 1,
+            "currencySymbol": "Double Dollars",
+            "flightDetails": Array [
+              Object {
+                "airReservationActualDetailId": "863bb1e0-ff84-4872-b169-c75f29742aa8",
+                "airlineName": "Lufthansa",
+                "arrivalDate": "2018-06-07T00:00:00.000Z",
+                "arrivalTime": "05:35 AM",
+                "arrivalTo": 360,
+                "confirmationNumber": "QA1216",
+                "departureDate": "2018-06-06T00:00:00.000Z",
+                "departureFrom": 303,
+                "departureTime": "04:35 PM",
+                "flightNumber": "LT1215",
+                "flightSequence": 1,
+                "id": "7f813df2-2887-41f4-8674-b97f684ab22f",
+                "operatingAirline": "Lufthansa",
+                "seatNumber": "15B",
+                "ticketClass": "ECONOMY",
+              },
+              Object {
+                "airReservationActualDetailId": "cedebca6-73c2-41b4-b210-b44ab8f98b83",
+                "airlineName": "KLM",
+                "arrivalDate": "2018-06-09T00:00:00.000Z",
+                "arrivalTime": "03:30 AM",
+                "arrivalTo": 303,
+                "confirmationNumber": "QA1216",
+                "departureDate": "2018-06-08T00:00:00.000Z",
+                "departureFrom": 360,
+                "departureTime": "10:35 PM",
+                "flightNumber": "KL1121",
+                "flightSequence": 2,
+                "id": "529a2825-a38d-43d6-8542-116307cf47c7",
+                "operatingAirline": "KLM",
+                "seatNumber": "20D",
+                "ticketClass": "ECONOMY",
+              },
+            ],
+            "id": "108155d8-ec52-4433-82a1-47acf909a044",
+            "passengerNote": "EventWidgets_FlightSummary_PassengerNoteText__resx",
+            "totalTicketPrice": 1200,
+            "travellerInfo": Object {
+              "fullName": "Winnie Young",
+              "gender": -1,
+            },
+          },
+          Object {
+            "airReservationActualId": "6b7730a3-f4b5-4a64-9a61-de0dc55af6e1",
+            "attendeeRegistrationId": "108155d8",
+            "currencyId": 1,
+            "currencySymbol": "Double Dollars",
+            "flightDetails": Array [
+              Object {
+                "airReservationActualDetailId": "863bb1e0-ff84-4872-b169-c75f29742aa8",
+                "airlineName": "Lufthansa",
+                "arrivalDate": "2018-06-07T00:00:00.000Z",
+                "arrivalTime": "05:35 AM",
+                "arrivalTo": 360,
+                "confirmationNumber": "QA1216",
+                "departureDate": "2018-06-06T00:00:00.000Z",
+                "departureFrom": 303,
+                "departureTime": "04:35 PM",
+                "flightNumber": "LT1215",
+                "flightSequence": 1,
+                "id": "7f813df2-2887-41f4-8674-b97f684ab22f",
+                "operatingAirline": "Lufthansa",
+                "seatNumber": "15B",
+                "ticketClass": "ECONOMY",
+              },
+              Object {
+                "airReservationActualDetailId": "cedebca6-73c2-41b4-b210-b44ab8f98b83",
+                "airlineName": "KLM",
+                "arrivalDate": "2018-06-09T00:00:00.000Z",
+                "arrivalTime": "03:30 AM",
+                "arrivalTo": 303,
+                "confirmationNumber": "QA1216",
+                "departureDate": "2018-06-08T00:00:00.000Z",
+                "departureFrom": 360,
+                "departureTime": "10:35 PM",
+                "flightNumber": "KL1121",
+                "flightSequence": 2,
+                "id": "529a2825-a38d-43d6-8542-116307cf47c7",
+                "operatingAirline": "KLM",
+                "seatNumber": "20D",
+                "ticketClass": "ECONOMY",
+              },
+            ],
+            "id": "100000d8-ec52-4433-82a1-47acf909a044",
+            "passengerNote": "EventWidgets_FlightSummary_PassengerNote__resx",
+            "totalTicketPrice": 1200,
+            "travellerInfo": Object {
+              "fullName": "John Doe",
+              "gender": -1,
+            },
+          },
+        ],
+      }
+    }
+    airports={
+      Object {
+        "123": Object {
+          "city": "123",
+          "code": "123",
+          "name": "123",
+        },
+        "1419": Object {
+          "city": "1419",
+          "code": "1419",
+          "name": "1419",
+        },
+        "1855": Object {
+          "city": "Honolulu",
+          "code": "HWI",
+          "country": "United States of America",
+          "id": 1855,
+          "name": "Hawaii International Airport",
+          "stateCode": "HW",
+        },
+        "290": Object {
+          "city": "290",
+          "code": "290",
+          "name": "290",
+        },
+        "303": Object {
+          "city": "Los Angeles",
+          "code": "LAX",
+          "country": "United States of America",
+          "id": 303,
+          "name": "International",
+          "stateCode": "CA",
+        },
+        "360": Object {
+          "city": "Miami",
+          "code": "MIA",
+          "country": "United States of America",
+          "id": 360,
+          "name": "International",
+          "stateCode": "FL",
+        },
+        "473": Object {
+          "city": "Las Vegas",
+          "code": "LV",
+          "country": "United States of America",
+          "id": 473,
+          "name": "Las Vegas International Airport",
+          "stateCode": "NV",
+        },
+        "8354": Object {
+          "city": "Whitefield",
+          "code": "HIE",
+          "country": "United States of America",
+          "id": 8354,
+          "name": "Mount Washington Rgnl",
+          "stateCode": "NH",
+        },
+        "searchResults": Object {
+          "abc": Object {
+            "123": Object {
+              "city": "123",
+              "code": "123",
+              "name": "123",
+            },
+            "1419": Object {
+              "city": "1419",
+              "code": "1419",
+              "name": "1419",
+            },
+            "1855": Object {
+              "city": "1855",
+              "code": "1855",
+              "name": "1855",
+            },
+            "290": Object {
+              "city": "290",
+              "code": "290",
+              "name": "290",
+            },
+          },
+        },
+      }
+    }
+    classes={Object {}}
+    currencyList={Array []}
+    event={
+      Object {
+        "id": "eventId",
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    isRegistrationActionDisabled={false}
+    onAirportSearch={[Function]}
+    onDeleteAirActual={[Function]}
+    onSubmitAirActual={[Function]}
+    registrations={
+      Object {
+        "guests": Array [],
+        "primary": Object {
+          "eventId": "eventId",
+          "eventRegistrationId": "108155d8",
+        },
+      }
+    }
+    removeSelectedAirActualIds={[Function]}
+    setSelectedAirActualId={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    style={Object {}}
+    toggleAirActualSummaryView={[Function]}
+    translate={[Function]}
+    translateCurrency={[Function]}
+    translateTime={[Function]}
+  />,
+  "value": null,
+}
+`;

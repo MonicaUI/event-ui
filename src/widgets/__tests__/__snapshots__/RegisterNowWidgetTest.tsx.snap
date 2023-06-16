@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for RegisterNowWidget Check if already registered dialog is triggered on click if preview mode is ON 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Now
+      </span>
+    </button>
+  </div>
+  <div
+    className=""
+    style={
+      Object {
+        "overflow": undefined,
+        "textAlign": undefined,
+      }
+    }
+  >
+    <a
+      className=""
+      href="#"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Already Registered Link text
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterNowWidget Check if already registered dialog is triggered on click ifHTTP Post is enabled and authentication location is Specific Registration Path 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className="disabled"
+      disabled={true}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Now
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterNowWidget Checking if it is rendering properly when event is active and button is enabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Now
+      </span>
+    </button>
+  </div>
+  <div
+    className=""
+    style={
+      Object {
+        "overflow": undefined,
+        "textAlign": undefined,
+      }
+    }
+  >
+    <a
+      className=""
+      href="#"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Already Registered Link text
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterNowWidget Checking if it is rendering properly when event is archived but in planner mode.  Both the button and the link are enabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Now
+      </span>
+    </button>
+  </div>
+  <div
+    className=""
+    style={
+      Object {
+        "overflow": undefined,
+        "textAlign": undefined,
+      }
+    }
+  >
+    <a
+      className=""
+      href="#"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Already Registered Link text
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterNowWidget Checking if it is rendering properly when event is archived but in preview mode.  Both the button and the link are enabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Now
+      </span>
+    </button>
+  </div>
+  <div
+    className=""
+    style={
+      Object {
+        "overflow": undefined,
+        "textAlign": undefined,
+      }
+    }
+  >
+    <a
+      className=""
+      href="#"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Already Registered Link text
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterNowWidget Checking if it is rendering properly when event is archived but neither in planner mode nor  in preview mode. Both the button and the link are disabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className="disabled"
+      disabled={true}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Now
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterNowWidget Checking if it is rendering properly when event is completed and button is disabled and link is disabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className="disabled"
+      disabled={true}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Now
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tests for RegisterNowWidget Checking if it is rendering properly when event is completed and button is disabled and link is enabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <button
+      className="disabled"
+      disabled={true}
+      onClick={[Function]}
+      style={Object {}}
+      type="button"
+    >
+      <span
+        className=""
+        style={Object {}}
+      >
+        Register Now
+      </span>
+    </button>
+  </div>
+  <div
+    className=""
+    style={
+      Object {
+        "overflow": undefined,
+        "textAlign": undefined,
+      }
+    }
+  >
+    <a
+      className=""
+      href="#"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Already Registered Link text
+    </a>
+  </div>
+</div>
+`;

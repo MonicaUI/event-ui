@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SurveyWidget should match 1`] = `
+Object {
+  "children": <Survey
+    config={
+      Object {
+        "link": "www.fakeLink",
+        "target": "blank",
+        "text": "survey widget",
+      }
+    }
+    dispatch={[Function]}
+    display={true}
+    enableHyperlink={true}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+  />,
+  "value": null,
+}
+`;
+
+exports[`SurveyWidget: if survey feature is turned off should not display widget should match 1`] = `
+Object {
+  "children": <Survey
+    config={
+      Object {
+        "link": "www.fakeLink",
+        "target": "blank",
+        "text": "survey widget",
+      }
+    }
+    dispatch={[Function]}
+    enableHyperlink={true}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+  />,
+  "value": null,
+}
+`;

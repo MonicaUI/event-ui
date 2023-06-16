@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify unsubscribe page calls unsubscribe endpoint and loads page content 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className="sectionContainer"
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 0,
+        "hover": Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <div
+      className=""
+      style={
+        Object {
+          "margin": "auto",
+          "maxWidth": "800px",
+        }
+      }
+    >
+      <div
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-UnsubscribeText-widget:unsubscribe-header"
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 0,
+                  "flex": "1 1 auto",
+                  "hover": Object {
+                    "backgroundColor": "transparent",
+                  },
+                  "paddingBottom": 0,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                  "pointerEvents": undefined,
+                }
+              }
+            >
+              <div
+                className=""
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 0,
+                    "color": "#273F69",
+                    "fontFamily": "PT Sans, sans-serif",
+                    "fontSize": "2.5rem",
+                    "fontStyle": "normal",
+                    "fontWeight": 400,
+                    "hover": "css-87ndg2",
+                    "lineHeight": "1.3",
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                <p>
+                  EventGuestSide_Unsubscribe_HeaderText__resx
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-UnsubscribeText-widget:unsubscribe-description"
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 0,
+                  "flex": "1 1 auto",
+                  "hover": Object {
+                    "backgroundColor": "transparent",
+                  },
+                  "paddingBottom": 0,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 0,
+                  "pointerEvents": undefined,
+                }
+              }
+            >
+              <div
+                className=""
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 0,
+                    "color": "#273F69",
+                    "fontFamily": "PT Sans, sans-serif",
+                    "fontSize": 16,
+                    "fontStyle": "normal",
+                    "fontWeight": 400,
+                    "hover": "css-87ndg2",
+                    "lineHeight": "1.3",
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                <p>
+                  EventGuestSide_Unsubscribe_DescriptionText__resx
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 0,
+                  "flex": "1 1 auto",
+                  "hover": Object {
+                    "backgroundColor": "transparent",
+                  },
+                  "paddingBottom": "1.875rem",
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": "1.875rem",
+                  "pointerEvents": undefined,
+                }
+              }
+            >
+              <table
+                className="contactInfoTable"
+              >
+                <tbody>
+                  <tr>
+                    <td
+                      className=""
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 0,
+                          "color": "#041532",
+                          "fontFamily": "PT Sans, sans-serif",
+                          "fontSize": 18,
+                          "fontStyle": "normal",
+                          "fontWeight": 400,
+                          "hover": "css-87ndg2",
+                          "lineHeight": "1.3",
+                          "paddingBottom": 5,
+                          "paddingLeft": 5,
+                          "paddingRight": 5,
+                          "paddingTop": 5,
+                        }
+                      }
+                    >
+                      <span
+                        className="contactInfoLabel"
+                      >
+                        EventGuestSide_ContactInfoWidget_ContactName__resx
+                      </span>
+                    </td>
+                    <td
+                      className=""
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 0,
+                          "color": "#273F69",
+                          "fontFamily": "PT Sans, sans-serif",
+                          "fontSize": 16,
+                          "fontStyle": "normal",
+                          "fontWeight": 400,
+                          "hover": "css-87ndg2",
+                          "lineHeight": "1.3",
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "paddingRight": 0,
+                          "paddingTop": 0,
+                        }
+                      }
+                    >
+                      undefined undefined
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className=""
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 0,
+                          "color": "#041532",
+                          "fontFamily": "PT Sans, sans-serif",
+                          "fontSize": 18,
+                          "fontStyle": "normal",
+                          "fontWeight": 400,
+                          "hover": "css-87ndg2",
+                          "lineHeight": "1.3",
+                          "paddingBottom": 5,
+                          "paddingLeft": 5,
+                          "paddingRight": 5,
+                          "paddingTop": 5,
+                        }
+                      }
+                    >
+                      <span
+                        className="contactInfoLabel"
+                      >
+                        EventGuestSide_ContactInfoWidget_ContactEmailAddress__resx
+                      </span>
+                    </td>
+                    <td
+                      className=""
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 0,
+                          "color": "#273F69",
+                          "fontFamily": "PT Sans, sans-serif",
+                          "fontSize": 16,
+                          "fontStyle": "normal",
+                          "fontWeight": 400,
+                          "hover": "css-87ndg2",
+                          "lineHeight": "1.3",
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "paddingRight": 0,
+                          "paddingTop": 0,
+                        }
+                      }
+                    />
+                  </tr>
+                  <tr
+                    className="contactInfoHr"
+                  />
+                  <tr>
+                    <td
+                      className=""
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 0,
+                          "color": "#041532",
+                          "fontFamily": "PT Sans, sans-serif",
+                          "fontSize": 18,
+                          "fontStyle": "normal",
+                          "fontWeight": 400,
+                          "hover": "css-87ndg2",
+                          "lineHeight": "1.3",
+                          "paddingBottom": 5,
+                          "paddingLeft": 5,
+                          "paddingRight": 5,
+                          "paddingTop": 5,
+                        }
+                      }
+                    >
+                      <span
+                        className="contactInfoLabel"
+                      >
+                        EventGuestSide_ContactInfoWidget_PlannerName__resx
+                      </span>
+                    </td>
+                    <td
+                      className=""
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 0,
+                          "color": "#273F69",
+                          "fontFamily": "PT Sans, sans-serif",
+                          "fontSize": 16,
+                          "fontStyle": "normal",
+                          "fontWeight": 400,
+                          "hover": "css-87ndg2",
+                          "lineHeight": "1.3",
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "paddingRight": 0,
+                          "paddingTop": 0,
+                        }
+                      }
+                    >
+                      undefined undefined
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className=""
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 0,
+                          "color": "#041532",
+                          "fontFamily": "PT Sans, sans-serif",
+                          "fontSize": 18,
+                          "fontStyle": "normal",
+                          "fontWeight": 400,
+                          "hover": "css-87ndg2",
+                          "lineHeight": "1.3",
+                          "paddingBottom": 5,
+                          "paddingLeft": 5,
+                          "paddingRight": 5,
+                          "paddingTop": 5,
+                        }
+                      }
+                    >
+                      <span
+                        className="contactInfoLabel"
+                      >
+                        EventGuestSide_ContactInfoWidget_PlannerEmailAddress__resx
+                      </span>
+                    </td>
+                    <td
+                      className=""
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 0,
+                          "color": "#273F69",
+                          "fontFamily": "PT Sans, sans-serif",
+                          "fontSize": 16,
+                          "fontStyle": "normal",
+                          "fontWeight": 400,
+                          "hover": "css-87ndg2",
+                          "lineHeight": "1.3",
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "paddingRight": 0,
+                          "paddingTop": 0,
+                        }
+                      }
+                    />
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-UnsubscribeText-widget:unsubscribe-action-instruction"
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 0,
+                  "flex": "1 1 auto",
+                  "hover": Object {
+                    "backgroundColor": "transparent",
+                  },
+                  "paddingBottom": 0,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 0,
+                  "pointerEvents": undefined,
+                }
+              }
+            >
+              <div
+                className=""
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 0,
+                    "color": "#273F69",
+                    "fontFamily": "PT Sans, sans-serif",
+                    "fontSize": 16,
+                    "fontStyle": "normal",
+                    "fontWeight": 400,
+                    "hover": "css-87ndg2",
+                    "lineHeight": "1.3",
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                <p>
+                  EventGuestSide_Unsubscribe_RevertInstruction__resx
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-UnsubscribeButton-widget:unsubscribe-action-button"
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 0,
+                  "flex": "1 1 auto",
+                  "hover": Object {
+                    "backgroundColor": "transparent",
+                  },
+                  "paddingBottom": "1.875rem",
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                  "pointerEvents": undefined,
+                }
+              }
+            >
+              <div
+                className=""
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                <button
+                  className=""
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#041532",
+                      "borderColor": "#041532",
+                      "borderRadius": 6,
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "color": "#FFFFFF",
+                      "fontFamily": "PT Sans, sans-serif",
+                      "fontSize": "1.25rem",
+                      "fontStyle": "normal",
+                      "fontWeight": 400,
+                      "hover": "css-87ndg2",
+                      "lineHeight": "1.3",
+                      "paddingBottom": 5,
+                      "paddingLeft": "1.25rem",
+                      "paddingRight": "1.25rem",
+                      "paddingTop": 5,
+                    }
+                  }
+                  type="button"
+                >
+                  <span
+                    className=""
+                    style={Object {}}
+                  >
+                    EventGuestSide_Unsubscribe_RevertButton__resx
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 0,
+                  "flex": "1 1 auto",
+                  "hover": Object {
+                    "backgroundColor": "transparent",
+                  },
+                  "paddingBottom": "1.875rem",
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": "1.25rem",
+                  "pointerEvents": undefined,
+                }
+              }
+            >
+              <p
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 0,
+                    "color": "#273F69",
+                    "fontFamily": "PT Sans, sans-serif",
+                    "fontSize": 16,
+                    "fontStyle": "normal",
+                    "fontWeight": 400,
+                    "hover": "css-87ndg2",
+                    "lineHeight": "1.3",
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                EventGuestSide_Unsubscribe_OptOutInstruction__resx
+                 
+                <a
+                  href="#"
+                  onClick={[Function]}
+                >
+                  EventGuestSide_Unsubscribe_OptOutLink__resx
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

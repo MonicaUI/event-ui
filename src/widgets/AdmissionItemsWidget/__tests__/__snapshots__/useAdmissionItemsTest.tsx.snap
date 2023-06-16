@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useAdmissionItems should render with query result 1`] = `
+<pre>
+  [
+  {
+    "applicableContactTypes": [
+      "regTypeId1"
+    ],
+    "capacity": {
+      "inPerson": {
+        "available": -1,
+        "total": -1
+      }
+    },
+    "code": "",
+    "defaultFeeId": "00000000-0000-0000-0000-000000000000",
+    "description": "",
+    "displayOrder": 2,
+    "id": "213994f0-f2e1-48da-a016-37a80a5cc5d6",
+    "name": "Event Registration",
+    "visible": "AVAILABLE"
+  }
+]
+</pre>
+`;

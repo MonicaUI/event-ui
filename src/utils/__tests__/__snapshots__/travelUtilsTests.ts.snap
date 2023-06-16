@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createDerivedRoomRegTypeAssociations() method creates associations with default reg type when no reg type is associated to reg path 1`] = `
+Object {
+  "room1Id": Object {
+    "00000000-0000-0000-0000-000000000000": Object {
+      "allowCharge": true,
+      "allowRefund": false,
+      "entityId": "00000000-0000-0000-0000-000000000000",
+      "entityType": 11,
+    },
+  },
+}
+`;
+
+exports[`createDerivedRoomRegTypeAssociations() method creates room -to- reg types associations 1`] = `
+Object {
+  "room1Id": Object {
+    "regTypeId1": Object {
+      "allowCharge": true,
+      "allowRefund": false,
+      "entityId": "regTypeId1",
+      "entityType": 11,
+    },
+    "regTypeId2": Object {
+      "allowCharge": true,
+      "allowRefund": false,
+      "entityId": "regTypeId2",
+      "entityType": 11,
+    },
+  },
+}
+`;

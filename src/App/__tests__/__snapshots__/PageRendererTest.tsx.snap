@@ -1,0 +1,1127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageRenderer matches snapshot 1`] = `
+Array [
+  <div>
+    <div>
+      <div>
+        <div
+          role="banner"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0; background-image: url(images/clean-header.png); background-size: cover; background-repeat: repeat; background-position: center top;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="main"
+          role="main"
+          tabindex="-1"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        role="contentinfo"
+      >
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`PageRenderer matches snapshot with planner banner 1`] = `
+Array [
+  <div>
+    <div
+      class="banner"
+      data-cvent-id="planner-reg-page-banner"
+    >
+      <span>
+        EventGuestSide_BannerText_PlannerReg__resx
+      </span>
+      <div
+        class="bannerHelp"
+      >
+        <span>
+          EventGuestSide_BannerHelpText_PlannerReg__resx
+        </span>
+      </div>
+      <div
+        class="actionSection"
+      >
+        <div
+          class="aside"
+        />
+        <ul
+          class="actionList"
+        >
+          <li
+            class="actionExit"
+          >
+            <button
+              aria-label="_close__resx"
+              class="exitEditor"
+              data-cvent-id="page-banner-close-button"
+              type="button"
+            >
+              <span
+                class="container"
+              >
+                <span
+                  aria-label="_close__resx"
+                  class="exitIcon"
+                  role="img"
+                />
+              </span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          role="banner"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0; background-image: url(images/clean-header.png); background-size: cover; background-repeat: repeat; background-position: center top;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="main"
+          role="main"
+          tabindex="-1"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        role="contentinfo"
+      >
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`PageRenderer matches snapshot with planner banner 1 1`] = `
+Array [
+  <div>
+    <div>
+      <div>
+        <div
+          role="banner"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0; background-image: url(images/clean-header.png); background-size: cover; background-repeat: repeat; background-position: center top;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="main"
+          role="main"
+          tabindex="-1"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        role="contentinfo"
+      >
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`PageRenderer matches snapshot with preview banner 1`] = `
+Array [
+  <div>
+    <div
+      class="banner"
+      data-cvent-id="preview-page-banner"
+    >
+      <span>
+        EventGuestSide_BannerText_Preview__resx
+      </span>
+      <div
+        class="actionSection"
+      >
+        <div
+          class="aside"
+        >
+          <div>
+            EventGuestSide_PageBanner_RegistrationType__resx:{"regType":"EventGuestSide_PageBanner_NoRegistrationType__resx"}
+            <br />
+          </div>
+          <div>
+            EventGuestSide_PageBanner_RegistrationPath__resx:{"regPath":"regPath1"}
+             
+            EventGuestSide_PageBanner_Default__resx
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          role="banner"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0; background-image: url(images/clean-header.png); background-size: cover; background-repeat: repeat; background-position: center top;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="main"
+          role="main"
+          tabindex="-1"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        role="contentinfo"
+      >
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`PageRenderer matches snapshot with test mode banner 1`] = `
+Array [
+  <div>
+    <div
+      class="banner"
+      data-cvent-id="preview-page-banner"
+    >
+      <span>
+        EventGuestSide_BannerText_TestMode__resx
+      </span>
+      <div
+        class="actionSection"
+      >
+        <div
+          class="aside"
+        >
+          <div>
+            EventGuestSide_PageBanner_RegistrationType__resx:{"regType":"EventGuestSide_PageBanner_NoRegistrationType__resx"}
+            <br />
+          </div>
+          <div>
+            EventGuestSide_PageBanner_RegistrationPath__resx:{"regPath":"regPath1"}
+             
+            EventGuestSide_PageBanner_Default__resx
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          role="banner"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0; background-image: url(images/clean-header.png); background-size: cover; background-repeat: repeat; background-position: center top;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="main"
+          role="main"
+          tabindex="-1"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="sectionContainer"
+              style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+            >
+              <div
+                class=""
+                style="margin: auto; max-width: 800px;"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class=""
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(255, 255, 255); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        role="contentinfo"
+      >
+        <div
+          class=""
+        >
+          <div
+            class="sectionContainer"
+            style="padding: 0px 0px 0px 0px; background-color: rgb(221, 226, 230); border-radius: 0;"
+          >
+            <div
+              class=""
+              style="margin: auto; max-width: 800px;"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class=""
+                  >
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

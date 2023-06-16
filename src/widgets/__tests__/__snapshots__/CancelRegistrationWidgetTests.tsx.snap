@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CancelRegistraionWidget on events with NO cancellation page renders with right props 1`] = `
+Array [
+  <Context.Provider
+    value={null}
+  >
+    <ButtonWidget
+      classes={
+        Object {
+          "button": Object {
+            "disabled": "disabled",
+          },
+        }
+      }
+      clickHandler={[Function]}
+      disabled={true}
+      id="cancellationWidget"
+      isAdmin={false}
+      kind="button"
+      store={
+        Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    />
+  </Context.Provider>,
+]
+`;
+
+exports[`CancelRegistraionWidget on events with cancellation page renders with right props 1`] = `
+Array [
+  <Context.Provider
+    value={null}
+  >
+    <ButtonWidget
+      classes={
+        Object {
+          "button": Object {
+            "disabled": "disabled",
+          },
+        }
+      }
+      clickHandler={[Function]}
+      disabled={true}
+      id="cancellationWidget"
+      isAdmin={false}
+      kind="button"
+      store={
+        Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    />
+  </Context.Provider>,
+]
+`;

@@ -1,0 +1,213 @@
+{
+  "pages": {
+    "optInOut": {
+      "id": "optInOut",
+      "title": "EventGuest_OptInOut_PageTitle__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": [
+        "container:confirm-opt-out"
+      ]
+    }
+  },
+  "layoutItems": {
+    "container:confirm-opt-out": {
+      "id": "container:confirm-opt-out",
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": [
+          "sectionRow:opt-in-out"
+        ],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "sectionRow:opt-in-out": {
+      "id": "sectionRow:opt-in-out",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": [
+          "sectionColumn:opt-in-out"
+        ],
+        "cellSize": 4,
+        "parentId": "container:confirm-opt-out"
+      },
+      "config": {
+        "style": {},
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "columnLayoutId": "ONE_COLUMN"
+      }
+    },
+    "sectionColumn:opt-in-out": {
+      "id": "sectionColumn:opt-in-out",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:opt-in-out-description",
+          "row:opt-in-out-action-instruction",
+          "row:opt-in-out-action-button"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:opt-in-out"
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "row:opt-in-out-description": {
+      "id": "row:opt-in-out-description",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:opt-in-out",
+        "childIds": [
+          "widget:opt-in-out-description"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:opt-in-out-description": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:opt-in-out-description"
+      },
+      "id": "widget:opt-in-out-description",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "header2",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "Event_EmailOptOut_HeaderText__resx",
+        "alternateText": "Event_EmailOptOut_HeaderText__resx"
+      },
+      "widgetType": "OptOutText"
+    },
+    "row:opt-in-out-action-instruction": {
+      "id": "row:opt-in-out-action-instruction",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:opt-in-out",
+        "childIds": [
+          "widget:opt-in-out-action-instruction"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:opt-in-out-action-instruction": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:opt-in-out-action-instruction"
+      },
+      "id": "widget:opt-in-out-action-instruction",
+      "config": {
+        "style": {
+          "button": {
+            "styleMapping": "primaryButton",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 30,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text":{
+            "styleMapping": "body1"
+          }
+        },
+        "text": "Event_EmailOptOut_InstructionalText__resx",
+        "alternateText": "Event_EmailOptOut_InstructionalText__resx"
+      },
+      "widgetType": "ContactText"
+    },
+    "row:opt-in-out-action-button": {
+      "id": "row:opt-in-out-action-button",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:opt-in-out",
+        "childIds": [
+          "widget:opt-in-out-action-button"
+        ]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:opt-in-out-action-button": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:opt-in-out-action-button"
+      },
+      "id": "widget:opt-in-out-action-button",
+      "config": {
+        "style": {
+          "button": {
+            "styleMapping": "primaryButton",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 30,
+              "paddingTop": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "text": "GuestProductSelection_DialogConfirmButtonText__resx",
+        "alternateText": "GuestProductSelection_DialogConfirmButtonText__resx"
+      },
+      "widgetType": "ConfirmButton"
+    }
+  }
+}

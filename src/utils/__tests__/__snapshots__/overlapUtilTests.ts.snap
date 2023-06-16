@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`overlapUtil matches snapshot 1`] = `
+Object {
+  "overlap": true,
+  "ranges": Array [
+    Object {
+      "current": Object {
+        "endTime": "2018-07-19T23:00:00.000Z",
+        "id": 4,
+        "startTime": "2018-07-19T13:00:00.000Z",
+      },
+      "previous": Object {
+        "endTime": "2018-07-19T23:00:00.000Z",
+        "id": 2,
+        "startTime": "2018-07-19T13:00:00.000Z",
+      },
+    },
+    Object {
+      "current": Object {
+        "endTime": "2018-08-19T23:00:00.000Z",
+        "id": 3,
+        "startTime": "2018-08-19T13:00:00.000Z",
+      },
+      "previous": Object {
+        "endTime": "2018-08-19T23:00:00.000Z",
+        "id": 1,
+        "startTime": "2018-08-19T13:00:00.000Z",
+      },
+    },
+  ],
+}
+`;

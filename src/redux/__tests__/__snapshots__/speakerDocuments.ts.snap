@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Speaker document empty payload 1`] = `Object {}`;
+
+exports[`Speaker document payload 1`] = `
+Object {
+  "speaker1": Object {
+    "document1": Object {
+      "alternateText": "",
+      "creationDate": "2020-02-04T14:19:30.033Z",
+      "extension": "pdf",
+      "id": "document1",
+      "lastModifiedDate": "2020-02-04T14:19:30.033Z",
+      "name": "Agenda Document",
+      "size": 234446,
+      "thumbnailUri": "",
+      "type": "DOCUMENT",
+      "uri": "https://abc.pdf",
+    },
+  },
+}
+`;
+
+exports[`Verifying initial state. 1`] = `Object {}`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify initial state 1`] = `
+Object {
+  "defaultRegPackId": "",
+  "eventBuildWizardExitUrl": "",
+  "eventId": "",
+  "freeTrialPurchaseCta": "",
+  "httpReferrer": "",
+  "isFreeTrial": false,
+  "isPlanner": false,
+  "isPreview": false,
+  "isTestMode": false,
+  "licenseTypeId": 1,
+  "showEventBuildWizardBanner": false,
+}
+`;

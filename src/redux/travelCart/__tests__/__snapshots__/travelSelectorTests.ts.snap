@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get Travel Bookings For Current Registrant And Guests 1`] = `
+Array [
+  Object {
+    "id": "ID_PRIMARY",
+  },
+  Object {
+    "id": "ID_GUEST",
+  },
+]
+`;

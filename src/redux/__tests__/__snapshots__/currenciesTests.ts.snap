@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`load all currencies when currencies not loaded in state matches snapshot 1`] = `
+Object {
+  "clients": Object {
+    "lookupClient": Object {
+      "getCurrencies": [MockFunction] {
+        "calls": Array [
+          Array [
+            "locale1",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+  },
+  "currencies": Object {
+    "1": Object {
+      "iSOCode": 123,
+      "id": "1",
+      "name": "Double Dollars",
+      "nameOfSymbol": "Double Dollars",
+      "resourceKey": "resourceKey1",
+      "symbol": "$$",
+    },
+  },
+  "text": Object {
+    "locale": "locale1",
+  },
+}
+`;

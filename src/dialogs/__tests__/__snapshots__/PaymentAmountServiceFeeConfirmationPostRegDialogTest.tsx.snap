@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentAmountServiceFeeConfirmationDialog matches snapshot when opened 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>,
+]
+`;

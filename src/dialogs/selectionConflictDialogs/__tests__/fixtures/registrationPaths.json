@@ -1,0 +1,128 @@
+{
+  "regPathId": {
+    "id": "regPathId",
+    "isDefault": true,
+    "allowsSessionSelection": true,
+    "allowsQuantityItemSelection": true,
+    "associatedRegistrationTypes": [],
+    "guestRegistrationSettings": {
+      "isGuestRegistrationEnabled": true
+    },
+    "travelSettings": {
+      "airRequestSettings": {
+        "allowBookOwnFlights": true,
+        "allowModification": true,
+        "maxNumberOfAirRequestsPerAttendee": 100,
+        "requireAirRequest": false,
+        "allowedAttendeeTypes": "inviteeAndGuest"
+      }
+    }
+  },
+  "regPathId2": {
+    "id": "regPathId2",
+    "isDefault": true,
+    "allowsSessionSelection": true,
+    "allowsQuantityItemSelection": true,
+    "associatedRegistrationTypes": [],
+    "guestRegistrationSettings": {
+      "isGuestRegistrationEnabled": true
+    },
+    "travelSettings": {
+      "airRequestSettings": {
+        "allowBookOwnFlights": true,
+        "allowModification": true,
+        "maxNumberOfAirRequestsPerAttendee": 100,
+        "requireAirRequest": true,
+        "allowedAttendeeTypes": "inviteeAndGuest"
+      }
+    }
+  },
+  "regPathId3": {
+    "id": "regPathId3",
+    "isDefault": true,
+    "allowsSessionSelection": true,
+    "allowsQuantityItemSelection": false,
+    "allowsDonationItemSelection": false,
+    "associatedRegistrationTypes": ["registrationTypeBId"],
+    "guestRegistrationSettings": {
+      "isGuestRegistrationEnabled": true
+    },
+    "travelSettings": {}
+  },
+  "regPathId4": {
+    "id": "regPathId4",
+    "isDefault": true,
+    "allowsSessionSelection": true,
+    "allowsQuantityItemSelection": true,
+    "allowsDonationItemSelection": true,
+    "associatedRegistrationTypes": ["registrationTypeCId"],
+    "guestRegistrationSettings": {
+      "isGuestRegistrationEnabled": true
+    },
+    "travelSettings": {
+      "airRequestSettings": {
+        "allowBookOwnFlights": true,
+        "allowModification": true,
+        "maxNumberOfAirRequestsPerAttendee": 2,
+        "requireAirRequest": true,
+        "allowedAttendeeTypes": "invitee"
+      }
+    }
+  },
+  "regPathId5": {
+    "id": "regPathId5",
+    "isDefault": true,
+    "allowsSessionSelection": true,
+    "associatedRegistrationTypes": ["registrationTypeDId"],
+    "guestRegistrationSettings": {
+      "isGuestRegistrationEnabled": true
+    },
+    "travelSettings": {
+      "airRequestSettings": {
+        "allowBookOwnFlights": true,
+        "allowModification": true,
+        "maxNumberOfAirRequestsPerAttendee": 1,
+        "requireAirRequest": false,
+        "allowedAttendeeTypes": "invitee"
+      }
+    }
+  },
+  "regPathId6": {
+    "id": "regPathId6",
+    "isDefault": true,
+    "allowsSessionSelection": true,
+    "associatedRegistrationTypes": ["registrationTypeEId"],
+    "guestRegistrationSettings": {
+      "isGuestRegistrationEnabled": true
+    },
+    "travelSettings": {
+      "airRequestSettings": {
+        "allowBookOwnFlights": true,
+        "allowModification": true,
+        "maxNumberOfAirRequestsPerAttendee": 100,
+        "allowNewRequestUntil": "2018-09-06T06:30:00.000Z",
+        "requireAirRequest": true,
+        "allowedAttendeeTypes": "invitee"
+      }
+    }
+  },
+  "regPathId7": {
+    "id": "regPathId7",
+    "isDefault": true,
+    "allowsSessionSelection": true,
+    "associatedRegistrationTypes": ["registrationTypeFId"],
+    "guestRegistrationSettings": {
+      "isGuestRegistrationEnabled": true
+    },
+    "travelSettings": {
+      "airRequestSettings": {
+        "allowBookOwnFlights": true,
+        "allowModification": true,
+        "maxNumberOfAirRequestsPerAttendee": 1,
+        "allowNewRequestUntil": "2018-09-06T06:30:00.000Z",
+        "requireAirRequest": true,
+        "allowedAttendeeTypes": "inviteeAndGuest"
+      }
+    }
+  }
+}

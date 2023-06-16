@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WebsiteContentClient.getEventArchivePageData matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/websiteContent/websiteContent/eventId/eventArchivePage?environment=dev&snapshotVersion=",
+  },
+]
+`;

@@ -1,0 +1,1815 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`multi choice custom field in guest registration page renders and allows you to select values 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicSource"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicSource"
+        >
+          <legend
+            class="label"
+            for="linkLogicSource"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicSource"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicSource_0"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_0"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicSource_0"
+                >
+                  Choice A
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-linkLogicSource_1"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_1"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="linkLogicSource_1"
+                >
+                  Choice B
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicChild"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicChild"
+        >
+          <legend
+            class="label"
+            for="linkLogicChild"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicChild"
+              style="display: block;"
+            />
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field in guest registration page renders and allows you to select values 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicSource"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicSource"
+        >
+          <legend
+            class="label"
+            for="linkLogicSource"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicSource"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicSource_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicSource_0"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicSource_0"
+                >
+                  Choice A
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-linkLogicSource_1"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_1"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="linkLogicSource_1"
+                >
+                  Choice B
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicChild"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicChild"
+        >
+          <legend
+            class="label"
+            for="linkLogicChild"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicChild"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicChild_0"
+              >
+                <input
+                  class=""
+                  id="linkLogicChild_0"
+                  name="linkLogicChild"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicChild_0"
+                >
+                  Choice A
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field in guest registration page renders and allows you to select values 3`] = `
+Object {
+  "eventAnswers": Object {},
+  "personalInformation": Object {
+    "customFields": Object {
+      "linkLogicSource": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice A",
+          },
+        ],
+        "questionId": "linkLogicSource",
+      },
+    },
+  },
+}
+`;
+
+exports[`multi choice custom field in guest registration page renders and allows you to select values 4`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicSource"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicSource"
+        >
+          <legend
+            class="label"
+            for="linkLogicSource"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicSource"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicSource_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicSource_0"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicSource_0"
+                >
+                  Choice A
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-linkLogicSource_1"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_1"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="linkLogicSource_1"
+                >
+                  Choice B
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicChild"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicChild"
+        >
+          <legend
+            class="label"
+            for="linkLogicChild"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicChild"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicChild_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicChild_0"
+                  name="linkLogicChild"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicChild_0"
+                >
+                  Choice A
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field in guest registration page renders and allows you to select values 5`] = `
+Object {
+  "eventAnswers": Object {},
+  "personalInformation": Object {
+    "customFields": Object {
+      "linkLogicChild": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice A",
+          },
+        ],
+        "questionId": "linkLogicChild",
+      },
+      "linkLogicSource": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice A",
+          },
+        ],
+        "questionId": "linkLogicSource",
+      },
+    },
+  },
+}
+`;
+
+exports[`multi choice custom field in guest registration page renders and allows you to select values 6`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicSource"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicSource"
+        >
+          <legend
+            class="label"
+            for="linkLogicSource"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicSource"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicSource_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicSource_0"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicSource_0"
+                >
+                  Choice A
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-linkLogicSource_1"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_1"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="linkLogicSource_1"
+                >
+                  Choice B
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicChild"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicChild"
+        >
+          <legend
+            class="label"
+            for="linkLogicChild"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicChild"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicChild_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicChild_0"
+                  name="linkLogicChild"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicChild_0"
+                >
+                  Choice A
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field in guest registration page renders and allows you to select values 7`] = `
+Object {
+  "eventAnswers": Object {},
+  "personalInformation": Object {
+    "customFields": Object {
+      "linkLogicChild": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice A",
+          },
+        ],
+        "questionId": "linkLogicChild",
+      },
+      "linkLogicSource": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice A",
+          },
+        ],
+        "questionId": "linkLogicSource",
+      },
+    },
+  },
+}
+`;
+
+exports[`multi choice custom field renders and allows you to select values 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-multiChoiceCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-multiChoiceCustomField1"
+        >
+          <legend
+            class="label"
+            for="multiChoiceCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="multiChoiceCustomField1"
+              style="display: flex;"
+            >
+              <li
+                data-cvent-id="option-multiChoiceCustomField1_0"
+              >
+                <input
+                  class=""
+                  id="multiChoiceCustomField1_0"
+                  name="multiChoiceCustomField1"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="multiChoiceCustomField1_0"
+                >
+                  Choice A
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-multiChoiceCustomField1_1"
+              >
+                <input
+                  class=""
+                  id="multiChoiceCustomField1_1"
+                  name="multiChoiceCustomField1"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="multiChoiceCustomField1_1"
+                >
+                  Choice B
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field renders and allows you to select values 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-multiChoiceCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-multiChoiceCustomField1"
+        >
+          <legend
+            class="label"
+            for="multiChoiceCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="multiChoiceCustomField1"
+              style="display: flex;"
+            >
+              <li
+                data-cvent-id="option-multiChoiceCustomField1_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="multiChoiceCustomField1_0"
+                  name="multiChoiceCustomField1"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="multiChoiceCustomField1_0"
+                >
+                  Choice A
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-multiChoiceCustomField1_1"
+              >
+                <input
+                  class=""
+                  id="multiChoiceCustomField1_1"
+                  name="multiChoiceCustomField1"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="multiChoiceCustomField1_1"
+                >
+                  Choice B
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field renders and allows you to select values 3`] = `
+Object {
+  "personalInformation": Object {
+    "customFields": Object {
+      "multiChoiceCustomField1": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice A",
+          },
+        ],
+        "questionId": "multiChoiceCustomField1",
+      },
+    },
+  },
+}
+`;
+
+exports[`multi choice custom field renders and allows you to select values 4`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-multiChoiceCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-multiChoiceCustomField1"
+        >
+          <legend
+            class="label"
+            for="multiChoiceCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="multiChoiceCustomField1"
+              style="display: flex;"
+            >
+              <li
+                data-cvent-id="option-multiChoiceCustomField1_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="multiChoiceCustomField1_0"
+                  name="multiChoiceCustomField1"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="multiChoiceCustomField1_0"
+                >
+                  Choice A
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-multiChoiceCustomField1_1"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="multiChoiceCustomField1_1"
+                  name="multiChoiceCustomField1"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="multiChoiceCustomField1_1"
+                >
+                  Choice B
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field renders and allows you to select values 5`] = `
+Object {
+  "personalInformation": Object {
+    "customFields": Object {
+      "multiChoiceCustomField1": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice A",
+          },
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice B",
+          },
+        ],
+        "questionId": "multiChoiceCustomField1",
+      },
+    },
+  },
+}
+`;
+
+exports[`multi choice custom field renders and allows you to select values 6`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-multiChoiceCustomField1"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-multiChoiceCustomField1"
+        >
+          <legend
+            class="label"
+            for="multiChoiceCustomField1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="multiChoiceCustomField1"
+              style="display: flex;"
+            >
+              <li
+                data-cvent-id="option-multiChoiceCustomField1_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="multiChoiceCustomField1_0"
+                  name="multiChoiceCustomField1"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="multiChoiceCustomField1_0"
+                >
+                  Choice A
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-multiChoiceCustomField1_1"
+              >
+                <input
+                  class=""
+                  id="multiChoiceCustomField1_1"
+                  name="multiChoiceCustomField1"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="multiChoiceCustomField1_1"
+                >
+                  Choice B
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field renders and allows you to select values 7`] = `
+Object {
+  "personalInformation": Object {
+    "customFields": Object {
+      "multiChoiceCustomField1": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "Choice A",
+          },
+        ],
+        "questionId": "multiChoiceCustomField1",
+      },
+    },
+  },
+}
+`;
+
+exports[`multi choice custom field with "."s in guest registration page renders and allows you to select values 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicSource"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicSource"
+        >
+          <legend
+            class="label"
+            for="linkLogicSource"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicSource"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicSource_0"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_0"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicSource_0"
+                >
+                  A.D
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-linkLogicSource_1"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_1"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="linkLogicSource_1"
+                >
+                  B.D
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicChild"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicChild"
+        >
+          <legend
+            class="label"
+            for="linkLogicChild"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicChild"
+              style="display: block;"
+            />
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field with "."s in guest registration page renders and allows you to select values 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicSource"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicSource"
+        >
+          <legend
+            class="label"
+            for="linkLogicSource"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicSource"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicSource_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicSource_0"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicSource_0"
+                >
+                  A.D
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-linkLogicSource_1"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_1"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="linkLogicSource_1"
+                >
+                  B.D
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicChild"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicChild"
+        >
+          <legend
+            class="label"
+            for="linkLogicChild"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicChild"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicChild_0"
+              >
+                <input
+                  class=""
+                  id="linkLogicChild_0"
+                  name="linkLogicChild"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicChild_0"
+                >
+                  A.D
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field with "."s in guest registration page renders and allows you to select values 3`] = `
+Object {
+  "eventAnswers": Object {},
+  "personalInformation": Object {
+    "customFields": Object {
+      "linkLogicSource": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "A.D",
+          },
+        ],
+        "questionId": "linkLogicSource",
+      },
+    },
+  },
+}
+`;
+
+exports[`multi choice custom field with "."s in guest registration page renders and allows you to select values 4`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicSource"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicSource"
+        >
+          <legend
+            class="label"
+            for="linkLogicSource"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicSource"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicSource_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicSource_0"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicSource_0"
+                >
+                  A.D
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-linkLogicSource_1"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_1"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="linkLogicSource_1"
+                >
+                  B.D
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicChild"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicChild"
+        >
+          <legend
+            class="label"
+            for="linkLogicChild"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicChild"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicChild_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicChild_0"
+                  name="linkLogicChild"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicChild_0"
+                >
+                  A.D
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field with "."s in guest registration page renders and allows you to select values 5`] = `
+Object {
+  "eventAnswers": Object {},
+  "personalInformation": Object {
+    "customFields": Object {
+      "linkLogicChild": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "A.D",
+          },
+        ],
+        "questionId": "linkLogicChild",
+      },
+      "linkLogicSource": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "A.D",
+          },
+        ],
+        "questionId": "linkLogicSource",
+      },
+    },
+  },
+}
+`;
+
+exports[`multi choice custom field with "."s in guest registration page renders and allows you to select values 6`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicSource"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicSource"
+        >
+          <legend
+            class="label"
+            for="linkLogicSource"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicSource"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicSource_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicSource_0"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicSource_0"
+                >
+                  A.D
+                </label>
+              </li>
+              <li
+                data-cvent-id="option-linkLogicSource_1"
+              >
+                <input
+                  class=""
+                  id="linkLogicSource_1"
+                  name="linkLogicSource"
+                  required=""
+                  type="checkbox"
+                  value="1"
+                />
+                <label
+                  for="linkLogicSource_1"
+                >
+                  B.D
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-linkLogicChild"
+        style="flex: 1 1 auto;"
+      >
+        <fieldset
+          class=""
+          data-cvent-id="contact-custom-field-linkLogicChild"
+        >
+          <legend
+            class="label"
+            for="linkLogicChild"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </legend>
+          <div
+            class=""
+          >
+            <ul
+              class=""
+              data-cvent-id="checkbox"
+              id="linkLogicChild"
+              style="display: block;"
+            >
+              <li
+                data-cvent-id="option-linkLogicChild_0"
+              >
+                <input
+                  checked=true
+                  class=""
+                  id="linkLogicChild_0"
+                  name="linkLogicChild"
+                  required=""
+                  type="checkbox"
+                  value="0"
+                />
+                <label
+                  for="linkLogicChild_0"
+                >
+                  A.D
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multi choice custom field with "."s in guest registration page renders and allows you to select values 7`] = `
+Object {
+  "eventAnswers": Object {},
+  "personalInformation": Object {
+    "customFields": Object {
+      "linkLogicChild": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "A.D",
+          },
+        ],
+        "questionId": "linkLogicChild",
+      },
+      "linkLogicSource": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Choice",
+            "choice": "A.D",
+          },
+        ],
+        "questionId": "linkLogicSource",
+      },
+    },
+  },
+}
+`;

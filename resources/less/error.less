@@ -1,0 +1,138 @@
+@import './shared.less';
+
+:global {
+  main {
+    @media @medium {
+      padding: 15px;
+    }
+  }
+
+  section {
+    max-width: @dialogWidth;
+    margin: 0 auto;
+  }
+
+  button,
+  .button {
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+
+    &:hover {
+      cursor: pointer;
+    }
+    &.primary {
+      background: @green;
+      color: @white;
+      &:hover {
+        background: darken(@green, 5%);
+      }
+    }
+    &.secondary {
+      background: @cventBlue;
+      color: @white;
+      &:hover {
+        background: darken(@cventBlue, 5%);
+      }
+    }
+  }
+  .hidden {
+    display: none;
+  }
+
+  .headline {
+    padding: 30px 0;
+    @media @medium {
+      padding: 0px 0 8px;
+    }
+
+    .error:before {
+      font-size: 40px;
+      color: @pastelRed;
+      content: "\ea9a";
+    }
+
+    h1 {
+      font-weight: 300;
+      margin: 15px 0 25px;
+      color: @pastelRed;
+      font-size: 40px;
+      line-height: 1.2;
+      @media @medium {
+        font-size: 25px;
+        margin: 15px 0 20px;
+      }
+    }
+
+    p {
+      margin: 0;
+    }
+
+    button {
+      margin-top: 30px;
+      @media @medium {
+        margin-top: 20px;
+      }
+    }
+  }
+
+
+  .technical-details {
+    background: @white;
+    border: 1px solid @mediumGrey;
+    border-radius: 3px;
+    padding: 0 20px;
+    @media @medium {
+      min-height: initial;
+      padding: 20px;
+    }
+
+    header {
+      padding: 20px 0 25px;
+      border-bottom: 1px solid @mediumGrey;
+      @media @medium {
+        padding: 0 0 20px;
+      }
+    }
+    dl {
+      padding-top: 20px;
+      margin: 0;
+      border-bottom: 1px solid @mediumGrey;
+    }
+    dt {
+      color: @cventBlue;
+      font-size: 16px;
+      line-height: 1.2;
+    }
+    dd {
+      font-size: 20px;
+      margin: 0 0 20px;
+      line-height: 1.2;
+    }
+    footer {
+      padding: 20px 0;
+      .clearfix();
+      @media @medium {
+        padding: 20px 0 0;
+      }
+    }
+    img {
+      float: left;
+      margin-top: 10px;
+      @media @small {
+        float: none;
+        margin-top: 0;
+      }
+    }
+    .button {
+      float: right;
+      @media @small {
+        float: none;
+        margin-top: 10px;
+      }
+    }
+  }
+}

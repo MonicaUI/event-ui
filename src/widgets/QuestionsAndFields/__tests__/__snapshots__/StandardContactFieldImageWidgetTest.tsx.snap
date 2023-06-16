@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StandardContactFieldImage renders 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="upload-container"
+        id="FileUploadForm"
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+          data-cvent-id="upload-form-element"
+        >
+          <label
+            class="labelOnTop"
+            for="fileUpload"
+          >
+            <span
+              class=""
+            >
+              <span
+                class="required"
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Profile Image
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+              id="NucleusFileUpload"
+            >
+              <div
+                class=""
+              >
+                <iframe
+                  frameborder="0"
+                  height="0"
+                  id="52844a85-1896-42b6-9cef-78c0629ed1d7_frame"
+                  name="52844a85-1896-42b6-9cef-78c0629ed1d7_frame"
+                  src=""
+                  style="position: absolute; border: 0px; height: 1px; width: 1px; margin: -1px; overflow: hidden; padding: 0px;"
+                  width="0"
+                />
+                <form
+                  action="uploadurl"
+                  class=""
+                  enctype="multipart/form-data"
+                  method="post"
+                  target="52844a85-1896-42b6-9cef-78c0629ed1d7_frame"
+                >
+                  <label
+                    for="52844a85-1896-42b6-9cef-78c0629ed1d7_input"
+                  >
+                    <span
+                      class=""
+                    />
+                  </label>
+                  <input
+                    class=""
+                    id="52844a85-1896-42b6-9cef-78c0629ed1d7_input"
+                    name="file"
+                    type="file"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

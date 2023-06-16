@@ -1,0 +1,1089 @@
+{
+  "dummyHotelRoomBookings": [
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+      "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+      "checkinDate": "2015-06-22T05:00:00.000Z",
+      "checkoutDate": "2015-06-23T05:00:00.000Z",
+      "preferences": {
+        "specialRequestNotes": "something",
+        "isSmokingOpted": true,
+        "rewardsCode": true,
+        "isAdaAccessibilityOpted": false,
+        "isRoomSharingOpted": true,
+        "roommateDescription": "",
+        "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+      },
+      "travellerInfo": {
+        "gender": "0",
+        "firstName": "",
+        "lastName": ""
+      },
+      "requestedAction": "BOOK",
+      "quantity": 1,
+      "isRoomLeader": true
+    }
+  ],
+  "multipleBookingCart": {
+    "id": "DUMMY_CART_ID",
+    "eventId": "EVENT_ID",
+    "bookings": [
+      {
+        "travelReservationId": "8736383d-2a8e-4477-b088-fda368cca763",
+        "id": "ee8894b5-681a-46d2-bfd7-3389cba03da5",
+        "attendee": {
+          "id": "e1848add-f648-4cc6-be46-410092ba6c11",
+          "type": "INVITEE",
+          "primaryRegistrantId": "00000000-0000-0000-0000-000000000000",
+          "contactId": "120468d4-2cf9-468e-8e15-ca1ba306a10a",
+          "status": 2
+        },
+        "registrationPathId": "ad5c0c62-1de5-4c0c-b43b-a88f0da71c05",
+        "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+        "hotelRoomBookings": [
+            {
+                "hotelReservationDetailId": "c84372c2-eb31-4a81-bf02-17fbfbce0b9d",
+                "id": "e70d327b-cbb3-449f-965a-4288a0168e83",
+                "hotelId": "868e342e-37da-4522-a2c9-e6d7c256f131",
+                "roomTypeId": "73010095-7243-4ae7-943c-62b069ef2fdc",
+                "quantity": 1,
+                "checkinDate": "2020-07-29",
+                "checkoutDate": "2020-08-01",
+                "travellerInfo": {
+                    "firstName": "Vipul-grp",
+                    "lastName": "Gaur-grp",
+                    "gender": 0
+                },
+                "preferences": {
+                    "specialRequestNotes": "",
+                    "roommateDescription": "",
+                    "rewardsCode": "",
+                    "isAdaAccessibilityOpted": true,
+                    "isRoomSharingOpted": false,
+                    "isSmokingOpted": false
+                },
+                "requestedAction": "CANCEL",
+                "isRoomLeader": true
+            },
+            {
+                "hotelReservationDetailId": "24a16340-3862-4aaa-b7d6-736591725d46",
+                "id": "0c92173f-947e-49b4-93dd-87c4c44734bd",
+                "hotelId": "868e342e-37da-4522-a2c9-e6d7c256f131",
+                "roomTypeId": "6ad8bde3-cfe8-4363-b793-b3982b577ce3",
+                "quantity": 1,
+                "checkinDate": "2020-08-02",
+                "checkoutDate": "2020-08-05",
+                "travellerInfo": {
+                    "firstName": "Vipul-grp",
+                    "lastName": "Gaur-grp",
+                    "gender": 1
+                },
+                "preferences": {
+                    "specialRequestNotes": "",
+                    "rewardsCode": "BLAH",
+                    "isAdaAccessibilityOpted": true,
+                    "isSmokingOpted": true
+                },
+                "requestedAction": "BOOK"
+            }
+        ],
+        "airBookings": [{
+          "id": "airBooking1_1",
+          "travellerInfo": {
+            "dateOfBirth": ""
+          },
+          "requestedAction": "BOOK"
+        }, {
+          "id": "airBooking1_2",
+          "airReservationDetailId": "fakeidairreservation01",
+          "travellerInfo": {
+            "dateOfBirth": ""
+          },
+          "requestedAction": "BOOK"
+        }],
+        "requestedAction": "BOOK"
+      },
+      {
+        "id": "d6858bb1-750c-482d-914c-4dd4aea79c72",
+        "attendee": {
+            "id": "64c80b9f-8b29-4b59-99d9-173360a24e68",
+            "type": "INVITEE",
+            "primaryRegistrantId": "ee8894b5-681a-46d2-bfd7-3389cba03da5",
+            "contactId": "74d86b14-22d1-4652-8bd1-588eadf39c8f",
+            "status": 2
+        },
+        "registrationPathId": "ad5c0c62-1de5-4c0c-b43b-a88f0da71c05",
+        "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+        "hotelRoomBookings": [
+            {
+                "id": "7c94092f-1480-4cb9-b062-8b6dc692bc62",
+                "hotelId": "868e342e-37da-4522-a2c9-e6d7c256f131",
+                "roomTypeId": "73010095-7243-4ae7-943c-62b069ef2fdc",
+                "quantity": 1,
+                "checkinDate": "2020-08-06",
+                "checkoutDate": "2020-08-09",
+                "travellerInfo": {
+                    "firstName": "member-grp",
+                    "lastName": "member-grp",
+                    "gender": 1
+                },
+                "preferences": {
+                    "specialRequestNotes": "dfsdfsdfsd",
+                    "rewardsCode": "",
+                    "isAdaAccessibilityOpted": true,
+                    "isSmokingOpted": true
+                },
+                "requestedAction": "BOOK"
+            }
+        ],
+        "airBookings": [{
+          "id": "airBooking2_1",
+          "travellerInfo": {
+            "dateOfBirth": ""
+          },
+          "requestedAction": "BOOK"
+        }, {
+          "id": "airBooking2_2",
+          "travellerInfo": {
+            "dateOfBirth": ""
+          },
+          "requestedAction": "BOOK"
+        }],
+        "requestedAction": "BOOK"
+      }
+    ],
+    "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    "requestedAction": "MODIFY",
+    "isForPreview": false,
+    "isForPlanner": false,
+    "isForTestMode": false,
+    "isPlannerApprovalRequired": false
+  },
+  "multipleBookingCartAfterRemoval": {
+    "id": "DUMMY_CART_ID",
+    "eventId": "EVENT_ID",
+    "bookings": [
+      {
+        "travelReservationId": "8736383d-2a8e-4477-b088-fda368cca763",
+        "id": "ee8894b5-681a-46d2-bfd7-3389cba03da5",
+        "attendee": {
+          "id": "e1848add-f648-4cc6-be46-410092ba6c11",
+          "type": "INVITEE",
+          "primaryRegistrantId": "00000000-0000-0000-0000-000000000000",
+          "contactId": "120468d4-2cf9-468e-8e15-ca1ba306a10a",
+          "status": 2
+        },
+        "registrationPathId": "ad5c0c62-1de5-4c0c-b43b-a88f0da71c05",
+        "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+        "hotelRoomBookings": [
+          {
+            "hotelReservationDetailId": "c84372c2-eb31-4a81-bf02-17fbfbce0b9d",
+            "id": "e70d327b-cbb3-449f-965a-4288a0168e83",
+            "hotelId": "868e342e-37da-4522-a2c9-e6d7c256f131",
+            "roomTypeId": "73010095-7243-4ae7-943c-62b069ef2fdc",
+            "quantity": 1,
+            "checkinDate": "2020-07-29",
+            "checkoutDate": "2020-08-01",
+            "travellerInfo": {
+              "firstName": "Vipul-grp",
+              "lastName": "Gaur-grp",
+              "gender": 0
+            },
+            "preferences": {
+              "specialRequestNotes": "",
+              "roommateDescription": "",
+              "rewardsCode": "",
+              "isAdaAccessibilityOpted": true,
+              "isRoomSharingOpted": false,
+              "isSmokingOpted": false
+            },
+            "requestedAction": "CANCEL",
+            "isRoomLeader": true
+          },
+          {
+            "hotelReservationDetailId": "24a16340-3862-4aaa-b7d6-736591725d46",
+            "id": "0c92173f-947e-49b4-93dd-87c4c44734bd",
+            "hotelId": "868e342e-37da-4522-a2c9-e6d7c256f131",
+            "roomTypeId": "6ad8bde3-cfe8-4363-b793-b3982b577ce3",
+            "quantity": 1,
+            "checkinDate": "2020-08-02",
+            "checkoutDate": "2020-08-05",
+            "travellerInfo": {
+              "firstName": "Vipul-grp",
+              "lastName": "Gaur-grp",
+              "gender": 1
+            },
+            "preferences": {
+              "specialRequestNotes": "",
+              "rewardsCode": "BLAH",
+              "isAdaAccessibilityOpted": true,
+              "isSmokingOpted": true
+            },
+            "requestedAction": "BOOK"
+          }
+        ],
+        "airBookings": [{
+          "id": "airBooking1_1",
+          "travellerInfo": {
+            "dateOfBirth": ""
+          },
+          "requestedAction": "BOOK"
+        }, {
+          "id": "airBooking1_2",
+          "airReservationDetailId": "fakeidairreservation01",
+          "travellerInfo": {
+            "dateOfBirth": ""
+          },
+          "requestedAction": "BOOK"
+        }],
+        "requestedAction": "BOOK"
+      }
+  ],
+  "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+  "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+  "requestedAction": "MODIFY",
+  "isForPreview": false,
+  "isForPlanner": false,
+  "isForTestMode": false,
+  "isPlannerApprovalRequired": false
+},
+  "createTravelCartResult" : {
+    "travelCart": {
+      "id": "DUMMY_CART_ID",
+      "eventId": "EVENT_ID",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "isForPreview": false,
+      "isForPlanner": false,
+      "requestedAction": "BOOK",
+      "bookings": [
+        {
+          "id": "DUMMY_BOOKING_ID",
+          "admissionItemId": null,
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "REG_TYPE_1",
+          "requestedAction": "BOOK",
+          "hotelRoomBookings": [
+            {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+              "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+              "checkinDate": "2015-06-22T05:00:00.000Z",
+              "checkoutDate": "2015-06-23T05:00:00.000Z",
+              "preferences": {
+                "specialRequestNotes": "something",
+                "isSmokingOpted": true,
+                "rewardsCode": true,
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "roommateDescription": "",
+                "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+              },
+              "travellerInfo": {
+                "gender": "0",
+                "firstName": "",
+                "lastName": ""
+              },
+              "requestedAction": "BOOK",
+              "quantity": 1,
+              "requestGroupId": "3b93b16a-ab0c-410d-b1e1-a4c1ac31dfa5",
+              "isRoomLeader": true
+            }
+          ],
+          "airBookings": [],
+          "attendee": {
+            "contactId": null,
+            "homeCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            },
+            "id": null,
+            "inviteeEmailAddress": "dummy@j.mail",
+            "primaryInviteeId": null,
+            "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+            "status": null,
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+            "type": "INVITEE",
+            "workCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            }
+          },
+          "airActuals": [],
+          "travelAnswers": []
+        }
+      ]
+    },
+    "validationResult": {
+      "validationMessages": []
+    }
+  },
+  "createTravelCartWithMultipleRoomsResult" : {
+    "travelCart": {
+      "id": "DUMMY_CART_ID",
+      "eventId": "EVENT_ID",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "isForPreview": false,
+      "isForPlanner": false,
+      "requestedAction": "BOOK",
+      "bookings": [
+        {
+          "id": "DUMMY_BOOKING_ID",
+          "admissionItemId": null,
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "REG_TYPE_1",
+          "hotelRoomBookings": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+              "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+              "checkinDate": "2015-06-22T05:00:00.000Z",
+              "checkoutDate": "2015-06-23T05:00:00.000Z",
+              "preferences": {
+                "specialRequestNotes": "something",
+                "isSmokingOpted": true,
+                "rewardsCode": true,
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "roommateDescription": "",
+                "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+              },
+              "travellerInfo": {
+                "gender": "0",
+                "firstName": "",
+                "lastName": ""
+              },
+              "requestedAction": "BOOK",
+              "quantity": 1,
+              "requestGroupId": "3b93b16a-ab0c-410d-b1e1-a4c1ac31dfa5",
+              "isRoomLeader": true
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+              "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+              "checkinDate": "2015-06-22T05:00:00.000Z",
+              "checkoutDate": "2015-06-23T05:00:00.000Z",
+              "preferences": {
+                "specialRequestNotes": "something",
+                "isSmokingOpted": true,
+                "rewardsCode": true,
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "roommateDescription": "",
+                "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+              },
+              "travellerInfo": {
+                "gender": "0",
+                "firstName": "",
+                "lastName": ""
+              },
+              "requestedAction": "BOOK",
+              "quantity": 1,
+              "requestGroupId": "3b93b16a-ab0c-410d-b1e1-a4c1ac31dfa5",
+              "isRoomLeader": true
+            }
+          ],
+          "attendee": {
+            "contactId": null,
+            "homeCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            },
+            "id": null,
+            "inviteeEmailAddress": "dummy@j.mail",
+            "primaryInviteeId": null,
+            "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+            "status": null,
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+            "type": "INVITEE",
+            "workCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            }
+          }
+        }
+      ]
+    },
+    "validationResult": {
+      "validationMessages": []
+    }
+  },
+  "updateTravelCartResult" : {
+    "travelCart": {
+      "id": "DUMMY_CART_ID",
+      "eventId": "EVENT_ID",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "isForPreview": false,
+      "isForPlanner": false,
+      "requestedAction": "BOOK",
+      "bookings": []
+    },
+    "validationResult": {
+        "validationMessages": []
+    }
+  },
+  "getTravelCartResult" : {
+    "id": "DUMMY_CART_ID",
+    "eventId": "EVENT_ID",
+    "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+    "isForTestMode": false,
+    "isForPreview": false,
+    "isForPlanner": false,
+    "requestedAction": "BOOK",
+    "bookings": [
+      {
+        "hotelRoomBookings": [
+          {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+            "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+            "checkinDate": "2015-06-22",
+            "checkoutDate": "2015-06-23",
+            "preferences": {
+              "specialRequestNotes": "something",
+              "isSmokingOpted": true,
+              "rewardsCode": true,
+              "isAdaAccessibilityOpted": false,
+              "isRoomSharingOpted": true,
+              "roommateDescription": ""
+            },
+            "travellerInfo": {
+              "gender": "0",
+              "firstName": "",
+              "lastName": ""
+            },
+            "requestedAction": "BOOK",
+            "quantity": 1,
+            "isRoomLeader": true
+          }
+        ]
+      }
+    ]
+  },
+  "updateRegCartResult" : {
+    "regCart" : {
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+      "hasTravel": true,
+      "eventRegistrations": {
+        "DUMMY_BOOKING_ID": {
+          "registrationTypeId": "REG_TYPE_1",
+          "registrationPathId": "REG_PATH_1",
+          "productRegistrations": []
+        }
+      }
+    }
+  },
+  "updateRegCartResultWithIsRegApprovalRequired" : {
+    "regCart" : {
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+      "hasTravel": true,
+      "isRegApprovalRequired": true,
+      "eventRegistrations": {
+        "DUMMY_BOOKING_ID": {
+          "registrationTypeId": "REG_TYPE_1",
+          "registrationPathId": "REG_PATH_1",
+          "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+          "productRegistrations": [],
+          "attendee": {
+            "attendeeId": null,
+            "inviteeStatus": null,
+            "personalInformation": {
+              "contactId": null,
+              "emailAddress": "dummy@j.mail",
+              "homeAddress": {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": "1234",
+                "state": "Virginia",
+                "stateCode": "VA"
+              },
+              "workAddress": {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": "1234",
+                "state": "Virginia",
+                "stateCode": "VA"
+              }
+            },
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8"
+          }
+        }
+      }
+    }
+  },
+  "createTravelCartResultForRegMod" : {
+    "travelCart": {
+      "id": "DUMMY_CART_ID",
+      "eventId": "EVENT_ID",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "isForPreview": false,
+      "isForPlanner": false,
+      "requestedAction": "MODIFY",
+      "bookings": [
+        {
+          "id": "DUMMY_BOOKING_ID",
+          "admissionItemId": null,
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "REG_TYPE_1",
+          "hotelRoomBookings": [
+            {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+              "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+              "checkinDate": "2015-06-22T05:00:00.000Z",
+              "checkoutDate": "2015-06-23T05:00:00.000Z",
+              "preferences": {
+                "specialRequestNotes": "something",
+                "isSmokingOpted": true,
+                "rewardsCode": true,
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "roommateDescription": "",
+                "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+              },
+              "travellerInfo": {
+                "gender": "0",
+                "firstName": "",
+                "lastName": ""
+              },
+              "requestedAction": "BOOK",
+              "quantity": 1,
+              "requestGroupId": "3b93b16a-ab0c-410d-b1e1-a4c1ac31dfa5",
+              "isRoomLeader": true
+            }
+          ],
+          "attendee": {
+            "contactId": null,
+            "homeCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            },
+            "id": null,
+            "inviteeEmailAddress": "dummy@j.mail",
+            "primaryInviteeId": null,
+            "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+            "status": null,
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+            "type": "INVITEE",
+            "workCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            }
+          }
+        }
+      ]
+    },
+    "validationResult": {
+        "validationMessages": []
+    }
+  },
+  "updateRegCartForRegModResult" : {
+    "regCart" : {
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": true,
+      "hasTravel": true,
+      "eventRegistrations": {
+        "DUMMY_BOOKING_ID": {
+          "registrationTypeId": "REG_TYPE_1",
+          "registrationPathId": "REG_PATH_1",
+          "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+          "productRegistrations": [],
+          "attendee": {
+            "attendeeId": null,
+            "inviteeStatus": null,
+            "personalInformation": {
+              "contactId": null,
+              "emailAddress": "dummy@j.mail",
+              "homeAddress": {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": "1234",
+                "state": "Virginia",
+                "stateCode": "VA"
+              },
+              "workAddress": {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": "1234",
+                "state": "Virginia",
+                "stateCode": "VA"
+              }
+            },
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8"
+          }
+        }
+      }
+    }
+  },
+  "getModTravelCartResult" : {
+    "id": "DUMMY_CART_ID",
+    "eventId": "EVENT_ID",
+    "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+    "isForTestMode": false,
+    "isForPreview": false,
+    "isForPlanner": false,
+    "isPlannerApprovalRequired": false,
+    "requestedAction": "MODIFY",
+    "bookings": [
+      {
+        "id": "DUMMY_BOOKING_ID",
+        "admissionItemId": null,
+        "registrationPathId": "REG_PATH_1",
+        "registrationTypeId": "REG_TYPE_1",
+        "hotelRoomBookings": [
+          {
+            "hotelReservationDetailId": "4210283b-6c5b-4898-a384-76834bd486a0",
+            "id": "00000000-0000-0000-0000-000000000000",
+            "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+            "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+            "checkinDate": "2015-06-22",
+            "checkoutDate": "2015-06-23",
+            "preferences": {
+              "specialRequestNotes": "something",
+              "isSmokingOpted": true,
+              "isRoomSharingOpted": false,
+              "isAdaAccessibilityOpted": false,
+              "isRoomSharingOpted": true,
+              "roommateDescription": "",
+              "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+            },
+            "requestedAction": "BOOK",
+            "quantity": 1,
+            "isRoomLeader": true
+          }
+        ],
+        "airBookings": [],
+        "airActuals": [],
+        "pnrAirActuals": [],
+        "travelAnswers": [],
+        "attendee": {
+          "contactId": null,
+          "homeCityAddress": {
+            "city": "McLean",
+            "countryCode": "US",
+            "countryName": "USA",
+            "postalCode": "1234",
+            "stateCode": "VA",
+            "stateName": "Virginia"
+          },
+          "id": null,
+          "inviteeEmailAddress": "dummy@j.mail",
+          "primaryInviteeId": null,
+          "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+          "status": null,
+          "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+          "type": "INVITEE",
+          "workCityAddress": {
+            "city": "McLean",
+            "countryCode": "US",
+            "countryName": "USA",
+            "postalCode": "1234",
+            "stateCode": "VA",
+            "stateName": "Virginia"
+          }
+        },
+        "groupFlightBookings": []
+      }
+    ]
+  },
+  "updateModTravelCartResultWithCancel" : {
+    "travelCart": {
+      "id": "DUMMY_CART_ID",
+      "eventId": "EVENT_ID",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "isForPreview": false,
+      "isForPlanner": false,
+      "requestedAction": "MODIFY",
+      "bookings": [
+        {
+          "id": "DUMMY_BOOKING_ID",
+          "admissionItemId": null,
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "REG_TYPE_1",
+          "attendee": {
+            "contactId": null,
+            "homeCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            },
+            "id": null,
+            "inviteeEmailAddress": "dummy@j.mail",
+            "primaryInviteeId": null,
+            "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+            "status": null,
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+            "type": "INVITEE",
+            "workCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            }
+          },
+          "hotelRoomBookings": [
+            {
+              "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+              "hotelReservationDetailId": "4210283b-6c5b-4898-a384-76834bd486a0",
+              "id": "00000000-0000-0000-0000-000000000000",
+              "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+              "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+              "checkinDate": "2015-06-22T05:00:00.000Z",
+              "checkoutDate": "2015-06-23T05:00:00.000Z",
+              "preferences": {
+                "specialRequestNotes": "something",
+                "isSmokingOpted": true,
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "roommateDescription": "",
+                "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+              },
+              "requestedAction": "CANCEL",
+              "quantity": 1,
+              "isRoomLeader": true
+            }
+          ],
+          "requestedAction": "CANCEL"
+        }
+      ]
+    },
+    "validationResult": {
+      "validationMessages": []
+    }
+  },
+  "updateModTravelCartWithTwoBookingsResult" : {
+    "travelCart": {
+      "id": "DUMMY_CART_ID",
+      "eventId": "EVENT_ID",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "isForPreview": false,
+      "isForPlanner": false,
+      "requestedAction": "MODIFY",
+        "bookings": [
+          {
+            "id": "DUMMY_BOOKING_ID",
+            "admissionItemId": null,
+            "registrationPathId": "REG_PATH_1",
+            "registrationTypeId": "REG_TYPE_1",
+            "hotelRoomBookings": [
+              {
+                "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+                "hotelReservationDetailId": "4210283b-6c5b-4898-a384-76834bd486a0",
+                "id": "00000000-0000-0000-0000-000000000000",
+                "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+                "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+                "checkinDate": "2015-06-22T05:00:00.000Z",
+                "checkoutDate": "2015-06-23T05:00:00.000Z",
+                "preferences": {
+                  "specialRequestNotes": "something",
+                  "isSmokingOpted": true,
+                  "isAdaAccessibilityOpted": false,
+                  "isRoomSharingOpted": true,
+                  "roommateDescription": "",
+                  "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+                },
+                "requestedAction": "CANCEL",
+                "quantity": 1,
+                "isRoomLeader": true
+              }, {
+                "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+                "id": "25babd96-dde8-4ecd-8691-fd8f9d6a9557",
+                "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+                "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+                "checkinDate": "2015-06-22T05:00:00.000Z",
+                "checkoutDate": "2015-06-23T05:00:00.000Z",
+                "preferences": {
+                  "specialRequestNotes": "something",
+                  "isSmokingOpted": true,
+                  "isAdaAccessibilityOpted": false,
+                  "isRoomSharingOpted": true,
+                  "roommateDescription": "",
+                  "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+                },
+                "requestedAction": "BOOK",
+                "quantity": 1,
+                "requestGroupId": "3b93b16a-ab0c-410d-b1e1-a4c1ac31dfa5",
+                "isRoomLeader": true
+              }
+            ],
+            "airBookings": [],
+            "attendee": {
+              "contactId": null,
+              "homeCityAddress": {
+                "city": "McLean",
+                "countryCode": "US",
+                "countryName": "USA",
+                "postalCode": "1234",
+                "stateCode": "VA",
+                "stateName": "Virginia"
+              },
+              "id": null,
+              "inviteeEmailAddress": "dummy@j.mail",
+              "primaryInviteeId": null,
+              "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+              "status": null,
+              "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+              "type": "INVITEE",
+              "workCityAddress": {
+                "city": "McLean",
+                "countryCode": "US",
+                "countryName": "USA",
+                "postalCode": "1234",
+                "stateCode": "VA",
+                "stateName": "Virginia"
+              }
+            },
+            "groupFlightBookings": [],
+            "airActuals": [],
+            "pnrAirActuals": [],
+            "travelAnswers": []
+          }
+        ]
+    },
+    "validationResult": {
+      "validationMessages": []
+    }
+  },
+  "updateModTravelCartResultWithCancel2" : {
+    "travelCart": {
+      "id": "DUMMY_CART_ID",
+      "eventId": "EVENT_ID",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "isForPreview": false,
+      "isForPlanner": false,
+      "requestedAction": "MODIFY",
+      "bookings": [
+        {
+          "id": "DUMMY_BOOKING_ID",
+          "admissionItemId": null,
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "REG_TYPE_1",
+          "attendee": {
+            "contactId": null,
+            "homeCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            },
+            "id": null,
+            "inviteeEmailAddress": "dummy@j.mail",
+            "primaryInviteeId": null,
+            "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+            "status": null,
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+            "type": "INVITEE",
+            "workCityAddress": {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": "1234",
+              "stateCode": "VA",
+              "stateName": "Virginia"
+            }
+          },
+          "hotelRoomBookings": [
+            {
+              "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+              "hotelReservationDetailId": "4210283b-6c5b-4898-a384-76834bd486a0",
+              "id": "00000000-0000-0000-0000-000000000000",
+              "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+              "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+              "checkinDate": "2015-06-22T05:00:00.000Z",
+              "checkoutDate": "2015-06-23T05:00:00.000Z",
+              "preferences": {
+                "specialRequestNotes": "something",
+                "isSmokingOpted": true,
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "roommateDescription": "",
+                "hotelAttendeeRegistrationId": "DUMMY_BOOKING_ID"
+              },
+              "requestedAction": "CANCEL",
+              "quantity": 1,
+              "isRoomLeader": true
+            }
+          ],
+          "requestedAction": "CANCEL"
+        }
+      ]
+    },
+    "validationResult": {
+      "validationMessages": []
+    }
+  },
+  "hotelsData": {
+    "hotels": [
+      {
+        "id": "id-01",
+        "hotelId": "hotelId-01",
+        "sortOrder": 1,
+        "roomTypes": {
+          "roomId1": {
+            "id": "roomId1",
+            "roomTypeName": "Executive Room",
+            "minNumberOfNights": 1,
+            "roomRate": [
+              {
+                "capacityId": "cap1",
+                "hasCapacity": true,
+                "roomRateDate": "date1"
+              },
+              {
+                "capacityId": "cap2",
+                "hasCapacity": false,
+                "roomRateDate": "date2"
+              },
+              {
+                "hasCapacity": false,
+                "roomRateDate": "date3"
+              }
+            ],
+            "isOpenForRegistration": true
+          }
+        }
+      },
+      {
+        "id": "id-02",
+        "hotelId": "hotelId-02",
+        "order": 2
+      }
+    ]
+  },
+  "emptyHotelsData": {
+    "hotels": []
+  },
+  "capacityIds": [
+    "cap1",
+    "cap2"
+  ],
+  "capacityMap": {
+    "cap1": {
+      "capacityId": "cap1",
+      "availableCapacity": 1
+    },
+    "cap2": {
+      "capacityId": "cap2",
+      "availableCapacity": 1
+    }
+  },
+  "transientCartResponse" : {
+    "travelCart": {
+      "id": "b6604949-5ae7-4ed3-9cec-84bf28895a1d",
+      "eventId": "fa61b684-8480-41a1-8732-d3baa1ab68f7",
+      "status": "TRANSIENT",
+      "bookings": [
+        {
+          "travelReservationId": "0fdbfef3-81bd-4491-80bb-d38b795811ab",
+          "id": "fe3af4ad-a947-42b8-ab03-97223c1482c2",
+          "attendee": {
+            "id": "679f6780-3e3f-4337-b553-0f2cf7e9ea10",
+            "type": "INVITEE",
+            "contactId": "76cd8d03-14ad-4d95-90a7-9da9ddc1a6c7",
+            "status": 2
+          },
+          "registrationPathId": "ad5c0c62-1de5-4c0c-b43b-a88f0da71c05",
+          "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+          "hotelRoomBookings": [
+            {
+              "hotelReservationDetailId": "31c30941-be75-44f5-a8d0-5a03c8aeb70f",
+              "id": "7ac4e85f-6b77-468b-9433-3f5e79acefbc",
+              "hotelId": "868e342e-37da-4522-a2c9-e6d7c256f131",
+              "roomTypeId": "73010095-7243-4ae7-943c-62b069ef2fdc",
+              "quantity": 1,
+              "checkinDate": "2020-07-04",
+              "checkoutDate": "2020-07-06",
+              "travellerInfo": {
+                "firstName": "Matt",
+                "lastName": "Cameron",
+                "gender": 1
+              },
+              "preferences": {
+                "specialRequestNotes": "",
+                "roommateDescription": "",
+                "rewardsCode": "",
+                "isAdaAccessibilityOpted": false,
+                "isRoomSharingOpted": true,
+                "isSmokingOpted": true
+              },
+              "requestedAction": "BOOK",
+              "isRoomLeader": true
+            }
+          ],
+          "requestedAction": "BOOK"
+        }
+      ],
+      "travelSnapshotVersion": "jPOtVsudyBfOQ2dcOFHvzyLV0AqgntY3",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "requestedAction": "VIEW",
+      "isForPreview": false,
+      "isForPlanner": false,
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false
+    },
+    "validationResult": {
+      "validationMessages": []
+    }
+  }
+}

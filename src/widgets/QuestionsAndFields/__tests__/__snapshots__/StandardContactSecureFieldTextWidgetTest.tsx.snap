@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`skipping required fields during planner reg 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              NIN
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              –––
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text standard contact secure field renders and allows you to enter text 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  SSN
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                maxlength="30"
+                name="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                required=""
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text standard contact secure field renders and allows you to enter text 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  SSN
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                maxlength="30"
+                name="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                required=""
+                type="password"
+                value="text answer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text standard contact secure field renders and allows you to enter text 3`] = `
+Object {
+  "personalInformation": Object {
+    "firstName": "text answer",
+  },
+}
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the TransparentWrapper should not render with transparent-wrapper-preview when state prop is false 1`] = `<div />`;
+
+exports[`the TransparentWrapper should render with 2 divs 1`] = `
+<div>
+  <div
+    class=""
+    data-cvent-id="transparent-wrapper-preview"
+  />
+</div>
+`;

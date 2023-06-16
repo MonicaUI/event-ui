@@ -1,0 +1,1733 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is atleastOneTravelRequest when have atleast one travel request should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={true}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "displayWidget": "atleastOneTravelRequest",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is atleastOneTravelRequest when no travel request should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={false}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "displayWidget": "atleastOneTravelRequest",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is balanceDueForHotelRequest when balance due for hotel request should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={true}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "displayWidget": "balanceDueForHotelRequest",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is balanceDueForHotelRequest when balance not due for hotel request should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={false}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "displayWidget": "balanceDueForHotelRequest",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is billingInstructionOn > when any of the primary invitee's hotel room request is associated with the selected BI > should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={true}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "billingInstruction": Object {
+          "billingInstructionCode": "selectedBICode",
+        },
+        "displayWidget": "billingInstructionOn",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is billingInstructionOn > when no primary invitee's hotel room request is associated with the selected BI > should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={false}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "billingInstruction": Object {
+          "billingInstructionCode": "selectedBICode",
+        },
+        "displayWidget": "billingInstructionOn",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is billingInstructionOn > when selectedBI is deleted/deactivated from planner side > should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "billingInstruction": Object {
+          "billingInstructionCode": "selectedBICode",
+        },
+        "displayWidget": "billingInstructionOn",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is shoulderDatesOn > when at least one hotel room request has shoulder dates > should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={true}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "displayWidget": "shoulderDatesOn",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has supported credit cards when displayWidget value is shoulderDatesOn > when no hotel room request has shoulder dates > should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={false}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "displayWidget": "shoulderDatesOn",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is OFF when account has unsupported credit cards should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={false}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [],
+        "displayWidget": "balanceDueForHotelRequest",
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`TravelCreditCardWidget produces props from state when extended login is ON should render with props 1`] = `
+Object {
+  "children": <TravelCreditCardWidget
+    classes={Object {}}
+    creditCard={Object {}}
+    displayCreditCardWidget={false}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    expirationDateOptions={
+      Object {
+        "months": Array [
+          Object {
+            "name": "some date",
+            "value": "1",
+          },
+          Object {
+            "name": "some date",
+            "value": "2",
+          },
+          Object {
+            "name": "some date",
+            "value": "3",
+          },
+          Object {
+            "name": "some date",
+            "value": "4",
+          },
+          Object {
+            "name": "some date",
+            "value": "5",
+          },
+          Object {
+            "name": "some date",
+            "value": "6",
+          },
+          Object {
+            "name": "some date",
+            "value": "7",
+          },
+          Object {
+            "name": "some date",
+            "value": "8",
+          },
+          Object {
+            "name": "some date",
+            "value": "9",
+          },
+          Object {
+            "name": "some date",
+            "value": "10",
+          },
+          Object {
+            "name": "some date",
+            "value": "11",
+          },
+          Object {
+            "name": "some date",
+            "value": "12",
+          },
+        ],
+        "years": Array [
+          Object {
+            "name": 2018,
+            "value": "2018",
+          },
+          Object {
+            "name": 2019,
+            "value": "2019",
+          },
+          Object {
+            "name": 2020,
+            "value": "2020",
+          },
+          Object {
+            "name": 2021,
+            "value": "2021",
+          },
+          Object {
+            "name": 2022,
+            "value": "2022",
+          },
+          Object {
+            "name": 2023,
+            "value": "2023",
+          },
+          Object {
+            "name": 2024,
+            "value": "2024",
+          },
+          Object {
+            "name": 2025,
+            "value": "2025",
+          },
+          Object {
+            "name": 2026,
+            "value": "2026",
+          },
+          Object {
+            "name": 2027,
+            "value": "2027",
+          },
+          Object {
+            "name": 2028,
+            "value": "2028",
+          },
+        ],
+      }
+    }
+    onCardFieldChange={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    travelCreditCardSettings={
+      Object {
+        "acceptedCardTypes": Array [
+          "Visa",
+          "MasterCard",
+        ],
+        "displayWidget": "balanceDueForHotelRequest",
+      }
+    }
+  />,
+  "value": null,
+}
+`;

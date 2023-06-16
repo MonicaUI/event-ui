@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestRegistrationWidget should be a button instead of a dropdown 1`] = `
+Object {
+  "children": <BaseWidget
+    classes={Object {}}
+    config={
+      Object {
+        "addGuestDisplayType": "standardButton",
+        "guestRegistrationHeaderText": "header text",
+        "guestRegistrationInstructionalText": "instructions",
+      }
+    }
+    disabled={false}
+    guestCount={0}
+    guestEditHandler={[Function]}
+    guestLimit={5}
+    guestRegTypeRequired={false}
+    guestRemoveHandler={[Function]}
+    guests={Array []}
+    hidden={false}
+    isGuestMinimumValidationEnabled={false}
+    minGuestRequired={0}
+    regCartUpdateInProgress={false}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    updateGuestCount={[Function]}
+  />,
+  "classes": Object {},
+  "value": null,
+}
+`;
+
+exports[`GuestRegistrationWidget should be hidden if the feature is off 1`] = `null`;
+
+exports[`GuestRegistrationWidget should not render unconfirmed guests 1`] = `
+Object {
+  "children": <BaseWidget
+    classes={Object {}}
+    config={
+      Object {
+        "addGuestDisplayType": "standardButton",
+        "guestRegistrationHeaderText": "header text",
+        "guestRegistrationInstructionalText": "instructions",
+      }
+    }
+    disabled={false}
+    guestCount={2}
+    guestEditHandler={[Function]}
+    guestLimit={5}
+    guestRegTypeRequired={false}
+    guestRemoveHandler={[Function]}
+    guests={
+      Array [
+        Object {
+          "attendeeType": "GUEST",
+          "eventRegistrationId": "GUEST_0",
+          "primaryRegistrationId": "primaryId",
+          "requestedAction": "REGISTER",
+        },
+      ]
+    }
+    hidden={false}
+    isGuestMinimumValidationEnabled={false}
+    minGuestRequired={0}
+    regCartUpdateInProgress={false}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    updateGuestCount={[Function]}
+  />,
+  "classes": Object {},
+  "value": null,
+}
+`;
+
+exports[`GuestRegistrationWidget should render a modal if guest are added with a button instead of a dropdown 1`] = `
+Object {
+  "children": <BaseWidget
+    classes={Object {}}
+    config={
+      Object {
+        "addGuestDisplayType": "standardButton",
+        "guestRegistrationHeaderText": "header text",
+        "guestRegistrationInstructionalText": "instructions",
+      }
+    }
+    disabled={false}
+    guestCount={0}
+    guestEditHandler={[Function]}
+    guestLimit={5}
+    guestRegTypeRequired={false}
+    guestRemoveHandler={[Function]}
+    guests={Array []}
+    hidden={false}
+    isGuestMinimumValidationEnabled={false}
+    minGuestRequired={0}
+    regCartUpdateInProgress={false}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    updateGuestCount={[Function]}
+  />,
+  "classes": Object {},
+  "value": null,
+}
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AttendeeListWidget should match snapshot 1`] = `
+Object {
+  "children": <Memo(Connect(BaseWidget))
+    attendeeEmailError={false}
+    attendeeEmailSuccess={false}
+    classes={Object {}}
+    isLoggedIn={false}
+    resetAttendeeEmailData={[Function]}
+    sendEmail={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+  />,
+  "value": null,
+}
+`;

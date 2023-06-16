@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventPersonaClient.identifyInvitee matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventId\\":\\"eventId\\",\\"inviteeId\\":\\"inviteeId\\",\\"isContactIdRequired\\":false}",
+    "_bodyText": "{\\"eventId\\":\\"eventId\\",\\"inviteeId\\":\\"inviteeId\\",\\"isContactIdRequired\\":false}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/event_persona_evaluation/identify?environment=dev",
+  },
+]
+`;
+
+exports[`EventPersonaClient.identifyInvitee matches snapshot 2`] = `
+Object {
+  "contactId": undefined,
+  "eventId": "eventId",
+  "inviteeId": "inviteeId",
+  "inviteeStatus": "NoResponse",
+}
+`;
+
+exports[`EventPersonaClient.identifyInvitee when contact id is required 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventId\\":\\"eventId\\",\\"inviteeId\\":\\"inviteeId\\",\\"isContactIdRequired\\":true}",
+    "_bodyText": "{\\"eventId\\":\\"eventId\\",\\"inviteeId\\":\\"inviteeId\\",\\"isContactIdRequired\\":true}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/event_persona_evaluation/identify?environment=dev",
+  },
+]
+`;
+
+exports[`EventPersonaClient.identifyInvitee when contact id is required 2`] = `
+Object {
+  "contactId": "contactId",
+  "eventId": "eventId",
+  "inviteeId": "inviteeId",
+  "inviteeStatus": "NoResponse",
+}
+`;

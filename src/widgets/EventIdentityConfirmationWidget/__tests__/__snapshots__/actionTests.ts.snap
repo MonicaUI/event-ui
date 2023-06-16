@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action tests using GraphQL site editor data clearInferredFields clear regCart fields that's on page or upcoming 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/registrantLogin/CLEAR_URL_IDENTIFYING_INFORMATION",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "personalInformation": Object {},
+            },
+            "attendeeType": "ATTENDEE",
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+    },
+    "type": "event-guestside-site/regCart/CLEAR_REG_CART_INFERRED_FIELDS",
+  },
+]
+`;
+
+exports[`action tests using Redux site editor data clearInferredFields clear regCart fields that's on page or upcoming 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/registrantLogin/CLEAR_URL_IDENTIFYING_INFORMATION",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "personalInformation": Object {},
+            },
+            "attendeeType": "ATTENDEE",
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+    },
+    "type": "event-guestside-site/regCart/CLEAR_REG_CART_INFERRED_FIELDS",
+  },
+]
+`;

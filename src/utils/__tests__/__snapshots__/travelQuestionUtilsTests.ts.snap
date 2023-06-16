@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`questionUtils tests getTravelAnswer() method should fetch values from userSession 1`] = `
+Object {
+  "setterAction": Object {
+    "payload": Object {
+      "eventRegistrationId": "eventRegistrationId",
+      "path": Array [
+        "userSession",
+        "travelAnswers",
+        "dummy-question-id_dummy-question-id",
+      ],
+      "value": undefined,
+    },
+    "type": "event-guestside-site/travelCart/SET_TRAVEL_ANSWER_FIELD",
+  },
+  "value": Object {
+    "answers": Array [
+      Object {
+        "answerType": "text",
+        "text": "dummyAns",
+      },
+    ],
+    "eventRegistrationId": "eventRegistrationId",
+    "questionId": "dummy-question-id",
+  },
+  "valueBeforeMod": Object {
+    "otherText": null,
+    "selectedValues": Array [],
+  },
+}
+`;
+
+exports[`questionUtils tests getTravelAnswerData() method should fetch data from travelCart if not exist in userSession 1`] = `
+Object {
+  "answers": Array [
+    Object {
+      "answerType": "text",
+      "text": "travelCart answer",
+    },
+  ],
+  "questionId": "dummy-question-id",
+  "requestBookingId": "dummy-question-id",
+  "requestedAction": "ADD",
+}
+`;
+
+exports[`questionUtils tests getTravelAnswerData() method should fetch data from userSession 1`] = `
+Object {
+  "answers": Array [
+    Object {
+      "answerType": "text",
+      "text": "userSession answer",
+    },
+  ],
+  "eventRegistrationId": "eventRegistrationId",
+  "questionId": "dummy-question-id",
+}
+`;

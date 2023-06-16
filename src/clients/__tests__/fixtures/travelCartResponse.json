@@ -1,0 +1,43 @@
+{
+  "travelCart": {
+    "id": "6b0b6913-b477-4a8c-9e7e-481ce5e4b33a",
+    "status": "INPROGRESS",
+    "bookings": [
+        {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "attendee": {
+                "id": "614c34fe-f5f6-49d9-8d6c-5c7bc76ee466"
+            },
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "hotelRoomBookings": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+                    "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+                    "checkinDate": "2015-06-22",
+                    "checkoutDate": "2015-06-23",
+                    "preferences": {
+                        "specialRequestNotes": "something",
+                        "isSmokingOpted": true,
+                        "rewardsCode": "something",
+                        "isRoomSharingOpted": false,
+                        "isAdaAccessibilityOpted": false,
+                        "isRoomSharingOpted": true,
+                        "roommateDescription": ""
+                    },
+                    "travellerInfo": {
+                        "gender": "0",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "requestedAction": "BOOK"
+                }
+            ]
+        }
+    ],
+    "travelSnapshotVersion": "abc",
+    "eventSnapshotVersion": "def",
+    "isForPreview": false,
+    "isForPlanner": false
+  }
+}

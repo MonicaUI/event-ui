@@ -1,0 +1,133 @@
+@import (reference) '~nucleus-core/less/Utility.less';
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+@import (reference) "~nucleus-core/less/MediaQuery.less";
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+
+.dialogDefaultFocus:focus {
+  outline: none;
+}
+
+.exit {
+  float: right;
+  top: -0.625rem;
+  position: relative;
+}
+
+.content {
+  position: relative;
+  max-height: 40rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;  /* iOS momentum scroll */
+}
+
+.dialogContainer {
+  width: 48rem;
+  min-height: 28vh;
+  max-height: 70vh;
+  .dialogMediaQuery();
+
+  @media @portrait {
+    max-height: 100%;
+  }
+}
+
+// FullScreen Mixins //
+.fullScreenWrapper {
+  border-radius: 0;
+  box-shadow: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+// Dialog Window //
+.dragContainer {
+  @media @medium {
+    .fullScreenWrapper();
+  }
+  &.fullScreen {
+    .fullScreenWrapper();
+  }
+}
+
+.closeDialog {
+  float: right;
+  position: relative;
+}
+
+.buttonGroupWrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.checkboxWrapper {
+  width: 100%;
+}
+
+.secondaryButton {
+  margin-right: 0.5rem;
+}
+
+.primaryButton {
+  margin-left: 0.5rem;
+}
+
+.productTitle {
+  margin-top: 1.5rem;
+  margin-left: 15%;
+}
+
+.instructionalText {
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
+.sectionHeader {
+  margin-top: 20px;
+  text-indent: 15%;
+}
+
+.checkbox {
+  li {
+    list-style-type:none;
+
+    input[type=checkbox] + label {
+      width: 100%;
+      padding-left: 0.5rem;
+    }
+    padding-top: 10px;
+    margin-top: -1px;
+  }
+
+  margin-top: 0.5rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.summaryTotal {
+  margin-top: 0.5rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.separator {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.totalBar {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-bottom: 1px solid;
+  border-color: 'inherit';
+}
+
+.errorMessageOnPopup {
+  color: #ED6262;
+  padding: 15px 0 0 25px;
+}

@@ -1,0 +1,34 @@
+@import (reference) '~nucleus-core/less/MediaQuery.less';
+@import './AlreadyRegisteredDialog.less';
+@colorGreen: #1AB050;
+@colorRed: #E93525;
+
+.container {
+  text-align: center;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.backButton {
+  composes: linkButton;
+  float: none;
+  margin-top: 30px;
+}
+
+.backButtonContainer {
+  margin-top: 30px;
+}
+
+.icon {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+&.error {
+  color: @colorRed;
+}
+
+&.success {
+  color: @colorGreen;
+}

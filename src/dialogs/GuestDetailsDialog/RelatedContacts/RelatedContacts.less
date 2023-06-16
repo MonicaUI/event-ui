@@ -1,0 +1,132 @@
+@import (reference) '~nucleus-core/less/Utility.less';
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+@import (reference) '~nucleus-core/less/cv/TextInput.less';
+@import "~event-widgets/shared-styles/Variables.less";
+@import (reference) "~nucleus-core/less/MediaQuery.less";
+
+.dialogHeader{
+  font-size: 1.875em;
+  font-family: 'Lato', helvetica, sans-serif;
+  font-weight: 400;
+  color: @contentColor;
+}
+
+.exit {
+  float: right;
+  top: -10px;
+  position: relative;
+}
+
+.secondaryButton {
+  margin-right: 10px;
+}
+
+.dragHandle {
+  padding: 5px 25px 5px 25px;
+}
+
+.primaryButton {
+  margin-left: 10px;
+  &.disabled {
+    opacity: .4;
+  }
+}
+
+.dialogContainer {
+  width: 48em;
+  max-height: 80vh;
+  .dialogMediaQuery();
+}
+
+.textboxContainer {
+  .textboxContainer();
+  width: 100%;
+}
+
+.formElement {
+
+  display: inline-flex;
+  margin-bottom: 0.625rem;
+
+  .searchButtonWrapper {
+    top: 0.05rem;
+    position: relative;
+    white-space: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @media @small {
+      width: 100%;
+    }
+  }
+
+  .iconWrapper {
+    position: relative;
+  }
+
+  .textbox {
+    position: relative;
+    width: 33rem;
+    @media @small {
+      width: 100%;
+    }
+  }
+}
+
+.buttonPanel {
+  padding-top: 0.75rem;
+  text-align: center;
+  left: 10%;
+  position: relative;
+  width: 80%;
+}
+
+.closeDialog {
+  font-size: 30px;
+  float: right;
+  position: relative;
+}
+
+.altText {
+  line-height: 1.3;
+  @media @small {
+    opacity: 0.5;
+  }
+}
+
+.listRelatedContacts {
+  overflow: auto;
+  height: 100%;
+  max-height: calc(100vh - 30rem);
+  @media @small{
+    max-height: calc(100vh - 37rem);
+  }
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.modalListNameStyle {
+  border-radius: 0;
+  border-color: rgb(255, 255, 255);
+  border-bottom-width: 0.0625rem;
+  border-bottom-style: solid;
+}
+
+.modalGuestNameStyle {
+  .modalGuestName {
+    display: inline-flex;
+    overflow: auto;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+    word-break: break-word;
+    width: 63%;
+    @media @small {
+      width: 36%;
+    }
+  }
+}
+
+.listitem:hover {
+  cursor: pointer;
+}

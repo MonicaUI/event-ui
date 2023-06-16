@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkButtonWidget renders 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <a
+      className=""
+      href="http://cvent.com"
+      style={Object {}}
+      target="_self"
+    >
+      Custom Link Button
+    </a>
+  </div>
+</div>
+`;
+
+exports[`LinkButtonWidget renders by escaping special characters and creating valid url 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    <a
+      className=""
+      href="http://cvent.com?environment=S437&locale=en-US"
+      style={Object {}}
+      target="_self"
+    >
+      http://cvent.com?environment=S437&locale=en-US
+    </a>
+  </div>
+</div>
+`;

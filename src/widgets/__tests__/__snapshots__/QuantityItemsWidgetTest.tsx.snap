@@ -1,0 +1,515 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuantityItemsTest should render 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    data-cvent-id="quantityItems"
+  >
+    <h2
+      className=""
+      data-cvent-id="quantityItems-header"
+      style={Object {}}
+    >
+      Header
+    </h2>
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="quantityItems-instructional-text"
+      style={Object {}}
+    />
+    <ul
+      className=""
+      data-cvent-id="quantityItems-items"
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="quantityItems-item-quantityItem1"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem1-name"
+              style={Object {}}
+            >
+              Quantity Item Name
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem1-code"
+              style={Object {}}
+            >
+              Quantity Item Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem1-description"
+              style={Object {}}
+            >
+              Quantity Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem1-fees"
+              style={Object {}}
+            >
+              <span>
+                50
+              </span>
+              <span
+                className=""
+                style={Object {}}
+              >
+                 EventWidgets_QuantityItems_EachQuantityItemLabelText__resx
+              </span>
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem1-select-dropdown"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="quantityItemSelectDropdown-quantityItem1"
+                style={Object {}}
+              >
+                <span
+                  className=""
+                  style={Object {}}
+                >
+                  <span
+                    data-cvent-id="label"
+                  />
+                </span>
+              </label>
+              <div
+                className=""
+                style={Object {}}
+              >
+                <select
+                  className=""
+                  data-cvent-id="input"
+                  disabled={false}
+                  id="quantityItemSelectDropdown-quantityItem1"
+                  name="quantityItemSelectDropdown-quantityItem1"
+                  onChange={[Function]}
+                  required={false}
+                  style={
+                    Object {
+                      "marginBottom": undefined,
+                      "marginTop": undefined,
+                      "paddingBottom": undefined,
+                      "paddingTop": undefined,
+                      "width": "100%",
+                    }
+                  }
+                  value="0"
+                >
+                  <option
+                    data-cvent-id="option-0"
+                    value="0"
+                  >
+                    lbl_pop_0044
+                  </option>
+                  <option
+                    data-cvent-id="option-1"
+                    value="1"
+                  >
+                    1
+                  </option>
+                  <option
+                    data-cvent-id="option-2"
+                    value="2"
+                  >
+                    2
+                  </option>
+                  <option
+                    data-cvent-id="option-3"
+                    value="3"
+                  >
+                    3
+                  </option>
+                  <option
+                    data-cvent-id="option-4"
+                    value="4"
+                  >
+                    4
+                  </option>
+                  <option
+                    data-cvent-id="option-5"
+                    value="5"
+                  >
+                    5
+                  </option>
+                  <option
+                    data-cvent-id="option-6"
+                    value="6"
+                  >
+                    6
+                  </option>
+                  <option
+                    data-cvent-id="option-7"
+                    value="7"
+                  >
+                    7
+                  </option>
+                  <option
+                    data-cvent-id="option-8"
+                    value="8"
+                  >
+                    8
+                  </option>
+                  <option
+                    data-cvent-id="option-9"
+                    value="9"
+                  >
+                    9
+                  </option>
+                  <option
+                    data-cvent-id="option-10"
+                    value="10"
+                  >
+                    10+
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <div
+                data-cvent-id="quantityItems-item-quantityItem1-capacity"
+                style={Object {}}
+              >
+                EventWidgets_Products_CapacityRemaining__resx:{"numberRemaining":123}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="quantityItems-item-quantityItemNoFee"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItemNoFee-name"
+              style={Object {}}
+            >
+              Quantity Item No Fee
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItemNoFee-code"
+              style={Object {}}
+            >
+              quantity Item Code 2
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItemNoFee-description"
+              style={Object {}}
+            >
+              Quantity Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItemNoFee-fees"
+              style={Object {}}
+            >
+              <span>
+                EventWidgets_Products_Free__resx
+              </span>
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItemNoFee-select-dropdown"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="quantityItemSelectDropdown-quantityItemNoFee"
+                style={Object {}}
+              >
+                <span
+                  className=""
+                  style={Object {}}
+                >
+                  <span
+                    data-cvent-id="label"
+                  />
+                </span>
+              </label>
+              <div
+                className=""
+                style={Object {}}
+              >
+                <select
+                  className=""
+                  data-cvent-id="input"
+                  disabled={false}
+                  id="quantityItemSelectDropdown-quantityItemNoFee"
+                  name="quantityItemSelectDropdown-quantityItemNoFee"
+                  onChange={[Function]}
+                  required={false}
+                  style={
+                    Object {
+                      "marginBottom": undefined,
+                      "marginTop": undefined,
+                      "paddingBottom": undefined,
+                      "paddingTop": undefined,
+                      "width": "100%",
+                    }
+                  }
+                  value="0"
+                >
+                  <option
+                    data-cvent-id="option-0"
+                    value="0"
+                  >
+                    lbl_pop_0044
+                  </option>
+                  <option
+                    data-cvent-id="option-1"
+                    value="1"
+                  >
+                    1
+                  </option>
+                  <option
+                    data-cvent-id="option-2"
+                    value="2"
+                  >
+                    2
+                  </option>
+                  <option
+                    data-cvent-id="option-3"
+                    value="3"
+                  >
+                    3
+                  </option>
+                  <option
+                    data-cvent-id="option-4"
+                    value="4"
+                  >
+                    4
+                  </option>
+                  <option
+                    data-cvent-id="option-5"
+                    value="5"
+                  >
+                    5
+                  </option>
+                  <option
+                    data-cvent-id="option-6"
+                    value="6"
+                  >
+                    6
+                  </option>
+                  <option
+                    data-cvent-id="option-7"
+                    value="7"
+                  >
+                    7
+                  </option>
+                  <option
+                    data-cvent-id="option-8"
+                    value="8"
+                  >
+                    8
+                  </option>
+                  <option
+                    data-cvent-id="option-9"
+                    value="9"
+                  >
+                    9
+                  </option>
+                  <option
+                    data-cvent-id="option-10"
+                    value="10"
+                  >
+                    10+
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <div
+                data-cvent-id="quantityItems-item-quantityItemNoFee-capacity"
+                style={Object {}}
+              >
+                EventWidgets_Products_CapacityRemaining__resx:{"numberRemaining":123}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="quantityItems-item-quantityItem2WithMaxPerInvitee"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem2WithMaxPerInvitee-name"
+              style={Object {}}
+            >
+              Quantity Item 2 With Cap 1
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem2WithMaxPerInvitee-code"
+              style={Object {}}
+            >
+              Quantity Item 2 Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem2WithMaxPerInvitee-description"
+              style={Object {}}
+            >
+              Quantity Item 2 Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem2WithMaxPerInvitee-fees"
+              style={Object {}}
+            >
+              <span>
+                50
+              </span>
+              <span
+                className=""
+                style={Object {}}
+              >
+                 EventWidgets_QuantityItems_EachQuantityItemLabelText__resx
+              </span>
+            </div>
+            <div
+              className=""
+              data-cvent-id="quantityItems-item-quantityItem2WithMaxPerInvitee-select-dropdown"
+              style={Object {}}
+            >
+              <label
+                className=""
+                htmlFor="quantityItemSelectDropdown-quantityItem2WithMaxPerInvitee"
+                style={Object {}}
+              >
+                <span
+                  className=""
+                  style={Object {}}
+                >
+                  <span
+                    data-cvent-id="label"
+                  />
+                </span>
+              </label>
+              <div
+                className=""
+                style={Object {}}
+              >
+                <select
+                  className=""
+                  data-cvent-id="input"
+                  disabled={false}
+                  id="quantityItemSelectDropdown-quantityItem2WithMaxPerInvitee"
+                  name="quantityItemSelectDropdown-quantityItem2WithMaxPerInvitee"
+                  onChange={[Function]}
+                  required={false}
+                  style={
+                    Object {
+                      "marginBottom": undefined,
+                      "marginTop": undefined,
+                      "paddingBottom": undefined,
+                      "paddingTop": undefined,
+                      "width": "100%",
+                    }
+                  }
+                  value="0"
+                >
+                  <option
+                    data-cvent-id="option-0"
+                    value="0"
+                  >
+                    lbl_pop_0044
+                  </option>
+                  <option
+                    data-cvent-id="option-1"
+                    value="1"
+                  >
+                    1
+                  </option>
+                  <option
+                    data-cvent-id="option-2"
+                    value="2"
+                  >
+                    2
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <div
+                data-cvent-id="quantityItems-item-quantityItem2WithMaxPerInvitee-capacity"
+                style={Object {}}
+              >
+                EventWidgets_Products_CapacityRemaining__resx:{"numberRemaining":1}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

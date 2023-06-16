@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text custom field defaults to GENERAL when custom format is not available 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-textCustomField2"
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+          data-cvent-id="contact-custom-field-textCustomField2"
+        >
+          <label
+            class="label"
+            for="textCustomField2"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="textCustomField2"
+                maxlength="16000"
+                name="textCustomField2"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text custom field defaults to GENERAL when custom format is not available 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-textCustomField2"
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+          data-cvent-id="contact-custom-field-textCustomField2"
+        >
+          <label
+            class="label"
+            for="textCustomField2"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="textCustomField2"
+                maxlength="16000"
+                name="textCustomField2"
+                required=""
+                type="text"
+                value="text answer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text custom field defaults to GENERAL when custom format is not available 3`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-textCustomField2"
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+          data-cvent-id="contact-custom-field-textCustomField2"
+        >
+          <label
+            class="label"
+            for="textCustomField2"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="textCustomField2"
+                maxlength="16000"
+                name="textCustomField2"
+                required=""
+                type="text"
+                value="123ABC?5"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text custom field defaults to GENERAL when custom format is not available 4`] = `
+Object {
+  "personalInformation": Object {
+    "customFields": Object {
+      "textCustomField2": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Text",
+            "text": "123ABC?5",
+          },
+        ],
+        "questionId": "textCustomField2",
+      },
+    },
+  },
+}
+`;
+
+exports[`text custom field with custom answer format renders and allows you to enter text 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-textCustomField2"
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+          data-cvent-id="contact-custom-field-textCustomField2"
+        >
+          <label
+            class="label"
+            for="textCustomField2"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="textCustomField2"
+                maxlength="16000"
+                name="textCustomField2"
+                required=""
+                type="text"
+                value=""
+              />
+              <div
+                class=""
+              >
+                NucleusWidgets_InstructionalText_CustomAnswerFormatCharacterPosition__resx:{"format":"999AAA?9"}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text custom field with custom answer format renders and allows you to enter text 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-textCustomField2"
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=" formElementWithErrors"
+          data-cvent-id="contact-custom-field-textCustomField2"
+        >
+          <label
+            class="label"
+            for="textCustomField2"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="textCustomField2"
+                maxlength="16000"
+                name="textCustomField2"
+                required=""
+                style="border-color: #e75430; padding-right: 1.8em;"
+                type="text"
+                value="text answer"
+              />
+            </div>
+            <div
+              class=""
+              data-cvent-id="error-messages"
+              role="alert"
+            >
+              <div
+                class=""
+                data-cvent-id="error-message"
+                role="alert"
+              >
+                <div>
+                  <div>
+                    NucleusWidgets_Validations_CustomAnswerFormatCharacterPosition__resx:{"format":"999AAA?9"}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text custom field with custom answer format renders and allows you to enter text 3`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        data-cvent-id="contact-custom-field-textCustomField2"
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+          data-cvent-id="contact-custom-field-textCustomField2"
+        >
+          <label
+            class="label"
+            for="textCustomField2"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span />
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="textCustomField2"
+                maxlength="16000"
+                name="textCustomField2"
+                required=""
+                style="padding-right: 1.8em;"
+                type="text"
+                value="123ABC?5"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text custom field with custom answer format renders and allows you to enter text 4`] = `
+Object {
+  "personalInformation": Object {
+    "customFields": Object {
+      "textCustomField2": Object {
+        "answers": Array [
+          Object {
+            "answerType": "Text",
+            "text": "123ABC?5",
+          },
+        ],
+        "questionId": "textCustomField2",
+      },
+    },
+  },
+}
+`;

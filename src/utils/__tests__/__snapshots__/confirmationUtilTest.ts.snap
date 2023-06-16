@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test getPostRegPageGroupPagesForInvitee Invitee is accepted, post reg pages are all present 1`] = `
+Array [
+  Object {
+    "id": "confirmationPageId",
+    "name": "Confirmation Page",
+  },
+  Object {
+    "id": "otherPostRegPage1",
+    "name": "Other Post Reg Page 1",
+  },
+  Object {
+    "id": "otherPostRegPage2",
+    "name": "Other Post Reg Page 2",
+  },
+]
+`;
+
+exports[`Test getPostRegPageGroupPagesForInvitee Invitee is accepted, post reg pages are filtered for reg type 1`] = `
+Array [
+  Object {
+    "id": "confirmationPageId",
+    "name": "Confirmation Page",
+  },
+  Object {
+    "id": "otherPostRegPage2",
+    "name": "Other Post Reg Page 2",
+  },
+]
+`;
+
+exports[`Test getPostRegPageGroupPagesForInvitee Invitee is approval denied, approval denied page is the only post reg page 1`] = `
+Array [
+  Object {
+    "id": "registrationApprovalDeniedPageId",
+    "name": "Registration Approval Denied Page",
+  },
+]
+`;
+
+exports[`Test getPostRegPageGroupPagesForInvitee Invitee is pending approval, pending approval page is the only post reg page 1`] = `
+Array [
+  Object {
+    "id": "registrationPendingApprovalPageId",
+    "name": "Registration Pending Approval Page",
+  },
+]
+`;

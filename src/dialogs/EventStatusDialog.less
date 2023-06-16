@@ -1,0 +1,38 @@
+@import (reference) "~nucleus-core/less/MediaQuery.less";
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+@import "./styles/StandardDialog.less";
+
+.dialogContainer {
+  width: 43.75em;
+  max-height: 95vh;
+  .dialogMediaQuery();
+}
+
+.messageContainer {
+  padding: 4.375em 6.25em;
+  @media @medium {
+    padding: 2.1875em 3.125em;
+  }
+}
+
+.messageIcon {
+  margin-bottom: 50px;
+  @media @medium {
+    margin-bottom: 25px;
+  }
+}
+
+.message {
+  margin-bottom: 30px;
+  @media @medium {
+    margin-bottom: 15px;
+  }
+}
+
+.secondaryButton {
+  margin: 30px 10px 0 0;
+}
+
+.primaryButton {
+  margin: 30px 0 0 10px;
+}

@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SessionOverlapWarningDialog make sure close handler is set up 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>,
+]
+`;
+
+exports[`SessionOverlapWarningDialog matches snapshot when opened 1`] = `
+Array [
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                      >
+                        <h2
+                          class=""
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <p
+                        class=""
+                      >
+                        RegistrationProcess_Sessions_NoOverlapValidation__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+]
+`;

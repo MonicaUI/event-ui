@@ -1,0 +1,1617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlannerRegSessionsSelectionTest should render 1`] = `
+<div
+  className=" container"
+  style={Object {}}
+>
+  <div
+    className=""
+    data-cvent-id="sessions-list-container"
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "flex": "1 1 auto",
+        "pointerEvents": undefined,
+      }
+    }
+  >
+    <h2
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Header",
+        }
+      }
+      data-cvent-id="sessions-title"
+      style={Object {}}
+    />
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="sessions-text"
+      style={Object {}}
+    />
+    <div
+      className=""
+      data-cvent-id="timeZoneWidget"
+      style={Object {}}
+    >
+      <span
+        className="container"
+      >
+        <span
+          aria-hidden="true"
+          className="timeIconSize"
+          role="img"
+        />
+      </span>
+      Event_GuestSide_TimeZone_ViewText__resx
+      <span
+        className=""
+        data-cvent-id="switchButton"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <u>
+          Event_GuestSide_SwitchText__resx
+        </u>
+      </span>
+    </div>
+    <div
+      className=" container"
+      style={Object {}}
+    >
+      <div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="sessions-search"
+              style={Object {}}
+            >
+              <label
+                className="hidden filterLabel"
+                htmlFor="sessionNameSearch"
+                style={Object {}}
+              >
+                <span
+                  className=""
+                  style={Object {}}
+                >
+                  <span
+                    data-cvent-id="label"
+                  >
+                    SessionWidget_NameSearchBox_SearchSessions__resx
+                  </span>
+                </span>
+              </label>
+              <div
+                className="filterInputContainer"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  <input
+                    className="filterTextbox"
+                    data-cvent-id="input"
+                    disabled={false}
+                    id="sessionNameSearch"
+                    maxLength={30}
+                    name="sessionNameSearch"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="SessionWidget_NameSearchBox_SearchSessions__resx"
+                    readOnly={false}
+                    required={false}
+                    style={Object {}}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-cvent-id="sessions-list-Tue, 27 Feb 2018 00:00:00 GMT"
+      >
+        <div
+          className="row "
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              Tue, 27 Feb 2018 00:00:00 GMT
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-offset-0"
+          >
+            <form>
+              <fieldset>
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  <div
+                    className=""
+                    data-cvent-id="session-SessionGroup-date-time"
+                    style={Object {}}
+                  >
+                    <div
+                      className=""
+                      style={Object {}}
+                    />
+                    <div
+                      className=""
+                      style={Object {}}
+                    >
+                      00:00
+                    </div>
+                  </div>
+                </div>
+                <legend>
+                  <div
+                    className=""
+                    data-cvent-id="session-SessionGroup-name"
+                    style={Object {}}
+                  >
+                    Group
+                  </div>
+                </legend>
+                
+                <div
+                  className="row "
+                >
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+                  />
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+                    style={Object {}}
+                  >
+                    <div
+                      className=""
+                      style={Object {}}
+                    >
+                      <label
+                        className="labelOnTop"
+                        htmlFor="sessionSelector-SessionGroup"
+                        style={Object {}}
+                      >
+                        <span
+                          className=""
+                          style={Object {}}
+                        >
+                          <span
+                            data-cvent-id="label"
+                          >
+                            SessionGroupWidget_SelectSession_Instruction__resx
+                          </span>
+                        </span>
+                      </label>
+                      <div
+                        className=""
+                        style={Object {}}
+                      >
+                        <select
+                          className=""
+                          data-cvent-id="input"
+                          disabled={false}
+                          id="sessionSelector-SessionGroup"
+                          name="sessionSelector-SessionGroup"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={false}
+                          style={
+                            Object {
+                              "marginBottom": undefined,
+                              "marginTop": undefined,
+                            }
+                          }
+                          value={-1}
+                        >
+                          <option
+                            data-cvent-id="option-0"
+                            value="0"
+                          >
+                            
+                          </option>
+                          <option
+                            data-cvent-id="option-1"
+                            value="1"
+                          >
+                            Session in Group Closed
+                          </option>
+                          <option
+                            data-cvent-id="option-2"
+                            value="2"
+                          >
+                            Free Session in Group
+                          </option>
+                          <option
+                            data-cvent-id="option-3"
+                            value="3"
+                          >
+                            Session in Group
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+                  />
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        data-cvent-id="sessions-list-Fri, 27 Apr 2018 22:00:00 GMT"
+      >
+        <div
+          className="row "
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              Fri, 27 Apr 2018 22:00:00 GMT
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          data-cvent-id="session-FreeSession-section"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <div
+                className=""
+                data-cvent-id="session-FreeSession-date-time"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                />
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"22:00","endTime":"23:00"}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="session-FreeSession-name"
+              style={Object {}}
+            >
+              Free Session
+            </div>
+            <div
+              className=""
+              data-cvent-id="session-FreeSession-category-name"
+              style={Object {}}
+            >
+              Workshops
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span>
+                FS
+              </span>
+            </div>
+            
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div>
+              <div
+                className=""
+                data-cvent-id="session-FreeSession-capacity-fee"
+                style={Object {}}
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <div
+                aria-label="_sessionWidget_ariaTextForSelection:{\\"selectionText\\":\\"_sessionsWidget_select__resx\\",\\"ariaLabelText\\":\\"_sessionWidget_ariaLabelText:{\\\\\\"sessionName\\\\\\":\\\\\\"Free Session\\\\\\",\\\\\\"sessionDescription\\\\\\":\\\\\\"\\\\\\"}\\"}"
+                className=""
+                style={Object {}}
+              >
+                <button
+                  className="primary"
+                  data-cvent-id="select-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={Object {}}
+                  title="_sessionsWidget_select__resx"
+                  type="button"
+                >
+                   
+                  _sessionsWidget_select__resx
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          data-cvent-id="session-ClosedSession-section"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <div
+                className=""
+                data-cvent-id="session-ClosedSession-date-time"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                />
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"22:00","endTime":"23:00"}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="session-ClosedSession-name"
+              style={Object {}}
+            >
+              Closed Session
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span>
+                CS
+              </span>
+            </div>
+            
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div>
+              <div
+                className=""
+                data-cvent-id="session-ClosedSession-capacity-fee"
+                style={Object {}}
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <div
+                aria-label="_sessionWidget_ariaTextForSelection:{\\"selectionText\\":\\"_sessionsWidget_select__resx\\",\\"ariaLabelText\\":\\"_sessionWidget_ariaLabelText:{\\\\\\"sessionName\\\\\\":\\\\\\"Closed Session\\\\\\",\\\\\\"sessionDescription\\\\\\":\\\\\\"\\\\\\"}\\"}"
+                className=""
+                style={Object {}}
+              >
+                <button
+                  className="primary"
+                  data-cvent-id="select-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={Object {}}
+                  title="_sessionsWidget_select__resx"
+                  type="button"
+                >
+                   
+                  _sessionsWidget_select__resx
+                </button>
+              </div>
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span
+                className=""
+                style={Object {}}
+              >
+                EventWidgets_RegistrationProcess_Label_Closed__resx
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          data-cvent-id="session-FullSession-section"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <div
+                className=""
+                data-cvent-id="session-FullSession-date-time"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                />
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"22:00","endTime":"23:00"}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="session-FullSession-name"
+              style={Object {}}
+            >
+              Full Session
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span>
+                Full Session
+              </span>
+            </div>
+            
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div>
+              <div
+                className=""
+                data-cvent-id="session-FullSession-capacity-fee"
+                style={Object {}}
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <div
+                aria-label="_sessionWidget_ariaTextForSelection:{\\"selectionText\\":\\"_sessionsWidget_select__resx\\",\\"ariaLabelText\\":\\"_sessionWidget_ariaLabelText:{\\\\\\"sessionName\\\\\\":\\\\\\"Full Session\\\\\\",\\\\\\"sessionDescription\\\\\\":\\\\\\"\\\\\\"}\\"}"
+                className=""
+                style={Object {}}
+              >
+                <button
+                  className="primary"
+                  data-cvent-id="select-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={Object {}}
+                  title="_sessionsWidget_select__resx"
+                  type="button"
+                >
+                   
+                  _sessionsWidget_select__resx
+                </button>
+              </div>
+              <div
+                className=""
+                data-cvent-id="session-FullSession-capacity"
+                style={Object {}}
+              >
+                EventWebsite_SessionCapacity_CapacityFull__resx
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          data-cvent-id="session-SessionWithFee-section"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <div
+                className=""
+                data-cvent-id="session-SessionWithFee-date-time"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                />
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"22:00","endTime":"23:00"}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="session-SessionWithFee-name"
+              style={Object {}}
+            >
+              Session with Fee
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span>
+                SWF
+              </span>
+            </div>
+            
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div>
+              <div
+                className=""
+                data-cvent-id="session-SessionWithFee-capacity-fee"
+                style={Object {}}
+              >
+                100
+              </div>
+              <div
+                aria-label="_sessionWidget_ariaTextForSelection:{\\"selectionText\\":\\"_sessionsWidget_select__resx\\",\\"ariaLabelText\\":\\"_sessionWidget_ariaLabelText:{\\\\\\"sessionName\\\\\\":\\\\\\"Session with Fee\\\\\\",\\\\\\"sessionDescription\\\\\\":\\\\\\"\\\\\\"}\\"}"
+                className=""
+                style={Object {}}
+              >
+                <button
+                  className="primary"
+                  data-cvent-id="select-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={Object {}}
+                  title="_sessionsWidget_select__resx"
+                  type="button"
+                >
+                   
+                  _sessionsWidget_select__resx
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SessionsFilteringTest should render 1`] = `
+<div
+  className=" container"
+  style={Object {}}
+>
+  <div
+    className=""
+    data-cvent-id="sessions-list-container"
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "flex": "1 1 auto",
+        "pointerEvents": undefined,
+      }
+    }
+  >
+    <h2
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Header",
+        }
+      }
+      data-cvent-id="sessions-title"
+      style={Object {}}
+    />
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="sessions-text"
+      style={Object {}}
+    />
+    <div
+      className=""
+      data-cvent-id="timeZoneWidget"
+      style={Object {}}
+    >
+      <span
+        className="container"
+      >
+        <span
+          aria-hidden="true"
+          className="timeIconSize"
+          role="img"
+        />
+      </span>
+      Event_GuestSide_TimeZone_ViewText__resx
+      <span
+        className=""
+        data-cvent-id="switchButton"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <u>
+          Event_GuestSide_SwitchText__resx
+        </u>
+      </span>
+    </div>
+    <div
+      className=" container"
+      style={Object {}}
+    >
+      <div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="sessions-search"
+              style={Object {}}
+            >
+              <label
+                className="hidden filterLabel"
+                htmlFor="sessionNameSearch"
+                style={Object {}}
+              >
+                <span
+                  className=""
+                  style={Object {}}
+                >
+                  <span
+                    data-cvent-id="label"
+                  >
+                    SessionWidget_NameSearchBox_SearchSessions__resx
+                  </span>
+                </span>
+              </label>
+              <div
+                className="filterInputContainer"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  <input
+                    className="filterTextbox"
+                    data-cvent-id="input"
+                    disabled={false}
+                    id="sessionNameSearch"
+                    maxLength={30}
+                    name="sessionNameSearch"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="SessionWidget_NameSearchBox_SearchSessions__resx"
+                    readOnly={false}
+                    required={false}
+                    style={Object {}}
+                    type="text"
+                    value="Free"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-cvent-id="sessions-list-Tue, 27 Feb 2018 00:00:00 GMT"
+      >
+        <div
+          className="row "
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              Tue, 27 Feb 2018 00:00:00 GMT
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-offset-0"
+          >
+            <form>
+              <fieldset>
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  <div
+                    className=""
+                    data-cvent-id="session-SessionGroup-date-time"
+                    style={Object {}}
+                  >
+                    <div
+                      className=""
+                      style={Object {}}
+                    />
+                    <div
+                      className=""
+                      style={Object {}}
+                    >
+                      00:00
+                    </div>
+                  </div>
+                </div>
+                <legend>
+                  <div
+                    className=""
+                    data-cvent-id="session-SessionGroup-name"
+                    style={Object {}}
+                  >
+                    Group
+                  </div>
+                </legend>
+                
+                <div
+                  className="row "
+                >
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+                  />
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+                    style={Object {}}
+                  >
+                    <div
+                      className=""
+                      style={Object {}}
+                    >
+                      <label
+                        className="labelOnTop"
+                        htmlFor="sessionSelector-SessionGroup"
+                        style={Object {}}
+                      >
+                        <span
+                          className=""
+                          style={Object {}}
+                        >
+                          <span
+                            data-cvent-id="label"
+                          >
+                            SessionGroupWidget_SelectSession_Instruction__resx
+                          </span>
+                        </span>
+                      </label>
+                      <div
+                        className=""
+                        style={Object {}}
+                      >
+                        <select
+                          className=""
+                          data-cvent-id="input"
+                          disabled={false}
+                          id="sessionSelector-SessionGroup"
+                          name="sessionSelector-SessionGroup"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={false}
+                          style={
+                            Object {
+                              "marginBottom": undefined,
+                              "marginTop": undefined,
+                            }
+                          }
+                          value={-1}
+                        >
+                          <option
+                            data-cvent-id="option-0"
+                            value="0"
+                          >
+                            
+                          </option>
+                          <option
+                            data-cvent-id="option-1"
+                            value="1"
+                          >
+                            Free Session in Group
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+                  />
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        data-cvent-id="sessions-list-Fri, 27 Apr 2018 22:00:00 GMT"
+      >
+        <div
+          className="row "
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              Fri, 27 Apr 2018 22:00:00 GMT
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          data-cvent-id="session-FreeSession-section"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <div
+                className=""
+                data-cvent-id="session-FreeSession-date-time"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                />
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"22:00","endTime":"23:00"}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="session-FreeSession-name"
+              style={Object {}}
+            >
+              Free Session
+            </div>
+            <div
+              className=""
+              data-cvent-id="session-FreeSession-category-name"
+              style={Object {}}
+            >
+              Workshops
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span>
+                FS
+              </span>
+            </div>
+            
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div>
+              <div
+                className=""
+                data-cvent-id="session-FreeSession-capacity-fee"
+                style={Object {}}
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <div
+                aria-label="_sessionWidget_ariaTextForSelection:{\\"selectionText\\":\\"_sessionsWidget_select__resx\\",\\"ariaLabelText\\":\\"_sessionWidget_ariaLabelText:{\\\\\\"sessionName\\\\\\":\\\\\\"Free Session\\\\\\",\\\\\\"sessionDescription\\\\\\":\\\\\\"\\\\\\"}\\"}"
+                className=""
+                style={Object {}}
+              >
+                <button
+                  className="primary"
+                  data-cvent-id="select-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={Object {}}
+                  title="_sessionsWidget_select__resx"
+                  type="button"
+                >
+                   
+                  _sessionsWidget_select__resx
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SessionsSelectionTest should render 1`] = `
+<div
+  className=" container"
+  style={Object {}}
+>
+  <div
+    className=""
+    data-cvent-id="sessions-list-container"
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "flex": "1 1 auto",
+        "pointerEvents": undefined,
+      }
+    }
+  >
+    <h2
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Header",
+        }
+      }
+      data-cvent-id="sessions-title"
+      style={Object {}}
+    />
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="sessions-text"
+      style={Object {}}
+    />
+    <div
+      className=""
+      data-cvent-id="timeZoneWidget"
+      style={Object {}}
+    >
+      <span
+        className="container"
+      >
+        <span
+          aria-hidden="true"
+          className="timeIconSize"
+          role="img"
+        />
+      </span>
+      Event_GuestSide_TimeZone_ViewText__resx
+      <span
+        className=""
+        data-cvent-id="switchButton"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <u>
+          Event_GuestSide_SwitchText__resx
+        </u>
+      </span>
+    </div>
+    <div
+      className=" container"
+      style={Object {}}
+    >
+      <div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="sessions-search"
+              style={Object {}}
+            >
+              <label
+                className="hidden filterLabel"
+                htmlFor="sessionNameSearch"
+                style={Object {}}
+              >
+                <span
+                  className=""
+                  style={Object {}}
+                >
+                  <span
+                    data-cvent-id="label"
+                  >
+                    SessionWidget_NameSearchBox_SearchSessions__resx
+                  </span>
+                </span>
+              </label>
+              <div
+                className="filterInputContainer"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  <input
+                    className="filterTextbox"
+                    data-cvent-id="input"
+                    disabled={false}
+                    id="sessionNameSearch"
+                    maxLength={30}
+                    name="sessionNameSearch"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="SessionWidget_NameSearchBox_SearchSessions__resx"
+                    readOnly={false}
+                    required={false}
+                    style={Object {}}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-cvent-id="sessions-list-Tue, 27 Feb 2018 00:00:00 GMT"
+      >
+        <div
+          className="row "
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              Tue, 27 Feb 2018 00:00:00 GMT
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-offset-0"
+          >
+            <form>
+              <fieldset>
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  <div
+                    className=""
+                    data-cvent-id="session-SessionGroup-date-time"
+                    style={Object {}}
+                  >
+                    <div
+                      className=""
+                      style={Object {}}
+                    />
+                    <div
+                      className=""
+                      style={Object {}}
+                    >
+                      00:00
+                    </div>
+                  </div>
+                </div>
+                <legend>
+                  <div
+                    className=""
+                    data-cvent-id="session-SessionGroup-name"
+                    style={Object {}}
+                  >
+                    Group
+                  </div>
+                </legend>
+                
+                <div
+                  className="row "
+                >
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+                  />
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+                    style={Object {}}
+                  >
+                    <div
+                      className=""
+                      style={Object {}}
+                    >
+                      <label
+                        className="labelOnTop"
+                        htmlFor="sessionSelector-SessionGroup"
+                        style={Object {}}
+                      >
+                        <span
+                          className=""
+                          style={Object {}}
+                        >
+                          <span
+                            data-cvent-id="label"
+                          >
+                            SessionGroupWidget_SelectSession_Instruction__resx
+                          </span>
+                        </span>
+                      </label>
+                      <div
+                        className=""
+                        style={Object {}}
+                      >
+                        <select
+                          className=""
+                          data-cvent-id="input"
+                          disabled={false}
+                          id="sessionSelector-SessionGroup"
+                          name="sessionSelector-SessionGroup"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={false}
+                          style={
+                            Object {
+                              "marginBottom": undefined,
+                              "marginTop": undefined,
+                            }
+                          }
+                          value={-1}
+                        >
+                          <option
+                            data-cvent-id="option-0"
+                            value="0"
+                          >
+                            
+                          </option>
+                          <option
+                            data-cvent-id="option-1"
+                            value="1"
+                          >
+                            Free Session in Group
+                          </option>
+                          <option
+                            data-cvent-id="option-2"
+                            value="2"
+                          >
+                            Session in Group
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+                  />
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        data-cvent-id="sessions-list-Fri, 27 Apr 2018 22:00:00 GMT"
+      >
+        <div
+          className="row "
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              Fri, 27 Apr 2018 22:00:00 GMT
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          data-cvent-id="session-FreeSession-section"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <div
+                className=""
+                data-cvent-id="session-FreeSession-date-time"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                />
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"22:00","endTime":"23:00"}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="session-FreeSession-name"
+              style={Object {}}
+            >
+              Free Session
+            </div>
+            <div
+              className=""
+              data-cvent-id="session-FreeSession-category-name"
+              style={Object {}}
+            >
+              Workshops
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span>
+                FS
+              </span>
+            </div>
+            
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div>
+              <div
+                className=""
+                data-cvent-id="session-FreeSession-capacity-fee"
+                style={Object {}}
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <div
+                aria-label="_sessionWidget_ariaTextForSelection:{\\"selectionText\\":\\"_sessionsWidget_select__resx\\",\\"ariaLabelText\\":\\"_sessionWidget_ariaLabelText:{\\\\\\"sessionName\\\\\\":\\\\\\"Free Session\\\\\\",\\\\\\"sessionDescription\\\\\\":\\\\\\"\\\\\\"}\\"}"
+                className=""
+                style={Object {}}
+              >
+                <button
+                  className="primary"
+                  data-cvent-id="select-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={Object {}}
+                  title="_sessionsWidget_select__resx"
+                  type="button"
+                >
+                   
+                  _sessionsWidget_select__resx
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          data-cvent-id="session-FullSession-section"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <div
+                className=""
+                data-cvent-id="session-FullSession-date-time"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                />
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"22:00","endTime":"23:00"}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="session-FullSession-name"
+              style={Object {}}
+            >
+              Full Session
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span>
+                Full Session
+              </span>
+            </div>
+            
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div>
+              <div
+                className=""
+                data-cvent-id="session-FullSession-capacity"
+                style={Object {}}
+              >
+                EventWebsite_SessionCapacity_CapacityFull__resx
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row "
+          data-cvent-id="session-SessionWithFee-section"
+          style={
+            Object {
+              "borderColor": undefined,
+            }
+          }
+        >
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+          >
+            <div
+              className=""
+              style={Object {}}
+            >
+              <div
+                className=""
+                data-cvent-id="session-SessionWithFee-date-time"
+                style={Object {}}
+              >
+                <div
+                  className=""
+                  style={Object {}}
+                />
+                <div
+                  className=""
+                  style={Object {}}
+                >
+                  Widget_DateTimeWidget_TimeRangeText__resx:{"startTime":"22:00","endTime":"23:00"}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="session-SessionWithFee-name"
+              style={Object {}}
+            >
+              Session with Fee
+            </div>
+            <div
+              className=""
+              style={Object {}}
+            >
+              <span>
+                SWF
+              </span>
+            </div>
+            
+          </div>
+          <div
+            className="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            style={Object {}}
+          >
+            <div>
+              <div
+                className=""
+                data-cvent-id="session-SessionWithFee-capacity-fee"
+                style={Object {}}
+              >
+                100
+              </div>
+              <div
+                aria-label="_sessionWidget_ariaTextForSelection:{\\"selectionText\\":\\"_sessionsWidget_select__resx\\",\\"ariaLabelText\\":\\"_sessionWidget_ariaLabelText:{\\\\\\"sessionName\\\\\\":\\\\\\"Session with Fee\\\\\\",\\\\\\"sessionDescription\\\\\\":\\\\\\"\\\\\\"}\\"}"
+                className=""
+                style={Object {}}
+              >
+                <button
+                  className="primary"
+                  data-cvent-id="select-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={Object {}}
+                  title="_sessionsWidget_select__resx"
+                  type="button"
+                >
+                   
+                  _sessionsWidget_select__resx
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

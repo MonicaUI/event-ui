@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventHotelRequest should not render when air request is not enabled 1`] = `ShallowWrapper {}`;
+
+exports[`EventHotelRequest should produce props from state 1`] = `
+Object {
+  "children": <HotelsRequestWidget
+    accountHotelBillingInstructions={Array []}
+    admissionItemId="3349dc98-e303-4bf9-b698-e1bdae85f946"
+    attendeeRegTypeAndAdmItemIds={
+      Array [
+        "3349dc98-e303-4bf9-b698-e1bdae85f946",
+      ]
+    }
+    classes={Object {}}
+    derivedRoomRegTypeAssociations={Object {}}
+    dialogContainerStyle={
+      Object {
+        "backgroundColor": "#F33B15",
+        "borderRadius": 100,
+        "hover": Object {
+          "backgroundColor": "#F33B15",
+        },
+      }
+    }
+    displayPlannerFields={false}
+    event={
+      Object {
+        "products": Object {
+          "admissionItems": Object {
+            "3349dc98-e303-4bf9-b698-e1bdae85f946": Object {
+              "id": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+            },
+          },
+        },
+        "registrationTypes": Object {
+          "b8e50dbf-7437-4eec-a964-bc27d79d0372": Object {
+            "id": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          },
+        },
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    hotelRegRules={Array []}
+    hotelsData={
+      Object {
+        "hotelRequestRules": Array [],
+        "hotels": Array [
+          Object {
+            "address": "",
+            "allowRequestShoulderDays": true,
+            "arrivalDate": "2019-07-06T18:30:00.000Z",
+            "billingInstructionOverrides": Array [],
+            "billingInstructions": Array [],
+            "cancellationPolicy": "",
+            "checkInShoulderDays": 3,
+            "checkOutShoulderDays": 3,
+            "code": "",
+            "departureDate": "2019-07-07T18:30:00.000Z",
+            "description": "",
+            "distanceUnit": "kilometers",
+            "fax": "",
+            "hasBillingInstructions": false,
+            "hasPlannerApprovalShoulderDays": true,
+            "hasShoulderDays": true,
+            "hotelId": "9d4f772f-dd54-4e56-a436-d91aab911c9c",
+            "id": "5ea37a1e-299a-4dc9-b1bf-c0ef74379fe2",
+            "isActive": true,
+            "name": "aa",
+            "phone": "",
+            "rateCode": "",
+            "registrationLinkUrl": "",
+            "roomTypes": Array [
+              Object {
+                "associatedRegPathSettings": Object {
+                  "7121b5d7-604d-4e3f-9268-f85947d85337": Object {
+                    "allowCharge": false,
+                    "allowRefund": false,
+                    "regPathId": "7121b5d7-604d-4e3f-9268-f85947d85337",
+                  },
+                },
+                "code": "",
+                "description": "",
+                "id": "9a86e84a-9ca3-42f6-a0e3-e14df2ff2586",
+                "isCombinedRoom": false,
+                "isMultiOccupancyRoom": false,
+                "isOpenForRegistration": true,
+                "maxNumberOfRoomsPerRequest": 10,
+                "minNumberOfNights": 1,
+                "numberOfOccupantsPerRoom": 1,
+                "roomRate": Array [
+                  Object {
+                    "availableCapacity": 80,
+                    "capacityId": "7503df79-64a7-4152-9315-4f1d27c87206::9a86e84a-9ca3-42f6-a0e3-e14df2ff2586::00000000-0000-0000-0000-000000000000::20190704",
+                    "contactTypeId": "00000000-0000-0000-0000-000000000000",
+                    "hasCapacity": true,
+                    "isShoulderDate": true,
+                    "rate": 80,
+                    "roomRateDate": "2019-07-03T18:30:00.000Z",
+                  },
+                ],
+                "roomRateCalculationChoice": 1,
+                "roomTypeName": "aa",
+                "sortOrder": 1,
+              },
+            ],
+            "sortOrder": 1,
+            "sourceType": 1,
+            "websiteLink": "",
+            "websiteUrl": "",
+          },
+        ],
+        "isHotelRequestEnabled": true,
+        "isHotelWebsiteEnabled": false,
+        "isOwnAccommodation": Object {},
+        "isPasskeyEnabled": false,
+        "selectedRooms": Array [],
+      }
+    }
+    isGroupRegistration={false}
+    isPendingInvitee={false}
+    isPlanner={false}
+    isRegMod={false}
+    isRegistrationActionDisabled={false}
+    isSiteEditorPreview={false}
+    onClearRoomSelection={[Function]}
+    onRequestShoulderDatesRequiringApproval={[Function]}
+    onRoommateCriteriaChange={[Function]}
+    onRoommateSearch={[Function]}
+    onSubmitRoomRequest={[Function]}
+    registrationPathId="b8e50dbf-7437-4eec-a964-bc27d79d0373"
+    registrationTypeId="b8e50dbf-7437-4eec-a964-bc27d79d0372"
+    registrations={
+      Object {
+        "guests": Array [],
+        "primary": Object {
+          "eventRegistrationId": "123456789",
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+        },
+      }
+    }
+    roommateRequestSettings={
+      Object {
+        "allowRequestFullRoom": true,
+        "allowRoommatePreference": true,
+        "roommatePreferenceOption": "visible",
+      }
+    }
+    setAnotherHotelRequestFlag={[Function]}
+    showHotelRequestSummaryView={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    style={Object {}}
+    toggleOwnAccommodation={[Function]}
+    translate={[Function]}
+    translateCurrency={[Function]}
+    translateDate={[Function]}
+    updateExpandedHotels={[Function]}
+  />,
+  "value": null,
+}
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExternalAuthClient.createInvitee matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "\\"contactStub\\"",
+    "_bodyText": "\\"contactStub\\"",
+    "credentials": "omit",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/reg/event-external-authentication/v1/eventId/invitee?environment=dev&rp=regPathId",
+  },
+]
+`;
+
+exports[`ExternalAuthClient.createInvitee matches snapshot 2`] = `
+Object {
+  "inviteeId": "inviteeId",
+}
+`;
+
+exports[`ExternalAuthClient.updateContact matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "\\"contactStub\\"",
+    "_bodyText": "\\"contactStub\\"",
+    "credentials": "omit",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/reg/event-external-authentication/v1/eventId/contact?environment=dev",
+  },
+]
+`;
+
+exports[`ExternalAuthClient.updateContact matches snapshot 2`] = `undefined`;

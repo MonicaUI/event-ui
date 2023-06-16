@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubstituteRegistrationWidget Checking if it is rendering properly 1`] = `
+<div>
+  <div
+    className=""
+    data-cvent-id="widget-button"
+    style={
+      Object {
+        "flex": "1 1 auto",
+        "pointerEvents": undefined,
+      }
+    }
+  >
+    <div
+      className=""
+      style={
+        Object {
+          "textAlign": undefined,
+        }
+      }
+    >
+      <button
+        className=""
+        disabled={false}
+        onClick={[Function]}
+        style={Object {}}
+        type="button"
+      >
+        <span
+          className=""
+          style={Object {}}
+        >
+          Transfer Registration
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SubstituteRegistrationWidget Show hover message when widget is disabled 1`] = `
+<div>
+  <div
+    className=""
+    onKeyDown={[Function]}
+    style={Object {}}
+  >
+    <span
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className=""
+        data-cvent-id="widget-button"
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <div
+          className=""
+          style={
+            Object {
+              "textAlign": undefined,
+            }
+          }
+        >
+          <button
+            className=""
+            disabled={true}
+            onClick={[Function]}
+            style={Object {}}
+            type="button"
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              Transfer Registration
+            </span>
+          </button>
+        </div>
+      </div>
+    </span>
+    <span
+      className="mockNucleusCoreTransition"
+    />
+  </div>
+</div>
+`;
+
+exports[`SubstituteRegistrationWidget Test button click 1`] = `
+<div>
+  <div
+    class=""
+    data-cvent-id="widget-button"
+    style="flex: 1 1 auto;"
+  >
+    <div
+      class=""
+    >
+      <button
+        class=""
+        type="button"
+      >
+        <span
+          class=""
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+/*
+ * To avoid the varying/customizable font sizes to change the margins and paddings,
+ * they are in px and not in ems.
+ */
+ @import "~nucleus-core/less/MediaQuery.less";
+@import "../shared/Confirmation.less";
+ @import (reference) '~nucleus-core/less/Utility.less';
+ @import (reference) "~event-widgets/shared-styles/Utility.less";
+
+ .dialogContainer {
+   width: 48em;
+   min-height: 32vh;
+   max-height: 60vh;
+   .dialogMediaQuery();
+ }
+
+
+

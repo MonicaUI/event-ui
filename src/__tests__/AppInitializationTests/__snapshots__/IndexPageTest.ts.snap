@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows the default page when no specific page is requested 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="container"
+      style="background-color: rgb(4, 21, 50); border-radius: 0;"
+    >
+      <div
+        style="max-width: 1024px; margin: auto;"
+      >
+        <div>
+          <div>
+            <div>
+              <div
+                role="banner"
+              >
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  container:7162204f-7d0c-4be9-ad13-3fe7dec332bd
+                </div>
+              </div>
+              <div
+                id="main"
+                role="main"
+                tabindex="-1"
+              >
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  id-0
+                </div>
+              </div>
+              <div
+                class="mockReadOnlyContent"
+              >
+                container:8471fca9-0b98-41df-81a4-a2b5944629a1
+              </div>
+            </div>
+            <div
+              role="contentinfo"
+            >
+              <div
+                class="mockReadOnlyContent"
+              >
+                CventFooterContainer
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div />
+</div>
+`;

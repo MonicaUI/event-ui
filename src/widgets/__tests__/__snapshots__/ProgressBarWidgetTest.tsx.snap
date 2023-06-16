@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar produces props from state should match 1`] = `
+Object {
+  "children": <WithFormProgressBarWidget
+    classes={Object {}}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+  />,
+}
+`;

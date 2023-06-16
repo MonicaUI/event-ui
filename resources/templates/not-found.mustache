@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="{{vars.errorInformation.lang}}">
+<head>
+    <title>{{vars.errorInformation.pageTitle}}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link nonce="{{vars.nonce}}" rel="icon" type="image/png" href="{{vars.assetRoot}}images/favicon.v1.ico">
+    {{#webpackCss}}
+    {{{.}}}
+    {{/webpackCss}}
+</head>
+<body>
+  <main>
+    <section class="messageContainer">
+      <i class="icon icon-event"></i>
+      <h1 id="message" class="message">{{vars.errorInformation.title}}</h1>
+      <p id="subMessage" class="subMessage">{{vars.errorInformation.message}}</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <!-- NOTE: match event-widget/lib/Footer, as of 2017/04: 4 links, no logo -->
+    <div class="footer-container">
+      <ul class="footer-footer">
+        <li class="footer-list">
+          <a class="footer-link" href="http://www.cvent.com/" target="_blank">
+            {{vars.errorInformation.eventManagementSoftware}}
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="http://www.inquisium.com/" target="_blank">
+            {{vars.errorInformation.surveySoftware}}
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="http://www.cvent.com/rfp/hotels" target="_blank">
+            {{vars.errorInformation.eventVenues}}
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="http://www.cvent.com/en/privacy-policy.shtml" target="_blank">
+            {{vars.errorInformation.privacyPolicy}}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

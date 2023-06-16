@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Virtual Details Invitee Widget matches snapshot 1`] = `
+<div
+  class=""
+  style="flex: 1 1 auto;"
+>
+  <div
+    class=""
+  >
+    <p>
+      EventGuestSide_VirtualDetails_JoiningInvitee__resx:{"fullName":"EventWidgets_InviteeName__resx:{\\"firstName\\":\\"test\\",\\"lastName\\":\\"test\\"}"}
+    </p>
+  </div>
+</div>
+`;

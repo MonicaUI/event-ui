@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for SubmitPaymentWidget Checking if it is rendering properly: Widget Renders 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+      style="flex: 1 1 auto;"
+    >
+      <div
+        class=""
+      >
+        <button
+          class=""
+          type="button"
+        >
+          <span
+            class=""
+          >
+            text
+          </span>
+        </button>
+      </div>
+      <div
+        class=""
+      >
+        <a
+          class=""
+          href="#"
+        >
+          text
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

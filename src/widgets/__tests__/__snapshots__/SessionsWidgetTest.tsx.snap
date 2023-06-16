@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SessionWidget should render 1`] = `
+Array [
+  <div
+    class=" container"
+  >
+    <div
+      class=""
+      data-cvent-id="sessionBundles-list-container"
+      style="flex: 1 1 auto;"
+    >
+      <h2
+        class=""
+        data-cvent-id="sessionBundles-header"
+      >
+        Header Text
+      </h2>
+      <div
+        class=""
+        data-cvent-id="sessionBundles-instructional-text"
+      >
+        <div
+          class=""
+        >
+          Instructional Text
+        </div>
+      </div>
+      <ul
+        class=""
+        data-cvent-id="sessionBundles-item-list"
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="sessionBundles"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="sessionBundles-name"
+              >
+                <div
+                  class=""
+                >
+                  Session Bundle
+                </div>
+              </div>
+              <div
+                class=""
+                data-cvent-id="sessionBundles-code"
+              >
+                <div
+                  class=""
+                >
+                  some code
+                </div>
+              </div>
+              <div
+                class=""
+                data-cvent-id="sessionBundles-description"
+              >
+                <div
+                  class=""
+                  data-cvent-id="sessionBundles-description"
+                >
+                  This is a description of the session bundle
+                </div>
+              </div>
+              <div
+                class=""
+                data-cvent-id="sessionBundles-includedSessionsLink"
+              >
+                <div
+                  class=""
+                >
+                  <a
+                    class=""
+                    href="#"
+                  >
+                    EventWidgets_SessionBundles_DefaultIncludedSessionsLinkText__resx
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="sessionBundles-fees"
+              >
+                <div
+                  class=""
+                  data-cvent-id="sessionBundles-fees"
+                >
+                  EventWidgets_Products_Free__resx
+                </div>
+              </div>
+              <button
+                class="secondary"
+                data-cvent-id="sessionBundles-select-button"
+                title="_sessionsWidget_select__resx"
+                type="button"
+              >
+                 
+                _sessionsWidget_select__resx
+              </button>
+              <div
+                class=""
+                data-cvent-id="sessionBundles"
+              >
+                <div
+                  class=""
+                >
+                  EventWebsite_SessionCapacity_Remaining__resx:{"numberRemaining":50}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class=""
+      data-cvent-id="sessions-list-container"
+      style="flex: 1 1 auto;"
+    >
+      <h2
+        class=""
+        data-cvent-id="sessions-title"
+      >
+        Header
+      </h2>
+      <div
+        class=""
+        data-cvent-id="sessions-text"
+      >
+        Instructional text
+      </div>
+      <div
+        class=""
+        data-cvent-id="timeZoneWidget"
+      >
+        <span
+          class="container"
+        >
+          <span
+            aria-hidden="true"
+            class="timeIconSize"
+            role="img"
+          />
+        </span>
+        Event_GuestSide_TimeZone_ViewText__resx
+        <span
+          class=""
+          data-cvent-id="switchButton"
+          role="button"
+          tabindex="0"
+        >
+          <u>
+            Event_GuestSide_SwitchText__resx
+          </u>
+        </span>
+      </div>
+      <div
+        class=" container"
+      >
+        <div
+          data-cvent-id="sessions-list-undefined"
+        >
+          <div
+            class="row "
+          >
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+              >
+                undefined
+              </div>
+            </div>
+          </div>
+          <div
+            class="row "
+            data-cvent-id="session-2f7209f5-e42b-4792-b6fd-504873b46707-section"
+          >
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                  data-cvent-id="session-2f7209f5-e42b-4792-b6fd-504873b46707-date-time"
+                >
+                  <div
+                    class=""
+                  />
+                  <div
+                    class=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+                data-cvent-id="session-2f7209f5-e42b-4792-b6fd-504873b46707-name"
+              >
+                Session 1
+              </div>
+              <div
+                class=""
+                data-cvent-id="session-2f7209f5-e42b-4792-b6fd-504873b46707-category-name"
+              >
+                Workshops
+              </div>
+              <div
+                class=""
+              >
+                <span>
+                  SESS1
+                </span>
+              </div>
+              
+            </div>
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            >
+              <div>
+                <div
+                  class=""
+                  data-cvent-id="session-2f7209f5-e42b-4792-b6fd-504873b46707-capacity"
+                >
+                  EventWebsite_SessionCapacity_CapacityFull__resx
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row "
+            data-cvent-id="session-333e1842-b448-46d1-8aeb-5b74a7c72bb7-section"
+          >
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                  data-cvent-id="session-333e1842-b448-46d1-8aeb-5b74a7c72bb7-date-time"
+                >
+                  <div
+                    class=""
+                  />
+                  <div
+                    class=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+                data-cvent-id="session-333e1842-b448-46d1-8aeb-5b74a7c72bb7-name"
+              >
+                Session 3
+              </div>
+              <div
+                class=""
+              >
+                <span>
+                  SESS3
+                </span>
+              </div>
+              
+            </div>
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            >
+              <div>
+                <div
+                  class=""
+                  data-cvent-id="session-333e1842-b448-46d1-8aeb-5b74a7c72bb7-capacity"
+                >
+                  EventWebsite_SessionCapacity_CapacityFull__resx
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row "
+            data-cvent-id="session-133ece28-1582-4205-af64-f7fb431a76e8-section"
+          >
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                  data-cvent-id="session-133ece28-1582-4205-af64-f7fb431a76e8-date-time"
+                >
+                  <div
+                    class=""
+                  />
+                  <div
+                    class=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+                data-cvent-id="session-133ece28-1582-4205-af64-f7fb431a76e8-name"
+              >
+                Session 4
+              </div>
+              
+            </div>
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            >
+              <div>
+                <div
+                  class=""
+                  data-cvent-id="session-133ece28-1582-4205-af64-f7fb431a76e8-capacity"
+                >
+                  EventWebsite_SessionCapacity_CapacityFull__resx
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row "
+            data-cvent-id="session-22b2fa58-a446-46cd-8888-2720925fb669-section"
+          >
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class=""
+                  data-cvent-id="session-22b2fa58-a446-46cd-8888-2720925fb669-date-time"
+                >
+                  <div
+                    class=""
+                  />
+                  <div
+                    class=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-7 col-md-offset-0 col-lg-offset-0"
+            >
+              <div
+                class=""
+                data-cvent-id="session-22b2fa58-a446-46cd-8888-2720925fb669-name"
+              >
+                Session 2
+                <div
+                  class=""
+                  data-cvent-id="session-22b2fa58-a446-46cd-8888-2720925fb669-virtualIdentifier"
+                >
+                  <span
+                    class=""
+                  >
+                    EventWidgets_Sessions_VideoSettings__resx
+                  </span>
+                </div>
+              </div>
+              <div
+                class=""
+                data-cvent-id="session-22b2fa58-a446-46cd-8888-2720925fb669-category-name"
+              >
+                Workshops
+              </div>
+              <div
+                class=""
+              >
+                <span>
+                  SESS2
+                </span>
+              </div>
+              
+            </div>
+            <div
+              class="col   col-xs-offset-0 col-sm-offset-0 col-md-2 col-md-offset-0 col-lg-offset-0"
+            >
+              <div>
+                <div
+                  aria-label="_sessionWidget_ariaTextForSelection:{\\"selectionText\\":\\"_sessionsWidget_selected__resx\\",\\"ariaLabelText\\":\\"_sessionWidget_ariaLabelText:{\\\\\\"sessionName\\\\\\":\\\\\\"Session 2\\\\\\",\\\\\\"sessionDescription\\\\\\":\\\\\\"\\\\\\"}\\"}"
+                  class=""
+                >
+                  <button
+                    class="secondary"
+                    data-cvent-id="selected-button"
+                    title="_sessionsWidget_selected__resx"
+                    type="button"
+                  >
+                     
+                    _sessionsWidget_selected__resx
+                  </button>
+                </div>
+                <div
+                  class=""
+                  data-cvent-id="session-22b2fa58-a446-46cd-8888-2720925fb669-capacity"
+                >
+                  EventWebsite_SessionCapacity_CapacityFull__resx
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

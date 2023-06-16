@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigatorWidget should render 1`] = `
+<div
+  class=""
+  style="flex: 1 1 auto;"
+>
+  <ul
+    class=""
+  >
+    <li
+      class=""
+    >
+      <button
+        class=""
+        id="exit"
+        type="button"
+      >
+        Cancel
+      </button>
+    </li>
+    <li
+      class=""
+    >
+      <button
+        class=""
+        id="forward"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</div>
+`;

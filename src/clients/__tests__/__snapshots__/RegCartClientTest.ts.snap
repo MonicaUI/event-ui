@@ -1,0 +1,1330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegCartClient.calculateRegCartPricing matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"fakePaymentInfo\\":true}",
+    "_bodyText": "{\\"fakePaymentInfo\\":true}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId/pricing?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.calculateRegCartPricing matches snapshot 2`] = `
+Object {
+  "fakePricingResult": true,
+}
+`;
+
+exports[`RegCartClient.createCancelRegistrationCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{}",
+    "_bodyText": "{}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/cancel?environment=dev&inviteeId=&confirmationNumber=&eventId=&performedByContactId=",
+  },
+]
+`;
+
+exports[`RegCartClient.createCancelRegistrationCart matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answer": Object {},
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answer": Object {},
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.createDeclineRegistrationCart with inviteeId matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/decline?eventId=event-Id&inviteeId=invitee-Id&registrationTypeId=&environment=dev&sendEmail=false&referenceId=&localeId=",
+  },
+]
+`;
+
+exports[`RegCartClient.createDeclineRegistrationCart with inviteeId matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.createDeclineRegistrationCart with registrationTypeId matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/decline?eventId=event-Id&inviteeId=&registrationTypeId=registrationTypeId&environment=dev&sendEmail=false&referenceId=&localeId=",
+  },
+]
+`;
+
+exports[`RegCartClient.createDeclineRegistrationCart with registrationTypeId matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.createRegCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventRegistrations\\":[{\\"eventRegistrationId\\":\\"er1\\",\\"attendee\\":{\\"eventAnswers\\":[{\\"questionId\\":\\"q1\\",\\"answers\\":[]}],\\"personalInformation\\":{\\"customFields\\":[{\\"questionId\\":\\"q2\\",\\"answers\\":[]}]}}}]}",
+    "_bodyText": "{\\"eventRegistrations\\":[{\\"eventRegistrationId\\":\\"er1\\",\\"attendee\\":{\\"eventAnswers\\":[{\\"questionId\\":\\"q1\\",\\"answers\\":[]}],\\"personalInformation\\":{\\"customFields\\":[{\\"questionId\\":\\"q2\\",\\"answers\\":[]}]}}}]}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart?contactId=contactId&inviteeId=&adminId=&isContactWebsite=&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.createRegCart matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.createRegCartFromLink matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/link?inviteeId=inviteeId&environment=dev&registrationTypeId=&registrationPathId=",
+  },
+]
+`;
+
+exports[`RegCartClient.createRegCart request with snapshot versions matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"embeddedRegistration\\":true,\\"eventRegistrations\\":[{\\"eventRegistrationId\\":\\"er1\\",\\"attendee\\":{\\"personalInformation\\":{\\"customFields\\":[]},\\"eventAnswers\\":[]}}]}",
+    "_bodyText": "{\\"embeddedRegistration\\":true,\\"eventRegistrations\\":[{\\"eventRegistrationId\\":\\"er1\\",\\"attendee\\":{\\"personalInformation\\":{\\"customFields\\":[]},\\"eventAnswers\\":[]}}]}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "account-snapshot-version": "acctSnapVersion",
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "event-snapshot-versions": "{\\"eventId\\":\\"evtSnapVersion\\"}",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart?contactId=&inviteeId=&adminId=&isContactWebsite=&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.createRegCartFromLink matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.createRegModCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{}",
+    "_bodyText": "{}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/mod?environment=dev&inviteeId=&confirmationNumber=&eventId=&performedByContactId=",
+  },
+]
+`;
+
+exports[`RegCartClient.createRegModCart matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answer": Object {},
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answer": Object {},
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.createTestModeRegCartFromLink matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/link?eventId=inviteeId&performTest=true&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.createTestModeRegCartFromLink matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": Array [],
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": Array [],
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.createWaitlistRegistrationCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/waitlist?eventId=event-Id&inviteeId=invitee-Id&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.createWaitlistRegistrationCart matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.evaluateVisibilityLogic matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"b42bf35f-7c18-4f56-a4ca-b04b91bd0c41\\":{\\"questionIds\\":[\\"81da10b1-93aa-4d3e-bd8b-2627479057f9\\",\\"7fb1deb8-aa4d-4dee-9a05-6613cb2bdc6c\\"],\\"answers\\":[{\\"questionId\\":\\"f2d06883-e9e1-4f94-a265-e5f60028e038\\",\\"answers\\":null},{\\"questionId\\":\\"ab7c8aee-ac28-4b1c-949a-e9c607efb067\\",\\"answers\\":[{\\"answerType\\":\\"Text\\",\\"answer\\":\\"yeet\\"}]}]}}",
+    "_bodyText": "{\\"b42bf35f-7c18-4f56-a4ca-b04b91bd0c41\\":{\\"questionIds\\":[\\"81da10b1-93aa-4d3e-bd8b-2627479057f9\\",\\"7fb1deb8-aa4d-4dee-9a05-6613cb2bdc6c\\"],\\"answers\\":[{\\"questionId\\":\\"f2d06883-e9e1-4f94-a265-e5f60028e038\\",\\"answers\\":null},{\\"questionId\\":\\"ab7c8aee-ac28-4b1c-949a-e9c607efb067\\",\\"answers\\":[{\\"answerType\\":\\"Text\\",\\"answer\\":\\"yeet\\"}]}]}}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v2/regcart/regCartId/questions/visibility?eventId=eventId&snapshotVersion=eventSnapshotVersion&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.evaluateVisibilityLogic matches snapshot 2`] = `
+Object {
+  "b42bf35f-7c18-4f56-a4ca-b04b91bd0c41": Object {
+    "7fb1deb8-aa4d-4dee-9a05-6613cb2bdc6c": false,
+    "81da10b1-93aa-4d3e-bd8b-2627479057f9": true,
+  },
+}
+`;
+
+exports[`RegCartClient.getCapacitySummaries matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "[\\"11111111-1111-1111-1111-1111111111\\",\\"11111111-2222-3333-4444-555555555555\\"]",
+    "_bodyText": "[\\"11111111-1111-1111-1111-1111111111\\",\\"11111111-2222-3333-4444-555555555555\\"]",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/capacity/regCartId?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.getCapacitySummaries matches snapshot 2`] = `
+Object {
+  "11111111-1111-1111-1111-1111111111": Object {
+    "active": true,
+    "availableCapacity": 1,
+    "capacityId": "11111111-2222-3333-4444-555555555555::00000000-0000-0000-0000-000000000000",
+    "totalCapacityAvailable": 2,
+  },
+  "11111111-2222-3333-4444-555555555555": Object {
+    "active": true,
+    "availableCapacity": 1,
+    "capacityId": "11111111-2222-3333-4444-555555555555",
+    "totalCapacityAvailable": 2,
+  },
+}
+`;
+
+exports[`RegCartClient.getCapacitySummariesOnPageLoad matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "[\\"11111111-1111-1111-1111-1111111111\\",\\"11111111-2222-3333-4444-555555555555\\"]",
+    "_bodyText": "[\\"11111111-1111-1111-1111-1111111111\\",\\"11111111-2222-3333-4444-555555555555\\"]",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/capacity/regCartId?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.getCapacitySummariesOnPageLoad matches snapshot 2`] = `
+Object {
+  "11111111-1111-1111-1111-1111111111": Object {
+    "active": true,
+    "availableCapacity": 1,
+    "capacityId": "11111111-2222-3333-4444-555555555555::00000000-0000-0000-0000-000000000000",
+    "totalCapacityAvailable": 2,
+  },
+  "11111111-2222-3333-4444-555555555555": Object {
+    "active": true,
+    "availableCapacity": 1,
+    "capacityId": "11111111-2222-3333-4444-555555555555",
+    "totalCapacityAvailable": 2,
+  },
+}
+`;
+
+exports[`RegCartClient.getRegCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+        "pragma": "no-cache",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.getRegCart matches snapshot 2`] = `
+Object {
+  "eventRegistrations": Object {
+    "er1": Object {
+      "attendee": Object {
+        "eventAnswers": Object {
+          "q1": Object {
+            "answers": null,
+            "questionId": "q1",
+          },
+        },
+        "personalInformation": Object {
+          "customFields": Object {
+            "q2": Object {
+              "answers": null,
+              "questionId": "q2",
+            },
+          },
+        },
+      },
+      "eventRegistrationId": "er1",
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.identifyByConfirm matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"confirmationNumber\\":\\"FAKECONFNUM\\"}",
+    "_bodyText": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"confirmationNumber\\":\\"FAKECONFNUM\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/identifyByConfirm?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.identifyByConfirm matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answer": Object {},
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answer": Object {},
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.initiateRegModAsync matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/mod/async?environment=dev&inviteeId=inviteeId&confirmationNumber=confirmationNumber&eventId=eventId&performedByContactId=performedByContactId",
+  },
+]
+`;
+
+exports[`RegCartClient.initiateRegModAsync matches snapshot 2`] = `"newRegCartId"`;
+
+exports[`RegCartClient.resumePartialRegCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "\\"regCartId2\\"",
+    "_bodyText": "\\"regCartId2\\"",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/partial-regcart/regCartId/resume?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.resumePartialRegCart matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.searchPartialRegCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventRegistrations\\":[{\\"eventRegistrationId\\":\\"er1\\",\\"attendee\\":{\\"eventAnswers\\":[{\\"questionId\\":\\"q1\\",\\"answers\\":[]}],\\"personalInformation\\":{\\"customFields\\":[{\\"questionId\\":\\"q2\\",\\"answers\\":null}]}}}]}",
+    "_bodyText": "{\\"eventRegistrations\\":[{\\"eventRegistrationId\\":\\"er1\\",\\"attendee\\":{\\"eventAnswers\\":[{\\"questionId\\":\\"q1\\",\\"answers\\":[]}],\\"personalInformation\\":{\\"customFields\\":[{\\"questionId\\":\\"q2\\",\\"answers\\":null}]}}}]}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/partial-regcart?environment=dev&isPreview=false&isAbandonedResumed=",
+  },
+]
+`;
+
+exports[`RegCartClient.searchPartialRegCart matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.startRegCartCheckout matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"fakePaymentInfo\\":true}",
+    "_bodyText": "{\\"fakePaymentInfo\\":true}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v2/regcart/regCartId/checkout?environment=dev&dequeueTimeout=2000",
+  },
+]
+`;
+
+exports[`RegCartClient.startRegCartCheckout matches snapshot 2`] = `
+Object {
+  "fakeStartCheckoutResult": true,
+}
+`;
+
+exports[`RegCartClient.updatePaymentCreditsInCart matched snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/reg-cart-id/updatePaymentCredits?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.updatePaymentCreditsInCart matched snapshot 2`] = `
+Object {
+  "eventRegistrations": Object {
+    "er1": Object {
+      "attendee": Object {
+        "availablePaymentCredits": 90,
+        "eventAnswers": Object {
+          "q1": Object {
+            "answers": null,
+            "questionId": "q1",
+          },
+        },
+        "personalInformation": Object {
+          "customFields": Object {
+            "q2": Object {
+              "answers": null,
+              "questionId": "q2",
+            },
+          },
+        },
+      },
+      "eventRegistrationId": "er1",
+    },
+  },
+  "regCartId": "reg-cart-id",
+}
+`;
+
+exports[`RegCartClient.updateRegCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventRegistrations\\":[{\\"eventRegistrationId\\":\\"er1\\",\\"attendee\\":{\\"eventAnswers\\":[{\\"questionId\\":\\"q1\\",\\"answers\\":[]}],\\"personalInformation\\":{\\"customFields\\":[{\\"questionId\\":\\"q2\\",\\"answers\\":null}]}}}]}",
+    "_bodyText": "{\\"eventRegistrations\\":[{\\"eventRegistrationId\\":\\"er1\\",\\"attendee\\":{\\"eventAnswers\\":[{\\"questionId\\":\\"q1\\",\\"answers\\":[]}],\\"personalInformation\\":{\\"customFields\\":[{\\"questionId\\":\\"q2\\",\\"answers\\":null}]}}}]}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/undefined?environment=dev&linkedInviteeIdToRemove=inviteeId",
+  },
+]
+`;
+
+exports[`RegCartClient.updateRegCart matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.updateRegCartQuantityItemRegistrations matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventRegistrationId\\":\\"er1\\",\\"quantityItemId\\":\\"quantityItemId1\\",\\"quantity\\":3}",
+    "_bodyText": "{\\"eventRegistrationId\\":\\"er1\\",\\"quantityItemId\\":\\"quantityItemId1\\",\\"quantity\\":3}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId/productRegistrations/quantityItem?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.updateRegCartQuantityItemRegistrations matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+        "quantityItemRegistrations": Object {
+          "quantityItemId1": Object {
+            "productId": "quantityItemId1",
+            "quantity": 3,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.updateRegCartSessionRegistrations matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventRegistrationId\\":\\"er1\\",\\"productId\\":\\"sessionId1\\",\\"requestedAction\\":\\"REGISTER\\",\\"registrationSourceType\\":\\"Selected\\"}",
+    "_bodyText": "{\\"eventRegistrationId\\":\\"er1\\",\\"productId\\":\\"sessionId1\\",\\"requestedAction\\":\\"REGISTER\\",\\"registrationSourceType\\":\\"Selected\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId/productRegistrations/sessions?environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.updateRegCartSessionRegistrations matches snapshot 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answers": null,
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answers": null,
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+        "sessionRegistrations": Object {
+          "sessionId1": Object {
+            "productId": "sessionId1",
+            "requestedAction": "REGISTER",
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`RegCartClient.waitForRegCartCheckoutCompletion matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId/status?waitForInviteeIngestion=true&attemptNumber=1&ts=2234&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.waitForRegCartCheckoutCompletion matches snapshot 2`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId/status?waitForInviteeIngestion=true&attemptNumber=2&ts=3234&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.waitForRegCartCheckoutCompletion matches snapshot 3`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId/status?waitForInviteeIngestion=true&attemptNumber=3&ts=4234&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.waitForRegCartCheckoutCompletion matches snapshot 4`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId/status?waitForInviteeIngestion=true&attemptNumber=4&ts=5234&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.waitForRegCartCheckoutCompletion matches snapshot 5`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/regBase/registration/v1/regcart/regCartId/status?waitForInviteeIngestion=true&attemptNumber=5&ts=6234&environment=dev",
+  },
+]
+`;
+
+exports[`RegCartClient.waitForRegCartCheckoutCompletion matches snapshot 6`] = `
+Object {
+  "statusCode": "COMPLETED",
+}
+`;
+
+exports[`Tests convertRegCart with added, then removed file upload answer 1`] = `
+Object {
+  "eventRegistrations": Array [
+    Object {
+      "attendee": Object {
+        "eventAnswers": Array [
+          Object {
+            "answers": Array [],
+            "questionId": "q1",
+          },
+        ],
+        "personalInformation": Object {
+          "customFields": Array [
+            Object {
+              "answers": null,
+              "questionId": "q2",
+            },
+          ],
+        },
+      },
+      "eventRegistrationId": "er1",
+    },
+  ],
+}
+`;
+
+exports[`Tests convertRegCart with new file upload and profile image answers 1`] = `
+Object {
+  "eventRegistrations": Array [
+    Object {
+      "attendee": Object {
+        "eventAnswers": Array [
+          Object {
+            "answers": Array [
+              Object {
+                "uRL": "https%3A%2F%2Ffile.com",
+              },
+            ],
+            "questionId": "q1",
+          },
+        ],
+        "personalInformation": Object {
+          "customFields": Array [
+            Object {
+              "answers": null,
+              "questionId": "q2",
+            },
+          ],
+          "profileImage": Object {
+            "imageUri": "https%3A%2F%2Fimg-src.com",
+          },
+        },
+      },
+      "eventRegistrationId": "er1",
+    },
+  ],
+}
+`;
+
+exports[`Tests convertRegCart with new file upload answer 1`] = `
+Object {
+  "eventRegistrations": Array [
+    Object {
+      "attendee": Object {
+        "eventAnswers": Array [
+          Object {
+            "answers": Array [
+              Object {
+                "uRL": "https%3A%2F%2Ffile.com",
+              },
+            ],
+            "questionId": "q1",
+          },
+        ],
+        "personalInformation": Object {
+          "customFields": Array [
+            Object {
+              "answers": null,
+              "questionId": "q2",
+            },
+          ],
+        },
+      },
+      "eventRegistrationId": "er1",
+    },
+  ],
+}
+`;
+
+exports[`Tests convertRegCart with new profile image answer 1`] = `
+Object {
+  "eventRegistrations": Array [
+    Object {
+      "attendee": Object {
+        "eventAnswers": Array [
+          Object {
+            "answers": Array [],
+            "questionId": "q1",
+          },
+        ],
+        "personalInformation": Object {
+          "customFields": Array [
+            Object {
+              "answers": null,
+              "questionId": "q2",
+            },
+          ],
+          "profileImage": Object {
+            "imageUri": "https%3A%2F%2Fimg-src.com",
+          },
+        },
+      },
+      "eventRegistrationId": "er1",
+    },
+  ],
+}
+`;

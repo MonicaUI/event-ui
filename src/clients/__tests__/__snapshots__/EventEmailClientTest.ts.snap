@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventEmailClient.getSubscriptionStatus matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"firstName\\":\\"firstName\\",\\"lastName\\":\\"lastName\\"}",
+    "_bodyText": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"firstName\\":\\"firstName\\",\\"lastName\\":\\"lastName\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/eventemail/v1/resendconfirmationemail/eventId?eventType=4&environment=dev",
+  },
+]
+`;
+
+exports[`EventEmailClient.resendConfirmationEmail matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"firstName\\":\\"firstName\\",\\"lastName\\":\\"lastName\\"}",
+    "_bodyText": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"firstName\\":\\"firstName\\",\\"lastName\\":\\"lastName\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/eventemail/v1/resendconfirmationemail/eventId?eventType=4&environment=dev",
+  },
+]
+`;
+
+exports[`EventEmailClient.sendPlannerEmail matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"firstName\\":\\"firstName\\",\\"lastName\\":\\"lastName\\"}",
+    "_bodyText": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"firstName\\":\\"firstName\\",\\"lastName\\":\\"lastName\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/eventemail/v1/resendconfirmationemail/eventId?eventType=4&environment=dev",
+  },
+]
+`;
+
+exports[`EventEmailClient.setSubscriptionStatus matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"firstName\\":\\"firstName\\",\\"lastName\\":\\"lastName\\"}",
+    "_bodyText": "{\\"eventId\\":\\"eventId\\",\\"emailAddress\\":\\"flastname@example.com\\",\\"firstName\\":\\"firstName\\",\\"lastName\\":\\"lastName\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/eventemail/v1/resendconfirmationemail/eventId?eventType=4&environment=dev",
+  },
+]
+`;

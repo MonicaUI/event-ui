@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Reducer : Verifying initial state. 1`] = `
+Object {
+  "autoFocus": false,
+  "cartAborted": false,
+  "disableSubmitButton": false,
+  "hasConfirmed": false,
+  "originalSubstitutionCart": null,
+  "showConcurrentActionMessage": false,
+  "showConfirmationMessage": false,
+  "substituteRegistrationError": false,
+  "substituteRegistrationSuccess": false,
+  "substitutionCart": null,
+  "substitutionForm": Object {
+    "emailAddress": "",
+    "firstName": "",
+    "lastName": "",
+  },
+  "validationList": null,
+}
+`;

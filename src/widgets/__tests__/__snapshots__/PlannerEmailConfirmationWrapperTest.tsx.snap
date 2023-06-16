@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlannerEmailConfirmationWrapper pre-load checkbox widget for test 1`] = `
+<div>
+  <div>
+    <div />
+  </div>
+  <div
+    className=""
+    style={
+      Object {
+        "flex": "1 1 auto",
+        "pointerEvents": undefined,
+      }
+    }
+  >
+    <ul
+      className=""
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="backward"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          backward
+        </button>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="exit"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="complete"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`PlannerEmailConfirmationWrapper should render with checkbox visible when planner 1`] = `
+<div>
+  <div>
+    <div />
+  </div>
+  <div
+    className=""
+    style={
+      Object {
+        "flex": "1 1 auto",
+        "pointerEvents": undefined,
+      }
+    }
+  >
+    <ul
+      className=""
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="backward"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          backward
+        </button>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="exit"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="complete"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`PlannerEmailConfirmationWrapper should render with no checkbox visible on non-last page 1`] = `
+<div>
+  <div
+    className=""
+    style={
+      Object {
+        "flex": "1 1 auto",
+        "pointerEvents": undefined,
+      }
+    }
+  >
+    <ul
+      className=""
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="exit"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="forward"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`PlannerEmailConfirmationWrapper should render with no checkbox visible when not planner 1`] = `
+<div>
+  <div
+    className=""
+    style={
+      Object {
+        "flex": "1 1 auto",
+        "pointerEvents": undefined,
+      }
+    }
+  >
+    <ul
+      className=""
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="backward"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          backward
+        </button>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="exit"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <button
+          className=""
+          disabled={false}
+          id="complete"
+          onClick={[Function]}
+          style={Object {}}
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

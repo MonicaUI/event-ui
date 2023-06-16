@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestProductSelectionDialog render tests renders list of attendees when opened 1`] = `
+Array [
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "payload": Object {
+      "component": <GuestProductSelectionDialogExperimentWrapper
+        applyGuestProductSelection={[Function]}
+        currency={[Function]}
+        currentPrimaryRegId="00000000-0000-0000-0000-000000000001"
+        eventRegistrations={
+          Array [
+            Object {
+              "attendee": Object {
+                "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+                "personalInformation": Object {
+                  "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                  "emailAddress": "lroling-384934@j.mail",
+                  "firstName": "Luke",
+                  "lastName": "Roling",
+                  "primaryAddressType": "WORK",
+                },
+              },
+              "attendeeType": "ATTENDEE",
+              "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+              "productRegistrations": Array [
+                Object {
+                  "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                  "productType": "AdmissionItem",
+                  "quantity": 1,
+                  "requestedAction": "REGISTER",
+                },
+              ],
+              "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+              "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+              "sessionRegistrations": Object {},
+            },
+            Object {
+              "attendee": Object {
+                "eventAnswers": Object {},
+                "personalInformation": Object {
+                  "customFields": Object {},
+                  "lastName": "Registration_RegistrationSummary_GuestPlaceholderName__resx",
+                },
+              },
+              "attendeeType": "GUEST",
+              "eventRegistrationId": "00000000-0000-0000-0000-000000000002",
+              "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+              "productRegistrations": Array [
+                Object {
+                  "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                  "productType": "AdmissionItem",
+                  "quantity": 1,
+                  "requestedAction": "REGISTER",
+                },
+              ],
+              "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+              "requestedAction": "REGISTER",
+              "sessionRegistrations": Object {},
+            },
+          ]
+        }
+        fees={null}
+        forWaitlistingAttendees={null}
+        groupMemberEventRegId="00000000-0000-0000-0000-000000000001"
+        initialAlreadySelectedList={
+          Object {
+            "00000000-0000-0000-0000-000000000001": Object {
+              "fee": null,
+              "isDisabled": false,
+              "isSelected": true,
+              "registeredForProductInGroup": false,
+            },
+          }
+        }
+        initialLocalEventRegSelections={
+          Object {
+            "00000000-0000-0000-0000-000000000001": Object {
+              "fee": null,
+              "isDisabled": false,
+              "isSelected": true,
+              "registeredForProductInGroup": false,
+            },
+            "00000000-0000-0000-0000-000000000002": Object {
+              "fee": null,
+              "isDisabled": false,
+              "isSelected": false,
+              "registeredForProductInGroup": false,
+            },
+          }
+        }
+        initialUnselectedList={
+          Object {
+            "00000000-0000-0000-0000-000000000002": Object {
+              "fee": null,
+              "isDisabled": false,
+              "isSelected": false,
+              "registeredForProductInGroup": false,
+            },
+          }
+        }
+        instructionalText="EventWidgets_GroupFlights_InstructionalText__resx"
+        isDiscountItem={false}
+        isGroupReg={false}
+        productId="90b23b7c-7297-490b-82af-61c41b5e809f"
+        productTitle={null}
+        sessionStatus={null}
+        shouldShowAlreadySelected={true}
+        shouldShowUnselected={true}
+        showInstructionalText={true}
+        title="EventWidgets_GroupFlights_SelectPassengers__resx"
+      />,
+      "dialogConfig": Object {
+        "classes": Object {
+          "dialogContainer": "dialogContainer",
+        },
+        "style": Object {
+          "dragContainer": Object {
+            "backgroundColor": "#F33B15",
+            "borderRadius": 100,
+            "hover": Object {
+              "backgroundColor": "#F33B15",
+            },
+          },
+        },
+      },
+      "onClose": [Function],
+    },
+    "type": "nucleus-guestside-site/dialog/OPEN_DIALOG",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;

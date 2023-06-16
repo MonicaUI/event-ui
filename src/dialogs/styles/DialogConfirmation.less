@@ -1,0 +1,47 @@
+@import "./StandardDialog.less";
+@import (reference) "~event-widgets/shared-styles/Variables.less";
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+@import (reference) "~nucleus-core/less/MediaQuery.less";
+
+.messageBase {
+ color: @primaryGrey;
+}
+
+.subMessage {
+  font-size: 1.125em;
+  margin-top: 0.3em;
+}
+
+.messageIcon {
+  font-size: 85px;
+  color: #1DAA42;
+}
+
+.dialogContainer {
+  width: 700px;
+  min-height: 50vh;
+  max-height: 90vh;
+  .dialogMediaQuery();
+}
+
+
+// FullScreen Mixins //
+.fullScreenWrapper {
+  border-radius: 0 !important;
+  box-shadow: none;
+  height: 100%;
+  width: 100%;
+  top: 0px !important;
+  left: 0px !important;
+}
+
+// Dialog Window //
+.dragContainer {
+  @media @medium {
+    .fullScreenWrapper();
+  }
+  &.fullScreen {
+    .fullScreenWrapper();
+  }
+}

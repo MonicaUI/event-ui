@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Attendee orders GET  matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "standard",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "localized-validations": "true",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/orders/attendee-order/v1/orders?eventId=event-123&attendeeId=attendeeId&environment=dev",
+  },
+]
+`;
+
+exports[`Attendee orders GET  matches snapshot 2`] = `
+Object {
+  "orders": Array [
+    Object {
+      "attendeeId": "fbe827fd-9cc7-4a6f-a3d9-26ab948f4020",
+      "groupMemberTitle": "Member",
+      "orderId": "fcf5d93f-e0e9-4b4a-af36-4c6bb3ff15c7",
+      "orderItems": Array [
+        Object {
+          "amount": "10.00",
+          "amountDue": "10.00",
+          "amountPaid": "0.00",
+          "firstName": "express",
+          "itemId": "7baadcd6-fbbe-4c82-ab14-af73615fb516",
+          "itemName": "A1",
+          "itemPrice": "10.00",
+          "lastName": "ticketing",
+          "productType": "AdmissionItem",
+          "quantity": "1",
+          "registrantId": "352184f5-9e34-467e-88e5-1c9e9a33bdbf",
+        },
+      ],
+      "orderType": "OfflineCharge",
+      "submittedOn": "2020-01-02T13:23:56.000Z",
+    },
+  ],
+}
+`;

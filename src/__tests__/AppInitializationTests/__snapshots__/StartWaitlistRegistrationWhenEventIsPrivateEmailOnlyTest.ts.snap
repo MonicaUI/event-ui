@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`starts waitlist registration when event is private and email only 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="container"
+      style="background-color: rgb(4, 21, 50); border-radius: 0;"
+    >
+      <div
+        style="max-width: 1024px; margin: auto;"
+      >
+        <div>
+          <div>
+            <div>
+              <div
+                role="banner"
+              >
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  container:7162204f-7d0c-4be9-ad13-3fe7dec332bd
+                </div>
+              </div>
+              <div
+                id="main"
+                role="main"
+                tabindex="-1"
+              >
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  id-0
+                </div>
+              </div>
+              <div
+                class="mockReadOnlyContent"
+              >
+                container:8471fca9-0b98-41df-81a4-a2b5944629a1
+              </div>
+            </div>
+            <div
+              role="contentinfo"
+            >
+              <div
+                class="mockReadOnlyContent"
+              >
+                CventFooterContainer
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mockNucleusCoreDialog"
+  >
+    <h1 />
+    <div>
+      <div
+        class="dialogContainer"
+      >
+        <div
+          class="dialogChildren"
+        >
+          <div>
+            <div
+              aria-describedby="dialogHeader"
+              class=""
+              style="background-color: rgb(221, 226, 230); border-radius: 0;"
+            >
+              <div
+                class=""
+                id="dialogHeader"
+                style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+              >
+                <h2
+                  class=""
+                  style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                >
+                  <div
+                    class=""
+                    data-cvent-id="close"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="container"
+                    >
+                      <span
+                        aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                        class=""
+                        role="img"
+                      />
+                    </span>
+                  </div>
+                  EventGuestSide_PrivateEvent_Title__resx
+                </h2>
+              </div>
+            </div>
+            <div
+              class=""
+              name="messageContainer"
+              style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+              tabindex="-1"
+            >
+              <div
+                class=""
+                style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+              >
+                EventGuestSide_PrivateEvent_Error_Message__resx
+              </div>
+              <p
+                class=""
+              >
+                EventGuestSide_PrivateEvent_Error_SubMessage__resx
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div />
+</div>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlannerEmailConfirmationWidget should render 1`] = `
+<div
+  className=""
+  data-cvent-id="email-confirmation"
+  style={Object {}}
+>
+  <div
+    className=""
+    style={
+      Object {
+        "backgroundColor": "secondary",
+        "borderColor": "primary",
+        "borderRadius": 3,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "hover": "css-87ndg2",
+      }
+    }
+  >
+    <fieldset
+      className=""
+      style={Object {}}
+    >
+      <legend
+        className=""
+        htmlFor="sendEmail"
+        style={Object {}}
+      >
+        <span
+          className=""
+          style={Object {}}
+        >
+          <span
+            data-cvent-id="label"
+          />
+        </span>
+      </legend>
+      <div
+        className=""
+        style={Object {}}
+      >
+        <ul
+          className=""
+          data-cvent-id="checkbox"
+          id="sendEmail"
+          style={
+            Object {
+              "checkboxLabel": Object {},
+              "listStyle": "none",
+            }
+          }
+        >
+          <li
+            data-cvent-id="option-sendEmail_0"
+          >
+            <input
+              checked={true}
+              className=""
+              id="sendEmail_0"
+              name="sendEmail"
+              onChange={[Function]}
+              required={false}
+              style={Object {}}
+              type="checkbox"
+              value="0"
+            />
+            <label
+              htmlFor="sendEmail_0"
+              style={Object {}}
+            >
+              EventGuestSide_RegistrationNavigation_PlannerEmailConfirmation__resx
+            </label>
+          </li>
+        </ul>
+      </div>
+    </fieldset>
+  </div>
+</div>
+`;

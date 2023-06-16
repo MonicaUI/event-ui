@@ -1,0 +1,47 @@
+// [ASSET_DEPRECATED] This icon font file is longer valid or supported - please use the Cvent standard nucleus-core/less/cv/Icons.All.less or /nucleus-core/less/cv/Icons.Variables.less. The use of the font family here needs to be updated.
+
+@import '~nucleus-widgets/resources/less/fonts.less';
+@import '~nucleus-core/less/Reset.less';
+@import '~nucleus-core/less/VariablesTypography.less';
+@localFontPath: '../../resources/fonts';
+
+:global {
+  @font-face {
+    font-family: 'streamline';
+    src: url('@{localFontPath}/streamline.woff2') format('woff2'),
+      url('@{localFontPath}/streamline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: 'Lato', helvetica, arial, sans-serif;
+  }
+  :focus {
+    /* FF and Edge */
+    outline: 1px dotted #212121 !important;
+    /* Chrome, Safari and Opera */
+    outline: 5px auto -webkit-focus-ring-color !important;
+  }
+  .js-focus-visible :focus:not(.focus-visible):not(button) {
+    outline: none !important;
+  }
+  input {
+    margin: 5px;
+  }
+  [class*='GuestSideFormElement__inputContainer'] {
+    overflow: visible !important;
+    float: left;
+    width: 65%;
+  }
+
+  [class*='QuestionText__labelOnTop'] + [class*='GuestSideFormElement__inputContainer'], [class*='TermsConditionsStyles__gridContainer'] [class*='GuestSideFormElement__element'] [class*='GuestSideFormElement__inputContainer'] {
+    overflow: visible !important;
+    width: 100% !important;
+  }
+  
+}
+.wrapper,
+.container {
+  width: 100%;
+  min-height: 100vh;
+}

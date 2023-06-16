@@ -1,0 +1,137 @@
+@import (reference) '~nucleus-core/less/MediaQuery.less';
+@import (reference) '~nucleus-core/less/Utility.less';
+@import (reference) '~event-widgets/shared-styles/Utility.less';
+@import "~nucleus-core/less/cv/Select.less";
+@import '../styles/StandardDialog.less';
+
+.closeDialog {
+  padding-right: 20px;
+}
+.dialogContainer {
+  width: 48rem;
+  overflow-y: auto;
+  max-height: 100vh;
+  .dialogMediaQuery();
+}
+
+.messageContainer {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  overflow: hidden;
+  @media @medium {
+    padding-top: 36px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+.eventHeader{
+  margin-bottom: 10px;
+  @media @medium {
+    margin-bottom: 6px;
+  }
+}
+.itemTitle {
+  padding-left: 0px !important;
+}
+
+.sessionHeader {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.sessionHeaderOnly {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+.dateRange {
+  padding: 0 0 16px 0 !important;
+}
+.dialogHeader {
+  padding: 20px 0 20px 20px !important;
+  border-radius: 3px;
+  @media @medium {
+    padding: 15px 0 15px 20px !important;
+  }
+}
+.itemContainer {
+  padding: 16px 12px 0px 12px;
+  margin: 10px 0 10px 0;
+}
+.downloadButtonContainer {
+
+  @media @medium {
+    padding: 16px 0 16px 0;
+  }
+
+}
+.button {
+  background-color: transparent !important;
+}
+.loginButtonContainer {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  float: right;
+  margin-top: -50px;
+  padding-right: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 15px !important;
+
+  @media @medium {
+    float: none;
+  }
+}
+
+.noSessionNotification {
+  text-align: center !important;
+}
+
+.instructionalText {
+  max-width: 36em;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.dropdownContainer {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  .clearfix();
+}
+
+.dropdownLabel {
+  margin-bottom: 10px;
+}
+
+.select {
+  .select;
+  min-width: 18rem;
+  text-indent: 0.125rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #041532;
+  border-radius: 8px;
+
+  &:focus {
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: #041532;
+  }
+
+  @media @small {
+    width: 100%;
+  }
+}

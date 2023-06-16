@@ -1,0 +1,46 @@
+{
+  "translations": {},
+  "calendarProviders": {
+    "Google": {
+      "calendarProviderId": 2,
+      "calendarProviderName": "Google",
+      "calendarProviderSequence": 30,
+      "calendarProviderIcon": "icon_google.gif",
+      "calendarProviderURL": "http://www.google.com/calendar/event?action=TEMPLATE&text=<<TITLE>>&dates=<<STARTDATE>>/<<ENDDATE>>&location=<<LOCATION>>&trp=false&details=<<DESCRIPTION>>",
+      "calendarProviderDesc": ""
+    },
+    "Outlook": {
+      "calendarProviderId": 1,
+      "calendarProviderName": "Outlook",
+      "calendarProviderSequence": 10,
+      "calendarProviderIcon": "icon_outlook.gif",
+      "calendarProviderURL": "javascript:vCalendar(arguments);",
+      "calendarProviderDesc": ""
+    },
+    "iCal": {
+      "calendarProviderId": 5,
+      "calendarProviderName": "iCal",
+      "calendarProviderSequence": 20,
+      "calendarProviderIcon": "icon_ical.gif",
+      "calendarProviderURL": "javascript:iCalendar(arguments);",
+      "calendarProviderDesc": ""
+    },
+    "Yahoo!": {
+      "calendarProviderId": 3,
+      "calendarProviderName": "Yahoo!",
+      "calendarProviderSequence": 40,
+      "calendarProviderIcon": "icon_yahoo.gif",
+      "calendarProviderURL": "http://calendar.yahoo.com/?v=60&view=d&type=20&title=<<TITLE>>&st=<<STARTDATE>>&et=<<ENDDATE>>&in_loc=<<LOCATION>>&URL=<<URL>>&desc=<<DESCRIPTION>>",
+      "calendarProviderDesc": ""
+    },
+    "MSN": {
+      "calendarProviderId": 4,
+      "calendarProviderName": "MSN",
+      "calendarProviderSequence": 50,
+      "calendarProviderIcon": "icon_msn.gif",
+      "calendarProviderURL": "https://outlook.live.com/owa/?path=/calendar/action/compose&rru=addevent&startdt=<<STARTDATE>>&enddt=<<ENDDATE>>&subject=<<TITLE>>&body=<<DESCRIPTION>>&location=<<LOCATION>>",
+      "calendarProviderDesc": ""
+    }
+  }
+}
+

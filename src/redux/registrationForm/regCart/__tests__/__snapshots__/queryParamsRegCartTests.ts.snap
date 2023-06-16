@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates a regCart with external reg contact id - cached regCart pricing 1`] = `
+Array [
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "payload": Object {
+      "referenceId": undefined,
+      "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+    },
+    "type": "event-guestside-site/registrantLogin/UPDATE_USER_SESSION",
+  },
+  Object {
+    "type": "event-guestside-site/regCart/CREATE_REG_CART_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "93e7463b-ebaa-40e7-b0ad-a2ca26f87b3c": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "93e7463b-ebaa-40e7-b0ad-a2ca26f87b3c",
+          "totalCapacityAvailable": -1,
+        },
+        "c0215717-5640-4e9d-b790-36047f14bf21": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "c0215717-5640-4e9d-b790-36047f14bf21",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_CAPACITY",
+  },
+  Object {
+    "payload": Object {
+      "currentEventRegistrationId": "00000000-0000-0000-0000-000000000001",
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/CREATE_REG_CART_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "eventRegistrationId": undefined,
+      "visibleProducts": undefined,
+    },
+    "type": "event-guestside-site/REPLACE_VISIBLE_SESSION_PRODUCTS",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;
+
+exports[`creates a regCart with external reg contact id 1`] = `
+Array [
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "payload": Object {
+      "referenceId": undefined,
+      "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+    },
+    "type": "event-guestside-site/registrantLogin/UPDATE_USER_SESSION",
+  },
+  Object {
+    "type": "event-guestside-site/regCart/CREATE_REG_CART_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "capacity": Object {
+        "93e7463b-ebaa-40e7-b0ad-a2ca26f87b3c": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "93e7463b-ebaa-40e7-b0ad-a2ca26f87b3c",
+          "totalCapacityAvailable": -1,
+        },
+        "c0215717-5640-4e9d-b790-36047f14bf21": Object {
+          "active": true,
+          "availableCapacity": -1,
+          "capacityId": "c0215717-5640-4e9d-b790-36047f14bf21",
+          "totalCapacityAvailable": -1,
+        },
+      },
+    },
+    "type": "event-widgets/capacity/LOAD_CAPACITY",
+  },
+  Object {
+    "payload": Object {
+      "currentEventRegistrationId": "00000000-0000-0000-0000-000000000001",
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/CREATE_REG_CART_SUCCESS",
+  },
+  Object {
+    "payload": Object {
+      "eventRegistrationId": undefined,
+      "visibleProducts": undefined,
+    },
+    "type": "event-guestside-site/REPLACE_VISIBLE_SESSION_PRODUCTS",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;

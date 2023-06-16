@@ -1,0 +1,3164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegTypeWidget in guest modal should not render regtypes present in userSession for primary render 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="GuestRegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="GuestRegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-GuestRegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="GuestRegistrationType_0"
+                  name="GuestRegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="GuestRegistrationType_0"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Registration types that have no admission items available for selection are disabled disabled and enabled reg types match snapshot 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <div
+          className=""
+          style={Object {}}
+        >
+          <label
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </label>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <select
+              className="undefined regTypeSelect"
+              data-cvent-id="input"
+              disabled={false}
+              id="RegistrationType"
+              name="RegistrationType"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              style={
+                Object {
+                  "marginBottom": undefined,
+                  "marginTop": undefined,
+                  "paddingBottom": undefined,
+                  "paddingTop": undefined,
+                }
+              }
+              value="0"
+            >
+              <option
+                data-cvent-id="option-0"
+                value="0"
+              >
+                
+              </option>
+              <option
+                data-cvent-id="option-1"
+                disabled={true}
+                value="1"
+              >
+                Reg Type 1 (lbl_xml_0065)
+              </option>
+              <option
+                data-cvent-id="option-2"
+                disabled={true}
+                value="2"
+              >
+                Reg Type 2 (lbl_xml_0065)
+              </option>
+              <option
+                data-cvent-id="option-3"
+                disabled={true}
+                value="3"
+              >
+                Reg Type 3 (lbl_xml_0065)
+              </option>
+              <option
+                data-cvent-id="option-4"
+                value="4"
+              >
+                Reg Type 4 
+              </option>
+              <option
+                data-cvent-id="option-5"
+                value="5"
+              >
+                Reg Type 5 
+              </option>
+              <option
+                data-cvent-id="option-6"
+                value="6"
+              >
+                Reg Type 6 
+              </option>
+              <option
+                data-cvent-id="option-7"
+                value="7"
+              >
+                Reg Type 7 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) layouts - as list (select) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <div
+          className=""
+          style={Object {}}
+        >
+          <label
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </label>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <select
+              className="undefined regTypeSelect"
+              data-cvent-id="input"
+              disabled={false}
+              id="RegistrationType"
+              name="RegistrationType"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              style={
+                Object {
+                  "marginBottom": undefined,
+                  "marginTop": undefined,
+                  "paddingBottom": undefined,
+                  "paddingTop": undefined,
+                }
+              }
+              value="0"
+            >
+              <option
+                data-cvent-id="option-0"
+                value="0"
+              >
+                
+              </option>
+              <option
+                data-cvent-id="option-1"
+                value="1"
+              >
+                Attendee 
+              </option>
+              <option
+                data-cvent-id="option-2"
+                value="2"
+              >
+                Employee 
+              </option>
+              <option
+                data-cvent-id="option-3"
+                value="3"
+              >
+                Guest 
+              </option>
+              <option
+                data-cvent-id="option-4"
+                value="4"
+              >
+                VIP 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) layouts - display text 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              >
+                Some special display text
+              </span>
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) layouts - label placement above 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnTop"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) layouts - label placement left 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) layouts - required 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                className=""
+                style={Object {}}
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={true}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={true}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={true}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={true}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) layouts - sort order A to Z 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) no registration types - baseline 1`] = `
+<div
+  className=""
+  style={Object {}}
+/>
+`;
+
+exports[`RegistrationTypeWidget (connected) no registration types - readonly 1`] = `
+<div
+  className=""
+  style={Object {}}
+/>
+`;
+
+exports[`RegistrationTypeWidget (connected) user interactions - should trigger privateEvent modal 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnLeft"
+            for="RegistrationType"
+          >
+            <span
+              class=""
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <select
+              class="undefined regTypeSelect"
+              data-cvent-id="input"
+              id="RegistrationType"
+              name="RegistrationType"
+            >
+              <option
+                data-cvent-id="option-0"
+                value="0"
+              />
+              <option
+                data-cvent-id="option-1"
+                value="1"
+              >
+                Attendee 
+              </option>
+              <option
+                data-cvent-id="option-2"
+                value="2"
+              >
+                Employee 
+              </option>
+              <option
+                data-cvent-id="option-3"
+                value="3"
+              >
+                Guest 
+              </option>
+              <option
+                data-cvent-id="option-4"
+                value="4"
+              >
+                VIP 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) user interactions - should trigger regTypeError modal 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnLeft"
+            for="RegistrationType"
+          >
+            <span
+              class=""
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <select
+              class="undefined regTypeSelect"
+              data-cvent-id="input"
+              id="RegistrationType"
+              name="RegistrationType"
+            >
+              <option
+                data-cvent-id="option-0"
+                value="0"
+              />
+              <option
+                data-cvent-id="option-1"
+                value="1"
+              >
+                Attendee 
+              </option>
+              <option
+                data-cvent-id="option-2"
+                value="2"
+              >
+                Employee 
+              </option>
+              <option
+                data-cvent-id="option-3"
+                value="3"
+              >
+                Guest 
+              </option>
+              <option
+                data-cvent-id="option-4"
+                value="4"
+              >
+                VIP 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) user interactions - with selected registration type (included) 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnLeft"
+            for="RegistrationType"
+          >
+            <span
+              class=""
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <select
+              class="undefined regTypeSelect"
+              data-cvent-id="input"
+              id="RegistrationType"
+              name="RegistrationType"
+            >
+              <option
+                data-cvent-id="option-0"
+                value="0"
+              />
+              <option
+                data-cvent-id="option-1"
+                value="1"
+              >
+                Attendee 
+              </option>
+              <option
+                data-cvent-id="option-2"
+                value="2"
+              >
+                Employee 
+              </option>
+              <option
+                data-cvent-id="option-3"
+                value="3"
+              >
+                Guest 
+              </option>
+              <option
+                data-cvent-id="option-4"
+                value="4"
+              >
+                VIP 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with planner settings - limit registration types baseline 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with planner settings - limit registration types with default registration type (included) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={true}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with planner settings - limit registration types with default registration type (not included) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with planner settings - limit registration types with default registration type (not visible) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={true}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with planner settings - limit registration types with selected registration type (included) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={true}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with planner settings - limit registration types with selected registration type (not visible) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={true}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with planner settings - no registration types - limit registration types 1`] = `
+<div
+  className=""
+  style={Object {}}
+/>
+`;
+
+exports[`RegistrationTypeWidget (connected) with planner settings - no registration types - limit to no registration types 1`] = `
+<div
+  className=""
+  style={Object {}}
+/>
+`;
+
+exports[`RegistrationTypeWidget (connected) with registration types - baseline 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with registration types - readonly 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <div
+          className=""
+          style={Object {}}
+        >
+          <span
+            className="labelOnLeft"
+            style={Object {}}
+          />
+          <div
+            className=""
+            style={Object {}}
+          >
+            <p
+              className=""
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&ndash;&ndash;&ndash;",
+                }
+              }
+              style={Object {}}
+            />
+          </div>
+        </div>
+        <span
+          data-cvent-id="regTypeWidget-readOnly"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with registration types - readonly with selected registration type (included) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <div
+          className=""
+          style={Object {}}
+        >
+          <span
+            className="labelOnLeft"
+            style={Object {}}
+          />
+          <div
+            className=""
+            style={Object {}}
+          >
+            <p
+              className=""
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "VIP",
+                }
+              }
+              style={Object {}}
+            />
+          </div>
+        </div>
+        <span
+          data-cvent-id="regTypeWidget-readOnly"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with registration types - ready only with selected registration type (not included) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <div
+          className=""
+          style={Object {}}
+        >
+          <span
+            className="labelOnLeft"
+            style={Object {}}
+          />
+          <div
+            className=""
+            style={Object {}}
+          >
+            <p
+              className=""
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&ndash;&ndash;&ndash;",
+                }
+              }
+              style={Object {}}
+            />
+          </div>
+        </div>
+        <span
+          data-cvent-id="regTypeWidget-readOnly"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with registration types - with selected registration type (included) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={true}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with registration types - with selected registration type (not included) 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with registration types capacities baseline 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget (connected) with registration types capacities selected regtype at capacity 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Attendee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={true}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_2"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_2"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  htmlFor="RegistrationType_2"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_3"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_3"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  htmlFor="RegistrationType_3"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationTypeWidget placed on guest info modal render 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="GuestRegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="GuestRegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-GuestRegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="GuestRegistrationType_0"
+                  name="GuestRegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="GuestRegistrationType_0"
+                  style={Object {}}
+                >
+                  Guest 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`group member registration types render only employee reg type 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "pointerEvents": undefined,
+          }
+        }
+      >
+        <fieldset
+          className=""
+          style={Object {}}
+        >
+          <legend
+            className="labelOnLeft"
+            htmlFor="RegistrationType"
+            style={Object {}}
+          >
+            <span
+              className=""
+              style={Object {}}
+            >
+              <span
+                data-cvent-id="label"
+              />
+            </span>
+          </legend>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <ul
+              className=""
+              data-cvent-id="input"
+              id="RegistrationType"
+              style={Object {}}
+            >
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_0"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_0"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="0"
+                />
+                <label
+                  htmlFor="RegistrationType_0"
+                  style={Object {}}
+                >
+                  Employee 
+                </label>
+              </li>
+              <li
+                className=""
+                data-cvent-id="option-RegistrationType_1"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className=""
+                  disabled={false}
+                  id="RegistrationType_1"
+                  name="RegistrationType"
+                  onChange={[Function]}
+                  required={false}
+                  style={Object {}}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  htmlFor="RegistrationType_1"
+                  style={Object {}}
+                >
+                  VIP 
+                </label>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;

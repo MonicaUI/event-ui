@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Visibility logic tests Should evaluate visibility logic when a valid date is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "dateOfBirth",
+      ],
+      "value": 1571184000000,
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+]
+`;
+
+exports[`Visibility logic tests Should evaluate visibilty logic when a empty value is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "dateOfBirth",
+      ],
+      "value": "",
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "questionIds": Array [],
+      "visibility": Object {},
+    },
+    "type": "event-guestside-site/UPDATE_QUESTION_VISIBILITY",
+  },
+]
+`;
+
+exports[`Visibility logic tests Should not evaluate visibility logic when an invalid date is input 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "eventRegistration1",
+        "attendee",
+        "personalInformation",
+        "dateOfBirth",
+      ],
+      "value": null,
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+]
+`;
+
+exports[`datetime standard contact field renders and allows you to enter datetime 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="b468074b-b6a7-4149-8f97-e6b21b2ca8b3"
+          >
+            <span
+              class=""
+            >
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Date of Birth
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+              data-cvent-id="trigger"
+            >
+              <span>
+                <div
+                  class=""
+                >
+                  <input
+                    autocomplete="off"
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    dateinputlabel="NucleusWidgets_DateTimeQuestion_DateInputLabel__resx"
+                    id="b468074b-b6a7-4149-8f97-e6b21b2ca8b3"
+                    name="b468074b-b6a7-4149-8f97-e6b21b2ca8b3"
+                    periodconfig="[object Object]"
+                    placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                    separatorsymbol=":"
+                    timeinputlabel="NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </span>
+              <span
+                class="mockNucleusCoreTransition"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`datetime standard contact field renders and allows you to enter datetime 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="b468074b-b6a7-4149-8f97-e6b21b2ca8b3"
+          >
+            <span
+              class=""
+            >
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Date of Birth
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+              data-cvent-id="trigger"
+            >
+              <span>
+                <div
+                  class=""
+                >
+                  <input
+                    autocomplete="off"
+                    class="textboxDate"
+                    data-cvent-id="input"
+                    dateinputlabel="NucleusWidgets_DateTimeQuestion_DateInputLabel__resx"
+                    id="b468074b-b6a7-4149-8f97-e6b21b2ca8b3"
+                    name="b468074b-b6a7-4149-8f97-e6b21b2ca8b3"
+                    periodconfig="[object Object]"
+                    placeholder="NucleusCoreComponent_PickADate_TextboxPlaceholder_mm/dd/yyyy__resx"
+                    separatorsymbol=":"
+                    timeinputlabel="NucleusWidgets_DateTimeQuestion_TimeInputLabel__resx"
+                    type="text"
+                    value="11/02/2006"
+                  />
+                </div>
+              </span>
+              <span
+                class="mockNucleusCoreTransition"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`datetime standard contact field renders and allows you to enter datetime 3`] = `
+Object {
+  "personalInformation": Object {
+    "dateOfBirth": 1162425600000,
+  },
+}
+`;
+
+exports[`datetime standard contact field renders and allows you to enter datetime 4`] = `
+Object {
+  "personalInformation": Object {
+    "dateOfBirth": null,
+  },
+}
+`;

@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify getRegCartPricingInfo returns pricingInfo as expected for check option 1`] = `
+Object {
+  "paymentMethodKey": "check",
+  "paymentMethodType": "Check",
+  "paymentType": "Offline",
+  "referenceNumber": "123",
+}
+`;
+
+exports[`Verify getRegCartPricingInfo returns pricingInfo as expected for creditCard 1`] = `
+Object {
+  "paymentDetail": Object {
+    "creditCard": Object {
+      "address1": "30th Millennium",
+      "address2": "",
+      "address3": "",
+      "cVV": "123",
+      "city": "Hive City",
+      "country": "Cthonia",
+      "expirationMonth": "7",
+      "expirationYear": "2017",
+      "name": "Horus Lupercal",
+      "number": "4111111111111111",
+      "paymentMethodKey": "creditCard",
+      "state": "VA",
+      "zip": "22012",
+    },
+  },
+  "paymentMethodType": "Visa",
+  "paymentType": "Online",
+}
+`;
+
+exports[`Verify getRegCartPricingInfo returns pricingInfo as expected for creditCard with process offline 1`] = `
+Object {
+  "paymentDetail": Object {
+    "creditCard": Object {
+      "address1": "30th Millennium",
+      "address2": "",
+      "address3": "",
+      "cVV": "123",
+      "city": "Hive City",
+      "country": "Cthonia",
+      "expirationMonth": "7",
+      "expirationYear": "2017",
+      "name": "Horus Lupercal",
+      "number": "4111111111111111",
+      "paymentMethodKey": "creditCard",
+      "state": "VA",
+      "zip": "22012",
+    },
+  },
+  "paymentMethodType": "Visa",
+  "paymentType": "Offline",
+}
+`;
+
+exports[`Verify getRegCartPricingInfo returns pricingInfo as expected for noPayment option 1`] = `
+Object {
+  "paymentMethodKey": "noPayment",
+  "paymentMethodType": null,
+  "paymentType": "NoPayment",
+}
+`;
+
+exports[`Verify getRegCartPricingInfo returns pricingInfo as expected for offline.optionOne 1`] = `
+Object {
+  "note": "grimDark",
+  "paymentMethodKey": "offline.optionOne",
+  "paymentMethodType": "Other",
+  "paymentType": "Offline",
+}
+`;
+
+exports[`Verify getRegCartPricingInfo returns pricingInfo as expected for offline.optionThree 1`] = `
+Object {
+  "note": "grimDark",
+  "paymentMethodKey": "offline.optionThree",
+  "paymentMethodType": "Other3",
+  "paymentType": "Offline",
+}
+`;
+
+exports[`Verify getRegCartPricingInfo returns pricingInfo as expected for offline.optionTwo 1`] = `
+Object {
+  "note": "grimDark",
+  "paymentMethodKey": "offline.optionTwo",
+  "paymentMethodType": "Other2",
+  "paymentType": "Offline",
+}
+`;
+
+exports[`Verify getRegCartPricingInfo returns pricingInfo as expected for purchaseOrder option 1`] = `
+Object {
+  "paymentMethodKey": "purchaseOrder",
+  "paymentMethodType": "PurchaseOrder",
+  "paymentType": "Offline",
+  "referenceNumber": "123",
+}
+`;
+
+exports[`Verify getRegCartPricingInfoForCheckout returns checkoutInfo as expected by reg service checkout V2 endpoint for creditCard 1`] = `
+Object {
+  "paymentDetail": Object {
+    "browserLandingURL": "web-fake.cvent.com/",
+    "creditCard": Object {
+      "address1": "30th Millennium",
+      "address2": "",
+      "address3": "",
+      "cVV": "123",
+      "city": "Hive City",
+      "country": "Cthonia",
+      "expirationDate": "2017-07",
+      "expirationMonth": "7",
+      "expirationYear": "2017",
+      "name": "Horus Lupercal",
+      "number": "4111111111111111",
+      "paymentMethodKey": "creditCard",
+      "state": "VA",
+      "type": "Visa",
+      "zip": "22012",
+    },
+    "paymentMethodMode": "UseNewPaymentMethod",
+  },
+  "paymentMethodType": "Visa",
+  "paymentType": "Online",
+}
+`;
+
+exports[`Verify getRegCartPricingInfoForCheckout returns checkoutInfo as expected by reg service checkout V2 endpoint for creditCard with processOffline true 1`] = `
+Object {
+  "paymentDetail": Object {
+    "browserLandingURL": "web-fake.cvent.com/",
+    "coreBearerToken": "fakeToken",
+    "creditCard": Object {
+      "address1": "30th Millennium",
+      "address2": "",
+      "address3": "",
+      "cVV": "123",
+      "city": "Hive City",
+      "country": "Cthonia",
+      "expirationDate": "2017-07",
+      "expirationMonth": "7",
+      "expirationYear": "2017",
+      "name": "Horus Lupercal",
+      "number": "4111111111111111",
+      "paymentMethodKey": "creditCard",
+      "state": "VA",
+      "type": "Visa",
+      "zip": "22012",
+    },
+    "paymentMethodMode": "UseNewPaymentMethod",
+  },
+  "paymentMethodType": "Visa",
+  "paymentType": "Offline",
+}
+`;
+
+exports[`Verify getRegCartPricingInfoForCheckout returns checkoutInfo as expected by reg service checkout V2 endpoint for creditCard with processOffline true when  not using webpayments form 1`] = `
+Object {
+  "paymentDetail": Object {
+    "browserLandingURL": "web-fake.cvent.com/",
+    "coreBearerToken": "fakeToken",
+    "creditCard": Object {
+      "address1": "30th Millennium",
+      "address2": "",
+      "address3": "",
+      "cVV": "123",
+      "city": "Hive City",
+      "country": "Cthonia",
+      "expirationDate": "2017-07",
+      "expirationMonth": "7",
+      "expirationYear": "2017",
+      "name": "Horus Lupercal",
+      "number": "4111111111111111",
+      "paymentMethodKey": "creditCard",
+      "state": "VA",
+      "type": "Visa",
+      "zip": "22012",
+    },
+    "paymentMethodMode": "UseNewPaymentMethod",
+  },
+  "paymentMethodType": "Visa",
+  "paymentType": "Offline",
+}
+`;
+
+exports[`Verify getRegCartPricingInfoForCheckout returns checkoutInfo as expected by reg service checkout V2 endpoint for creditCard with processOffline true when using webpayments form 1`] = `
+Object {
+  "paymentDetail": Object {
+    "browserLandingURL": "web-fake.cvent.com/",
+    "contextId": "testContextId",
+    "coreBearerToken": "fakeToken",
+    "creditCard": null,
+    "paymentMethodMode": "UseNewPaymentMethod",
+  },
+  "paymentMethodType": "Visa",
+  "paymentType": "Offline",
+}
+`;
+
+exports[`Verify getRegCartPricingInfoForCheckout returns checkoutInfo as expected by reg service checkout V2 endpoint for noPayment option 1`] = `
+Object {
+  "paymentMethodKey": "noPayment",
+  "paymentMethodType": null,
+  "paymentType": "NoPayment",
+}
+`;
+
+exports[`Verify getRegCartPricingInfoForCheckout returns checkoutInfo as expected by reg service checkout V2 endpoint for offline option 1`] = `
+Object {
+  "note": "grimDark",
+  "paymentDetail": Object {},
+  "paymentMethodKey": "offline.optionOne",
+  "paymentMethodType": "Other",
+  "paymentType": "Offline",
+}
+`;

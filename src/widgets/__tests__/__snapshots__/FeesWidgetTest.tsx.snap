@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeesWidget produces props from state should match 1`] = `
+Object {
+  "children": <BaseWidget
+    clickHandler={[Function]}
+    config={Object {}}
+    eventCurrencyCode="USD"
+    eventFees={
+      Array [
+        Object {
+          "amount": 30,
+          "chargePolicies": Array [
+            Object {
+              "amount": 30,
+              "effectiveUntil": 32503593600000,
+              "id": "6a8abf59-c576-4b5a-be03-bb43226e434c",
+              "isActive": true,
+              "maximumRefundAmount": 30,
+            },
+          ],
+          "feeId": "879f7d86-f456-4830-82ed-a5cfccd7e3ce",
+          "feeName": "Fee 3",
+          "productId": "27f603b3-64eb-4dd0-be0e-a4c0ff255bc2",
+          "productType": "AdmissionItem",
+          "refundPolicies": Array [],
+        },
+      ]
+    }
+    eventTimeZone={
+      Object {
+        "abbreviation": "ET",
+        "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+        "dstInfo": Array [],
+        "hasDst": true,
+        "id": 35,
+        "name": "Eastern Time",
+        "nameResourceKey": "Event_Timezone_Name_35__resx",
+        "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+        "utcOffset": -300,
+      }
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    style={Object {}}
+    translate={[Function]}
+    translateCurrency={[Function]}
+  />,
+  "value": null,
+}
+`;

@@ -1,0 +1,75 @@
+/*
+ * To avoid the varying/customizable font sizes to change the margins and paddings,
+ * they are in px and not in ems.
+ */
+@import "~nucleus-core/less/MediaQuery.less";
+@import (reference) '~nucleus-core/less/Utility.less';
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+
+.dialogContainer {
+  width: 48em;
+  min-height: 32vh;
+  max-height: 60vh;
+  .dialogMediaQuery();
+}
+
+.separator {
+  border: 0;
+  border-top: 2px solid #ccc;
+}
+
+
+.orderSummaryRow {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+}
+
+.instructionalText {
+  margin: 10px 0 20px;
+}
+
+.totalAmount {
+  padding-bottom: 0.625rem;
+}
+
+.rightLineItemStyle {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 0.625rem;
+}
+
+.leftLineItemStyle {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 0.625rem;
+}
+
+.oneLineItemStyle {
+  padding-top: 10px;
+  padding-bottom: 0.625rem;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  span:first-child {
+    float: left;
+  }
+  span:last-child {
+    float: right;
+  }
+}
+
+.additionalItemsText {
+  word-wrap: break-word;
+}
+
+.totalAmountDue {
+  word-wrap: break-word;
+  font-size: 25px;
+}
+

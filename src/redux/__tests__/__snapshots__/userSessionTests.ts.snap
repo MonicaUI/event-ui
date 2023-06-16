@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Known invitee LOG_OUT_REGISTRANT_SUCCESS logs out invitee user. 1`] = `
+Object {
+  "persistRegType": true,
+  "regTypeId": "REG_TYPE_IN_ACTION_PAYLOAD",
+  "scrollToRegType": undefined,
+  "verifiedWebsitePassword": undefined,
+}
+`;
+
+exports[`Verifying initial state. 1`] = `
+Object {
+  "persistRegType": false,
+  "regTypeId": "",
+  "scrollToRegTyoe": false,
+}
+`;

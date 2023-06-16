@@ -1,0 +1,1930 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Save air request in empty travel cart 1`] = `
+Object {
+  "accessToken": "DUMMY_ACCESS_TOKEN",
+  "appData": Object {
+    "registrationSettings": Object {
+      "travelQuestions": Object {
+        "DUMMY_ALTERNATE_QUESTION_ID": Object {
+          "question": Object {
+            "additionalInfo": Object {
+              "surveyType": "AirAlternateQuestions",
+            },
+          },
+        },
+        "DUMMY_QUESTION_ID": Object {
+          "question": Object {
+            "additionalInfo": Object {
+              "surveyType": "AirQuestions",
+            },
+          },
+        },
+      },
+    },
+  },
+  "clients": Object {
+    "regCartClient": Object {
+      "updateRegCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            "DUMMY_ACCESS_TOKEN",
+            Object {
+              "eventRegistrations": Object {
+                "DUMMY_BOOKING_ID": Object {
+                  "attendee": Object {
+                    "attendeeId": null,
+                    "inviteeStatus": null,
+                    "personalInformation": Object {
+                      "contactId": null,
+                      "emailAddress": "dummy@j.mail",
+                      "homeAddress": Object {
+                        "city": "McLean",
+                        "country": "USA",
+                        "countryCode": "US",
+                        "postalCode": 1234,
+                        "state": "Virginia",
+                        "stateCode": "VA",
+                      },
+                      "workAddress": Object {
+                        "city": "McLean",
+                        "country": "USA",
+                        "countryCode": "US",
+                        "postalCode": 1234,
+                        "state": "Virginia",
+                        "stateCode": "VA",
+                      },
+                    },
+                    "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+                  },
+                  "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+                  "productRegistrations": Array [
+                    Object {
+                      "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                      "productType": "AdmissionItem",
+                      "requestedAction": "REGISTER",
+                    },
+                  ],
+                  "registrationPathId": "REG_PATH_1",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+                },
+                "DUMMY_BOOKING_ID_TWO": Object {
+                  "productRegistrations": Array [
+                    Object {
+                      "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+                      "productType": "AdmissionItem",
+                      "requestedAction": "REGISTER",
+                    },
+                  ],
+                  "registrationPathId": "REG_PATH_2",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+                },
+              },
+              "hasTravel": true,
+              "regCartId": "DUMMY_CART_ID",
+              "regMod": false,
+            },
+            undefined,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+    "travelApiClient": Object {
+      "createTravelCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "bookings": Array [
+                Object {
+                  "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                  "airActuals": Array [],
+                  "airBookings": Array [
+                    Object {
+                      "departureDate": "2019-08-06T05:00:00.000Z",
+                      "departureFrom": 1855,
+                      "departureTime": "NOON",
+                      "departureTo": 269,
+                      "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "preferences": Object {
+                        "ageCategory": "SENIOR",
+                        "airlineClass": "FIRST",
+                        "airlinePreferences": Array [
+                          Object {
+                            "airlineName": "jkhdadhjk",
+                            "rewardsNumber": "kljdasjkda",
+                          },
+                          Object {
+                            "airlineName": "d",
+                            "rewardsNumber": "f",
+                          },
+                        ],
+                        "seatingType": "WINDOW",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                      },
+                      "requestedAction": "BOOK",
+                      "returnDate": "2019-08-07T05:00:00.000Z",
+                      "returnTime": "NOON",
+                      "travellerInfo": Object {
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "firstName": "Fname",
+                        "gender": 1,
+                        "knownTravellerNumber": "",
+                        "lastName": "lname",
+                        "middleName": "mname",
+                        "redressNumber": "",
+                        "suffix": "IV",
+                      },
+                    },
+                  ],
+                  "attendee": Object {
+                    "contactId": null,
+                    "homeCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                    "id": null,
+                    "inviteeEmailAddress": "dummy@j.mail",
+                    "primaryInviteeId": null,
+                    "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+                    "status": null,
+                    "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+                    "type": "INVITEE",
+                    "workCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                  },
+                  "concurAirActuals": Array [],
+                  "creditCard": undefined,
+                  "hotelRoomBookings": Array [],
+                  "id": "DUMMY_BOOKING_ID",
+                  "pnrAirActuals": Array [],
+                  "registrationPathId": "REG_PATH_1",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+                  "requestedAction": "BOOK",
+                  "travelAnswers": Array [
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "DELETE",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "VIEW",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID_2",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "ADD",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID_2",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "ADD",
+                    },
+                  ],
+                },
+              ],
+              "eventId": "EVENT_ID",
+              "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+              "id": "DUMMY_CART_ID",
+              "isForPlanner": false,
+              "isForPreview": false,
+              "isForTestMode": false,
+              "isPlannerApprovalRequired": false,
+              "requestedAction": "BOOK",
+              "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+      "updateTravelCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "bookings": Array [
+                Object {
+                  "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                  "airActuals": Array [],
+                  "airBookings": Array [
+                    Object {
+                      "departureDate": "2019-08-06T05:00:00.000Z",
+                      "departureFrom": 1855,
+                      "departureTime": "NOON",
+                      "departureTo": 269,
+                      "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "preferences": Object {
+                        "ageCategory": "SENIOR",
+                        "airlineClass": "FIRST",
+                        "airlinePreferences": Array [
+                          Object {
+                            "airlineName": "jkhdadhjk",
+                            "rewardsNumber": "kljdasjkda",
+                          },
+                          Object {
+                            "airlineName": "d",
+                            "rewardsNumber": "f",
+                          },
+                        ],
+                        "seatingType": "WINDOW",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                      },
+                      "requestedAction": "BOOK",
+                      "returnDate": "2019-08-07T05:00:00.000Z",
+                      "returnTime": "NOON",
+                      "travellerInfo": Object {
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "firstName": "Fname",
+                        "gender": 1,
+                        "knownTravellerNumber": "",
+                        "lastName": "lname",
+                        "middleName": "mname",
+                        "redressNumber": "",
+                        "suffix": "IV",
+                      },
+                    },
+                  ],
+                  "attendee": Object {
+                    "contactId": null,
+                    "homeCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                    "id": null,
+                    "inviteeEmailAddress": "dummy@j.mail",
+                    "primaryInviteeId": null,
+                    "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+                    "status": null,
+                    "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+                    "type": "INVITEE",
+                    "workCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                  },
+                  "concurAirActuals": Array [],
+                  "creditCard": undefined,
+                  "hotelRoomBookings": Array [],
+                  "id": "DUMMY_BOOKING_ID",
+                  "pnrAirActuals": Array [],
+                  "registrationPathId": "REG_PATH_1",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+                  "requestedAction": "BOOK",
+                  "travelAnswers": Array [
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "DELETE",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "VIEW",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID_2",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "ADD",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID_2",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "ADD",
+                    },
+                  ],
+                },
+              ],
+              "eventId": "EVENT_ID",
+              "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+              "id": "DUMMY_CART_ID",
+              "isForPlanner": false,
+              "isForPreview": false,
+              "isForTestMode": false,
+              "isPlannerApprovalRequired": false,
+              "requestedAction": "BOOK",
+              "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+  },
+  "defaultUserSession": Object {
+    "eventId": "EVENT_ID",
+    "isPlanner": false,
+    "isPreview": false,
+  },
+  "event": Object {
+    "isInTestMode": false,
+    "timezone": 35,
+  },
+  "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+  "eventTravel": Object {
+    "airData": Object {},
+    "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+  },
+  "regCartStatus": Object {
+    "lastSavedRegCart": Object {
+      "eventRegistrations": Object {
+        "DUMMY_BOOKING_ID": Object {
+          "attendee": Object {
+            "attendeeId": null,
+            "inviteeStatus": null,
+            "personalInformation": Object {
+              "contactId": null,
+              "emailAddress": "dummy@j.mail",
+              "homeAddress": Object {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA",
+              },
+              "workAddress": Object {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA",
+              },
+            },
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+          },
+          "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+        },
+        "DUMMY_BOOKING_ID_TWO": Object {
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_2",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+        },
+      },
+      "hasTravel": true,
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+    },
+    "modificationStartRegCart": undefined,
+    "registrationIntent": "REGISTERING",
+  },
+  "registrationForm": Object {
+    "currentEventRegistrationId": "",
+    "currentGuestEventRegistration": Object {},
+    "discountCodeStatus": "",
+    "errors": Object {},
+    "preventRegistration": false,
+    "regCart": Object {
+      "eventRegistrations": Object {
+        "DUMMY_BOOKING_ID": Object {
+          "attendee": Object {
+            "attendeeId": null,
+            "inviteeStatus": null,
+            "personalInformation": Object {
+              "contactId": null,
+              "emailAddress": "dummy@j.mail",
+              "homeAddress": Object {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA",
+              },
+              "workAddress": Object {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA",
+              },
+            },
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+          },
+          "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+        },
+        "DUMMY_BOOKING_ID_TWO": Object {
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_2",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+        },
+      },
+      "hasTravel": true,
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+    },
+    "regCartPayment": Object {},
+    "validationMessages": Array [],
+  },
+  "timezones": Object {
+    "35": Object {
+      "abbreviation": "ET",
+      "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+      "dstInfo": Array [],
+      "hasDst": true,
+      "id": 35,
+      "name": "Eastern Time",
+      "nameResourceKey": "Event_Timezone_Name_35__resx",
+      "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+      "utcOffset": -300,
+    },
+  },
+  "travelCart": Object {
+    "cart": Object {
+      "bookings": Array [
+        Object {
+          "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+          "airActuals": Array [],
+          "airBookings": Array [
+            Object {
+              "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+              "departureDate": "2019-08-06T05:00:00.000Z",
+              "departureFrom": 1855,
+              "departureTime": "NOON",
+              "departureTo": 269,
+              "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+              "preferences": Object {
+                "ageCategory": "SENIOR",
+                "airlineClass": "FIRST",
+                "airlinePreferences": Array [
+                  Object {
+                    "airlineName": "jkhdadhjk",
+                    "rewardsNumber": "kljdasjkda",
+                  },
+                  Object {
+                    "airlineName": "d",
+                    "rewardsNumber": "f",
+                  },
+                ],
+                "seatingType": "WINDOW",
+                "specialMeals": "",
+                "specialRequirements": "LULwa",
+              },
+              "requestedAction": "BOOK",
+              "returnDate": "2019-08-07T05:00:00.000Z",
+              "returnTime": "NOON",
+              "travellerInfo": Object {
+                "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                "firstName": "Fname",
+                "gender": 1,
+                "knownTravellerNumber": "",
+                "lastName": "lname",
+                "middleName": "mname",
+                "redressNumber": "",
+                "suffix": "IV",
+              },
+            },
+          ],
+          "attendee": Object {
+            "contactId": null,
+            "homeCityAddress": Object {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": 1234,
+              "stateCode": "VA",
+              "stateName": "Virginia",
+            },
+            "id": null,
+            "inviteeEmailAddress": "dummy@j.mail",
+            "primaryInviteeId": null,
+            "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+            "status": null,
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+            "type": "INVITEE",
+            "workCityAddress": Object {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": 1234,
+              "stateCode": "VA",
+              "stateName": "Virginia",
+            },
+          },
+          "concurAirActuals": Array [],
+          "creditCard": undefined,
+          "hotelRoomBookings": Array [],
+          "id": "DUMMY_BOOKING_ID",
+          "pnrAirActuals": Array [],
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          "requestedAction": "BOOK",
+          "travelAnswers": Array [
+            Object {
+              "answers": Array [
+                Object {},
+              ],
+              "questionId": "DUMMY_ALTERNATE_QUESTION_ID",
+              "requestBookingId": "00000000-0000-0000-0000-000000000000",
+              "requestedAction": "DELETE",
+            },
+            Object {
+              "answers": Array [],
+              "questionId": "DUMMY_QUESTION_ID",
+              "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+              "requestedAction": "VIEW",
+            },
+            Object {
+              "answers": Array [
+                Object {},
+              ],
+              "questionId": "DUMMY_ALTERNATE_QUESTION_ID_2",
+              "requestBookingId": "00000000-0000-0000-0000-000000000000",
+              "requestedAction": "ADD",
+            },
+            Object {
+              "answers": Array [],
+              "questionId": "DUMMY_QUESTION_ID_2",
+              "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+              "requestedAction": "ADD",
+            },
+          ],
+        },
+      ],
+      "eventId": "EVENT_ID",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "id": "DUMMY_CART_ID",
+      "isForPlanner": false,
+      "isForPreview": false,
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "requestedAction": "BOOK",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    },
+    "isCartCreated": true,
+    "userSession": Object {
+      "airRequest": Object {
+        "ownBooking": false,
+        "selectedAirRequestIds": Array [
+          "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+        ],
+        "showSummary": true,
+      },
+      "travelAnswers": Object {},
+    },
+  },
+  "userSession": Object {},
+  "website": Object {
+    "theme": Object {
+      "global": Object {},
+      "sections": Object {},
+    },
+  },
+}
+`;
+
+exports[`Save air request in empty travel cart 2`] = `
+Object {
+  "accessToken": "DUMMY_ACCESS_TOKEN",
+  "appData": Object {
+    "registrationSettings": Object {
+      "travelQuestions": Object {
+        "DUMMY_ALTERNATE_QUESTION_ID": Object {
+          "question": Object {
+            "additionalInfo": Object {
+              "surveyType": "AirAlternateQuestions",
+            },
+          },
+        },
+        "DUMMY_QUESTION_ID": Object {
+          "question": Object {
+            "additionalInfo": Object {
+              "surveyType": "AirQuestions",
+            },
+          },
+        },
+      },
+    },
+  },
+  "clients": Object {
+    "regCartClient": Object {
+      "updateRegCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            "DUMMY_ACCESS_TOKEN",
+            Object {
+              "eventRegistrations": Object {
+                "DUMMY_BOOKING_ID": Object {
+                  "attendee": Object {
+                    "attendeeId": null,
+                    "inviteeStatus": null,
+                    "personalInformation": Object {
+                      "contactId": null,
+                      "emailAddress": "dummy@j.mail",
+                      "homeAddress": Object {
+                        "city": "McLean",
+                        "country": "USA",
+                        "countryCode": "US",
+                        "postalCode": 1234,
+                        "state": "Virginia",
+                        "stateCode": "VA",
+                      },
+                      "workAddress": Object {
+                        "city": "McLean",
+                        "country": "USA",
+                        "countryCode": "US",
+                        "postalCode": 1234,
+                        "state": "Virginia",
+                        "stateCode": "VA",
+                      },
+                    },
+                    "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+                  },
+                  "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+                  "productRegistrations": Array [
+                    Object {
+                      "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                      "productType": "AdmissionItem",
+                      "requestedAction": "REGISTER",
+                    },
+                  ],
+                  "registrationPathId": "REG_PATH_1",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+                },
+                "DUMMY_BOOKING_ID_TWO": Object {
+                  "productRegistrations": Array [
+                    Object {
+                      "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+                      "productType": "AdmissionItem",
+                      "requestedAction": "REGISTER",
+                    },
+                  ],
+                  "registrationPathId": "REG_PATH_2",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+                },
+              },
+              "hasTravel": true,
+              "regCartId": "DUMMY_CART_ID",
+              "regMod": false,
+            },
+            undefined,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+    "travelApiClient": Object {
+      "createTravelCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "bookings": Array [
+                Object {
+                  "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                  "airActuals": Array [],
+                  "airBookings": Array [
+                    Object {
+                      "departureDate": "2019-08-06T05:00:00.000Z",
+                      "departureFrom": 1855,
+                      "departureTime": "NOON",
+                      "departureTo": 269,
+                      "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "preferences": Object {
+                        "ageCategory": "SENIOR",
+                        "airlineClass": "FIRST",
+                        "airlinePreferences": Array [
+                          Object {
+                            "airlineName": "jkhdadhjk",
+                            "rewardsNumber": "kljdasjkda",
+                          },
+                          Object {
+                            "airlineName": "d",
+                            "rewardsNumber": "f",
+                          },
+                        ],
+                        "seatingType": "WINDOW",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                      },
+                      "requestedAction": "BOOK",
+                      "returnDate": "2019-08-07T05:00:00.000Z",
+                      "returnTime": "NOON",
+                      "travellerInfo": Object {
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "firstName": "Fname",
+                        "gender": 1,
+                        "knownTravellerNumber": "",
+                        "lastName": "lname",
+                        "middleName": "mname",
+                        "redressNumber": "",
+                        "suffix": "IV",
+                      },
+                    },
+                  ],
+                  "attendee": Object {
+                    "contactId": null,
+                    "homeCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                    "id": null,
+                    "inviteeEmailAddress": "dummy@j.mail",
+                    "primaryInviteeId": null,
+                    "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+                    "status": null,
+                    "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+                    "type": "INVITEE",
+                    "workCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                  },
+                  "concurAirActuals": Array [],
+                  "creditCard": undefined,
+                  "hotelRoomBookings": Array [],
+                  "id": "DUMMY_BOOKING_ID",
+                  "pnrAirActuals": Array [],
+                  "registrationPathId": "REG_PATH_1",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+                  "requestedAction": "BOOK",
+                  "travelAnswers": Array [
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "DELETE",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "VIEW",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID_2",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "ADD",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID_2",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "ADD",
+                    },
+                  ],
+                },
+              ],
+              "eventId": "EVENT_ID",
+              "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+              "id": "DUMMY_CART_ID",
+              "isForPlanner": false,
+              "isForPreview": false,
+              "isForTestMode": false,
+              "isPlannerApprovalRequired": false,
+              "requestedAction": "BOOK",
+              "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+            },
+          ],
+          Array [
+            Object {
+              "bookings": Array [
+                Object {
+                  "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                  "airActuals": Array [],
+                  "airBookings": Array [
+                    Object {
+                      "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+                      "departureDate": "2019-08-06T05:00:00.000Z",
+                      "departureFrom": 1855,
+                      "departureTime": "NOON",
+                      "departureTo": 269,
+                      "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "preferences": Object {
+                        "ageCategory": "SENIOR",
+                        "airlineClass": "FIRST",
+                        "airlinePreferences": Array [
+                          Object {
+                            "airlineName": "jkhdadhjk",
+                            "rewardsNumber": "kljdasjkda",
+                          },
+                          Object {
+                            "airlineName": "d",
+                            "rewardsNumber": "f",
+                          },
+                        ],
+                        "seatingType": "WINDOW",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                      },
+                      "requestedAction": "BOOK",
+                      "returnDate": "2019-08-07T05:00:00.000Z",
+                      "returnTime": "NOON",
+                      "travellerInfo": Object {
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "firstName": "Fname",
+                        "gender": 1,
+                        "knownTravellerNumber": "",
+                        "lastName": "lname",
+                        "middleName": "mname",
+                        "redressNumber": "",
+                        "suffix": "IV",
+                      },
+                    },
+                  ],
+                  "attendee": Object {
+                    "contactId": null,
+                    "homeCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                    "id": null,
+                    "inviteeEmailAddress": "dummy@j.mail",
+                    "primaryInviteeId": null,
+                    "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+                    "status": null,
+                    "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+                    "type": "INVITEE",
+                    "workCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                  },
+                  "concurAirActuals": Array [],
+                  "creditCard": undefined,
+                  "hotelRoomBookings": Array [],
+                  "id": "DUMMY_BOOKING_ID",
+                  "pnrAirActuals": Array [],
+                  "registrationPathId": "REG_PATH_1",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+                  "requestedAction": "BOOK",
+                  "travelAnswers": Array [
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "DELETE",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "VIEW",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID_2",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "ADD",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID_2",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "ADD",
+                    },
+                  ],
+                },
+                Object {
+                  "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+                  "airActuals": Array [],
+                  "airBookings": Array [
+                    Object {
+                      "departureDate": "2019-08-06T05:00:00.000Z",
+                      "departureFrom": 1855,
+                      "departureTime": "NOON",
+                      "departureTo": 269,
+                      "id": "dd0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "preferences": Object {
+                        "ageCategory": "SENIOR",
+                        "airlineClass": "FIRST",
+                        "airlinePreferences": Array [
+                          Object {
+                            "airlineName": "jkhdadhjk",
+                            "rewardsNumber": "kljdasjkda",
+                          },
+                          Object {
+                            "airlineName": "d",
+                            "rewardsNumber": "f",
+                          },
+                        ],
+                        "seatingType": "WINDOW",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                      },
+                      "requestedAction": "BOOK",
+                      "returnDate": "2019-08-07T05:00:00.000Z",
+                      "returnTime": "NOON",
+                      "travellerInfo": Object {
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "firstName": "Fname",
+                        "gender": 1,
+                        "knownTravellerNumber": "",
+                        "lastName": "lname",
+                        "middleName": "mname",
+                        "redressNumber": "",
+                        "suffix": "IV",
+                      },
+                    },
+                  ],
+                  "attendee": Object {
+                    "contactId": undefined,
+                    "homeCityAddress": Object {
+                      "city": undefined,
+                      "countryCode": undefined,
+                      "countryName": undefined,
+                      "postalCode": undefined,
+                      "stateCode": undefined,
+                      "stateName": undefined,
+                    },
+                    "id": undefined,
+                    "inviteeEmailAddress": undefined,
+                    "primaryInviteeId": null,
+                    "primaryRegistrantTravelBookingId": undefined,
+                    "status": undefined,
+                    "targetListId": undefined,
+                    "type": "INVITEE",
+                    "workCityAddress": Object {
+                      "city": undefined,
+                      "countryCode": undefined,
+                      "countryName": undefined,
+                      "postalCode": undefined,
+                      "stateCode": undefined,
+                      "stateName": undefined,
+                    },
+                  },
+                  "concurAirActuals": Array [],
+                  "creditCard": undefined,
+                  "hotelRoomBookings": Array [],
+                  "id": "DUMMY_BOOKING_ID_TWO",
+                  "pnrAirActuals": Array [],
+                  "registrationPathId": "REG_PATH_2",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+                  "travelAnswers": Array [],
+                },
+              ],
+              "eventId": "EVENT_ID",
+              "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+              "id": "DUMMY_CART_ID",
+              "isForPlanner": false,
+              "isForPreview": false,
+              "isForTestMode": false,
+              "isPlannerApprovalRequired": false,
+              "requestedAction": "BOOK",
+              "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+      "updateTravelCart": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "bookings": Array [
+                Object {
+                  "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                  "airActuals": Array [],
+                  "airBookings": Array [
+                    Object {
+                      "departureDate": "2019-08-06T05:00:00.000Z",
+                      "departureFrom": 1855,
+                      "departureTime": "NOON",
+                      "departureTo": 269,
+                      "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "preferences": Object {
+                        "ageCategory": "SENIOR",
+                        "airlineClass": "FIRST",
+                        "airlinePreferences": Array [
+                          Object {
+                            "airlineName": "jkhdadhjk",
+                            "rewardsNumber": "kljdasjkda",
+                          },
+                          Object {
+                            "airlineName": "d",
+                            "rewardsNumber": "f",
+                          },
+                        ],
+                        "seatingType": "WINDOW",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                      },
+                      "requestedAction": "BOOK",
+                      "returnDate": "2019-08-07T05:00:00.000Z",
+                      "returnTime": "NOON",
+                      "travellerInfo": Object {
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "firstName": "Fname",
+                        "gender": 1,
+                        "knownTravellerNumber": "",
+                        "lastName": "lname",
+                        "middleName": "mname",
+                        "redressNumber": "",
+                        "suffix": "IV",
+                      },
+                    },
+                  ],
+                  "attendee": Object {
+                    "contactId": null,
+                    "homeCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                    "id": null,
+                    "inviteeEmailAddress": "dummy@j.mail",
+                    "primaryInviteeId": null,
+                    "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+                    "status": null,
+                    "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+                    "type": "INVITEE",
+                    "workCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                  },
+                  "concurAirActuals": Array [],
+                  "creditCard": undefined,
+                  "hotelRoomBookings": Array [],
+                  "id": "DUMMY_BOOKING_ID",
+                  "pnrAirActuals": Array [],
+                  "registrationPathId": "REG_PATH_1",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+                  "requestedAction": "BOOK",
+                  "travelAnswers": Array [
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "DELETE",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "VIEW",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID_2",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "ADD",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID_2",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "ADD",
+                    },
+                  ],
+                },
+              ],
+              "eventId": "EVENT_ID",
+              "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+              "id": "DUMMY_CART_ID",
+              "isForPlanner": false,
+              "isForPreview": false,
+              "isForTestMode": false,
+              "isPlannerApprovalRequired": false,
+              "requestedAction": "BOOK",
+              "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+            },
+          ],
+          Array [
+            Object {
+              "bookings": Array [
+                Object {
+                  "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+                  "airActuals": Array [],
+                  "airBookings": Array [
+                    Object {
+                      "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+                      "departureDate": "2019-08-06T05:00:00.000Z",
+                      "departureFrom": 1855,
+                      "departureTime": "NOON",
+                      "departureTo": 269,
+                      "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "preferences": Object {
+                        "ageCategory": "SENIOR",
+                        "airlineClass": "FIRST",
+                        "airlinePreferences": Array [
+                          Object {
+                            "airlineName": "jkhdadhjk",
+                            "rewardsNumber": "kljdasjkda",
+                          },
+                          Object {
+                            "airlineName": "d",
+                            "rewardsNumber": "f",
+                          },
+                        ],
+                        "seatingType": "WINDOW",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                      },
+                      "requestedAction": "BOOK",
+                      "returnDate": "2019-08-07T05:00:00.000Z",
+                      "returnTime": "NOON",
+                      "travellerInfo": Object {
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "firstName": "Fname",
+                        "gender": 1,
+                        "knownTravellerNumber": "",
+                        "lastName": "lname",
+                        "middleName": "mname",
+                        "redressNumber": "",
+                        "suffix": "IV",
+                      },
+                    },
+                  ],
+                  "attendee": Object {
+                    "contactId": null,
+                    "homeCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                    "id": null,
+                    "inviteeEmailAddress": "dummy@j.mail",
+                    "primaryInviteeId": null,
+                    "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+                    "status": null,
+                    "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+                    "type": "INVITEE",
+                    "workCityAddress": Object {
+                      "city": "McLean",
+                      "countryCode": "US",
+                      "countryName": "USA",
+                      "postalCode": 1234,
+                      "stateCode": "VA",
+                      "stateName": "Virginia",
+                    },
+                  },
+                  "concurAirActuals": Array [],
+                  "creditCard": undefined,
+                  "hotelRoomBookings": Array [],
+                  "id": "DUMMY_BOOKING_ID",
+                  "pnrAirActuals": Array [],
+                  "registrationPathId": "REG_PATH_1",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+                  "requestedAction": "BOOK",
+                  "travelAnswers": Array [
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "DELETE",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "VIEW",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {},
+                      ],
+                      "questionId": "DUMMY_ALTERNATE_QUESTION_ID_2",
+                      "requestBookingId": "00000000-0000-0000-0000-000000000000",
+                      "requestedAction": "ADD",
+                    },
+                    Object {
+                      "answers": Array [],
+                      "questionId": "DUMMY_QUESTION_ID_2",
+                      "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "requestedAction": "ADD",
+                    },
+                  ],
+                },
+                Object {
+                  "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+                  "airActuals": Array [],
+                  "airBookings": Array [
+                    Object {
+                      "departureDate": "2019-08-06T05:00:00.000Z",
+                      "departureFrom": 1855,
+                      "departureTime": "NOON",
+                      "departureTo": 269,
+                      "id": "dd0e7b41-ec09-4efe-94c4-1490b026b60c",
+                      "preferences": Object {
+                        "ageCategory": "SENIOR",
+                        "airlineClass": "FIRST",
+                        "airlinePreferences": Array [
+                          Object {
+                            "airlineName": "jkhdadhjk",
+                            "rewardsNumber": "kljdasjkda",
+                          },
+                          Object {
+                            "airlineName": "d",
+                            "rewardsNumber": "f",
+                          },
+                        ],
+                        "seatingType": "WINDOW",
+                        "specialMeals": "",
+                        "specialRequirements": "LULwa",
+                      },
+                      "requestedAction": "BOOK",
+                      "returnDate": "2019-08-07T05:00:00.000Z",
+                      "returnTime": "NOON",
+                      "travellerInfo": Object {
+                        "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                        "firstName": "Fname",
+                        "gender": 1,
+                        "knownTravellerNumber": "",
+                        "lastName": "lname",
+                        "middleName": "mname",
+                        "redressNumber": "",
+                        "suffix": "IV",
+                      },
+                    },
+                  ],
+                  "attendee": Object {
+                    "contactId": undefined,
+                    "homeCityAddress": Object {
+                      "city": undefined,
+                      "countryCode": undefined,
+                      "countryName": undefined,
+                      "postalCode": undefined,
+                      "stateCode": undefined,
+                      "stateName": undefined,
+                    },
+                    "id": undefined,
+                    "inviteeEmailAddress": undefined,
+                    "primaryInviteeId": null,
+                    "primaryRegistrantTravelBookingId": undefined,
+                    "status": undefined,
+                    "targetListId": undefined,
+                    "type": "INVITEE",
+                    "workCityAddress": Object {
+                      "city": undefined,
+                      "countryCode": undefined,
+                      "countryName": undefined,
+                      "postalCode": undefined,
+                      "stateCode": undefined,
+                      "stateName": undefined,
+                    },
+                  },
+                  "concurAirActuals": Array [],
+                  "creditCard": undefined,
+                  "hotelRoomBookings": Array [],
+                  "id": "DUMMY_BOOKING_ID_TWO",
+                  "pnrAirActuals": Array [],
+                  "registrationPathId": "REG_PATH_2",
+                  "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+                  "travelAnswers": Array [],
+                },
+              ],
+              "eventId": "EVENT_ID",
+              "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+              "id": "DUMMY_CART_ID",
+              "isForPlanner": false,
+              "isForPreview": false,
+              "isForTestMode": false,
+              "isPlannerApprovalRequired": false,
+              "requestedAction": "BOOK",
+              "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+          Object {
+            "type": "return",
+            "value": Promise {},
+          },
+        ],
+      },
+    },
+  },
+  "defaultUserSession": Object {
+    "eventId": "EVENT_ID",
+    "isPlanner": false,
+    "isPreview": false,
+  },
+  "event": Object {
+    "isInTestMode": false,
+    "timezone": 35,
+  },
+  "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+  "eventTravel": Object {
+    "airData": Object {},
+    "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+  },
+  "regCartStatus": Object {
+    "lastSavedRegCart": Object {
+      "eventRegistrations": Object {
+        "DUMMY_BOOKING_ID": Object {
+          "attendee": Object {
+            "attendeeId": null,
+            "inviteeStatus": null,
+            "personalInformation": Object {
+              "contactId": null,
+              "emailAddress": "dummy@j.mail",
+              "homeAddress": Object {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA",
+              },
+              "workAddress": Object {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA",
+              },
+            },
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+          },
+          "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+        },
+        "DUMMY_BOOKING_ID_TWO": Object {
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_2",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+        },
+      },
+      "hasTravel": true,
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+    },
+    "modificationStartRegCart": undefined,
+    "registrationIntent": "REGISTERING",
+  },
+  "registrationForm": Object {
+    "currentEventRegistrationId": "",
+    "currentGuestEventRegistration": Object {},
+    "discountCodeStatus": "",
+    "errors": Object {},
+    "preventRegistration": false,
+    "regCart": Object {
+      "eventRegistrations": Object {
+        "DUMMY_BOOKING_ID": Object {
+          "attendee": Object {
+            "attendeeId": null,
+            "inviteeStatus": null,
+            "personalInformation": Object {
+              "contactId": null,
+              "emailAddress": "dummy@j.mail",
+              "homeAddress": Object {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA",
+              },
+              "workAddress": Object {
+                "city": "McLean",
+                "country": "USA",
+                "countryCode": "US",
+                "postalCode": 1234,
+                "state": "Virginia",
+                "stateCode": "VA",
+              },
+            },
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+          },
+          "primaryRegistrationId": "00000000-0000-0000-0000-000000000001",
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+        },
+        "DUMMY_BOOKING_ID_TWO": Object {
+          "productRegistrations": Array [
+            Object {
+              "productId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+              "productType": "AdmissionItem",
+              "requestedAction": "REGISTER",
+            },
+          ],
+          "registrationPathId": "REG_PATH_2",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+        },
+      },
+      "hasTravel": true,
+      "regCartId": "DUMMY_CART_ID",
+      "regMod": false,
+    },
+    "regCartPayment": Object {},
+    "validationMessages": Array [],
+  },
+  "timezones": Object {
+    "35": Object {
+      "abbreviation": "ET",
+      "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+      "dstInfo": Array [],
+      "hasDst": true,
+      "id": 35,
+      "name": "Eastern Time",
+      "nameResourceKey": "Event_Timezone_Name_35__resx",
+      "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+      "utcOffset": -300,
+    },
+  },
+  "travelCart": Object {
+    "cart": Object {
+      "bookings": Array [
+        Object {
+          "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f946",
+          "airActuals": Array [],
+          "airBookings": Array [
+            Object {
+              "attendeeRegistrationId": "DUMMY_BOOKING_ID",
+              "departureDate": "2019-08-06T05:00:00.000Z",
+              "departureFrom": 1855,
+              "departureTime": "NOON",
+              "departureTo": 269,
+              "id": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+              "preferences": Object {
+                "ageCategory": "SENIOR",
+                "airlineClass": "FIRST",
+                "airlinePreferences": Array [
+                  Object {
+                    "airlineName": "jkhdadhjk",
+                    "rewardsNumber": "kljdasjkda",
+                  },
+                  Object {
+                    "airlineName": "d",
+                    "rewardsNumber": "f",
+                  },
+                ],
+                "seatingType": "WINDOW",
+                "specialMeals": "",
+                "specialRequirements": "LULwa",
+              },
+              "requestedAction": "BOOK",
+              "returnDate": "2019-08-07T05:00:00.000Z",
+              "returnTime": "NOON",
+              "travellerInfo": Object {
+                "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                "firstName": "Fname",
+                "gender": 1,
+                "knownTravellerNumber": "",
+                "lastName": "lname",
+                "middleName": "mname",
+                "redressNumber": "",
+                "suffix": "IV",
+              },
+            },
+          ],
+          "attendee": Object {
+            "contactId": null,
+            "homeCityAddress": Object {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": 1234,
+              "stateCode": "VA",
+              "stateName": "Virginia",
+            },
+            "id": null,
+            "inviteeEmailAddress": "dummy@j.mail",
+            "primaryInviteeId": null,
+            "primaryRegistrantTravelBookingId": "00000000-0000-0000-0000-000000000001",
+            "status": null,
+            "targetListId": "780c72ba-d8d5-40ac-9ba8-38f3b81418d8",
+            "type": "INVITEE",
+            "workCityAddress": Object {
+              "city": "McLean",
+              "countryCode": "US",
+              "countryName": "USA",
+              "postalCode": 1234,
+              "stateCode": "VA",
+              "stateName": "Virginia",
+            },
+          },
+          "concurAirActuals": Array [],
+          "creditCard": undefined,
+          "hotelRoomBookings": Array [],
+          "id": "DUMMY_BOOKING_ID",
+          "pnrAirActuals": Array [],
+          "registrationPathId": "REG_PATH_1",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0372",
+          "requestedAction": "BOOK",
+          "travelAnswers": Array [
+            Object {
+              "answers": Array [
+                Object {},
+              ],
+              "questionId": "DUMMY_ALTERNATE_QUESTION_ID",
+              "requestBookingId": "00000000-0000-0000-0000-000000000000",
+              "requestedAction": "DELETE",
+            },
+            Object {
+              "answers": Array [],
+              "questionId": "DUMMY_QUESTION_ID",
+              "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+              "requestedAction": "VIEW",
+            },
+            Object {
+              "answers": Array [
+                Object {},
+              ],
+              "questionId": "DUMMY_ALTERNATE_QUESTION_ID_2",
+              "requestBookingId": "00000000-0000-0000-0000-000000000000",
+              "requestedAction": "ADD",
+            },
+            Object {
+              "answers": Array [],
+              "questionId": "DUMMY_QUESTION_ID_2",
+              "requestBookingId": "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+              "requestedAction": "ADD",
+            },
+          ],
+        },
+        Object {
+          "admissionItemId": "3349dc98-e303-4bf9-b698-e1bdae85f947",
+          "airActuals": Array [],
+          "airBookings": Array [
+            Object {
+              "attendeeRegistrationId": "DUMMY_BOOKING_ID_TWO",
+              "departureDate": "2019-08-06T05:00:00.000Z",
+              "departureFrom": 1855,
+              "departureTime": "NOON",
+              "departureTo": 269,
+              "id": "dd0e7b41-ec09-4efe-94c4-1490b026b60c",
+              "preferences": Object {
+                "ageCategory": "SENIOR",
+                "airlineClass": "FIRST",
+                "airlinePreferences": Array [
+                  Object {
+                    "airlineName": "jkhdadhjk",
+                    "rewardsNumber": "kljdasjkda",
+                  },
+                  Object {
+                    "airlineName": "d",
+                    "rewardsNumber": "f",
+                  },
+                ],
+                "seatingType": "WINDOW",
+                "specialMeals": "",
+                "specialRequirements": "LULwa",
+              },
+              "requestedAction": "BOOK",
+              "returnDate": "2019-08-07T05:00:00.000Z",
+              "returnTime": "NOON",
+              "travellerInfo": Object {
+                "dateOfBirth": "2018-06-14T05:00:00.000Z",
+                "firstName": "Fname",
+                "gender": 1,
+                "knownTravellerNumber": "",
+                "lastName": "lname",
+                "middleName": "mname",
+                "redressNumber": "",
+                "suffix": "IV",
+              },
+            },
+          ],
+          "attendee": Object {
+            "contactId": undefined,
+            "homeCityAddress": Object {
+              "city": undefined,
+              "countryCode": undefined,
+              "countryName": undefined,
+              "postalCode": undefined,
+              "stateCode": undefined,
+              "stateName": undefined,
+            },
+            "id": undefined,
+            "inviteeEmailAddress": undefined,
+            "primaryInviteeId": null,
+            "primaryRegistrantTravelBookingId": undefined,
+            "status": undefined,
+            "targetListId": undefined,
+            "type": "INVITEE",
+            "workCityAddress": Object {
+              "city": undefined,
+              "countryCode": undefined,
+              "countryName": undefined,
+              "postalCode": undefined,
+              "stateCode": undefined,
+              "stateName": undefined,
+            },
+          },
+          "concurAirActuals": Array [],
+          "creditCard": undefined,
+          "hotelRoomBookings": Array [],
+          "id": "DUMMY_BOOKING_ID_TWO",
+          "pnrAirActuals": Array [],
+          "registrationPathId": "REG_PATH_2",
+          "registrationTypeId": "b8e50dbf-7437-4eec-a964-bc27d79d0373",
+          "travelAnswers": Array [],
+        },
+      ],
+      "eventId": "EVENT_ID",
+      "eventSnapshotVersion": "EVENT_SNAPSHOT_VERSION",
+      "id": "DUMMY_CART_ID",
+      "isForPlanner": false,
+      "isForPreview": false,
+      "isForTestMode": false,
+      "isPlannerApprovalRequired": false,
+      "requestedAction": "BOOK",
+      "travelSnapshotVersion": "TRAVEL_SNAPSHOT_VERSION",
+    },
+    "isCartCreated": true,
+    "userSession": Object {
+      "airRequest": Object {
+        "ownBooking": false,
+        "selectedAirRequestIds": Array [
+          "aa0e7b41-ec09-4efe-94c4-1490b026b60c",
+          "dd0e7b41-ec09-4efe-94c4-1490b026b60c",
+        ],
+        "showSummary": true,
+      },
+      "travelAnswers": Object {},
+    },
+  },
+  "userSession": Object {},
+  "website": Object {
+    "theme": Object {
+      "global": Object {},
+      "sections": Object {},
+    },
+  },
+}
+`;
+
+exports[`Update air bookings in travel cart > Add a new air booking when already air bookings exist in travel booking for given reg id 1`] = `
+Array [
+  Object {
+    "airBookings": Array [
+      Object {
+        "attendeeRegistrationId": "EVENT_REG_ID",
+        "id": "DUMMY_AIR_BOOKING",
+      },
+      Object {
+        "attendeeRegistrationId": "EVENT_REG_ID",
+        "id": "DUMMY_AIR_BOOKING_ID2",
+        "requestedAction": "BOOK",
+      },
+    ],
+    "id": "EVENT_REG_ID",
+    "requestedAction": "BOOK",
+  },
+]
+`;
+
+exports[`Update air bookings in travel cart > Add air booking when no existing air bookings exist 1`] = `
+Array [
+  Object {
+    "airBookings": Array [
+      Object {
+        "attendeeRegistrationId": "EVENT_REG_ID",
+        "id": "DUMMY_AIR_BOOKING",
+        "requestedAction": "BOOK",
+      },
+    ],
+    "id": "EVENT_REG_ID",
+    "requestedAction": "BOOK",
+  },
+]
+`;
+
+exports[`Update air bookings in travel cart > Add air booking when no travel booking exists for the given event reg id 1`] = `
+Array [
+  Object {
+    "airBookings": Array [],
+    "id": "EVENT_REG_ID2",
+  },
+  Object {
+    "airBookings": Array [
+      Object {
+        "attendeeRegistrationId": "EVENT_REG_ID",
+        "id": "DUMMY_AIR_BOOKING",
+        "requestedAction": "BOOK",
+      },
+    ],
+    "id": "EVENT_REG_ID",
+  },
+]
+`;
+
+exports[`Update air bookings in travel cart > Add air booking when no travel bookings exist at all 1`] = `
+Array [
+  Object {
+    "airBookings": Array [
+      Object {
+        "attendeeRegistrationId": "EVENT_REG_ID",
+        "id": "DUMMY_AIR_BOOKING",
+        "requestedAction": "BOOK",
+      },
+    ],
+    "id": "EVENT_REG_ID",
+  },
+]
+`;
+
+exports[`Update air bookings in travel cart > Cancel an already existing air booking when doing a mod 1`] = `
+Array [
+  Object {
+    "airBookings": Array [
+      Object {
+        "airReservationDetailId": "I_EXIST_ALREADY",
+        "attendeeRegistrationId": "EVENT_REG_ID",
+        "id": "DUMMY_AIR_BOOKING",
+        "requestedAction": "CANCEL",
+      },
+    ],
+    "id": "EVENT_REG_ID",
+  },
+]
+`;
+
+exports[`Update air bookings in travel cart > Modify an air booking which was only been added during the course of a registration 1`] = `
+Array [
+  Object {
+    "airBookings": Array [
+      Object {
+        "attendeeRegistrationId": "EVENT_REG_ID",
+        "departureFrom": 473,
+        "id": "DUMMY_AIR_BOOKING",
+        "requestedAction": "BOOK",
+      },
+    ],
+    "id": "EVENT_REG_ID",
+    "requestedAction": "BOOK",
+  },
+]
+`;
+
+exports[`Update air bookings in travel cart > Modify an already existing air booking when doing a mod 1`] = `
+Array [
+  Object {
+    "airBookings": Array [
+      Object {
+        "airReservationDetailId": "I_EXIST_ALREADY",
+        "attendeeRegistrationId": "EVENT_REG_ID",
+        "departureFrom": 473,
+        "id": "DUMMY_AIR_BOOKING",
+        "requestedAction": "MODIFY",
+      },
+    ],
+    "id": "EVENT_REG_ID",
+    "requestedAction": "BOOK",
+  },
+]
+`;
+
+exports[`Update air bookings in travel cart > Remove an air booking which was only been added during the course of a registration 1`] = `
+Array [
+  Object {
+    "airBookings": Array [],
+    "id": "EVENT_REG_ID",
+  },
+]
+`;

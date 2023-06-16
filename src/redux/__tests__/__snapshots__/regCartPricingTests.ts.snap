@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LOG_OUT_REGISTRANT_SUCCESS does not change default pricing 1`] = `null`;
+
+exports[`LOG_OUT_REGISTRANT_SUCCESS sets pricing to default. 1`] = `null`;
+
+exports[`Verifying initial state. 1`] = `
+Object {
+  "isEditPrice": false,
+  "isEditRefund": false,
+  "plannerOverriddenProductFees": Object {},
+  "plannerOverriddenProductRefunds": Object {},
+}
+`;

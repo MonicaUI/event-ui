@@ -1,0 +1,1140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not crash if no registration path is found 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  First Name
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                maxlength="30"
+                name="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`email field marked as non required during external auth 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              Email Address
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              external@auth.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`email field marked as non required during external auth even when allowPersonalModification is true in reg mod 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              Email Address
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              external@auth.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`email field marked as non required during external auth will become read only when allowPersonalModification is false in reg mod 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              Email Address
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              external@auth.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`first name is editable in reg cancel when allowPersonalInformationModification is true 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  First Name
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                maxlength="30"
+                name="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`first name is editable in reg mod when allowPersonalInformationModification is false but the request is for a guest 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  First Name
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                maxlength="30"
+                name="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`first name is editable in reg mod when allowPersonalInformationModification is true 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  First Name
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                maxlength="30"
+                name="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`first name is non-editable in new reg when invitee is known and isIdConfirmationReadOnly is true 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              First Name
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              first name
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`first name is read-only after reg mod is cancelled and allowPersonalInformationModification is false 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              First Name
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              –––
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`first name is read-only in reg cancel when allowPersonalInformationModification is false 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              First Name
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              –––
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`first name is read-only in reg mod when allowPersonalInformationModification is false 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              First Name
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              –––
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`last name is editable in reg mod when allowPersonalInformationModification is true 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="cfc98829-80b7-41b6-82b5-b968d43ef1c1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Last Name
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="cfc98829-80b7-41b6-82b5-b968d43ef1c1"
+                maxlength="50"
+                name="cfc98829-80b7-41b6-82b5-b968d43ef1c1"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`last name is read-only in reg mod when allowPersonalInformationModification is false 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              Last Name
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              –––
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`skipping required fields during planner reg 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              Email Address
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              external@auth.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`source id is editable in reg mod when allowPersonalInformationModification is true 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Source Id
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+                maxlength="120"
+                name="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`source id is editable when arriving from email for known invitee inital reg and isIdConfirmationReadOnly is false 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Source Id
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+                maxlength="120"
+                name="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`source id is read-only in reg mod when allowPersonalInformationModification is false 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              Source Id
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              –––
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`source id is read-only when arriving from email for known invitee inital reg and isIdConfirmationReadOnly is true 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span>
+              Source Id
+            </span>
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              –––
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`source id required for unknown invitee 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  Source Id
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+                maxlength="120"
+                name="d110fb3f-83ad-46ae-a442-dfe51c83fa2b"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text standard contact field renders and allows you to enter text 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  First Name
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                maxlength="30"
+                name="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text standard contact field renders and allows you to enter text 2`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <label
+            class="labelOnTop"
+            for="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+          >
+            <span
+              class=""
+            >
+              <span
+                class=""
+              >
+                * 
+              </span>
+              <span
+                data-cvent-id="label"
+              >
+                <span>
+                  First Name
+                </span>
+              </span>
+            </span>
+          </label>
+          <div
+            class=""
+          >
+            <div
+              class=""
+            >
+              <input
+                class=""
+                data-cvent-id="input"
+                id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                maxlength="30"
+                name="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"
+                required=""
+                type="text"
+                value="text answer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text standard contact field renders and allows you to enter text 3`] = `
+Object {
+  "personalInformation": Object {
+    "emailAddress": "external@auth.com",
+    "firstName": "text answer",
+  },
+}
+`;
+
+exports[`text standard contact field will be set to null if regtype changed and field is read only 1`] = `
+<div
+  class=""
+>
+  <div
+    class=""
+    style="width: 100%;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class=""
+        style="flex: 1 1 auto;"
+      >
+        <div
+          class=""
+        >
+          <span
+            class="labelOnTop"
+          >
+            <span />
+          </span>
+          <div
+            class=""
+          >
+            <p
+              class=""
+            >
+              –––
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

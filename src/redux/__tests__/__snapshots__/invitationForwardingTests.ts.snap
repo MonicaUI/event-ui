@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verifing turnOnAutoFocus 1`] = `
+Object {
+  "autoFocus": true,
+  "entityList": Array [],
+  "invitationForwardingError": false,
+  "invitationForwardingSuccess": false,
+}
+`;
+
+exports[`Verifying initial state. 1`] = `
+Object {
+  "autoFocus": false,
+  "entityList": Array [],
+  "invitationForwardingError": false,
+  "invitationForwardingSuccess": false,
+}
+`;
+
+exports[`verifying forwardingInvitationError 1`] = `
+Object {
+  "autoFocus": false,
+  "entityList": Array [],
+  "invitationForwardingError": false,
+  "invitationForwardingSuccess": true,
+}
+`;
+
+exports[`verifying forwardingInvitationSuccess 1`] = `
+Object {
+  "autoFocus": false,
+  "entityList": Array [],
+  "invitationForwardingError": false,
+  "invitationForwardingSuccess": true,
+}
+`;
+
+exports[`verifying resetInvitationForwarding 1`] = `
+Object {
+  "autoFocus": false,
+  "entityList": Array [],
+  "invitationForwardingError": false,
+  "invitationForwardingSuccess": false,
+}
+`;

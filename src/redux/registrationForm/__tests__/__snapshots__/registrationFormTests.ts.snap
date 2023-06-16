@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check discount capacity insufficient error when discount capacity is reached 1`] = `true`;
+
+exports[`check registration error for any known errors 1`] = `true`;
+
+exports[`check registration error for any known errors 2`] = `"EventGuestside_ApiError_ChangedIdConfirmation__resx"`;
+
+exports[`check registration error for duplicate invitee in cart 1`] = `true`;
+
+exports[`check registration error for invitee already registered error 1`] = `true`;
+
+exports[`check registration error for registrant already added as guest in event error 1`] = `true`;
+
+exports[`check registration for admin attendee email error when invitee registers for event using a source id, and admin has same email 1`] = `true`;
+
+exports[`check registration for payment processing error 1`] = `true`;
+
+exports[`check registration for private event error 1 when invitee registers for event and is not allowed by custom logic 1`] = `true`;
+
+exports[`check registration for private event error when invitee was registered and then removed from email list for email invitation only event 1`] = `true`;
+
+exports[`check registration for private event error when known invitee registers for private event 1`] = `false`;
+
+exports[`check registration for private event error when unknown invitee in a specific target list tries to registers with different target list 1`] = `true`;
+
+exports[`check registration for private event error when unknown invitee registers for email invitation and the event website option events 1`] = `true`;
+
+exports[`check registration for private event error when unknown invitee registers for email invitation only events 1`] = `true`;
+
+exports[`check registraton for add group member errors when admission item capacity is reached 1`] = `true`;
+
+exports[`check registraton for add group member errors when event capacity is reached 1`] = `true`;
+
+exports[`check registraton for add group member errors when no admission item associated with regtype 1`] = `true`;
+
+exports[`check registraton for decline errors when invitee is already declined 1`] = `true`;
+
+exports[`check registraton for decline errors when invitee is already registered 1`] = `true`;
+
+exports[`set reg cart payment fields for credit card 1`] = `[Function]`;
+
+exports[`set reg cart payment fields for offline payment 1`] = `
+Object {
+  "payload": Object {
+    "path": Array [
+      "pricingInfo",
+      "p",
+      "a",
+      "t",
+      "h",
+    ],
+    "value": "additional details",
+  },
+  "type": "event-guestside-site/registrationForm/regCartPayment/SET_REG_CART_PAYMENT_FIELD_VALUE",
+}
+`;
+
+exports[`testing reducers LOG_OUT_REGISTRANT_SUCCESS setting payment to default payment values 1`] = `
+Object {
+  "pricingInfo": Object {
+    "authorizeDotNet": Object {
+      "paymentMethodKey": "authorizeDotNet",
+      "paymentMethodType": "AuthorizeNetSIM",
+      "paymentType": "Online",
+    },
+    "check": Object {
+      "paymentMethodKey": "check",
+      "paymentMethodType": "Check",
+      "paymentType": "Offline",
+      "referenceNumber": "",
+    },
+    "creditCard": Object {
+      "address1": "",
+      "address2": "",
+      "address3": "",
+      "cVV": "",
+      "city": "",
+      "country": "",
+      "expirationMonth": "6",
+      "expirationYear": "2021",
+      "name": "",
+      "number": "",
+      "paymentMethodKey": "creditCard",
+      "paymentMethodType": null,
+      "paymentType": "Online",
+      "state": "",
+      "zip": "",
+    },
+    "cyberSourceSecureAcceptance": Object {
+      "paymentMethodKey": "cyberSourceSecureAcceptance",
+      "paymentMethodType": "CyberSourceSecureAcceptance",
+      "paymentType": "Online",
+    },
+    "noPayment": Object {
+      "paymentMethodKey": "noPayment",
+      "paymentMethodType": null,
+      "paymentType": "NoPayment",
+    },
+    "offline": Object {
+      "optionOne": Object {
+        "note": "",
+        "paymentMethodKey": "offline.optionOne",
+        "paymentMethodType": "Other",
+        "paymentType": "Offline",
+      },
+      "optionThree": Object {
+        "note": "",
+        "paymentMethodKey": "offline.optionThree",
+        "paymentMethodType": "Other3",
+        "paymentType": "Offline",
+      },
+      "optionTwo": Object {
+        "note": "",
+        "paymentMethodKey": "offline.optionTwo",
+        "paymentMethodType": "Other2",
+        "paymentType": "Offline",
+      },
+    },
+    "payPal": Object {
+      "paymentMethodKey": "payPal",
+      "paymentMethodType": "PayPal",
+      "paymentType": "Online",
+    },
+    "purchaseOrder": Object {
+      "paymentMethodKey": "purchaseOrder",
+      "paymentMethodType": "PurchaseOrder",
+      "paymentType": "Offline",
+      "referenceNumber": "",
+    },
+    "touchNet": Object {
+      "paymentMethodKey": "touchNet",
+      "paymentMethodType": "TouchNet",
+      "paymentType": "Online",
+    },
+    "wpm": Object {
+      "paymentMethodKey": "wpm",
+      "paymentMethodType": "Wpm",
+      "paymentType": "Online",
+    },
+  },
+  "selectedPaymentMethod": null,
+}
+`;
+
+exports[`testing reducers SET_REG_CART_PAYMENT_FIELD_VALUE setting reg cart payment field value 1`] = `
+Object {
+  "p": Object {
+    "a": Object {
+      "t": Object {
+        "h": "123",
+      },
+    },
+  },
+  "pricingInfo": Object {
+    "authorizeDotNet": Object {
+      "paymentMethodKey": "authorizeDotNet",
+      "paymentMethodType": "AuthorizeNetSIM",
+      "paymentType": "Online",
+    },
+    "check": Object {
+      "paymentMethodKey": "check",
+      "paymentMethodType": "Check",
+      "paymentType": "Offline",
+      "referenceNumber": "",
+    },
+    "creditCard": Object {
+      "address1": "",
+      "address2": "",
+      "address3": "",
+      "cVV": "",
+      "city": "",
+      "country": "",
+      "expirationMonth": "6",
+      "expirationYear": "2021",
+      "name": "",
+      "number": "",
+      "paymentMethodKey": "creditCard",
+      "paymentMethodType": null,
+      "paymentType": "Online",
+      "state": "",
+      "zip": "",
+    },
+    "cyberSourceSecureAcceptance": Object {
+      "paymentMethodKey": "cyberSourceSecureAcceptance",
+      "paymentMethodType": "CyberSourceSecureAcceptance",
+      "paymentType": "Online",
+    },
+    "noPayment": Object {
+      "paymentMethodKey": "noPayment",
+      "paymentMethodType": null,
+      "paymentType": "NoPayment",
+    },
+    "offline": Object {
+      "optionOne": Object {
+        "note": "",
+        "paymentMethodKey": "offline.optionOne",
+        "paymentMethodType": "Other",
+        "paymentType": "Offline",
+      },
+      "optionThree": Object {
+        "note": "",
+        "paymentMethodKey": "offline.optionThree",
+        "paymentMethodType": "Other3",
+        "paymentType": "Offline",
+      },
+      "optionTwo": Object {
+        "note": "",
+        "paymentMethodKey": "offline.optionTwo",
+        "paymentMethodType": "Other2",
+        "paymentType": "Offline",
+      },
+    },
+    "payPal": Object {
+      "paymentMethodKey": "payPal",
+      "paymentMethodType": "PayPal",
+      "paymentType": "Online",
+    },
+    "purchaseOrder": Object {
+      "paymentMethodKey": "purchaseOrder",
+      "paymentMethodType": "PurchaseOrder",
+      "paymentType": "Offline",
+      "referenceNumber": "",
+    },
+    "touchNet": Object {
+      "paymentMethodKey": "touchNet",
+      "paymentMethodType": "TouchNet",
+      "paymentType": "Online",
+    },
+    "wpm": Object {
+      "paymentMethodKey": "wpm",
+      "paymentMethodType": "Wpm",
+      "paymentType": "Online",
+    },
+  },
+  "selectedPaymentMethod": null,
+}
+`;
+
+exports[`testing reducers error failure sets the errors 1`] = `
+Object {
+  "error": Object {
+    "responseBody": Object {
+      "validationMessages": Array [
+        Object {
+          "localizationKey": "REGAPI.EMAIL_ONLY_INVITEE",
+          "parametersMap": Object {
+            "eventId": "35d1aea9-b4ed-4582-854c-6fff39ecbbfe",
+          },
+          "severity": "Error",
+          "subValidationMessageList": Array [],
+          "unLocalizedInternalMessage": "Event {{eventId}} only allows registration via email link.",
+        },
+      ],
+    },
+    "responseStatus": 422,
+  },
+  "type": "event-guestside-site/regCart/CREATE_REG_CART_FAILURE",
+}
+`;

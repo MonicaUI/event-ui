@@ -1,0 +1,211 @@
+{
+  "pages": {
+    "virtualDetails": {
+      "id": "virtualDetails",
+      "title": "EventGuest_VirtualDetails_PageTitle__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": ["container:virtualDetails"]
+    }
+  },
+  "layoutItems": {
+    "container:virtualDetails": {
+      "id": "container:virtualDetails",
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": ["sectionRow:virtualDetails"],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "sectionRow:virtualDetails": {
+      "id": "sectionRow:virtualDetails",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": ["sectionColumn:virtualDetails"],
+        "cellSize": 4,
+        "parentId": "container:virtualDetails"
+      },
+      "config": {
+        "style": {},
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "columnLayoutId": "ONE_COLUMN"
+      }
+    },
+    "sectionColumn:virtualDetails": {
+      "id": "sectionColumn:virtualDetails",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:virtualDetails-description",
+          "row:virtualDetails-action-button",
+          "row:virtualDetails-contact-info"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:virtualDetails"
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "row:virtualDetails-description": {
+      "id": "row:virtualDetails-description",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:virtualDetails",
+        "childIds": ["widget:virtualDetails-description"]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:virtualDetails-description": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:virtualDetails-description"
+      },
+      "id": "widget:virtualDetails-description",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 30,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "passwordLabelText": {
+            "styleMapping": "body1",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          },
+          "passwordText": {
+            "styleMapping": "header3",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "passwordLabelText": "EventGuestSide_VirtualDetails_passwordText__resx"
+      },
+      "widgetType": "VirtualDetailsPassword"
+    },
+    "row:virtualDetails-contact-info": {
+      "id": "row:virtualDetails-contact-info",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:virtualDetails",
+        "childIds": ["widget:virtualDetails-contact-name"]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:virtualDetails-contact-name": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:virtualDetails-contact-info"
+      },
+      "id": "widget:virtualDetails-contact-name",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 15,
+              "paddingBottom": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "label": {
+            "styleMapping": "label"
+          },
+          "field": {
+            "styleMapping": "body1"
+          },
+          "text": {
+            "styleMapping": "body1",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_VirtualDetails_JoiningInvitee__resx"
+      },
+      "widgetType": "VirtualDetailsInvitee"
+    },
+    "row:virtualDetails-action-button": {
+      "id": "row:virtualDetails-action-button",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:virtualDetails",
+        "childIds": ["widget:virtualDetails-action-button"]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:virtualDetails-action-button": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:virtualDetails-action-button"
+      },
+      "id": "widget:virtualDetails-action-button",
+      "config": {
+        "style": {
+          "button": {
+            "styleMapping": "primaryButton",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          },
+          "spacing": {
+            "padding": {
+              "paddingBottom": 15,
+              "paddingTop": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          }
+        },
+        "joinBtnTextForSession": "EventWidgets_Agenda_Session_Join_Virtual__resx",
+        "joinBtnTextForEvent": "EventGuestSide_virtualDetails_JoinEventButton__resx",
+        "joinBtnTextForRecording": "EventWidgets_Agenda_Session_Watch_Recording__resx"
+      },
+      "widgetType": "VirtualDetailsJoinButton"
+    }
+  }
+}

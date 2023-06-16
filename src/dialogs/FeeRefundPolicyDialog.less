@@ -1,0 +1,50 @@
+@import (reference) './EventStatusDialog.less';
+
+.popUpDialogContainer {
+  .dialogContainer();
+  max-height: 100vh;
+}
+
+.refundPolicyContainer {
+  padding-bottom: 3rem;
+}
+
+.feeRefundSection {
+  padding: 2.5rem 3rem 0 3rem;
+}
+
+.cancelledByHeader {
+  margin: 1.75rem 0 1.25rem 0;
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .cancelledByHeaderText {
+    float: left;
+  }
+
+  .cancelledByHeaderAmountText {
+    float: right;
+  }
+}
+
+.dateAmountWrapper {
+  padding: 0 0.75rem 0.5rem 0.75rem;
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .cancelledByDate {
+    float: left;
+  }
+
+  .amountRefunded {
+    float: right;
+  }
+}

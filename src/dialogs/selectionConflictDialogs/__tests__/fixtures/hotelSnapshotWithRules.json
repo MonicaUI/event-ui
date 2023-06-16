@@ -1,0 +1,50 @@
+{
+  "hotelRequestRules": [  
+    {  
+      "id": "6d56320b-c885-4b91-a524-7fd46ad1a5ff",
+      "name": "hotel advance rule 1",
+      "warningMessage": "advance rule 1",
+      "defaultArrivalDate": "2018-11-13T00:00:00.000Z",
+      "defaultDepartureDate": "2018-11-18T00:00:00.000Z",
+      "arrivalDate": "2018-11-13T00:00:00.000Z",
+      "departureDate": "2018-11-18T00:00:00.000Z",
+      "shoulderDateSetup": {  
+        "arrivalShoulderDays": 1,
+        "departureShoulderDays": 1,
+        "isAllowed": true,
+        "isAllowedByInvitee": true,
+        "isPlannerApprovalRequired": false
+      },
+      "admissionItem ":[  
+        "admissionItemAId"
+      ],
+      "contactType ":[  
+        "registrationTypeAId"
+      ],
+      "isActive ":true
+    },
+    {  
+        "id": "af172a72-d747-4146-beb2-09063c6353a8",
+        "name": "hotel advance rule 2",
+        "warningMessage": "advance rule 2",
+        "defaultArrivalDate": "2018-11-14T00:00:00.000Z",
+        "defaultDepartureDate": "2018-11-19T00:00:00.000Z",
+        "arrivalDate": "2018-11-14T00:00:00.000Z",
+        "departureDate": "2018-11-19T00:00:00.000Z",
+        "shoulderDateSetup": {  
+          "arrivalShoulderDays": 2,
+          "departureShoulderDays": 2,
+          "isAllowed": true,
+          "isAllowedByInvitee": true,
+          "isPlannerApprovalRequired": false
+        },
+        "admissionItem ":[  
+          "admissionItemBId"
+        ],
+        "contactType ":[
+          "registrationTypeBId"
+        ],
+        "isActive ":true
+      }
+  ]
+}

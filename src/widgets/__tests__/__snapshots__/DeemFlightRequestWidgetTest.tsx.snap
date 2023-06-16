@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for DeemFlightRequestWidget should produce props from state 1`] = `
+Object {
+  "children": <DeemFlightRequestWidget
+    attendeeInfo={
+      Object {
+        "firstName": "John",
+        "lastName": "Doe",
+      }
+    }
+    classes={Object {}}
+    config={
+      Object {
+        "deemFlightRequestHeader": "Deem Flight Request",
+        "goToDeemButtonText": "Go to Deem",
+        "instructionalText": "For easy travel plans, book your flight through Deem.",
+      }
+    }
+    isDeemEnabled={true}
+    onFlightRequest={[Function]}
+    store={
+      Object {
+        "dispatch": [MockFunction],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    style={
+      Object {
+        "elements": Object {},
+        "palette": Object {},
+      }
+    }
+    translate={[Function]}
+  />,
+  "value": null,
+}
+`;

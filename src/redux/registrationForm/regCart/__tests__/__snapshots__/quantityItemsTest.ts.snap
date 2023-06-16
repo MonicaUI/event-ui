@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quantity items using GraphQL site editor data calculate pricing is called if quantity items widget is on same page as payment widget 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Array [
+              Object {
+                "productId": "quantityItemId",
+                "quantity": 3,
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "test",
+                "lastName": "test",
+              },
+            },
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Array [
+              Object {
+                "productId": "quantityItemId",
+                "quantity": 3,
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_SUCCESS",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;
+
+exports[`Quantity items using GraphQL site editor data capacity reached modal showed when trying to get update more quantity that is available 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_SUCCESS",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;
+
+exports[`Quantity items using GraphQL site editor data product is unavailable error when trying to get update more quantity 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "error": [Error],
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_FAILURE",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING",
+  },
+]
+`;
+
+exports[`Quantity items using GraphQL site editor data updates a regCart with quantity item 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Array [
+              Object {
+                "productId": "quantityItemId",
+                "quantity": 3,
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "test",
+                "lastName": "test",
+              },
+            },
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Array [
+              Object {
+                "productId": "quantityItemId",
+                "quantity": 3,
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_SUCCESS",
+  },
+]
+`;
+
+exports[`Quantity items using GraphQL site editor data updates the local regCart in the state with quantity item 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "00000000-0000-0000-0000-000000000001",
+        "quantityItemRegistrations",
+      ],
+      "value": Object {
+        "quantityItemId": Object {
+          "productId": "quantityItemId",
+          "quantity": 3,
+        },
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+]
+`;
+
+exports[`Quantity items using Redux site editor data calculate pricing is called if quantity items widget is on same page as payment widget 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Array [
+              Object {
+                "productId": "quantityItemId",
+                "quantity": 3,
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "test",
+                "lastName": "test",
+              },
+            },
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Array [
+              Object {
+                "productId": "quantityItemId",
+                "quantity": 3,
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_SUCCESS",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;
+
+exports[`Quantity items using Redux site editor data capacity reached modal showed when trying to get update more quantity that is available 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+              },
+            },
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_SUCCESS",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;
+
+exports[`Quantity items using Redux site editor data updates a regCart with quantity item 1`] = `
+Array [
+  Object {
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_PENDING",
+  },
+  Object {
+    "payload": Object {
+      "regCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "contactId": "d10d9eab-743f-4b3e-80ee-adb520920281",
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "Luke",
+                "lastName": "Roling",
+                "primaryAddressType": "WORK",
+              },
+            },
+            "attendeeType": "ATTENDEE",
+            "donationItemRegistrations": Object {
+              "donationItem2": Object {
+                "amount": "7",
+                "productId": "donationItem2",
+              },
+            },
+            "eventId": "dd48b4c4-672e-431c-be8d-5abfec299844",
+            "eventRegistrationId": "00000000-0000-0000-0000-000000000001",
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Array [
+              Object {
+                "productId": "quantityItemId",
+                "quantity": 3,
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+            "sessionRegistrations": Object {},
+          },
+        },
+        "eventSnapshotVersions": Object {
+          "undefined": "fake-eventSnapshot-version",
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "savedRegCart": Object {
+        "eventRegistrations": Object {
+          "00000000-0000-0000-0000-000000000001": Object {
+            "attendee": Object {
+              "attendeeId": "aac17ae9-74b8-4687-ae9e-e2781d247f95",
+              "personalInformation": Object {
+                "emailAddress": "lroling-384934@j.mail",
+                "firstName": "test",
+                "lastName": "test",
+              },
+            },
+            "productRegistrations": Array [
+              Object {
+                "productId": "c0215717-5640-4e9d-b790-36047f14bf21",
+                "productType": "AdmissionItem",
+                "quantity": 1,
+                "requestedAction": "REGISTER",
+              },
+            ],
+            "quantityItemRegistrations": Array [
+              Object {
+                "productId": "quantityItemId",
+                "quantity": 3,
+              },
+            ],
+            "registrationPathId": "411c6566-1e5a-4c38-b8e5-f63ab9239b40",
+            "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+          },
+        },
+        "regCartId": "928f02df-4ba7-4637-824d-ae71bd414e4f",
+        "status": "INPROGRESS",
+      },
+      "validationMessages": undefined,
+    },
+    "type": "event-guestside-site/regCart/UPDATE_REG_CART_QUANTITY_ITEM_SUCCESS",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/SHOW_LOADING_DIALOG",
+  },
+  Object {
+    "type": "nucleus-guestside-site/loading/HIDE_LOADING_DIALOG",
+  },
+]
+`;
+
+exports[`Quantity items using Redux site editor data updates the local regCart in the state with quantity item 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "path": Array [
+        "eventRegistrations",
+        "00000000-0000-0000-0000-000000000001",
+        "quantityItemRegistrations",
+      ],
+      "value": Object {
+        "quantityItemId": Object {
+          "productId": "quantityItemId",
+          "quantity": 3,
+        },
+      },
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+]
+`;

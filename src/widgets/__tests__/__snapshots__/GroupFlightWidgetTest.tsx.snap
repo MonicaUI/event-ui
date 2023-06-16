@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupFlightWidget should produce props from state 1`] = `
+Object {
+  "children": <GroupFlight
+    attendees={
+      Object {
+        "REG_1": Object {
+          "firstName": "Maynard",
+          "lastName": "Keenan",
+        },
+        "REG_2": Object {
+          "firstName": "Danny",
+          "lastName": "Carey",
+        },
+      }
+    }
+    classes={Object {}}
+    event={
+      Object {
+        "timezone": Object {
+          "abbreviation": "ET",
+          "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+          "dstInfo": Array [],
+          "hasDst": true,
+          "id": 35,
+          "name": "Eastern Time",
+          "nameResourceKey": "Event_Timezone_Name_35__resx",
+          "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+          "utcOffset": -300,
+        },
+      }
+    }
+    eventRegistrationId="REG_1"
+    groupFlightRequests={
+      Array [
+        Object {
+          "attendeeRegistrationId": "REG_1",
+          "id": "GROUP_FLIGHT_1",
+        },
+        Object {
+          "attendeeRegistrationId": "REG_2",
+          "id": "GROUP_FLIGHT_2",
+        },
+      ]
+    }
+    groupFlightSetup={
+      Object {
+        "groupFlights": Array [],
+      }
+    }
+    isForPlanner={true}
+    isGroupFlightEnabled={true}
+    isRegApprovalRequired={false}
+    isRegistrationActionDisabled={false}
+    onDeleteGroupFlight={[Function]}
+    onSelectGroupFlight={[Function]}
+    onSubmitGroupFlights={[Function]}
+    registrationPathId="REG_PATH"
+    removeSelectedGroupFlightIds={[Function]}
+    selectedGroupFlightIds={Array []}
+    setSelectedGroupFlightId={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    style={Object {}}
+    toggleGroupFlightSummaryView={[Function]}
+    translate={[Function]}
+    translateCurrency={[Function]}
+    translateDate={[Function]}
+  />,
+  "value": null,
+}
+`;

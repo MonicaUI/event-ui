@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`travelApiClient.createTravelCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"id\\":\\"6b0b6913-b477-4a8c-9e7e-481ce5e4b33a\\",\\"status\\":\\"INPROGRESS\\",\\"bookings\\":[{\\"id\\":\\"00000000-0000-0000-0000-000000000000\\",\\"attendee\\":{\\"id\\":\\"614c34fe-f5f6-49d9-8d6c-5c7bc76ee466\\"},\\"registrationTypeId\\":\\"00000000-0000-0000-0000-000000000000\\",\\"hotelRoomBookings\\":[{\\"id\\":\\"00000000-0000-0000-0000-000000000000\\",\\"hotelId\\":\\"b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5\\",\\"roomTypeId\\":\\"c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464\\",\\"checkinDate\\":\\"2015-06-22\\",\\"checkoutDate\\":\\"2015-06-23\\",\\"preferences\\":{\\"specialRequestNotes\\":\\"something\\",\\"isSmokingOpted\\":true,\\"rewardsCode\\":\\"something\\",\\"isRoomSharingOpted\\":true,\\"isAdaAccessibilityOpted\\":false,\\"roommateDescription\\":\\"\\"},\\"travellerInfo\\":{\\"gender\\":\\"0\\",\\"firstName\\":\\"\\",\\"lastName\\":\\"\\"},\\"requestedAction\\":\\"BOOK\\"}]}],\\"travelSnapshotVersion\\":\\"abc\\",\\"eventSnapshotVersion\\":\\"def\\",\\"isForPreview\\":false,\\"isForPlanner\\":false}",
+    "_bodyText": "{\\"id\\":\\"6b0b6913-b477-4a8c-9e7e-481ce5e4b33a\\",\\"status\\":\\"INPROGRESS\\",\\"bookings\\":[{\\"id\\":\\"00000000-0000-0000-0000-000000000000\\",\\"attendee\\":{\\"id\\":\\"614c34fe-f5f6-49d9-8d6c-5c7bc76ee466\\"},\\"registrationTypeId\\":\\"00000000-0000-0000-0000-000000000000\\",\\"hotelRoomBookings\\":[{\\"id\\":\\"00000000-0000-0000-0000-000000000000\\",\\"hotelId\\":\\"b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5\\",\\"roomTypeId\\":\\"c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464\\",\\"checkinDate\\":\\"2015-06-22\\",\\"checkoutDate\\":\\"2015-06-23\\",\\"preferences\\":{\\"specialRequestNotes\\":\\"something\\",\\"isSmokingOpted\\":true,\\"rewardsCode\\":\\"something\\",\\"isRoomSharingOpted\\":true,\\"isAdaAccessibilityOpted\\":false,\\"roommateDescription\\":\\"\\"},\\"travellerInfo\\":{\\"gender\\":\\"0\\",\\"firstName\\":\\"\\",\\"lastName\\":\\"\\"},\\"requestedAction\\":\\"BOOK\\"}]}],\\"travelSnapshotVersion\\":\\"abc\\",\\"eventSnapshotVersion\\":\\"def\\",\\"isForPreview\\":false,\\"isForPlanner\\":false}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "created-by": "planner",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "event-snapshot-version": "def",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "travel-snapshot-version": "abc",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/travelBase/travel-booking/v1/travel-carts?environment=dev",
+  },
+]
+`;
+
+exports[`travelApiClient.createTravelCart matches snapshot 2`] = `
+Object {
+  "travelCart": Object {
+    "bookings": Array [
+      Object {
+        "attendee": Object {
+          "id": "614c34fe-f5f6-49d9-8d6c-5c7bc76ee466",
+        },
+        "hotelRoomBookings": Array [
+          Object {
+            "checkinDate": "2015-06-22",
+            "checkoutDate": "2015-06-23",
+            "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+            "id": "00000000-0000-0000-0000-000000000000",
+            "preferences": Object {
+              "isAdaAccessibilityOpted": false,
+              "isRoomSharingOpted": true,
+              "isSmokingOpted": true,
+              "rewardsCode": "something",
+              "roommateDescription": "",
+              "specialRequestNotes": "something",
+            },
+            "requestedAction": "BOOK",
+            "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+            "travellerInfo": Object {
+              "firstName": "",
+              "gender": "0",
+              "lastName": "",
+            },
+          },
+        ],
+        "id": "00000000-0000-0000-0000-000000000000",
+        "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+      },
+    ],
+    "eventSnapshotVersion": "def",
+    "id": "6b0b6913-b477-4a8c-9e7e-481ce5e4b33a",
+    "isForPlanner": false,
+    "isForPreview": false,
+    "status": "INPROGRESS",
+    "travelSnapshotVersion": "abc",
+  },
+}
+`;
+
+exports[`travelApiClient.getRoommates matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "\\"params\\"",
+    "_bodyText": "\\"params\\"",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+        "travel-snapshot-version": "version-1",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/travelBase/travel-booking/v1/roommates/inviteeId?environment=dev",
+  },
+]
+`;
+
+exports[`travelApiClient.getRoommates matches snapshot 2`] = `
+Object {
+  "travelCart": Object {
+    "bookings": Array [
+      Object {
+        "attendee": Object {
+          "id": "614c34fe-f5f6-49d9-8d6c-5c7bc76ee466",
+        },
+        "hotelRoomBookings": Array [
+          Object {
+            "checkinDate": "2015-06-22",
+            "checkoutDate": "2015-06-23",
+            "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+            "id": "00000000-0000-0000-0000-000000000000",
+            "preferences": Object {
+              "isAdaAccessibilityOpted": false,
+              "isRoomSharingOpted": true,
+              "isSmokingOpted": true,
+              "rewardsCode": "something",
+              "roommateDescription": "",
+              "specialRequestNotes": "something",
+            },
+            "requestedAction": "BOOK",
+            "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+            "travellerInfo": Object {
+              "firstName": "",
+              "gender": "0",
+              "lastName": "",
+            },
+          },
+        ],
+        "id": "00000000-0000-0000-0000-000000000000",
+        "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+      },
+    ],
+    "eventSnapshotVersion": "def",
+    "id": "6b0b6913-b477-4a8c-9e7e-481ce5e4b33a",
+    "isForPlanner": false,
+    "isForPreview": false,
+    "status": "INPROGRESS",
+    "travelSnapshotVersion": "abc",
+  },
+}
+`;
+
+exports[`travelApiClient.getTransientTravelCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"blah\\":\\"blah\\"}",
+    "_bodyText": "{\\"blah\\":\\"blah\\"}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "POST",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/travelBase/travel-booking/v1/travel-carts/transient/inviteeId?environment=dev&includeGroupMembers=true",
+  },
+]
+`;
+
+exports[`travelApiClient.getTransientTravelCart matches snapshot 2`] = `
+Object {
+  "travelCart": Object {
+    "bookings": Array [
+      Object {
+        "attendee": Object {
+          "id": "614c34fe-f5f6-49d9-8d6c-5c7bc76ee466",
+        },
+        "hotelRoomBookings": Array [
+          Object {
+            "checkinDate": "2015-06-22",
+            "checkoutDate": "2015-06-23",
+            "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+            "id": "00000000-0000-0000-0000-000000000000",
+            "preferences": Object {
+              "isAdaAccessibilityOpted": false,
+              "isRoomSharingOpted": true,
+              "isSmokingOpted": true,
+              "rewardsCode": "something",
+              "roommateDescription": "",
+              "specialRequestNotes": "something",
+            },
+            "requestedAction": "BOOK",
+            "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+            "travellerInfo": Object {
+              "firstName": "",
+              "gender": "0",
+              "lastName": "",
+            },
+          },
+        ],
+        "id": "00000000-0000-0000-0000-000000000000",
+        "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+      },
+    ],
+    "eventSnapshotVersion": "def",
+    "id": "6b0b6913-b477-4a8c-9e7e-481ce5e4b33a",
+    "isForPlanner": false,
+    "isForPreview": false,
+    "status": "INPROGRESS",
+    "travelSnapshotVersion": "abc",
+  },
+}
+`;
+
+exports[`travelApiClient.getTravelCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "GET",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/travelBase/travel-booking/v1/travel-carts/inviteeId?environment=dev",
+  },
+]
+`;
+
+exports[`travelApiClient.getTravelCart matches snapshot 2`] = `
+Object {
+  "travelCart": Object {
+    "bookings": Array [
+      Object {
+        "attendee": Object {
+          "id": "614c34fe-f5f6-49d9-8d6c-5c7bc76ee466",
+        },
+        "hotelRoomBookings": Array [
+          Object {
+            "checkinDate": "2015-06-22",
+            "checkoutDate": "2015-06-23",
+            "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+            "id": "00000000-0000-0000-0000-000000000000",
+            "preferences": Object {
+              "isAdaAccessibilityOpted": false,
+              "isRoomSharingOpted": true,
+              "isSmokingOpted": true,
+              "rewardsCode": "something",
+              "roommateDescription": "",
+              "specialRequestNotes": "something",
+            },
+            "requestedAction": "BOOK",
+            "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+            "travellerInfo": Object {
+              "firstName": "",
+              "gender": "0",
+              "lastName": "",
+            },
+          },
+        ],
+        "id": "00000000-0000-0000-0000-000000000000",
+        "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+      },
+    ],
+    "eventSnapshotVersion": "def",
+    "id": "6b0b6913-b477-4a8c-9e7e-481ce5e4b33a",
+    "isForPlanner": false,
+    "isForPreview": false,
+    "status": "INPROGRESS",
+    "travelSnapshotVersion": "abc",
+  },
+}
+`;
+
+exports[`travelApiClient.updateTravelCart matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"id\\":\\"6b0b6913-b477-4a8c-9e7e-481ce5e4b33a\\",\\"status\\":\\"INPROGRESS\\",\\"bookings\\":[{\\"id\\":\\"00000000-0000-0000-0000-000000000000\\",\\"attendee\\":{\\"id\\":\\"614c34fe-f5f6-49d9-8d6c-5c7bc76ee466\\"},\\"registrationTypeId\\":\\"00000000-0000-0000-0000-000000000000\\",\\"hotelRoomBookings\\":[{\\"id\\":\\"00000000-0000-0000-0000-000000000000\\",\\"hotelId\\":\\"b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5\\",\\"roomTypeId\\":\\"c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464\\",\\"checkinDate\\":\\"2015-06-22\\",\\"checkoutDate\\":\\"2015-06-23\\",\\"preferences\\":{\\"specialRequestNotes\\":\\"something\\",\\"isSmokingOpted\\":true,\\"rewardsCode\\":\\"something\\",\\"isRoomSharingOpted\\":true,\\"isAdaAccessibilityOpted\\":false,\\"roommateDescription\\":\\"\\"},\\"travellerInfo\\":{\\"gender\\":\\"0\\",\\"firstName\\":\\"\\",\\"lastName\\":\\"\\"},\\"requestedAction\\":\\"BOOK\\"}]}],\\"travelSnapshotVersion\\":\\"abc\\",\\"eventSnapshotVersion\\":\\"def\\",\\"isForPreview\\":false,\\"isForPlanner\\":false}",
+    "_bodyText": "{\\"id\\":\\"6b0b6913-b477-4a8c-9e7e-481ce5e4b33a\\",\\"status\\":\\"INPROGRESS\\",\\"bookings\\":[{\\"id\\":\\"00000000-0000-0000-0000-000000000000\\",\\"attendee\\":{\\"id\\":\\"614c34fe-f5f6-49d9-8d6c-5c7bc76ee466\\"},\\"registrationTypeId\\":\\"00000000-0000-0000-0000-000000000000\\",\\"hotelRoomBookings\\":[{\\"id\\":\\"00000000-0000-0000-0000-000000000000\\",\\"hotelId\\":\\"b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5\\",\\"roomTypeId\\":\\"c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464\\",\\"checkinDate\\":\\"2015-06-22\\",\\"checkoutDate\\":\\"2015-06-23\\",\\"preferences\\":{\\"specialRequestNotes\\":\\"something\\",\\"isSmokingOpted\\":true,\\"rewardsCode\\":\\"something\\",\\"isRoomSharingOpted\\":true,\\"isAdaAccessibilityOpted\\":false,\\"roommateDescription\\":\\"\\"},\\"travellerInfo\\":{\\"gender\\":\\"0\\",\\"firstName\\":\\"\\",\\"lastName\\":\\"\\"},\\"requestedAction\\":\\"BOOK\\"}]}],\\"travelSnapshotVersion\\":\\"abc\\",\\"eventSnapshotVersion\\":\\"def\\",\\"isForPreview\\":false,\\"isForPlanner\\":false}",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "cvent-user-type": "standard",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/travelBase/travel-booking/v1/travel-carts/6b0b6913-b477-4a8c-9e7e-481ce5e4b33a?environment=dev",
+  },
+]
+`;
+
+exports[`travelApiClient.updateTravelCart matches snapshot 2`] = `
+Object {
+  "travelCart": Object {
+    "bookings": Array [
+      Object {
+        "attendee": Object {
+          "id": "614c34fe-f5f6-49d9-8d6c-5c7bc76ee466",
+        },
+        "hotelRoomBookings": Array [
+          Object {
+            "checkinDate": "2015-06-22",
+            "checkoutDate": "2015-06-23",
+            "hotelId": "b64c34fe-f5f6-49d9-8d6c-5c7bc76ee4b5",
+            "id": "00000000-0000-0000-0000-000000000000",
+            "preferences": Object {
+              "isAdaAccessibilityOpted": false,
+              "isRoomSharingOpted": true,
+              "isSmokingOpted": true,
+              "rewardsCode": "something",
+              "roommateDescription": "",
+              "specialRequestNotes": "something",
+            },
+            "requestedAction": "BOOK",
+            "roomTypeId": "c26c34fe-f5f6-49d9-8d6c-5c7bc76ee464",
+            "travellerInfo": Object {
+              "firstName": "",
+              "gender": "0",
+              "lastName": "",
+            },
+          },
+        ],
+        "id": "00000000-0000-0000-0000-000000000000",
+        "registrationTypeId": "00000000-0000-0000-0000-000000000000",
+      },
+    ],
+    "eventSnapshotVersion": "def",
+    "id": "6b0b6913-b477-4a8c-9e7e-481ce5e4b33a",
+    "isForPlanner": false,
+    "isForPreview": false,
+    "status": "INPROGRESS",
+    "travelSnapshotVersion": "abc",
+  },
+}
+`;

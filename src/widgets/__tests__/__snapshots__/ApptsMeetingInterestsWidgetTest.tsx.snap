@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApptsMeetingInterestWidget should match snapshot - new version 1`] = `
+Object {
+  "classes": Object {},
+  "config": Object {
+    "appData": Object {
+      "version": 2,
+    },
+  },
+  "store": Object {
+    "dispatch": [Function],
+    "getState": [Function],
+    "subscribe": [Function],
+  },
+  "style": Object {
+    "elements": Object {
+      "link": Object {},
+    },
+    "itemNameContainer": Object {
+      "customSettings": Object {
+        "spacing": Object {
+          "padding": Object {
+            "paddingTop": 10,
+          },
+        },
+      },
+    },
+    "palette": Object {},
+  },
+  "translate": [Function],
+}
+`;
+
+exports[`ApptsMeetingInterestWidget should match snapshot - old version 1`] = `
+Object {
+  "classes": Object {},
+  "config": Object {
+    "appData": Object {
+      "companyList": Array [
+        "Company A",
+        "Company B",
+      ],
+    },
+  },
+  "store": Object {
+    "dispatch": [Function],
+    "getState": [Function],
+    "subscribe": [Function],
+  },
+  "style": Object {
+    "elements": Object {
+      "link": Object {},
+    },
+    "itemNameContainer": Object {
+      "customSettings": Object {
+        "spacing": Object {
+          "padding": Object {
+            "paddingTop": 10,
+          },
+        },
+      },
+    },
+    "palette": Object {},
+  },
+  "translate": [Function],
+}
+`;

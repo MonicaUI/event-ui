@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventPasskeyHotelRequest produces props from state should match 1`] = `
+Object {
+  "children": <PasskeyHotelRequestWidget
+    attendeeTypeMappingBy=""
+    attendeeTypeMappings={Object {}}
+    classes={Object {}}
+    config={Object {}}
+    eventRegistrations={
+      Object {
+        "00000000-0000-0000-0000-000000000001": Object {
+          "attendee": Object {
+            "personalInformation": Object {
+              "contactIdEncoded": "UW0yb6e4SeWHLA8_WRFJyg",
+            },
+          },
+        },
+      }
+    }
+    eventTimezone={
+      Object {
+        "abbreviation": "ET",
+        "abbreviationResourceKey": "Event_Timezone_Abbr_35__resx",
+        "dstInfo": Array [],
+        "hasDst": true,
+        "id": 35,
+        "name": "Eastern Time",
+        "nameResourceKey": "Event_Timezone_Name_35__resx",
+        "plannerDisplayName": "(GMT-05:00) Eastern [US & Canada]",
+        "utcOffset": -300,
+      }
+    }
+    hideWidget=""
+    hotelsData={
+      Object {
+        "hotels": Array [],
+        "passkeySetup": Object {
+          "attendeeTypeMappingBy": "",
+          "attendeeTypeMappings": Object {},
+        },
+      }
+    }
+    isPendingApprovalCase={false}
+    isRegPending={true}
+    isSiteEditorPreview={false}
+    onModifyRequest={[Function]}
+    onNewRequest={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    style={Object {}}
+    translate={[MockFunction]}
+    translateDate=""
+    travelBookings={Array []}
+  />,
+  "value": null,
+}
+`;

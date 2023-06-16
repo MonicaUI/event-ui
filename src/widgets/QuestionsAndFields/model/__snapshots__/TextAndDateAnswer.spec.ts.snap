@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAndDateAnswer trims text answers correctly 1`] = `
+Object {
+  "answers": Array [
+    Object {
+      "answerType": "Text",
+      "text": "@555",
+    },
+    Object {
+      "answerType": "Text",
+      "text": "@555",
+    },
+    Object {
+      "answerType": "Text",
+      "text": "@555",
+    },
+  ],
+  "questionId": "questionId",
+}
+`;

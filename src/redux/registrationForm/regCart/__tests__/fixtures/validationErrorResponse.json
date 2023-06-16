@@ -1,0 +1,70 @@
+{
+  "validationMessages": [
+    {
+      "severity": "Warning",
+      "unLocalizedInternalMessage": "Email missing for EventRegistration {{eventRegistrationId}}.",
+      "localizationKey": "REGAPI.IDENTITY_EMAIL_MISSING",
+      "parametersMap": {
+        "eventRegistrationId": "00000000-0000-0000-0000-000000000001"
+      },
+      "subValidationMessageList": []
+    },
+    {
+      "severity": "Warning",
+      "unLocalizedInternalMessage": "Attendee RequiredField {{attendeeField}} missing for EventRegistration {{eventRegistrationId}}.",
+      "localizationKey": "REGAPI.ATTENDEE_REQUIRED_FIELD_MISSING",
+      "parametersMap": {
+        "attendeeField": "StandardContactField_LastName__resx",
+        "eventRegistrationId": "00000000-0000-0000-0000-000000000001"
+      },
+      "subValidationMessageList": []
+    },
+    {
+      "severity": "Warning",
+      "unLocalizedInternalMessage": "Attendee RequiredField {{attendeeField}} missing for EventRegistration {{eventRegistrationId}}.",
+      "localizationKey": "REGAPI.ATTENDEE_REQUIRED_FIELD_MISSING",
+      "parametersMap": {
+        "attendeeField": "StandardContactField_EmailAddress__resx",
+        "eventRegistrationId": "00000000-0000-0000-0000-000000000001"
+      },
+      "subValidationMessageList": []
+    },
+    {
+      "severity": "Warning",
+      "unLocalizedInternalMessage": "Attendee RequiredField {{attendeeField}} missing for EventRegistration {{eventRegistrationId}}.",
+      "localizationKey": "REGAPI.ATTENDEE_REQUIRED_FIELD_MISSING",
+      "parametersMap": {
+        "attendeeField": "StandardContactField_FirstName__resx",
+        "eventRegistrationId": "00000000-0000-0000-0000-000000000001"
+      },
+      "subValidationMessageList": []
+    },
+    {
+      "severity": "Warning",
+      "unLocalizedInternalMessage": "FirstName missing for EventRegistration {{eventRegistrationId}}.",
+      "localizationKey": "REGAPI.IDENTITY_FIRST_NAME_MISSING",
+      "parametersMap": {
+        "eventRegistrationId": "00000000-0000-0000-0000-000000000001"
+      },
+      "subValidationMessageList": []
+    },
+    {
+      "severity": "Error",
+      "unLocalizedInternalMessage": "Found matching invitee or guest for EventRegistration {{eventRegistrationId}}",
+      "localizationKey": "REGAPI.ID_CONFIRMATION_GUEST_IDENTIFICATION_EXCEPTION",
+      "parametersMap": {
+        "eventRegistrationId": "guest1"
+      },
+      "subValidationMessageList": []
+    },
+    {
+      "severity": "Warning",
+      "unLocalizedInternalMessage": "LastName missing for EventRegistration {{eventRegistrationId}}.",
+      "localizationKey": "REGAPI.IDENTITY_LAST_NAME_MISSING",
+      "parametersMap": {
+        "eventRegistrationId": "00000000-0000-0000-0000-000000000001"
+      },
+      "subValidationMessageList": []
+    }
+  ]
+}

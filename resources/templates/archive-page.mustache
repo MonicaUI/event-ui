@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="{{vars.lang}}">
+<head>
+  <title>{{vars.title}}</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{vars.meta}}
+  {{{vars.newRelic}}}
+  <script nonce="{{vars.nonce}}" >
+    if (window.newrelic) {
+      window.newrelic.setCustomAttribute('cventAccountName',  '{{vars.accountName}}')
+      window.newrelic.setCustomAttribute('cventEventId',  '{{vars.eventId}}')
+      window.newrelic.setCustomAttribute('cventEventTitle',  '{{vars.eventTitle}}')
+    }
+  </script>
+  {{{webpackPublicPath}}}
+  {{{webpackManifest}}}
+  <link rel="canonical" href={{vars.canonicalUrl}} />
+  <link nonce="{{vars.nonce}}" rel="icon" type="image/png" href="{{vars.faviconPath}}">
+  {{#webpackCss}}
+    {{{.}}}
+  {{/webpackCss}}
+</head>
+<body>
+<div id="react-mount"></div>
+{{#webpackEntry}}
+  {{{.}}}
+{{/webpackEntry}}
+
+<script nonce="{{vars.nonce}}">
+  window.CVENT = {
+    codeSnippets: {},
+    codeSnippetsWithResolvedDatatags: {},
+    addTriggerHandlers: function (event, triggerHandler) {
+      if (!this.codeSnippets[event]) {
+        this.codeSnippets[event] = [];
+      }
+      this.codeSnippets[event].push(triggerHandler);
+    },
+    runTriggerHandlers: function (event) {
+      if (this.codeSnippetsWithResolvedDatatags[event] && this.codeSnippetsWithResolvedDatatags[event].length > 0) {
+        let handlers = this.codeSnippetsWithResolvedDatatags[event];
+        for (let i=0; i < handlers.length; i++) {
+          try {
+            new Function(handlers[i])();
+          } catch (ex) {
+            // ignore errors in third-party snippets
+            console.error(`error in code snippet for ${event}`, ex);
+          }
+        }
+      }
+    }
+  }
+</script>
+<script nonce="{{vars.nonce}}">
+  {{vars.initializationCodeSnippets}}
+  {{{vars.triggerBasedCodeSnippets}}}
+</script>
+<script nonce="{{vars.nonce}}" >
+  function applicationInit() {
+    window.version = '{{vars.version}}';
+
+    var applicationSettings = {
+      viewRoot: '{{vars.viewRoot}}',
+      accountName: '{{vars.accountName}}',
+      assetRoot: '{{vars.assetRoot}}',
+      environment: '{{vars.environment}}',
+      eventId: '{{vars.eventId}}',
+      serviceBaseUrl: '{{vars.serviceBaseUrl}}',
+      cultureCode: '{{vars.cultureCode}}',
+      eventTimezoneId: {{vars.eventTimezoneId}},
+      eventSnapshotVersion: '{{vars.eventSnapshotVersion}}',
+      eventContext: '{{vars.eventContext}}',
+      verifiedWebsitePassword: {{vars.verifiedWebsitePassword}},
+      experiments: {{{vars.experiments}}}
+    };
+    loadAssets(applicationSettings);
+  }
+  applicationInit();
+</script>
+</body>
+</html>

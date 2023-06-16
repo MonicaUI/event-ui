@@ -1,0 +1,35 @@
+@import "../dialogs/styles/StandardDialog.less";
+@import (reference) "~event-widgets/shared-styles/Variables.less";
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+
+.messageContainer {
+  text-align: center;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.messageIcon {
+  font-size: 5.313em;
+}
+
+.dialogContainer {
+  width: 700px;
+  .dialogMediaQuery();
+}
+
+.errorBox {
+  border: 1px solid @primaryGrey;
+  border-radius: 0.094em;
+  width: ~"calc(100% - 5em)";
+  margin: 2em auto;
+  padding: 1em;
+
+  > div {
+    margin: 1em;
+  }
+}
+
+.errorBoxLabel {
+  font-weight: bold;
+}

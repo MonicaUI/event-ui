@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InviteeSearchClient.update timezone preference matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": "{\\"timeZonePreference\\":0}",
+    "_bodyText": "{\\"timeZonePreference\\":0}",
+    "credentials": "omit",
+    "headers": Headers {
+      "map": Object {
+        "content-type": "application/json",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "PUT",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/reg/invitee_search/v1/invitee/inviteeId/timezonePreference?environment=dev&eventId=eventId",
+  },
+]
+`;
+
+exports[`InviteeSearchClient.update timezone preference matches snapshot 2`] = `undefined`;

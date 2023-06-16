@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeakersWidget produces props from state 1`] = `
+Object {
+  "children": <Unknown
+    dialogContainerStyle={
+      Object {
+        "backgroundColor": "#F33B15",
+        "borderRadius": 100,
+        "hover": Object {
+          "backgroundColor": "#F33B15",
+        },
+      }
+    }
+    getSpeakerDocuments={[Function]}
+    loadSpeakerDocuments={[Function]}
+    speakerCategories={
+      Array [
+        Object {
+          "id": "04a78fdc-833a-4362-b016-43f30011bc39",
+          "isActive": true,
+          "name": "Panelists",
+          "order": 1,
+        },
+        Object {
+          "id": "4392b7bf-9619-4729-b7c6-0c74de1f2761",
+          "isActive": true,
+          "name": "Speakers",
+          "order": 3,
+        },
+        Object {
+          "id": "beace295-2b18-4149-a8be-23729681dac1",
+          "isActive": true,
+          "name": "Trigger 2",
+          "order": 4,
+        },
+      ]
+    }
+    speakers={
+      Array [
+        Object {
+          "biography": "Bio goes here",
+          "category": "Speakers",
+          "categoryId": "4392b7bf-9619-4729-b7c6-0c74de1f2761",
+          "code": "FirstLast",
+          "company": "comp",
+          "designation": "Designation goes here.",
+          "displayOnWebsite": true,
+          "documents": Object {
+            "0fe53ba6-a2bc-4282-9f2d-8ee4131c07f5": Object {
+              "extension": "pdf",
+              "id": "0fe53ba6-a2bc-4282-9f2d-8ee4131c07f5",
+              "isDisplay": true,
+              "name": "bio",
+              "speakerId": "6ea3bc8d-c556-42f1-a351-53c720a4adfd",
+            },
+          },
+          "emailAddress": "Test@test.com",
+          "facebookUrl": "http://www.fb.com",
+          "firstName": "First",
+          "id": "6ea3bc8d-c556-42f1-a351-53c720a4adfd",
+          "internalNote": "internal note goes here.",
+          "lastName": "Last",
+          "linkedInUrl": "http://www.linkedin.com",
+          "order": 1,
+          "prefix": "Mr",
+          "profileImageFileName": "sample.png",
+          "profileImageUri": "https://silo408-custom.core.cvent.org/DBE7C534/files/event/396f58a2a3c.png",
+          "title": "title goes here",
+          "twitterUrl": "http://www.twitter.com",
+          "websites": Object {
+            "fef6dca2-ab53-4d6d-bfc8-cdb669e69e8e": Object {
+              "id": "fef6dca2-ab53-4d6d-bfc8-cdb669e69e8e",
+              "isDisplay": true,
+              "relatedUrl": "http://www.google.com",
+              "relatedUrlCategoryId": "59f80ad9-72bc-4b36-ad7c-6e1c0f7d1ab7",
+              "relatedUrlName": "Website",
+              "speakerId": "6ea3bc8d-c556-42f1-a351-53c720a4adfd",
+            },
+          },
+        },
+        Object {
+          "biography": "",
+          "category": "Panelists",
+          "categoryId": "04a78fdc-833a-4362-b016-43f30011bc39",
+          "code": "SecondLast",
+          "company": "",
+          "designation": "",
+          "displayOnWebsite": true,
+          "documents": Object {
+            "0fe53ba6-a2bc-4282-9f2d-8ee4131c07f5": Object {
+              "id": "0fe53ba6-a2bc-4282-9f2d-8ee4131c07f5",
+              "isDisplay": true,
+              "speakerId": "68cca2fc-85da-4d23-8f1b-c1baa254b9f5",
+            },
+            "444a0357-a379-4ef8-8cd7-b3b8f665e107": Object {
+              "id": "444a0357-a379-4ef8-8cd7-b3b8f665e107",
+              "isDisplay": false,
+              "speakerId": "68cca2fc-85da-4d23-8f1b-c1baa254b9f5",
+            },
+          },
+          "facebookUrl": "",
+          "firstName": "Second",
+          "id": "68cca2fc-85da-4d23-8f1b-c1baa254b9f5",
+          "internalNote": "",
+          "lastName": "Last",
+          "linkedInUrl": "",
+          "order": 2,
+          "prefix": "",
+          "title": "",
+          "twitterUrl": "",
+          "websites": Object {
+            "367ac8d6-3ba0-4ce4-b5e9-90b7a715b000": Object {
+              "id": "367ac8d6-3ba0-4ce4-b5e9-90b7a715b000",
+              "isDisplay": false,
+              "relatedUrl": "http://yahoo.com",
+              "relatedUrlCategoryId": "59f80ad9-72bc-4b36-ad7c-6e1c0f7d1ab7",
+              "relatedUrlName": "Yahoo",
+              "speakerId": "68cca2fc-85da-4d23-8f1b-c1baa254b9f5",
+            },
+            "fff10411-0ad1-4945-877e-9a1eabcf0e8f": Object {
+              "id": "fff10411-0ad1-4945-877e-9a1eabcf0e8f",
+              "isDisplay": true,
+              "relatedUrl": "http://ms.com",
+              "relatedUrlCategoryId": "59f80ad9-72bc-4b36-ad7c-6e1c0f7d1ab7",
+              "relatedUrlName": "Microsoft",
+              "speakerId": "68cca2fc-85da-4d23-8f1b-c1baa254b9f5",
+            },
+          },
+        },
+        Object {
+          "biography": "",
+          "category": "Trigger 2",
+          "categoryId": "beace295-2b18-4149-a8be-23729681dac1",
+          "code": "asfdasf",
+          "company": "",
+          "designation": "",
+          "displayOnWebsite": true,
+          "documents": Object {},
+          "facebookUrl": "",
+          "firstName": "asfd",
+          "id": "de8d4863-c93f-49ab-a932-3661a1528fa0",
+          "internalNote": "",
+          "lastName": "asf",
+          "linkedInUrl": "",
+          "order": 3,
+          "prefix": "",
+          "title": "",
+          "twitterUrl": "",
+          "websites": Object {},
+        },
+      ]
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />,
+  "classes": Object {},
+  "value": null,
+}
+`;

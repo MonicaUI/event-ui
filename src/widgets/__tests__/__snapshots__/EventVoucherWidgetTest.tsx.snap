@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventVoucherWidget should not be required for planner 1`] = `ShallowWrapper {}`;
+
+exports[`EventVoucherWidget should not render when hidden 1`] = `ShallowWrapper {}`;
+
+exports[`EventVoucherWidget should render 1`] = `ShallowWrapper {}`;

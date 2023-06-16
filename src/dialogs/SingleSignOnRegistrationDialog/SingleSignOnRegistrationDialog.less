@@ -1,0 +1,68 @@
+/*
+ * To avoid the varying/customizable font sizes to change the margins and paddings,
+ * they are in px and not in ems.
+ */
+@import "~nucleus-core/less/MediaQuery.less";
+@import (reference) '~nucleus-core/less/Utility.less';
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+
+.dialogContainer {
+  width: 48em;
+  min-height: 32vh;
+  max-height: 60vh;
+  .dialogMediaQuery();
+}
+
+.separator {
+  border: 0;
+  border-top: 2px solid #ccc;
+}
+
+.instructionalText {
+  margin: 10px 0 20px;
+}
+
+.additionalItemsText {
+  word-wrap: break-word;
+}
+
+.registeredInviteesListContainer {
+  display: flex;
+  line-height: 1.3;
+  border-radius: 0px;
+  padding: 0.5rem;
+  text-align: center;
+  grid: inherit;
+}
+
+.inviteeInformationContainer {
+  width: 50%;
+}
+
+.manageInviteeInformationContainer {
+  width: 50%;
+}
+
+.manageInviteeHeaderContainer {
+  line-height: 1.3;
+  border-radius: 0px;
+  text-align: center;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+.manageInviteeInformationLink {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.panelStyles {
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
+.ssoRegistrationText {
+  max-width: 36em;
+  margin: 1.5rem 80px;
+}
+
+

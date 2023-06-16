@@ -1,0 +1,107 @@
+@import (reference) '~nucleus-core/less/Utility.less';
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+@import (reference) "~nucleus-core/less/MediaQuery.less";
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+
+.dialogDefaultFocus:focus {
+  outline: none;
+}
+
+.closeDialog {
+  float: right;
+  position: relative;
+  cursor: pointer;
+}
+
+.exit {
+  float: right;
+  top: -0.625em;
+  position: relative;
+}
+
+.content {
+  padding-top: 1rem;
+  position: relative;
+  min-height: 18.75rem;
+  max-height: 100%;
+}
+
+.dialogContainer {
+  width: 48em;
+  min-height: 30vh;
+  max-height: 75vh;
+  overflow-y: auto;
+  .dialogMediaQuery();
+  @media @portrait {
+    max-height: 100%;
+  }
+}
+
+
+// FullScreen Mixins //
+.fullScreenWrapper {
+  border-radius: 0;
+  box-shadow: none;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+// Dialog Window //
+.dragContainer {
+  @media @medium {
+    .fullScreenWrapper();
+  }
+  &.fullScreen {
+    .fullScreenWrapper();
+  }
+}
+
+.button {
+  &:disabled {
+    opacity: 0.2;
+  }
+}
+
+.adjustButtonWrapper {
+  margin-top: 5%;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.secondaryButton {
+  margin-right: 0.5rem;
+}
+
+.primaryButton {
+  margin-left: 0.5rem;
+}
+
+.radioButtonWrapper {
+  width: 100%;
+}
+
+.radiobutton {
+  margin-top: 1rem;
+  li {
+    width: 50%;
+    margin-left: 15%;
+    list-style-type:none;
+    input[type=radio] + label {
+      width: 100%;
+      padding-left: 0.5rem;
+    }
+    border-color: inherit;
+  }
+}
+
+.instructionalText {
+  max-width: 36em;
+  margin: 0px 80px;
+  font-weight: bold;
+  @media @small {
+    margin: 5px 10px 35px;
+  }
+}

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventGuestClient.getRegistrationContent matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "DELETE",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/event/eventId?environment=dev&userType=userType",
+  },
+]
+`;
+
+exports[`EventGuestClient.getRelatedContacts matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "DELETE",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/event/eventId?environment=dev&userType=userType",
+  },
+]
+`;
+
+exports[`EventGuestClient.getWebsiteContent matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "DELETE",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/event/eventId?environment=dev&userType=userType",
+  },
+]
+`;
+
+exports[`EventGuestClient.identifyByContactId is called correctly 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "DELETE",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/event/eventId?environment=dev&userType=userType",
+  },
+]
+`;
+
+exports[`EventGuestClient.identifyByContactId is called correctly 2`] = `
+Object {
+  "regCart": Object {
+    "eventRegistrations": Object {
+      "er1": Object {
+        "attendee": Object {
+          "eventAnswers": Object {
+            "q1": Object {
+              "answer": Object {},
+              "questionId": "q1",
+            },
+          },
+          "personalInformation": Object {
+            "customFields": Object {
+              "q2": Object {
+                "answer": Object {},
+                "questionId": "q2",
+              },
+            },
+          },
+        },
+        "eventRegistrationId": "er1",
+      },
+    },
+  },
+}
+`;
+
+exports[`EventGuestClient.logout matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "DELETE",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/event/eventId?environment=dev&userType=userType",
+  },
+]
+`;
+
+exports[`EventGuestClient.optout matches snapshot 1`] = `
+Array [
+  Request {
+    "_bodyInit": undefined,
+    "_bodyText": "",
+    "credentials": "include",
+    "headers": Headers {
+      "map": Object {
+        "authorization": "authToken",
+        "cvent-event-id": "eventId",
+        "httplogpageloadid": "httplogpageloadid",
+        "httplogrequestid": "httplogrequestid",
+      },
+    },
+    "method": "DELETE",
+    "mode": null,
+    "referrer": null,
+    "url": "https://example.com/eventEmailBase/event/eventId?environment=dev&userType=userType",
+  },
+]
+`;

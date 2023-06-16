@@ -1,0 +1,2413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdmissionItemsTest should be able to select admission item 1`] = `
+Array [
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <div
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+    >
+      <h2
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      >
+        Header
+      </h2>
+      <div
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      >
+        Instructional text
+      </div>
+      <ul
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-name"
+              >
+                Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-name"
+              >
+                Admission Item No Fee
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-code"
+              >
+                Admission Item Code 2
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-fees"
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-name"
+              >
+                Associated Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-fees"
+              >
+                100
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":10}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-name"
+              >
+                Associated Admission Item Name with full session
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-capacity-capacityFull"
+              >
+                lbl_xml_0065
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-name"
+              >
+                Admission Item 2 With Cap 1
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-code"
+              >
+                Admission Item 2 Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-description"
+              >
+                Admission Item 2 Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":1}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`AdmissionItemsTest should be able to select free admission item 1`] = `
+Array [
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <div
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+    >
+      <h2
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      >
+        Header
+      </h2>
+      <div
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      >
+        Instructional text
+      </div>
+      <ul
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-name"
+              >
+                Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-name"
+              >
+                Admission Item No Fee
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-code"
+              >
+                Admission Item Code 2
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-fees"
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-name"
+              >
+                Associated Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-fees"
+              >
+                100
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":10}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-name"
+              >
+                Associated Admission Item Name with full session
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-capacity-capacityFull"
+              >
+                lbl_xml_0065
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-name"
+              >
+                Admission Item 2 With Cap 1
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-code"
+              >
+                Admission Item 2 Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-description"
+              >
+                Admission Item 2 Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":1}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`AdmissionItemsTest should not be able to select full admission item 1`] = `
+Array [
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <div
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+    >
+      <h2
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      >
+        Header
+      </h2>
+      <div
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      >
+        Instructional text
+      </div>
+      <ul
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-name"
+              >
+                Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-name"
+              >
+                Admission Item No Fee
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-code"
+              >
+                Admission Item Code 2
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-fees"
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-name"
+              >
+                Associated Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-fees"
+              >
+                100
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":10}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-name"
+              >
+                Associated Admission Item Name with full session
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-capacity-capacityFull"
+              >
+                lbl_xml_0065
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-name"
+              >
+                Admission Item 2 With Cap 1
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-code"
+              >
+                Admission Item 2 Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-description"
+              >
+                Admission Item 2 Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":1}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`AdmissionItemsTest should render 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+  >
+    <h2
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Header",
+        }
+      }
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      style={Object {}}
+    />
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      style={Object {}}
+    />
+    <ul
+      className=""
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-name"
+              style={Object {}}
+            >
+              Admission Item Name
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-code"
+              style={Object {}}
+            >
+              Admission Item Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-fees"
+              style={Object {}}
+            >
+              50
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":123}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-name"
+              style={Object {}}
+            >
+              Admission Item No Fee
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-code"
+              style={Object {}}
+            >
+              Admission Item Code 2
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-fees"
+              style={Object {}}
+            >
+              EventWidgets_Products_Free__resx
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":123}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-name"
+              style={Object {}}
+            >
+              Associated Admission Item Name
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-code"
+              style={Object {}}
+            >
+              Admission Item Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-fees"
+              style={Object {}}
+            >
+              100
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":10}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-name"
+              style={Object {}}
+            >
+              Associated Admission Item Name with full session
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-code"
+              style={Object {}}
+            >
+              Admission Item Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-capacity-capacityFull"
+              style={Object {}}
+            >
+              lbl_xml_0065
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-name"
+              style={Object {}}
+            >
+              Admission Item 2 With Cap 1
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-code"
+              style={Object {}}
+            >
+              Admission Item 2 Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-description"
+              style={Object {}}
+            >
+              Admission Item 2 Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-fees"
+              style={Object {}}
+            >
+              50
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":1}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`AdmissionItemsTest should render on non-registration pages 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+  >
+    <h2
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Header",
+        }
+      }
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      style={Object {}}
+    />
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      style={Object {}}
+    />
+    <ul
+      className=""
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-name"
+              style={Object {}}
+            >
+              Admission Item Name
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-code"
+              style={Object {}}
+            >
+              Admission Item Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-fees"
+              style={Object {}}
+            >
+              50
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":123}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-name"
+              style={Object {}}
+            >
+              Admission Item No Fee
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-code"
+              style={Object {}}
+            >
+              Admission Item Code 2
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-fees"
+              style={Object {}}
+            >
+              EventWidgets_Products_Free__resx
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":123}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-name"
+              style={Object {}}
+            >
+              Associated Admission Item Name
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-code"
+              style={Object {}}
+            >
+              Admission Item Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-fees"
+              style={Object {}}
+            >
+              100
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":10}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-name"
+              style={Object {}}
+            >
+              Associated Admission Item Name with full session
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-code"
+              style={Object {}}
+            >
+              Admission Item Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-capacity-capacityFull"
+              style={Object {}}
+            >
+              lbl_xml_0065
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-name"
+              style={Object {}}
+            >
+              Admission Item 2 With Cap 1
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-code"
+              style={Object {}}
+            >
+              Admission Item 2 Code
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-description"
+              style={Object {}}
+            >
+              Admission Item 2 Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-fees"
+              style={Object {}}
+            >
+              50
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":1}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`AdmissionItemsTest should render with just a single available admission item if isPlanner 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+  >
+    <h2
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Header",
+        }
+      }
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      style={Object {}}
+    />
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      style={Object {}}
+    />
+    <ul
+      className=""
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      style={Object {}}
+    >
+      <li
+        className=""
+        style={Object {}}
+      >
+        <div
+          className=""
+          data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem"
+          style={Object {}}
+        >
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem-name"
+              style={Object {}}
+            >
+              Admission Item
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem-code"
+              style={Object {}}
+            >
+              Admission Item Code X
+            </div>
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem-description"
+              style={Object {}}
+            >
+              Admission Item Description
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem-fees"
+              style={Object {}}
+            >
+              50
+            </div>
+            <button
+              className=""
+              data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem-select-button"
+              disabled={false}
+              onClick={[Function]}
+              style={Object {}}
+              title="lbl_pop_0044"
+              type="button"
+            >
+              <span>
+                lbl_pop_0044
+              </span>
+            </button>
+            <div>
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem-capacity-inPersonCapacity"
+                style={Object {}}
+              >
+                _admissionItems_remaining__resx:{"numberRemaining":123}
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`AdmissionItemsTest should render without visible products defined WITHOUT experiment enabled 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "flex": "1 1 auto",
+      "pointerEvents": undefined,
+    }
+  }
+>
+  <div
+    data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+  >
+    <h2
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Header",
+        }
+      }
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      style={Object {}}
+    />
+    <div
+      className=""
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Instructional text",
+        }
+      }
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      style={Object {}}
+    />
+    <ul
+      className=""
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      style={Object {}}
+    />
+  </div>
+</div>
+`;
+
+exports[`AdmissionItemsTest should trigger conflict modal 1`] = `
+Array [
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <div
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+    >
+      <h2
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      >
+        Header
+      </h2>
+      <div
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      >
+        Instructional text
+      </div>
+      <ul
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-name"
+              >
+                Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-name"
+              >
+                Admission Item No Fee
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-code"
+              >
+                Admission Item Code 2
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-fees"
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-name"
+              >
+                Associated Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-fees"
+              >
+                100
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":10}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-name"
+              >
+                Associated Admission Item Name with full session
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-capacity-capacityFull"
+              >
+                lbl_xml_0065
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-name"
+              >
+                Admission Item 2 With Cap 1
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-code"
+              >
+                Admission Item 2 Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-description"
+              >
+                Admission Item 2 Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":1}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`AdmissionItemsTest should trigger conflict modal on session overlap 1`] = `
+Array [
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <div
+      data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items"
+    >
+      <h2
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-header"
+      >
+        Header
+      </h2>
+      <div
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-instructional-text"
+      >
+        Instructional text
+      </div>
+      <ul
+        class=""
+        data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-items"
+      >
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-name"
+              >
+                Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-name"
+              >
+                Admission Item No Fee
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-code"
+              >
+                Admission Item Code 2
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-fees"
+              >
+                EventWidgets_Products_Free__resx
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItemNoFee-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":123}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-name"
+              >
+                Associated Admission Item Name
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-fees"
+              >
+                100
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItem-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":10}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-name"
+              >
+                Associated Admission Item Name with full session
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-code"
+              >
+                Admission Item Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-description"
+              >
+                Admission Item Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-associatedAdmItemFull-capacity-capacityFull"
+              >
+                lbl_xml_0065
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class=""
+        >
+          <div
+            class=""
+            data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1"
+          >
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-name"
+              >
+                Admission Item 2 With Cap 1
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-code"
+              >
+                Admission Item 2 Code
+              </div>
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-description"
+              >
+                Admission Item 2 Description
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              <div
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-fees"
+              >
+                50
+              </div>
+              <button
+                class=""
+                data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-select-button"
+                title="lbl_pop_0044"
+                type="button"
+              >
+                <span>
+                  lbl_pop_0044
+                </span>
+              </button>
+              <div>
+                <div
+                  data-cvent-id="widget-AdmissionItems-widget:admissionItems-admission-items-item-admissionItem2WithCap1-capacity-inPersonCapacity"
+                >
+                  _admissionItems_remaining__resx:{"numberRemaining":1}
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;

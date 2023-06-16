@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventIdentityConfirmationWidget should not render admin fields during reg mod 1`] = `ShallowWrapper {}`;
+
+exports[`EventIdentityConfirmationWidget should not render admin fields for group member 1`] = `ShallowWrapper {}`;
+
+exports[`EventIdentityConfirmationWidget should render with admin fields 1`] = `ShallowWrapper {}`;

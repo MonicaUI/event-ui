@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cancelRegistration starts a cancel regCart and goes to cancellation page 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="container"
+      style="background-color: rgb(4, 21, 50); border-radius: 0;"
+    >
+      <div
+        style="max-width: 1024px; margin: auto;"
+      >
+        <div>
+          <div>
+            <div>
+              <div>
+                <div
+                  role="banner"
+                >
+                  <div
+                    class="mockReadOnlyContent"
+                  >
+                    container:7162204f-7d0c-4be9-ad13-3fe7dec332bd
+                  </div>
+                </div>
+                <div
+                  id="main"
+                  role="main"
+                  tabindex="-1"
+                >
+                  <div
+                    class="mockReadOnlyContent"
+                  >
+                    container:beddb7b5-5e71-4103-8ab4-a9cbc9078808
+                  </div>
+                </div>
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  container:8471fca9-0b98-41df-81a4-a2b5944629a1
+                </div>
+              </div>
+              <div
+                role="contentinfo"
+              >
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  CventFooterContainer
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`planner cancelRegistration logs in registrant with plannerRegSettings 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="container"
+      style="background-color: rgb(4, 21, 50); border-radius: 0;"
+    >
+      <div
+        style="max-width: 1024px; margin: auto;"
+      >
+        <div>
+          <div>
+            <div
+              class="banner"
+              data-cvent-id="planner-reg-page-banner"
+            >
+              <span>
+                EventGuestSide_BannerText_PlannerReg__resx
+              </span>
+              <div
+                class="bannerHelp"
+              >
+                <span>
+                  EventGuestSide_BannerHelpText_PlannerReg__resx
+                </span>
+              </div>
+              <div
+                class="actionSection"
+              >
+                <div
+                  class="aside"
+                />
+                <ul
+                  class="actionList"
+                >
+                  <li
+                    class="actionExit"
+                  >
+                    <button
+                      aria-label="_close__resx"
+                      class="exitEditor"
+                      data-cvent-id="page-banner-close-button"
+                      type="button"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-label="_close__resx"
+                          class="exitIcon"
+                          role="img"
+                        />
+                      </span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div
+                  role="banner"
+                >
+                  <div
+                    class="mockReadOnlyContent"
+                  >
+                    container:7162204f-7d0c-4be9-ad13-3fe7dec332bd
+                  </div>
+                </div>
+                <div
+                  id="main"
+                  role="main"
+                  tabindex="-1"
+                >
+                  <div
+                    class="mockReadOnlyContent"
+                  >
+                    container:beddb7b5-5e71-4103-8ab4-a9cbc9078808
+                  </div>
+                </div>
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  container:8471fca9-0b98-41df-81a4-a2b5944629a1
+                </div>
+              </div>
+              <div
+                role="contentinfo"
+              >
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  CventFooterContainer
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div />
+</div>
+`;

@@ -1,0 +1,103 @@
+{
+  "pages": {
+    "virtualDetails": {
+      "id": "virtualDetails",
+      "title": "EventGuest_VirtualDetails_PageTitle__resx",
+      "type": "PAGE",
+      "templateId": "template:0a4c67cb-cd3f-4f55-8b73-2915bc0b9558",
+      "version": 1,
+      "rootLayoutItemIds": ["container:virtualDetails"]
+    }
+  },
+  "layoutItems": {
+    "container:virtualDetails": {
+      "id": "container:virtualDetails",
+      "layout": {
+        "colspan": 12,
+        "type": "container",
+        "childIds": ["sectionRow:virtualDetails"],
+        "cellSize": 4,
+        "parentId": null
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "sectionRow:virtualDetails": {
+      "id": "sectionRow:virtualDetails",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionRow",
+        "childIds": ["sectionColumn:virtualDetails"],
+        "cellSize": 4,
+        "parentId": "container:virtualDetails"
+      },
+      "config": {
+        "style": {},
+        "columnArrangementId": "ONE",
+        "themeId": "content1",
+        "columnLayoutId": "ONE_COLUMN"
+      }
+    },
+    "sectionColumn:virtualDetails": {
+      "id": "sectionColumn:virtualDetails",
+      "layout": {
+        "colspan": 12,
+        "type": "sectionColumn",
+        "childIds": [
+          "row:virtualDetails-sessionNotAvailableMessage"
+        ],
+        "cellSize": 4,
+        "parentId": "sectionRow:virtualDetails"
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "row:virtualDetails-sessionNotAvailableMessage": {
+      "id": "row:virtualDetails-sessionNotAvailableMessage",
+      "layout": {
+        "type": "row",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": "sectionColumn:virtualDetails",
+        "childIds": ["widget:virtualDetails-sessionNotAvailableMessage"]
+      },
+      "config": {
+        "style": {}
+      }
+    },
+    "widget:virtualDetails-sessionNotAvailableMessage": {
+      "layout": {
+        "colspan": 12,
+        "type": "widget",
+        "childIds": [],
+        "cellSize": 4,
+        "parentId": "row:virtualDetails-sessionNotAvailableMessage"
+      },
+      "id": "widget:virtualDetails-sessionNotAvailableMessage",
+      "config": {
+        "style": {
+          "spacing": {
+            "padding": {
+              "paddingTop": 30,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15
+            }
+          },
+          "text": {
+            "styleMapping": "text1",
+            "customSettings": {
+              "text": {
+                "textAlign": "center"
+              }
+            }
+          }
+        },
+        "text": "EventGuestSide_VirtualDetails_SessionNotAvailableMessage__resx"
+      },
+      "widgetType": "SessionNotAvailableMessage"
+    }
+  }
+}

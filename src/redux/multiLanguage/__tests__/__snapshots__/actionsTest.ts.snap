@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadLanguage should have LOAD_LANGUAGE, SET_LOCALE and SET_REG_CART_FIELD_VALUE action types dispatched, with empty UserText 1`] = `
+Array [
+  Object {
+    "payload": "en-US",
+    "type": "event-guestside-site/mutliLanguage/LOAD_LANGUAGE",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en",
+      "translations": Object {
+        "cvt_lu2_0001": "United States",
+        "cvt_lu2_0172": "Panama",
+      },
+    },
+    "type": "nucleus/text/REGISTER_TRANSLATION",
+  },
+  Object {
+    "payload": Object {
+      "countries": Object {
+        "countries": Object {
+          "": Object {
+            "alphaThreeCode": "",
+            "code": "",
+            "id": 0,
+            "isoCode": 0,
+            "metroAreaGroupId": 0,
+            "name": "",
+            "nameResourceKey": "",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+          "PA": Object {
+            "alphaThreeCode": "PAN",
+            "code": "PA",
+            "id": 174,
+            "isoCode": 591,
+            "metroAreaGroupId": 19,
+            "name": "Panama",
+            "nameResourceKey": "cvt_lu2_0172",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+          "US": Object {
+            "alphaThreeCode": "USA",
+            "code": "US",
+            "id": 450,
+            "isoCode": 1,
+            "metroAreaGroupId": 123,
+            "name": "USA",
+            "nameResourceKey": "cvt_lu2_0001",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+        },
+        "locale": "en-US",
+      },
+    },
+    "type": "event-widgets/country/LOAD_COUNTRY",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en",
+      "translations": Object {
+        "cvt_lu2_0002": "Virginia",
+        "cvt_lu2_0003": "Pennsylvania",
+      },
+    },
+    "type": "nucleus/text/REGISTER_TRANSLATION",
+  },
+  Object {
+    "payload": Object {
+      "countryStates": Object {
+        "US": Object {
+          "currentLocale": "en-US",
+          "states": Object {
+            "": Object {
+              "categoryId": 0,
+              "categoryName": "",
+              "categoryNameResourceKey": "",
+              "categoryOrder": 0,
+              "code": "",
+              "countryCode": "",
+              "id": 0,
+              "name": "",
+              "nameResourceKey": "",
+            },
+            "PA": Object {
+              "code": "PA",
+              "countryCode": "US",
+              "name": "Pennsylvania",
+              "nameResourceKey": "cvt_lu2_0003",
+              "sort": 2,
+            },
+            "VA": Object {
+              "code": "VA",
+              "countryCode": "US",
+              "name": "Virginia",
+              "nameResourceKey": "cvt_lu2_0002",
+              "sort": 1,
+            },
+          },
+        },
+      },
+    },
+    "type": "event-widgets/state/LOAD_STATE",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "localeId",
+      ],
+      "value": 1033,
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en-US",
+    },
+    "type": "nucleus/text/SET_LOCALE",
+  },
+  Object {
+    "type": "LOAD_LANGUAGE_MANAGEMENT",
+  },
+]
+`;
+
+exports[`loadLanguage should have LOAD_LANGUAGE, SET_LOCALE and SET_REG_CART_FIELD_VALUE action types dispatched, with empty UserText using a locale not in the locales setup 1`] = `
+Array [
+  Object {
+    "payload": "en-GB",
+    "type": "event-guestside-site/mutliLanguage/LOAD_LANGUAGE",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en",
+      "translations": Object {
+        "cvt_lu2_0001": "United States",
+        "cvt_lu2_0172": "Panama",
+      },
+    },
+    "type": "nucleus/text/REGISTER_TRANSLATION",
+  },
+  Object {
+    "payload": Object {
+      "countries": Object {
+        "countries": Object {
+          "": Object {
+            "alphaThreeCode": "",
+            "code": "",
+            "id": 0,
+            "isoCode": 0,
+            "metroAreaGroupId": 0,
+            "name": "",
+            "nameResourceKey": "",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+          "PA": Object {
+            "alphaThreeCode": "PAN",
+            "code": "PA",
+            "id": 174,
+            "isoCode": 591,
+            "metroAreaGroupId": 19,
+            "name": "Panama",
+            "nameResourceKey": "cvt_lu2_0172",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+          "US": Object {
+            "alphaThreeCode": "USA",
+            "code": "US",
+            "id": 450,
+            "isoCode": 1,
+            "metroAreaGroupId": 123,
+            "name": "USA",
+            "nameResourceKey": "cvt_lu2_0001",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+        },
+        "locale": "en-GB",
+      },
+    },
+    "type": "event-widgets/country/LOAD_COUNTRY",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en",
+      "translations": Object {
+        "cvt_lu2_0002": "Virginia",
+        "cvt_lu2_0003": "Pennsylvania",
+      },
+    },
+    "type": "nucleus/text/REGISTER_TRANSLATION",
+  },
+  Object {
+    "payload": Object {
+      "resourceKeys": Object {},
+      "selectedLocale": "en-GB",
+    },
+    "type": "event-widgets/multiLanguage/LOAD_ACCOUNT_TRANSLATION",
+  },
+  Object {
+    "payload": Object {
+      "countryStates": Object {
+        "US": Object {
+          "currentLocale": "en-GB",
+          "states": Object {
+            "": Object {
+              "categoryId": 0,
+              "categoryName": "",
+              "categoryNameResourceKey": "",
+              "categoryOrder": 0,
+              "code": "",
+              "countryCode": "",
+              "id": 0,
+              "name": "",
+              "nameResourceKey": "",
+            },
+            "PA": Object {
+              "code": "PA",
+              "countryCode": "US",
+              "name": "Pennsylvania",
+              "nameResourceKey": "cvt_lu2_0003",
+              "sort": 2,
+            },
+            "VA": Object {
+              "code": "VA",
+              "countryCode": "US",
+              "name": "Virginia",
+              "nameResourceKey": "cvt_lu2_0002",
+              "sort": 1,
+            },
+          },
+        },
+      },
+    },
+    "type": "event-widgets/state/LOAD_STATE",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "localeId",
+      ],
+      "value": null,
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en-GB",
+    },
+    "type": "nucleus/text/SET_LOCALE",
+  },
+  Object {
+    "type": "LOAD_LANGUAGE_MANAGEMENT",
+  },
+]
+`;
+
+exports[`loadLanguage should have no actions dispatched 1`] = `Array []`;
+
+exports[`loadLanguage should have only SET_LOCALE and SET_REG_CART_FIELD_VALUE actions dispatched 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en",
+      "translations": Object {
+        "cvt_lu2_0002": "Virginia",
+        "cvt_lu2_0003": "Pennsylvania",
+      },
+    },
+    "type": "nucleus/text/REGISTER_TRANSLATION",
+  },
+  Object {
+    "payload": Object {
+      "countryStates": Object {
+        "US": Object {
+          "currentLocale": "fn-FN",
+          "states": Object {
+            "": Object {
+              "categoryId": 0,
+              "categoryName": "",
+              "categoryNameResourceKey": "",
+              "categoryOrder": 0,
+              "code": "",
+              "countryCode": "",
+              "id": 0,
+              "name": "",
+              "nameResourceKey": "",
+            },
+            "PA": Object {
+              "code": "PA",
+              "countryCode": "US",
+              "name": "Pennsylvania",
+              "nameResourceKey": "cvt_lu2_0003",
+              "sort": 2,
+            },
+            "VA": Object {
+              "code": "VA",
+              "countryCode": "US",
+              "name": "Virginia",
+              "nameResourceKey": "cvt_lu2_0002",
+              "sort": 1,
+            },
+          },
+        },
+      },
+    },
+    "type": "event-widgets/state/LOAD_STATE",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "localeId",
+      ],
+      "value": 1025,
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "fn-FN",
+    },
+    "type": "nucleus/text/SET_LOCALE",
+  },
+]
+`;
+
+exports[`loadLanguage should load translations when language is default 1`] = `
+Array [
+  Object {
+    "payload": "en-US",
+    "type": "event-guestside-site/mutliLanguage/LOAD_LANGUAGE",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en",
+      "translations": Object {
+        "cvt_lu2_0001": "United States",
+        "cvt_lu2_0172": "Panama",
+      },
+    },
+    "type": "nucleus/text/REGISTER_TRANSLATION",
+  },
+  Object {
+    "payload": Object {
+      "countries": Object {
+        "countries": Object {
+          "": Object {
+            "alphaThreeCode": "",
+            "code": "",
+            "id": 0,
+            "isoCode": 0,
+            "metroAreaGroupId": 0,
+            "name": "",
+            "nameResourceKey": "",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+          "PA": Object {
+            "alphaThreeCode": "PAN",
+            "code": "PA",
+            "id": 174,
+            "isoCode": 591,
+            "metroAreaGroupId": 19,
+            "name": "Panama",
+            "nameResourceKey": "cvt_lu2_0172",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+          "US": Object {
+            "alphaThreeCode": "USA",
+            "code": "US",
+            "id": 450,
+            "isoCode": 1,
+            "metroAreaGroupId": 123,
+            "name": "USA",
+            "nameResourceKey": "cvt_lu2_0001",
+            "requireZipCodeFlag": false,
+            "sort": 999,
+          },
+        },
+        "locale": "en-US",
+      },
+    },
+    "type": "event-widgets/country/LOAD_COUNTRY",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en",
+      "translations": Object {
+        "cvt_lu2_0002": "Virginia",
+        "cvt_lu2_0003": "Pennsylvania",
+      },
+    },
+    "type": "nucleus/text/REGISTER_TRANSLATION",
+  },
+  Object {
+    "payload": Object {
+      "countryStates": Object {
+        "US": Object {
+          "currentLocale": "en-US",
+          "states": Object {
+            "": Object {
+              "categoryId": 0,
+              "categoryName": "",
+              "categoryNameResourceKey": "",
+              "categoryOrder": 0,
+              "code": "",
+              "countryCode": "",
+              "id": 0,
+              "name": "",
+              "nameResourceKey": "",
+            },
+            "PA": Object {
+              "code": "PA",
+              "countryCode": "US",
+              "name": "Pennsylvania",
+              "nameResourceKey": "cvt_lu2_0003",
+              "sort": 2,
+            },
+            "VA": Object {
+              "code": "VA",
+              "countryCode": "US",
+              "name": "Virginia",
+              "nameResourceKey": "cvt_lu2_0002",
+              "sort": 1,
+            },
+          },
+        },
+      },
+    },
+    "type": "event-widgets/state/LOAD_STATE",
+  },
+  Object {
+    "payload": Object {
+      "path": Array [
+        "localeId",
+      ],
+      "value": 1033,
+    },
+    "type": "event-guestside-site/regCart/SET_REG_CART_FIELD_VALUE",
+  },
+  Object {
+    "payload": Object {
+      "context": "default",
+      "locale": "en-US",
+    },
+    "type": "nucleus/text/SET_LOCALE",
+  },
+  Object {
+    "type": "LOAD_LANGUAGE_MANAGEMENT",
+  },
+]
+`;
+
+exports[`loadLanguage should not load translations when loadedLanguages is undefined 1`] = `Array []`;
+
+exports[`loadLanguage should trigger no actions when eventLocalesSetup does not exist in event 1`] = `Array []`;
+
+exports[`loadLanguage should trigger no actions with only 1 language for the event 1`] = `Array []`;

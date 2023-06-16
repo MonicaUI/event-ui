@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AgendaWidget produces props from state 1`] = `
+Object {
+  "children": <Unknown
+    config={Object {}}
+    dialogContainerStyle={
+      Object {
+        "backgroundColor": "#F33B15",
+        "borderRadius": 100,
+        "hover": Object {
+          "backgroundColor": "#F33B15",
+        },
+      }
+    }
+    id="agendaWidgetId"
+    sessionCategories={
+      Object {
+        "83f2e39d-7284-42b5-aef6-643e0ddd5003": Object {
+          "description": "",
+          "id": "83f2e39d-7284-42b5-aef6-643e0ddd5003",
+          "name": "Workshops",
+        },
+      }
+    }
+    sessionCategoryListOrders={
+      Object {
+        "83f2e39d-7284-42b5-aef6-643e0ddd5003": Object {
+          "categoryId": "83f2e39d-7284-42b5-aef6-643e0ddd5003",
+          "categoryOrder": 2,
+        },
+        "c5346826-863c-4030-a4c9-3fb5cc0a1c94": Object {
+          "categoryId": "c5346826-863c-4030-a4c9-3fb5cc0a1c94",
+          "categoryOrder": 1,
+        },
+        "c707709a-44fa-4745-b01e-84cce1fab036": Object {
+          "categoryId": "c707709a-44fa-4745-b01e-84cce1fab036",
+          "categoryOrder": 3,
+        },
+      }
+    }
+    sessionCustomFieldDefinitions={Array []}
+    sessions={
+      Array [
+        Object {
+          "associatedRegistrationTypes": Array [],
+          "associatedWithAdmissionItems": Array [],
+          "availableToAdmissionItems": Array [],
+          "capacity": 100,
+          "capacityId": "22b2fa58-a446-46cd-8888-2720925fb669",
+          "categoryId": "83f2e39d-7284-42b5-aef6-643e0ddd5003",
+          "code": "SESS2",
+          "defaultFeeId": "9b80d956-60e8-463f-8f66-76147919bc0e",
+          "description": "",
+          "endTime": "2017-09-08T23:00:00.000Z",
+          "fees": Object {
+            "9b80d956-60e8-463f-8f66-76147919bc0e": Object {
+              "amount": 100,
+              "chargePolicies": Array [
+                Object {
+                  "amount": 100,
+                  "effectiveUntil": "2999-12-31T00:00:00.000Z",
+                  "id": "6aa88aa9-d93a-450d-a948-cf13f717192c",
+                  "isActive": true,
+                  "maximumRefundAmount": 100,
+                },
+                Object {
+                  "amount": 95,
+                  "effectiveUntil": "2017-07-21T00:00:00.000Z",
+                  "id": "835f464f-feab-4367-a736-a4ccd821c6b7",
+                  "isActive": true,
+                  "maximumRefundAmount": 95,
+                },
+              ],
+              "id": "9b80d956-60e8-463f-8f66-76147919bc0e",
+              "isActive": true,
+              "isRefundable": true,
+              "name": "Fee 4",
+              "refundPolicies": Array [],
+              "registrationTypes": Array [],
+            },
+          },
+          "id": "22b2fa58-a446-46cd-8888-2720925fb669",
+          "isIncludedSession": false,
+          "isOpenForRegistration": true,
+          "name": "Session 2",
+          "registeredCount": 0,
+          "sessionCustomFieldValues": Object {},
+          "showOnAgenda": true,
+          "speakers": Array [],
+          "startTime": "2017-09-08T22:00:00.000Z",
+          "status": 2,
+          "type": "Session",
+        },
+        Object {
+          "associatedRegistrationTypes": Array [],
+          "associatedWithAdmissionItems": Array [],
+          "availableToAdmissionItems": Array [],
+          "capacityId": "133ece28-1582-4205-af64-f7fb431a76e8",
+          "categoryId": "c5346826-863c-4030-a4c9-3fb5cc0a1c94",
+          "code": "",
+          "defaultFeeId": "00000000-0000-0000-0000-000000000000",
+          "description": "",
+          "endTime": "2017-09-08T23:00:00.000Z",
+          "fees": Object {},
+          "id": "133ece28-1582-4205-af64-f7fb431a76e8",
+          "isIncludedSession": false,
+          "isOpenForRegistration": true,
+          "name": "Session 4",
+          "registeredCount": 0,
+          "sessionCustomFieldValues": Object {},
+          "showOnAgenda": true,
+          "speakers": Array [],
+          "startTime": "2017-09-08T22:00:00.000Z",
+          "status": 2,
+          "type": "Session",
+        },
+        Object {
+          "associatedRegistrationTypes": Array [],
+          "associatedWithAdmissionItems": Array [],
+          "availableToAdmissionItems": Array [],
+          "capacity": 1000,
+          "capacityId": "333e1842-b448-46d1-8aeb-5b74a7c72bb7",
+          "categoryId": "c707709a-44fa-4745-b01e-84cce1fab036",
+          "code": "SESS3",
+          "defaultFeeId": "a8024710-ff21-48e2-a005-f69f459da7a5",
+          "description": "",
+          "endTime": "2017-09-08T23:00:00.000Z",
+          "fees": Object {
+            "a8024710-ff21-48e2-a005-f69f459da7a5": Object {
+              "amount": 1000,
+              "chargePolicies": Array [
+                Object {
+                  "amount": 1000,
+                  "effectiveUntil": "2999-12-31T00:00:00.000Z",
+                  "id": "ffcb3714-3c73-4046-b8a8-0466cbcc461c",
+                  "isActive": true,
+                  "maximumRefundAmount": 1000,
+                },
+              ],
+              "id": "a8024710-ff21-48e2-a005-f69f459da7a5",
+              "isActive": true,
+              "isRefundable": true,
+              "name": "Fee 5",
+              "refundPolicies": Array [],
+              "registrationTypes": Array [],
+            },
+          },
+          "id": "333e1842-b448-46d1-8aeb-5b74a7c72bb7",
+          "isIncludedSession": false,
+          "isOpenForRegistration": true,
+          "name": "Session 3",
+          "registeredCount": 0,
+          "sessionCustomFieldValues": Object {},
+          "showOnAgenda": true,
+          "speakers": Array [],
+          "startTime": "2017-09-08T22:00:00.000Z",
+          "status": 2,
+          "type": "Session",
+        },
+        Object {
+          "associatedRegistrationTypes": Array [],
+          "associatedWithAdmissionItems": Array [],
+          "availableToAdmissionItems": Array [],
+          "capacity": 20,
+          "capacityId": "2f7209f5-e42b-4792-b6fd-504873b46707",
+          "categoryId": "83f2e39d-7284-42b5-aef6-643e0ddd5003",
+          "code": "SESS1",
+          "defaultFeeId": "983ba5fa-7ff0-451c-acc5-7360693ec502",
+          "description": "",
+          "endTime": "2017-09-08T23:00:00.000Z",
+          "fees": Object {
+            "983ba5fa-7ff0-451c-acc5-7360693ec502": Object {
+              "amount": 10,
+              "chargePolicies": Array [
+                Object {
+                  "amount": 10,
+                  "effectiveUntil": "2999-12-31T00:00:00.000Z",
+                  "id": "6d8d8c57-6393-4d55-9be5-6fabb4b1db8e",
+                  "isActive": true,
+                  "maximumRefundAmount": 10,
+                },
+              ],
+              "id": "983ba5fa-7ff0-451c-acc5-7360693ec502",
+              "isActive": true,
+              "isRefundable": true,
+              "name": "Fee 3",
+              "refundPolicies": Array [],
+              "registrationTypes": Array [],
+            },
+          },
+          "id": "2f7209f5-e42b-4792-b6fd-504873b46707",
+          "isIncludedSession": false,
+          "isOpenForRegistration": true,
+          "name": "Session 1",
+          "registeredCount": 0,
+          "sessionCustomFieldValues": Object {},
+          "showOnAgenda": true,
+          "speakerIds": Object {
+            "speakerId1": Object {
+              "sessionId": "2f7209f5-e42b-4792-b6fd-504873b467072",
+              "speakerCategoryId": "59f34dba-0c33-4fc8-a83b-7ae3bfb16bea",
+              "speakerId": "speakerId1",
+            },
+            "speakerId2": Object {
+              "sessionId": "2f7209f5-e42b-4792-b6fd-504873b46707",
+              "speakerCategoryId": "59f34dba-0c33-4fc8-a83b-7ae3bfb16bea",
+              "speakerId": "speakerId2",
+            },
+            "speakerId3": Object {
+              "sessionId": "2f7209f5-e42b-4792-b6fd-504873b46707",
+              "speakerCategoryId": "59f34dba-0c33-4fc8-a83b-7ae3bfb16bea",
+              "speakerId": "speakerId3",
+            },
+          },
+          "speakers": Array [
+            Object {
+              "biography": "Biography for pam is here.",
+              "categoryId": "59f34dba-0c33-4fc8-a83b-7ae3bfb16bea",
+              "code": "PamPam",
+              "company": "Company Name 2",
+              "designation": "Senior Accountant",
+              "displayOnWebsite": true,
+              "documents": Object {},
+              "emailAddress": "pam@j.mail",
+              "facebookUrl": "https://www.facebook.com",
+              "firstName": "Pam",
+              "id": "speakerId2",
+              "internalNote": "",
+              "lastName": "Pam",
+              "linkedInUrl": "http://www.linkedin.com",
+              "order": 2,
+              "prefix": "Mrs",
+              "profileImageFileName": "icon.jpg",
+              "profileImageUri": "https://silo408-custom.core.cvent.org/89a848/2db7fc76a7d04d10aa7bb44c3820081b.jpg",
+              "title": "Title2",
+              "twitterUrl": "https://www.twitter.com",
+              "websites": Object {},
+            },
+            Object {
+              "biography": "James' biography goes here.",
+              "categoryId": "59f34dba-0c33-4fc8-a83b-7ae3bfb16bea",
+              "code": "JamesAnderson",
+              "company": "Company Name 5",
+              "designation": "Director",
+              "displayOnWebsite": true,
+              "documents": Object {
+                "263e250e-61e3-492e-8de8-455c2f790dae": Object {
+                  "id": "263e250e-61e3-492e-8de8-455c2f790dae",
+                  "isDisplay": true,
+                  "speakerId": "speakerId1",
+                },
+              },
+              "emailAddress": "james@j.mail",
+              "facebookUrl": "http://www.fb.com",
+              "firstName": "James",
+              "id": "speakerId1",
+              "internalNote": "",
+              "lastName": "Anderson",
+              "linkedInUrl": "http://www.linkedin.com",
+              "order": 5,
+              "prefix": "Dr",
+              "title": "Title 5",
+              "twitterUrl": "https://www.twitter.com",
+              "websites": Object {},
+            },
+          ],
+          "startTime": "2017-09-08T22:00:00.000Z",
+          "status": 2,
+          "type": "Session",
+        },
+      ]
+    }
+    speakerCategories={
+      Array [
+        Object {
+          "id": "3ae9e6fa-c8e9-43e3-928c-1cf316d04073",
+          "isActive": true,
+          "name": "Speakers",
+          "order": 1,
+        },
+      ]
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      }
+    }
+    switchTimeZone={[Function]}
+    timeZone="Event_Timezone_Abbr_35__resx"
+    translateDate={[Function]}
+    translateTime={[Function]}
+  />,
+  "classes": Object {
+    "sessionFilter": Object {
+      "multiselect": Object {
+        "menu": Object {},
+      },
+    },
+  },
+  "value": null,
+}
+`;

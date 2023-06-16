@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`declines and shows decline confirmation when visiting a decline link 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="container"
+      style="background-color: rgb(4, 21, 50); border-radius: 0;"
+    >
+      <div
+        style="max-width: 1024px; margin: auto;"
+      >
+        <div>
+          <div>
+            <div>
+              <div
+                id="main"
+                role="main"
+                tabindex="-1"
+              >
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  container:b8c4272d-7758-4f60-989f-cf2dff2216b1
+                </div>
+              </div>
+              <div
+                role="contentinfo"
+              >
+                <div
+                  class="mockReadOnlyContent"
+                >
+                  CventFooterContainer
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div />
+</div>
+`;

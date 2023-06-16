@@ -1,0 +1,39 @@
+{
+  "hotelCapacities": {
+    "hotel1":  {
+      "roomCapacities": {
+        "room1": {
+          "dateCapacities": {
+            "date1": [{
+              "capacityId": "cap1",
+              "metadataCapacity": 100,
+              "totalReserveCapacityAvailable": 4,
+              "reserveCapacityAvailable": 1,
+              "contactTypeId": "defaultRegTypeId"
+            }]
+          }
+        },
+        "room2": {
+          "dateCapacities": {
+            "date1": [
+              {
+                "capacityId": "cap2",
+                "metadataCapacity": 100,
+                "totalReserveCapacityAvailable": 3,
+                "reserveCapacityAvailable": 0,
+                "contactTypeId": "defaultRegTypeId"
+              },
+              {
+                "capacityId": "cap3",
+                "metadataCapacity": 100,
+                "totalReserveCapacityAvailable": 5,
+                "reserveCapacityAvailable": 2,
+                "contactTypeId": "regTypeId1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

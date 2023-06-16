@@ -1,0 +1,46 @@
+@import (reference) '~event-widgets/shared-styles/Variables.less';
+@import (reference) '~event-widgets/shared-styles/Utility.less';
+
+.icon{
+  &:before{
+    font-family: 'streamline';
+  }
+}
+
+.icon {
+  .icon();
+}
+
+.successCheck {
+  composes: icon;
+  font-size: 75px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  color: @progressBarMessageColorSuccess;
+  transform: translate( -50%, -50%);
+  &:before {
+    content: "\e943";
+  }
+}
+
+.checkoutProcessingMessage {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  text-align: center;
+  transform: translate( -50%, -50%);
+  color: #6F7377;
+}
+
+.checkoutProcessingTitle {
+  font-size: 40px;
+}
+.checkoutProcessingText {
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
+.dialogContainer {
+  height: 65vh;
+  .dialogMediaQuery();
+}

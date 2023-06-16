@@ -1,0 +1,31 @@
+@import "./StandardDialog.less";
+@import (reference) "~event-widgets/shared-styles/Variables.less";
+@import (reference) "~event-widgets/shared-styles/Utility.less";
+@import (reference) '~nucleus-core/less/VariablesColors.less';
+
+.dialogHeader{
+  color: @primaryGrey;
+}
+
+.messageBase {
+ color: @primaryGrey;
+}
+
+.subMessage {
+  font-size: 1.125em;
+}
+
+.messageContainer {
+  padding: 50px 100px 0 100px;
+}
+
+.messageIcon {
+  font-size: 5.313em;
+}
+
+.dialogContainer {
+  width: 700px;
+  min-height: 45px;
+  max-height: 85vh;
+  .dialogMediaQuery();
+}

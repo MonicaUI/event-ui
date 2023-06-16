@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getOrderedWidgetsInRegistration should get widgets for standard registration pages and guest info page 1`] = `
+Object {
+  "1": Array [
+    Object {
+      "config": Object {
+        "fieldId": "56aeaca6-a0ad-4548-8afc-94d8d4361ba1",
+        "registrationFieldPageType": 1,
+        "style": Object {
+          "errorText": Object {
+            "customSettings": Object {
+              "text": Object {
+                "color": "#e75430",
+              },
+            },
+            "styleMapping": "body1",
+          },
+          "input": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "input",
+          },
+          "label": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "label",
+          },
+          "spacing": Object {
+            "padding": Object {
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          },
+          "view": Object {
+            "customSettings": Object {
+              "spacing": Object {
+                "padding": Object {
+                  "paddingLeft": 5,
+                },
+              },
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "body1",
+          },
+        },
+      },
+      "id": "temp-1469646842448",
+      "layout": Object {
+        "cellSize": 4,
+        "childIds": Array [],
+        "colspan": 12,
+        "parentId": "temp-1469646842447",
+        "type": "widget",
+      },
+      "widgetType": "EventStandardContactFieldText",
+    },
+    Object {
+      "config": Object {
+        "fieldId": "cfc98829-80b7-41b6-82b5-b968d43ef1c1",
+        "registrationFieldPageType": 1,
+        "style": Object {
+          "errorText": Object {
+            "customSettings": Object {
+              "text": Object {
+                "color": "#e75430",
+              },
+            },
+            "styleMapping": "body1",
+          },
+          "input": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "input",
+          },
+          "label": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "label",
+          },
+          "spacing": Object {
+            "padding": Object {
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          },
+          "view": Object {
+            "customSettings": Object {
+              "spacing": Object {
+                "padding": Object {
+                  "paddingLeft": 5,
+                },
+              },
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "body1",
+          },
+        },
+      },
+      "id": "temp-1469646842450",
+      "layout": Object {
+        "cellSize": 4,
+        "childIds": Array [],
+        "colspan": 12,
+        "parentId": "temp-1469646842449",
+        "type": "widget",
+      },
+      "widgetType": "EventStandardContactFieldText",
+    },
+    Object {
+      "config": Object {
+        "fieldId": "ff919d05-4281-4d9c-aa0d-82e3722d580d",
+        "registrationFieldPageType": 1,
+        "style": Object {
+          "errorText": Object {
+            "customSettings": Object {
+              "text": Object {
+                "color": "#e75430",
+              },
+            },
+            "styleMapping": "body1",
+          },
+          "input": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "input",
+          },
+          "label": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "label",
+          },
+          "spacing": Object {
+            "padding": Object {
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          },
+          "view": Object {
+            "customSettings": Object {
+              "spacing": Object {
+                "padding": Object {
+                  "paddingLeft": 5,
+                },
+              },
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "body1",
+          },
+        },
+      },
+      "id": "temp-1469646842452",
+      "layout": Object {
+        "cellSize": 4,
+        "childIds": Array [],
+        "colspan": 12,
+        "parentId": "temp-1469646842451",
+        "type": "widget",
+      },
+      "widgetType": "EventStandardContactFieldText",
+    },
+  ],
+  "4": Array [
+    Object {
+      "config": Object {
+        "fieldId": "56aeaca6-a0ad-4548-8afc-94d8d4361ba1",
+        "registrationFieldPageType": 4,
+        "style": Object {
+          "errorText": Object {
+            "customSettings": Object {
+              "text": Object {
+                "color": "#e75430",
+              },
+            },
+            "styleMapping": "body1",
+          },
+          "input": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "input",
+          },
+          "label": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "label",
+          },
+          "spacing": Object {
+            "padding": Object {
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          },
+          "view": Object {
+            "customSettings": Object {
+              "spacing": Object {
+                "padding": Object {
+                  "paddingLeft": 5,
+                },
+              },
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "body1",
+          },
+        },
+      },
+      "id": "widget:c9d4d17b-9ca7-4d87-8591-d42bfc7d35ef",
+      "layout": Object {
+        "cellSize": 4,
+        "childIds": Array [],
+        "colspan": 12,
+        "parentId": "row:08e82704-f192-4964-b30a-b3bb8e12d167",
+        "type": "widget",
+      },
+      "widgetType": "EventStandardContactFieldText",
+    },
+    Object {
+      "config": Object {
+        "fieldId": "cfc98829-80b7-41b6-82b5-b968d43ef1c1",
+        "registrationFieldPageType": 4,
+        "style": Object {
+          "errorText": Object {
+            "customSettings": Object {
+              "text": Object {
+                "color": "#e75430",
+              },
+            },
+            "styleMapping": "body1",
+          },
+          "input": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "input",
+          },
+          "label": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "label",
+          },
+          "spacing": Object {
+            "padding": Object {
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          },
+          "view": Object {
+            "customSettings": Object {
+              "spacing": Object {
+                "padding": Object {
+                  "paddingLeft": 5,
+                },
+              },
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "body1",
+          },
+        },
+      },
+      "id": "widget:888a56f4-10e4-4314-886f-66464ff04929",
+      "layout": Object {
+        "cellSize": 4,
+        "childIds": Array [],
+        "colspan": 12,
+        "parentId": "row:45f586ce-092e-4a1d-82d1-97c7a6ce1011",
+        "type": "widget",
+      },
+      "widgetType": "EventStandardContactFieldText",
+    },
+    Object {
+      "config": Object {
+        "fieldId": "ff919d05-4281-4d9c-aa0d-82e3722d580d",
+        "registrationFieldPageType": 4,
+        "style": Object {
+          "errorText": Object {
+            "customSettings": Object {
+              "text": Object {
+                "color": "#e75430",
+              },
+            },
+            "styleMapping": "body1",
+          },
+          "input": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "input",
+          },
+          "label": Object {
+            "customSettings": Object {
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "label",
+          },
+          "spacing": Object {
+            "padding": Object {
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          },
+          "view": Object {
+            "customSettings": Object {
+              "spacing": Object {
+                "padding": Object {
+                  "paddingLeft": 5,
+                },
+              },
+              "text": Object {
+                "textAlign": "left",
+              },
+            },
+            "styleMapping": "body1",
+          },
+        },
+      },
+      "id": "widget:5e3de3c7-26dc-4f3f-9188-9070223ed2e8",
+      "layout": Object {
+        "cellSize": 4,
+        "childIds": Array [],
+        "colspan": 12,
+        "parentId": "row:79560f9a-03d6-4953-af3c-6d3775553c13",
+        "type": "widget",
+      },
+      "widgetType": "EventStandardContactFieldText",
+    },
+  ],
+}
+`;

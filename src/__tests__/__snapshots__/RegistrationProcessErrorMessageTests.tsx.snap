@@ -1,0 +1,5352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`completing registration displays error dialog for REGAPI.ATTENDEE_QUESTION_MISSING error and allows it to be close 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_RequiredFieldMissing__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ATTENDEE_QUESTION_MISSING error and allows it to be close 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ATTENDEE_REQUIRED_FIELD_MISSING error and allows it to be close 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_RequiredFieldMissing__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ATTENDEE_REQUIRED_FIELD_MISSING error and allows it to be close 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.CHANGED_ID_CONFIRMATION_FIELDS error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_ChangedIdConfirmation__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.CHANGED_ID_CONFIRMATION_FIELDS error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.DUP_MATCH_KEY_VIOLATION error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_DuplicateMatchKey__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.DUP_MATCH_KEY_VIOLATION error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ID_CONFIRMATION_CONTACT_IDENTIFICATION_EXCEPTION error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_ContactNotFound__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ID_CONFIRMATION_CONTACT_IDENTIFICATION_EXCEPTION error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_INCONSISTENT_MATCH error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_SourceIdInconsistentMatch__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_INCONSISTENT_MATCH error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_MULTIPLE_MATCHED error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_SourceIdMultipleMatches__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_MULTIPLE_MATCHED error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_NO_MATCH error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_SourceIdNoMatch__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_NO_MATCH error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.IDENTITY_EMAIL_MODIFIED error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_EmailModified__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.IDENTITY_EMAIL_MODIFIED error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.IDENTITY_SOURCE_ID_MISSING error and allows it to be close 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_RequiredFieldMissing__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.IDENTITY_SOURCE_ID_MISSING error and allows it to be close 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.IDENTITY_SOURCE_ID_MODIFIED error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_SourceIdModified__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.IDENTITY_SOURCE_ID_MODIFIED error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.PRODUCT_NOT_OPEN_FOR_REGISTRATION error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_CapacityReached_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_CapacityReached_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_ApiError_ProductClosed__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.PRODUCT_NOT_OPEN_FOR_REGISTRATION error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.REGAPI.REGMOD_INVITEE_STATUS_INVALID error and allows it to be close 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_RegModInviteeStatusInvalid__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.REGAPI.REGMOD_INVITEE_STATUS_INVALID error and allows it to be close 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.REGAPI_VOUCHER_CODE_REQUIRED error and allows it to be close 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_VoucherCodeRequired__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.REGAPI_VOUCHER_CODE_REQUIRED error and allows it to be close 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.REGTYPE_MISSING error and allows it to be close 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_RequiredFieldMissing__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays error dialog for REGAPI.REGTYPE_MISSING error and allows it to be close 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays payment processing error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_PaymentProcessing_Error_Message__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_PaymentProcessing_Error_Message__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_PaymentProcessing_Error_SubMessage__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays payment processing error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays private event dialog for error about invitee not being on target list 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_PrivateEvent_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_PrivateEvent_Error_Message__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_PrivateEvent_Error_SubMessage__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays private event dialog when warned about invitee not being on target list and then allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_PrivateEvent_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_PrivateEvent_Error_Message__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_PrivateEvent_Error_SubMessage__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays private event dialog when warned about invitee not being on target list and then allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`completing registration displays private event dialog when warned about invitee not being on target list and then allows it to be closed 3`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="complete"
+          type="button"
+        >
+          complete
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.CHANGED_ID_CONFIRMATION_FIELDS error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_ChangedIdConfirmation__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.CHANGED_ID_CONFIRMATION_FIELDS error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.DUP_MATCH_KEY_VIOLATION error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_DuplicateMatchKey__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.DUP_MATCH_KEY_VIOLATION error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.ID_CONFIRMATION_CONTACT_IDENTIFICATION_EXCEPTION error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_ContactNotFound__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.ID_CONFIRMATION_CONTACT_IDENTIFICATION_EXCEPTION error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_INCONSISTENT_MATCH error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_SourceIdInconsistentMatch__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_INCONSISTENT_MATCH error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_MULTIPLE_MATCHED error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_SourceIdMultipleMatches__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_MULTIPLE_MATCHED error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_NO_MATCH error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_SourceIdNoMatch__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.ID_CONFIRMATION_SOURCE_ID_NO_MATCH error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.IDENTITY_EMAIL_MODIFIED error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_EmailModified__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.IDENTITY_EMAIL_MODIFIED error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.IDENTITY_SOURCE_ID_MODIFIED error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_KnownError_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestside_KnownError_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestside_ApiError_SourceIdModified__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.IDENTITY_SOURCE_ID_MODIFIED error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.PRODUCT_NOT_OPEN_FOR_REGISTRATION error and allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_CapacityReached_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <span
+                        class="container"
+                      >
+                        <span
+                          aria-hidden="true"
+                          class=""
+                          role="img"
+                        />
+                      </span>
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_CapacityReached_Error__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_ApiError_ProductClosed__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays error dialog for REGAPI.PRODUCT_NOT_OPEN_FOR_REGISTRATION error and allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays private event dialog for error about invitee not being on target list 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_PrivateEvent_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_PrivateEvent_Error_Message__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_PrivateEvent_Error_SubMessage__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays private event dialog when warned about invitee not being on target list and then allows it to be closed 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    >
+      <div
+        class=""
+      >
+        <div
+          aria-label="Dialog"
+          role="dialog"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <div
+            class=""
+            style="background-color: rgb(243, 59, 21); border-radius: 100px; position: absolute; left: 512px; top: 384px;"
+          >
+            <div
+              class=""
+            />
+            <div
+              class=""
+            >
+              <div
+                class="dialogContainer"
+              >
+                <div
+                  class="dialogChildren"
+                >
+                  <div>
+                    <div
+                      aria-describedby="dialogHeader"
+                      class=""
+                      style="background-color: rgb(221, 226, 230); border-radius: 0;"
+                    >
+                      <div
+                        class=""
+                        id="dialogHeader"
+                        style="background-color: rgb(249, 32, 242); padding: 15px 1.5625rem 15px 1.5625rem;"
+                      >
+                        <h2
+                          class=""
+                          style="color: rgb(255, 255, 255); font-family: Comic Sans MS, Comic Sans, Chalkboard, Marker Felt, sans-serif; font-size: 3.5625rem; font-style: normal; font-weight: 700; line-height: 1.3;"
+                        >
+                          <div
+                            class=""
+                            data-cvent-id="close"
+                            role="button"
+                            tabindex="0"
+                          >
+                            <span
+                              class="container"
+                            >
+                              <span
+                                aria-label="EventGuestSide_StandardDialog_FallbackText_Close__resx"
+                                class=""
+                                role="img"
+                              />
+                            </span>
+                          </div>
+                          EventGuestSide_PrivateEvent_Title__resx
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class=""
+                      name="messageContainer"
+                      style="background-color: rgb(243, 59, 21); padding: 0px 1.25rem 1.875rem 1.25rem;"
+                      tabindex="-1"
+                    >
+                      <div
+                        class=""
+                        style="font-family: PT Sans, sans-serif; font-weight: 400; font-size: 2.5rem; color: rgb(39, 63, 105); line-height: 1.3; font-style: normal; background-color: transparent; border-radius: 0; padding: 0px 0px 0px 0px;"
+                      >
+                        EventGuestSide_PrivateEvent_Error_Message__resx
+                      </div>
+                      <p
+                        class=""
+                      >
+                        EventGuestSide_PrivateEvent_Error_SubMessage__resx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays private event dialog when warned about invitee not being on target list and then allows it to be closed 2`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`updating registration displays private event dialog when warned about invitee not being on target list and then allows it to be closed 3`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class=""
+    />
+    <span
+      class="mockNucleusCoreTransition"
+    />
+  </div>
+  <div
+    class=""
+    style="flex: 1 1 auto;"
+  >
+    <ul
+      class=""
+    >
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="exit"
+          type="button"
+        >
+          exit
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button
+          class=""
+          id="forward"
+          type="button"
+        >
+          forward
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationMapWidget should render Apple Map with address containing country name 1`] = `
+Object {
+  "children": <LocationMapWidget
+    account={
+      Object {
+        "settings": Object {
+          "flexEventLocationMapType": 1,
+        },
+      }
+    }
+    address={
+      Object {
+        "address1": "2900 Private Drive",
+        "city": "Atlanta",
+        "countryCode": "US",
+        "countryName": "cvt_lu2_0229",
+        "postalCode": "22203",
+        "stateCode": "GA",
+      }
+    }
+    appleMap={
+      Object {
+        "token": "DummyAppleMapToken",
+      }
+    }
+    appleMapToken="DummyAppleMapToken"
+    dispatch={[Function]}
+    event={
+      Object {
+        "address": Object {
+          "address1": "2900 Private Drive",
+          "city": "Atlanta",
+          "countryCode": "US",
+          "postalCode": "22203",
+          "stateCode": "GA",
+        },
+        "location": "New York",
+      }
+    }
+    flexEventLocationMapType={2}
+    googleApiKey="DummyKeyString"
+    googleMap={
+      Object {
+        "apiKey": "DummyKeyString",
+      }
+    }
+    guestText={
+      Object {
+        "translate": [Function],
+      }
+    }
+    location="New York"
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+  />,
+  "value": null,
+}
+`;
+
+exports[`LocationMapWidget should render Google Map with address containing country name 1`] = `
+Object {
+  "children": <LocationMapWidget
+    account={
+      Object {
+        "settings": Object {
+          "flexEventLocationMapType": 1,
+        },
+      }
+    }
+    address={
+      Object {
+        "address1": "2900 Private Drive",
+        "city": "Atlanta",
+        "countryCode": "US",
+        "countryName": "cvt_lu2_0229",
+        "postalCode": "22203",
+        "stateCode": "GA",
+      }
+    }
+    appleMap={
+      Object {
+        "token": "DummyAppleMapToken",
+      }
+    }
+    appleMapToken="DummyAppleMapToken"
+    dispatch={[Function]}
+    event={
+      Object {
+        "address": Object {
+          "address1": "2900 Private Drive",
+          "city": "Atlanta",
+          "countryCode": "US",
+          "postalCode": "22203",
+          "stateCode": "GA",
+        },
+        "location": "New York",
+      }
+    }
+    flexEventLocationMapType={2}
+    googleApiKey="DummyKeyString"
+    googleMap={
+      Object {
+        "apiKey": "DummyKeyString",
+      }
+    }
+    location="New York"
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      }
+    }
+    text={
+      Object {
+        "translate": [Function],
+      }
+    }
+  />,
+  "value": null,
+}
+`;

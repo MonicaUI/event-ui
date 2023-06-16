@@ -1,0 +1,37 @@
+{
+  "plugins": {
+    "eventArchivePageNavigation": {
+      "defaultPageId": "eventArchivePage",
+      "navigationGroups": {},
+      "childIds": [
+        "eventArchivePage"
+      ],
+      "disabledPageIds": []
+    }
+  },
+  "pages": {
+    "eventArchivePage": {
+      "id": "eventArchivePage",
+      "title": "EventSiteEditor_DefaultPageTitle_ArchivePage__resx",
+      "templateId": "template:a61a64b8-ecd4-464b-848e-c0ebe08026e4",
+      "rootLayoutItemIds": [
+        "archive-0"
+      ]
+    }
+  },
+  "layoutItems": {
+    "archive-0": {
+      "id": "archive-0",
+      "layout": {
+        "type": "container",
+        "cellSize": 4,
+        "colspan": 12,
+        "parentId": null,
+        "childIds": []
+      },
+      "config": {
+        "style": {}
+      }
+    }
+  }
+}
